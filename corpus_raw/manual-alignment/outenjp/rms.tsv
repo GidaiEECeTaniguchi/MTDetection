@@ -1,0 +1,920 @@
+RMS (Richard M. Stallman) Lecture at KTH (Kungliga Tekniska H?gskolan (Royal Institute of Technology)) Stocholm Sweden. Arranged by the student society ``Datorf?reningen Stacken'' 30. October 1986 [Note: This is a slightly edited transcript of the talk.	[コメント：これは 1986 年 10 月 30 日に、リチャード・M・ストールマンが、学生会「Datorforeningen Stacken」の招きでスウェーデンのストックホルム市にある王立工科大学で行った講演のテープ起こしに、ちょっと手を入れたものだ。
+As such it contains false starts, as well as locutions that are natural in spoken English but look strange in print.	だから変な始まりかたや、口語では自然だけれど字にするとへんてこな語法も入ってる。
+It is not clear how to correct them to written English style without ' doing violence to the original speech'.]	これを「もとの講演をゆがめることなく」文語にするにはどうすればいいか、よくわかんないのだ。]
+It seems that there are three things that people would like me to talk about.	みんながぼくに話してほしい話題は三つあるみたいだね。
+On the one hand I thought that the best thing to talk about here for a club of hackers, was what it was like at the MIT in the old days.	一つはまず、このハッカー集団に話すのにいちばんいいのは、昔の MIT ってのがどんなとこだったのかってことかな、と思った。
+What made the Artificial Intelligence Lab such a special place.	人工知能研究所のどこがそんなに特別だったのか。
+But people tell me also that since these are totally different people from the ones who were at the conference Monday and Tuesday that I ought to talk about what's going on in the GNU project and that I should talk about why software and information can not be owned,	でも、今日きてる人は月曜と火曜に会議にきたのとぜんぜんちがう人だから、GNU プロジェクトがどうなってるかとか、ソフトウェアや情報がなぜ所有できないかとかについて話すべきだ、とも言われた。
+which means three talks in all, and since two of those subjects each took an hour it means we're in for a rather long time.	ということはつまり全部で三つの話ってことで、このうち 2 つがそれぞれ 1 時間かかったんだから、みんなかなり長時間ここにいることになるわけだ。
+So I had the idea that perhaps I could split it in to three parts, and people could go outside for the parts they are not interested in, and that then when I come to the end of a part I can say it's the end and people can go out and I can send Jan Rynning out to bring in the other people.	それで思ったんだけれど、全体を 3 つにわけて、みんな自分の興味がない部分は外に出られるようにして、それで各部分の終わりにきたら、終わりだって言うから、みんな外にでて、それでぼくはヤン・ライニングにお願いしてほかの人を呼んできてもらうようにするってのはどうだろう。
+(Someone else says: ``Janne, han trenger ingen mike'' (translation: ``Janne, he doesn't need a mike'')).	（だれかが「Janne, han trenger ingen mike」 (「Janne、この人マイクなんかいらないよ」)と言う）
+Jan, are you prepared to go running out to fetch the other people?	ヤン、ひとっ走りして人を呼んできてもらってもいい？
+Jmr: I am looking for a microphone, and someone tells me it is inside this locked box.	Jmr: マイクを探してるんですけど、なんかこの鍵のかかった箱の中にあるっていうんですよ。
+Rms: Now in the old days at the AI lab we would have taken a sledgehammer and cracked it open,	Rms: うん、昔の AI 研でなら、でっかいハンマーを持ってきてそいつをぶち開けてただろうね。
+and the broken door would be a lesson to whoever had dared to lock up something that people needed to use.	その壊れたドアを見て、みんなが必要とするものを鍵かけてしまいこもうとするようなヤツも少しは勉強になったろう。
+Luckily however I used to study Bulgarian singing, so I have no trouble managing without a microphone.	でも運のいいことに、ぼくは昔ブルガリア歌唱法を勉強したことがあって、だからマイクなしでも全然問題ないよ。
+Anyway, should I set up this system to notify you about the parts of the talk,	とにかく、話がどの部分か知らせるシステムって要る？
+or do You just like to sit through all of it?	それともずっとすわって全部きいてたい？
+(Answer: Yeaaah)	（答：そうだそうだ)
+When I started programming, it was 1969, and I did it in an IBM laboratory in New York.	ぼくがプログラミングをはじめたのは 1969 年のことで、ニューヨークの IBM 研究所でのことだった。
+After that I went to a school with a computer science department that was probably like most of them.	そのあと、コンピュータ科学の学部がある学校があって、まあここはほかと似たりよったり。
+There were some professors that were in charge of what was supposed to be done, and there were people who decided who could use what.	何をすべきか決める教授たちがいて、だれが何を使っていいか決める連中がいて。
+There was a shortage of terminals for most people, but a lot of the professors had terminals of their own in their offices, which was wasteful, but typical of their attitude.	ほとんどの人には端末が不足してたんだけれど、教授たちはほとんどみんなオフィスの中に専用端末を持ってて、これは資源の無駄なんだけれど、連中の姿勢からすればまあありがちなことだよね。
+When I visited the Artificial Intelligence lab at MIT I found a spirit that was refreshingly different from that.	MIT の人工知能研に遊びにいったら、そういうのとは爽快なくらいにちがった精神があったんだ。
+For example: there, the terminals was thought of as belonging to everyone,	たとえば、そこでの端末はみんなのものだと思われてた。
+and professors locked them up in their offices on pain of finding their doors broken down.	だから自分のオフィスに鍵をかけるような教授は、ドアがぶち破られるというつらい目にあうわけ。
+I was actually shown a cart with a big block of iron on it, that had been used to break down the door of one professors office, when he had the gall to lock up a terminal.	ある教授のオフィスのドアをぶち破るのに使った、でっかい鉄のかたまりが載った台車をホントにみせてもらったよ。
+There were very few terminals in those days, there was probably something like five display terminals for the system, so if one of them was locked up, it was a considerable disaster.	その頃は端末はほんとに少なくて、システム全部にディスプレイ端末 5 つくらいかな、だからそのうち 1 台がしまい込まれてると、ものすごい損害だったわけ。
+In the years that followed I was inspired by that ideas, and many times I would climb over ceilings or underneath floors to unlock rooms that had machines in them that people needed to use,	その後の数年、ぼくはその考え方に刺激を受けて、何度も天井をのりこえたり床下を這ったりして、みんなが使いたいマシンのある部屋の鍵を開けてきた。
+and I would usually leave behind a note explaining to the people that they shouldn't be so selfish as to lock the door.	そして通常は、ドアに鍵をかけるような身勝手なまねはしなさんな、というメモをおいてった。
+The people who locked the door were basically considering only themselves.	ドアに鍵をかけるような人は、基本的には自分のことしか考えてないんだ。
+They had a reason of course,	もちろんその人たちにもそれなりの理由はあるだろう。
+there was something they thought might get stolen and they wanted to lock it up,	何か盗まれそうなものがあってそれに鍵をかけときたいとか。
+but they didn't care about the other people they were affecting by locking up other things in the same room.	でも同じ部屋にある別のものがしまいこまれちゃうと、ほかの人に影響が出るってことは気にもしなかったんだ。
+Almost every time this happened, once I brought it to their attention, that it was not up to them alone whether that room should be locked, they were able to find a compromise solution:	これが起きる度に必ずいえることだけど、それで一回はぼくも指摘したんだけど、別の解決策はあるんだ。鍵をかけるかどうかってのはかれらの勝手じゃないんだ。
+some other place to put the things they were worried about, a desk they could lock, another little room.	心配なものをしまっとく場所はほかにもあるし、デスクに鍵をかけることだってできる。
+But the point is that people usually don't bother to think about that.	でも要するに、みんなそんなことをわざわざ考えようとはしないんだよね。
+They have the idea: ``This room is Mine, I can lock it, to hell with everyone else'',	「この部屋はおれのだ、鍵をかけるのもおれの勝手、ほかの連中クソ食らえ」と思ってる。
+and that is exactly the spirit that we must teach them not to have.	そしてこれぞまさに、持ってはいけない精神なんだってことは教え込む必要がある。
+But this spirit of unlocking doors wasn't an isolated thing, it was part of an entire way of life.	でも、この鍵をかけない精神は、孤立したものじゃなくて、生き様全体の一部だったんだ。
+The hackers at the AI lab were really enthusiastic about writing good programs, and interesting programs.	AI 研のハッカーたちはいいプログラム、おもしろいプログラムをかくことにすごく熱心だった。
+And it was because they were so eager to get more work done, that they wouldn't put up with having the terminals locked up,	そしてもっともっと作業したくてたまんなかったので、端末に鍵がかかってるなんて黙ってられなかったんだ。
+or lots of other things that people could do to obstruct useful work.	あるいはその他、役に立つ仕事をじゃましようとして人がやるいろんなこととかも。
+The differences between people with high morale who really care about what they're trying to do, and people who think of it as just a job.	そのちがいってのは、高いモラルをもってて、自分が何をしようとしてるのか本当に気にかけてる人と、ただの仕事でやってる人との差だ。
+If it's just a job, who cares if the people who hired you are so stupid they make you sit and wait,	ただの仕事なら、雇い主が馬鹿で、こっちがずっと何もしないですわってなきゃなんなくたって、だれが気にするもんか。
+it's their time, their money	連中の時間だし、連中の金だし。
+but not much gets done in a place like that, and it's no fun to be in a place like that.	でもそんなとこでは、大した仕事はできないし、そんなとこにいたっておもしろくもなんともない。
+Another thing that we didn't have at the AI lab was file protection.	あと、AI 研になかったものといえば、ファイル保護。
+There was no security at all on the computer.	コンピュータにはセキュリティはまったくなかった。
+And we very consciously wanted it that way.	そしてこれはきわめて意識的に選んだ道だった。
+The hackers who wrote the Incompatible Timesharing System decided that file protection was usually used by a self-styled system manager to get power over everyone else.	Incompatible Timesharing System (ITS) を書いたハッカーたちは、ファイル保護なんてものは身勝手なシステム管理者が、ほかのみんなに対して権力を行使するのに使うもんだって思ってた。
+They didn't want anyone to be able to get power over them that way, so they didn't implement that kind of a feature.	ハッカーたちは、そんな権力を行使されるのはまっぴらだったから、その手の機能は実装しなかった。
+The result was, that whenever something in the system was broken, you could always fix it.	結果として、システムのどこかがこわれたら、いつも自分でなおせた。
+You never had to sit there in frustration because there was NO WAY, because you knew exactly what's wrong, and somebody had decided they didn't trust you to do it.	いらいらしながらじっとすわってなきゃならないなんてことは絶対許せないよね、こっちはどこがおかしいかずばりわかってて、それなのにだれかが、自分を信用してないからそれをさせないと決めてるなんて。
+You don't have to give up and go home, waiting for someone to come in in the morning and fix the system	あきらめて家に帰って、朝にだれかがきてシステムをなおしてくれるのを待つなんて、しなくていいじゃない。
+when you know ten times as well as he does what needs to be done.	何をしなきゃいけないのか、自分にはその人の10倍もよくわかってるってのに。
+And we didn't let any professors or bosses decide what work was going to be done either,	あと、どんな作業をやるのかについても、教授だの上司だのには決めさせなかった。
+because our job was to improve the system!	だってぼくたちの仕事はシステムの改善だったんだもん！
+We talked to the users of course;	もちろん利用者とは話をした。
+if you don't do that you can't tell what's needed.	だってそうしないと何が必要かわからないからね。
+But after doing that, we were the ones best able to see what kind of improvements were feasible,	でもそれがすんだら、どんな改善が実現可能かいちばんよく判断できるのはぼくたちだったんだ。
+and we were always talking to each other about how we'd like to see the system changed, and what sort of neat ideas we'd seen in other systems and might be able to use.	そしてぼくちはいつも、システムをこう変えたらいいだろうな、とかほかのシステムで、こんないかしたアイデアを見たよ、とか、それを使えないものかな、とか話してた。
+So the result is that we had a smoothly functioning anarchy,	だから結果として、そこにはなめらかに機能するアナーキーがあった。
+and after my experience there, I'm convinced that that is the best way for people to live.	そしてそこでの自分の経験から、ぼくはそれこそ人が生きる最高のやりかただと確信してる。
+Unfortunately the AI lab in that form was destroyed.	残念ながら、そういう形の AI 研は破壊されちゃったんだ。
+For many years we were afraid the AI lab would be destroyed by another lab at MIT, the Lab for Computer Science,	何年ものあいだ、AI研は MIT の別の研究所、コンピュータ科学研に破壊されるんじゃないか、というのがぼくたちのおそれていたことだった。
+whose director was a sort of empire builder type, doing everything he could to get himself promoted within MIT, and make his organization bigger, and he kept trying to cause the AI lab to be made a part of his lab,	そこの所長は一種の帝国建設者タイプで、自分の組織をでかくして MIT の中で昇進するためならなんでもやるような人間で、いつも AI 研を自分の研究所に吸収しようとしてたんだ。
+and nobody wanted to do things his way	だれもそいつの流儀でなんか作業したくなかった。
+because he believed that people should obey orders and things like that.	そいつは、人は指示に従うべきだとかなんとか、その手のことを信じてたからね。
+But that danger we managed to defend against, only to be destroyed by something we had never anticipated,	でもその危険に対してはなんとか防衛できたのに、まったく予想してなかったものによってぼくたちは破壊されてしまった。
+and that was commercialism.	それが商業主義だった。
+Around the early 80's the hackers suddenly found that there was now commercial interest in what they were doing.	1980 年代初期になって、ハッカーたちがハッと気がつくと、自分たちのやっていることには商売上の関心がもたれていたわけ。
+It was possible to get rich by working at a private company.	民間企業で働いて金持ちになることが可能になったんだ。
+All that was necessary was to stop sharing their work with the rest of the world and destroy the MIT-AI lab,	必要なのは、自分の仕事をほかの世界と共有するのをやめて、MIT AI 研をぶちこわせばいいだけ。
+and this is what they did despite all the efforts I could make to prevent them.	そしてぼくは手を尽くしてそれを止めようとしたけど、でもみんなそれをやっちゃったんだ。
+Essentially all the competent programmers except for me, at the AI lab were hired away, and this caused more than a momentary change,	要するに、AI 研にいたぼく以外の有能なプログラマは、みんな雇われてやめちゃって、おかげでそれは一時的な変化じゃすまなくなってた。
+it caused a permanent transformation	永続的な変化が生じた。
+because it broke the continuity of the culture of hackers.	ハッカー文化の連続性がとぎれちゃったんだよ。
+New hackers were always attracted by the old hackers;	新人ハッカーはいつだって古参ハッカーに惹かれる。
+there were the most fun computers and the people doing the most interesting things, and also a spirit which was a great deal of fun to be part of.	だっていちばんおもしろいコンピュータがあって、いちばんおもしろいことしてる人たちがいて、そして参加したら最高におもしろいスピリットもあったんだから。
+Once these things were gone, there is nothing to recommend the place to anyone new, so new people stopped arriving.	それがなくなったら、そこを新人に推薦するべき理由もなくなっちゃって、だから新人もこなくなった。
+There was no-one they could be inspired by, no-one that they could learn those traditions from.	ひらめきを受けるような人もないし、伝統を学べる人もいないし。
+In addition no-one to learn how to do good programming from.	ついでに、いいプログラミングを学ぶ人もいない。
+With just a bunch of professors and graduate students, who really don't know how to make a program work, you can't learn to make good programs work.	いるのは、使えるプログラムを書く方法なんか実は知らない教授や院生がうじゃうじゃいるだけだから、使えるプログラムの書き方なんか習えるわけがない。
+So the MIT AI lab that I loved is gone.	だからぼくの愛した MIT AI 研はもうなくなった。
+and after a couple of years of fighting against the people who did it to try to punish them for it I decided that I should dedicate my self to try to create a new community with that spirit.	そして何年か、それをやった人たちと闘って連中に罰を与えようとしてから、ぼくはその精神をもった新しいコミュニティづくりに精を出そうと決めたんだ。
+But one of the problems I had to face was the problem of proprietary software (18k characters).	でも、直面せざるを得なかった問題の一つが、独占ソフト（proprietary software）の問題だった。
+For example one thing that happened at the lab, after the hackers left, was that the machines and the software that we had developed could no longer be maintained.	たとえばハッカーたちが去ってから研究所で起こったことの一つは、ぼくたちが開発したマシンやソフトがもうメンテされないってことだった。
+The software of course worked, and it continued to work if nobody changed it, but the machines did not.	ソフトはもちろん動いたし、だれもそれを変えなければずっと動いてたけど、でもマシンはそうはいかない。
+The machines would break and there would be no-one who could fix them and eventually they would be thrown out.	マシンは壊れるし、だれもなおせるやつがいないから、やがて捨てられる。
+In the old days, yes we had service contracts for the machines, but it was essentially a joke.	昔は、ええ確かに保守契約なんてものはあったけど、でもまあ悪い冗談みたいなもんだった。
+That was a way of getting parts after the expert hackers from the AI lab fixed the problem.	それって単に、AI 研のエキスパート・ハッカーたちが問題を解決してから、パーツを入手するための手段でしかなかった。
+Because if you let the field-service person fix it it would take them days, and you didn't want to do that, you wanted it to work.	だって修理担当者になおさせたら、何日かかるやらわかんなくて、そんなのやってられないよね、すぐ動くようにしてくれないと。
+So, the people who knew how to do those things would just go and fix it quickly, and since they were ten times as competent as any field service person, they could do a much better job.	だから、やりかたのわかってる人間がだまって行ってさっさとなおして、それでそいつらはどんな修理担当者より 10倍も有能だったから、ずっとましな仕事をしたんだ。
+And then they would have the ruined boards, they would just leave them there and tell the field service person ``take these back and bring us some new ones''.	それでそうすると、こわれた基板とかが出るから、それをそこにおいといて、修理担当者には「こいつを持って帰って、新しいのをちょっともってきてくださいね」と言うわけ。
+In the real old days our hackers used to modify the machines that came from Digital also.	すごい昔の頃だと、ハッカーたちは Digital からきたマシンのほうも変更した。
+For example, they built paging-boxes to put on the PDP-10's.	たとえば、PDP-10 のてっぺんにのせる呼び出し用ボックスもつくったんだよ。
+Nowadays I think there are some people here [in Stocholm] who do such things too, but it was a pretty unusual thing in those days.	最近だと、ここ（ストックホルム）でもそういうことをする人はいると思うけど、当時はかなり異例なことだった。
+And the really old days, the beginning of the 1960's people used to modify computers adding all sorts of new instructions and new fancy timesharing features, so that the PDP-1 at MIT by the time it was retired in the mid-seventies had something like twice as many instructions as it had when it was delivered by Digital in the early sixties, and it had special hardware scheduler assisting features and strange memory-mapping features making it possible to assign individual hardware devices to particular timesharing jobs and lots of things that I hardly really know about.	それにうーんと昔、1960 年代初めとかだと、みんなコンピュータを変更して、いろんな新しい命令を足したり、すっごい TSS 機能を足したりして、だから MIT の PDP-1 は、引退する頃には 60 年代はじめに Digital が届けたときの 2 倍くらいの命令を持ってたし、特別なハードウェア・スケジューラ補助機能や変なメモリマッピング機能なんかもあって、個別ハード装置を特定のTSS ジョブに割り当てたり、その他ぼくでもほとんど知らないようないろんなことになってた。
+I think they also built in some kind of extended addressing modes they added index registers and indirect addressing, and they turned it essentially from a weak machine into a semi-reasonable one.	それと確か、一種の拡張アドレッシングモードも組み込んで、インデックスレジスタ修飾とか間接修飾とか追加して、要するに軟弱なマシンだったのをそこそこ使えるものにまで仕立てたんだ。
+I guess it is one of the disadvantages of VLSI that it's no longer so feasible to add instructions to your machines.	VLSI の欠点の一つは、もうマシンの命令を追加したりできなくなっちゃったことだろうね。
+The PDP-1 also had a very interesting feature, which is that it was possible to interesting programs in very few instructions.	PDP-1 にはまたすごくおもしろい特徴があって、おもしろいプログラムをほんの数命令で書けちゃうってこと。
+Fewer that any other machine since then.	それ以降のどんなマシンよりも少ない命令数でね。
+I believe for example that the famous display hack ``munching squares'' which made squares that get bigger and break up into lots of smaller squares which gets bigger and break up into smaller squares.	確かたとえば有名なディスプレイのハック「マンチング・スクウェア」ってのがあって、四角がどんどんでかくなって、それがたくさんの小さい四角に分裂して、それがまた大きくなってそれがまた小さいのに分裂するんだけど。
+That was written in something like five instructions on the pdp-1.	これって PDP-1 ではなんか 5 命令くらいで書かれてた。
+And many other beautiful display programs could be written in few instructions.	それとかいろんな美しいディスプレイプログラムが、ほんの数命令で書ける。
+So, that was the AI lab.	というわけで、これが AI 研の様子だった。
+But what was the culture of hackers like aside from their anarchism?	でもハッカーたちの文化は、アナキズム以外にはどんなものだったのか？
+In the days of the PDP-1 only one person could use the machine,	PDP-1 の頃には、マシンは一度に 1 人のユーザしか使えなかった。
+at the beginning at least.	少なくとも最初はね。
+Several years later they wrote a timesharing system, and they added lots of hardware for it.	何年かして TSS を書いて、それ用にたくさんハードを追加した。
+But in the beginning you just had to sign up for some time.	でも初めの頃は、時間枠を予約しなきゃならなかった。
+Now of course the professors and the students working on official projects would always come in during the day.	さてもちろん、公式プロジェクトの仕事をしてる教授や学生は、いつも昼間にやってくる。
+So, the people who wanted to get lots of time would sign up for time at night when there were less competition,	だから時間がたくさんほしい人たちは、競争の少ない夜を予約する。
+and this created the custom of hackers working at night.	これでハッカーたちは夜に働く習慣ができた。
+Even when there was timesharing it would still be easier to get time, you could get more cycles at night, because there were fewer users.	TSS が入ってからも、ユーザが少なかったから夜のほうが時間をとりやすい、CPU サイクルは夜のほうが使えたわけ。
+So people who wanted to get lots of work done, would still come in at night.	だから作業をいっぱいしたい人は、相変わらず夜にやってきた。
+But by then it began to be something else because you weren't alone, there were a few other hackers there too, and so it became a social phenomenon.	でもその頃になると、それだけじゃなくなってて、それは自分がもう 1 人じゃなくて、ほかにも何人かハッカーたちがいたからで、だから社会的な現象になったのね。
+During the daytime if you came in, you could expect to find professors and students who didn't really love the machine, whereas if during the night you came in you would find hackers.	昼間にきたら、たぶんいるのは教授や学生とか、マシンをほんとは愛してない連中だけど、夜ならばそこにはハッカーがいる。
+Therefore hackers came in at night to be with their culture.	だからハッカーたちは、自分の文化に加わるために夜にやってきた。
+And they developed other traditions	そしてハッカーたちはほかの伝統も開始した。
+such as getting Chinese food at three in the morning.	朝の 3 時にテイクアウトの中華料理を買ってくるとか。
+And I remember many sunrises seen from a car coming back from Chinatown.	だからぼくは、チャイナタウンから戻ってくる車の中から見た日の出がいくつも記憶に残っている。
+It was actually a very beautiful thing to see a sunrise, cause' that's such a calm time of day.	日の出を見るってのは、すごく美しいもので、だって一日の中ですごく穏やかな時間だからね。
+It's a wonderful time of day to get ready to go to bed.	寝る準備をするにはすばらしい時間帯だ。
+It's so nice to walk home with the light just brightening and the birds starting to chirp, you can get a real feeling of gentle satisfaction, of tranquility about the work that you have done that night.	ちょうど空が白んできて、鳥が鳴き出す頃に家に歩いてくと、穏やかな満足感が実感としてあるんだ、その晩にやった仕事に対する静謐な気持ちってのが。
+Another tradition that we began was that of having places to sleep at the lab.	ほかにもぼくたちのはじめた伝統は、研究室に泊まること。
+Ever since I first was there, there was always at least one bed at the lab.	ぼくがはじめてそこに行ったときから、研究室には少なくとも一つベッドがあった。
+And I may have done a little bit more living at the lab than most people	そしてぼくは、ほかの人よりちょっとばかし研究室で暮らす期間が長かった。
+because every year of two for some reason or other I'd have no apartment and I would spend a few months living at the lab.	1 年か 2 年おきくらいに、あれやこれやでアパートがなくて、だから研究所で数ヶ月暮らしたりしたんだ。
+And I've always found it very comfortable, as well as nice and cool in the summer.	いつでもすごく快適で、しかも夏にはすごくすずしくていいんだ。
+But it was not at all uncommon to find people falling asleep at the lab, again because of their enthusiasm;	でも、研究所で寝ちゃう人を見かけるのはぜんぜんしょっちゅうで、これもまた熱意のせいだよね。
+you stay up as long as you possibly can hacking, because you just don't want to stop.	とにかく手をとめたくないからできるだけながいこと起きててハッキングする。
+And then when you're completely exhausted, you climb over to the nearest soft horizontal surface.	そして完全に疲れきったら、最寄りのやわらかい水平面によじのぼる。
+A very informal atmosphere.	すごく形式張らない雰囲気。
+But when the hackers all left the lab this caused a demographic change,	でもハッカーたちがみんな研究所を離れたら、これは人口構成の変化を招いた。
+because the professors and the students who didn't really love the machine were just as numerous as before, so they were now the dominant party, and they were very scared.	マシンをほんとは愛してない教授や学生どもは、昔と同じにうじゃうじゃいたから、連中がいまや強い勢力になったわけで、みんな怖がってた。
+Without hackers to maintain the system, they said,	システム管理をしてくれるハッカーがいなくなったので、連中はこう言ったんだ。
+``we're going to have a disaster, we must have commercial software'',	「このままじゃ大変なことになる、商業ソフトを入れなきゃ」
+and they said ``we can expect the company to maintain it''.	そして「そしたらメーカーがメンテもしてくれるよ」だって。
+It proved that they were utterly wrong, but that's what they did.	やがて連中がまったくまちがってたことが証明されたけど、でも連中はそれをやったんだ。
+That was exactly when a new KL-10 system was supposed to arrive, and the question was, would it run the Incompatible Timesharing System or would it run digital's Twenex system.	まさにその時に、新しい KL-10 システムがくるはずになってて、そこでの問題は、それで Incompatible Timesharing System を動かすか、Digital の Twenex システムを動かすかってことだった。
+Once the hackers were gone who probably would have supported using ITS, the academic types chose to run the commercial software, and this had several immediate effects.	ハッカーたちはたぶん ITS を使うのを支持したろうけど、それがいなくなってたから、学者タイプの連中は商業ソフトを使う選択をして、これはすぐに目に見えて影響が出てきた。
+Some of them weren't actually so immediate but they followed inevitably as anyone who thought about it would see.	なかにはそんなすぐには出てこなかったものもあったけど、でもこの問題を考えてみた人ならわかるように、遅かれ早かれ出てきたんだ。
+One thing was that that software was much more poorly written, and harder to understand; therefore making it harder for people to make the changes that were in fact needed.	一つには、そのソフトはずっと質が悪くて、わかりにくくて、だから本当に必要な変更をするのがむずかしかったってこと。
+Another was, that that software came with security, which had the inevitable effect of causing people to cooperate with each other less.	もう一つの影響は、このソフトにはセキュリティがあって、おかげでみんながお互いに協力する機会はどうしても減ってきた。
+In the old days on ITS it was considered desirable that everyone could look at any file, change any file,	ITS の時代には、だれもがどんなファイルでも見て変えられるってのはいいことだと考えられてた。
+because we had reasons to.	それなりの理由があったからね。
+I remember one interesting scandal where somebody sent a request for help in using Macsyma.	それで思い出したけど、だれかが Macsyma の使い方について助けてくれって言ってきたときに、おもしろいスキャンダルがもちあがったんだ。
+Macsyma is a symbolic algebra program that was developed at MIT.	Macsyma ってのは MIT で開発したシンボリック数学プログラム。
+He sent to one of the people working on it a request for some help, and he got an answer a few hours later from somebody else.	その人は、Macsyma の作業をしてるある人に、助けてくれってメールを出したら、数時間たって別の人から返事がきた。
+He was horrified, he sent a message	その人はびっくりしちゃって、
+``so-and-so must be reading your mail, can it be that mail files aren't properly protected on your system?''	「だれそれはあなたのメールを読んでるみたいですよ、ひょっとしてメールのファイルの保護がちゃんとしてないんじゃないですか？」
+``Of course, no file is protected on our system.	「当然でしょう、ぼくたちのシステムでは保護されてるファイルなんかない。
+What's the problem?	なんかいけませんか？
+You got your answer sooner; why are you unhappy?	あなたはすぐに答がもらえたし、何が不満なの？
+Of course we read each other's mail	ぼくたちはお互いのメールを読む。
+so we can find people like you and help them.''	あたりまえじゃん、そうやってあなたみたいな人を見つけて助けてあげるんだから」
+Some people just don't know when they're well off.	まったく、自分が得してるのにわかんない人ってのもいるんだからなぁ。
+But of course Twenex not only has security, and by default turns on security, but it's also designed with the assumption that security is in use.	でももちろん、Twenex にはセキュリティがあっただけでなく、それをデフォルトで機能させるし、さらにセキュリティが使われてるという前提で設計されてる。
+So there are lots of things that are very easy to do that can cause a lot of damage, and the only thing that would stop you from doing them by accident, is security.	だから、簡単にできちゃってすごいダメージを与えるようなことってのがたくさんあって、うっかりそういうことをしないようにしてくれる唯一の手段がセキュリティなんだ。
+On ITS we evolved other means of discouraging people from doing those things by accident,	ITS では、そういうことをうっかりやっちゃわないようにするほかのいろんな方法が考案されてた。
+but on Twenex you didn't have them	でも Twenex にはそんなものはない。
+because they assumed that there was going to be be strict security in effect and only the bosses were going to have the power to do them.	厳格なセキュリティが機能してて、そういうことをする権限を持つのはボスたちだけだ、と想定してたからだ。
+So they didn't put in any other mechanism to make it hard to do by accident.	だから、そういううっかりミスを難しくするメカニズムはほかにぜんぜんつけてなかった。
+The result of this is that you can't just take Twenex and turn of the security and have what you'd really like to have, and there were no longer the hackers to make the changes to put in those other mechanisms, so people were forced to use the security.	その結果として、単に Twenex をもってきてセキュリティをオフにするとほしいものが手に入るわけじゃなくなってて、そしてその他のメカニズムを入れ込むハッカーたちもいなかったから、みんなセキュリティを使うしかなくなってた。
+And about six months after the machine was there they started having some coups d'etat.	そしてマシンがやってきて 6 ヶ月ほどしたら、連中はクーデターをはじめた。
+That is, at first we had the assumption that everyone who worked for the lab was going to have the wheel bit which gave full powers to override all security measures,	つまり、最初は AI 研で働いてる人はみんな、全セキュリティ機能をオーバーライドする全権を与えるホイールビットをオンにしてもらえるもんだ、という想定をしてた。
+but some days you'd come in some afternoon and find out that the wheel bits of just about everybody had been turned off.	でもある日のある午後にやってきてみると、ほとんど全員のホイールビットがオフにされてた。
+When I found out about those, I overthrew them.	こんなのがわかったとき、ぼくはそれを打倒した。
+The first time, I happened to know the password of one of the people who was included among the elite, so I was able to use that to turn everyone back on.	最初は、たまたまエリート層に属してるある人のパスワードを知ってたので、それを使ってみんなのビットを戻せた。
+The second time he had changed his password, he had now changed his sympathies, he was now part of the aristocratic party.	二回目には、そいつはパスワードを変えてて、だから所属意識も変わってて、いまやもう貴族社会の一員だった。
+So, I had to bring the machine down and use non-timeshared DDT to poke around.	そこでぼくはマシンを停止させて、TSS でない DDT を使ってつつきまわさなきゃなんなかった。
+I poked around in the monitor for a while, and eventually figured out how to get it to load itself in and let me patch it, so that I could turn off password checking and then I turned back on a whole bunch of people's wheel bits and posted a system message.	モニタの中でつつきまわして、やがて OS をロードさせてパッチがあてられるようにするにはどうしたらいいかつきとめて、それでパスワードのチェックをオフにして、それからいろんな人のホイールビットを戻して、システムメッセージをポストした。
+I have to explain that the name of this machine was OZ, so I posted a system message saying:	説明しとくとこのマシンの名前は OZ で、だからこんなシステムメッセージをポストした。
+``There was another attempt to seize power.	「またもや権力を奪取せんとする試みが行われた。
+So far the aristocratic forces have been defeated - Radio Free OZ''	いまのところ、貴族階級の勢力は打倒された ―― ラジオ・フリー・OZ」
+Later I discovered that ``Radio Free OZ'' is one of the things used by Firesign Theater.	あとで知ったんだけど、「ラジオ・フリー・OZ」というのはファイアサイン劇場で使ってるものの一つなんだね。
+I didn't know that at the time.	その頃は知らなかった。
+But gradually things got worse and worse,	でも状況はだんだんと、どんどん悪いほうに向かってったね。
+it's just the nature of the way the system had been constructed forced people to demand more and more security.	要はそのシステムのつくられかたのせいで、それがみんなもっともっとセキュリティを要求するような性質もものだったってこと。
+Until eventually I was forced to stop using the machine, because I refused to have a password that was secret.	しまいにやがて、ぼくはそのマシンを使うのをやめなきゃなんなくなってきた。
+Ever since passwords first appeared at the MIT-AI lab I had come to the conclusion that to stand up for my belief, to follow my belief that there should be no passwords, I should always make sure to have a password that is as obvious as possible and I should tell everyone what it is.	MIT AI 研にパスワードが初めて登場して以来、ぼくは自分の信念のために立ち上がろう、パスワードなんかあってはならないという信念にしたがおう、絶対にできるだけわかりやすいパスワードにして、それをみんなにばらすようにしようと決心したんだ。
+Because I don't believe that it's really desirable to have security on a computer, I shouldn't be willing to help uphold the security regime.	ぼくはコンピュータにセキュリティをつけるのはいいととは思わないから、セキュリティ支配が続くのを助けるようなこともすべきじゃない。
+On the systems that permit it I use the ``empty password'', and on systems where that isn't allowed, or where that means you can't log in at all from other places, things like that, I use my login name as my password.	「空のパスワード」を使えるシステムでは使うし、それが許されないシステムとか、それだとほかの場所からは一切ログインできないとか、その手のシステムとかだと、ぼくはログイン名をパスワードにする。
+It's about as obvious as you can get.	これ以上はないってくらい自明でしょ。
+And when people point out that this way people might be able to log in as me, i say	そしてだれかが、そんなことだと他人がきみになってログインできちゃうじゃないか、と指摘すると、ぼくはこう言う。
+``yes that's the idea,	「うん、まさにそれがねらい。
+somebody might have a need to get some data from this machine.	だれかがこのマシンのデータを必要とするかもしれない。
+I want to make sure that they aren't screwed by security''	そのときに、その人がセキュリティのおかげでバカを見たりすることが絶対ないようにしときたいのよ」
+And an other thing that I always do is I always turn of all protection on my directory and files,	それともう一つやるのが、自分のディレクトリやファイルの保護は全部はずす。
+because from time to time I have useful programs stored there and if there's a bug I want people to be able to fix it.	だって役に立つソフトをそこに持っていることもよくあって、もしそれにバグがあったら、みんながなおせるようにしときたいから。
+But that machine wasn't designed also to support the phenomenon called ``tourism''.	でもこのマシンはまた、「観光」と呼ばれる現象をサポートするようにはできていなかった。
+Now ``tourism'' is a very old tradition at the AI lab, that went along with our other forms of anarchy, and that was that we'd let outsiders come and use the machine.	さて、「観光」ってのは AI 研ではすごく古い伝統で、ほかの形のアナーキーといっしょに続いてきてて、これはつまり、部外者にも自由にマシンを使わせるってこと。
+Now in the days where anybody could walk up to the machine and log in as anything he pleased this was automatic:	さて昔々、だれでもマシンにやってきて、勝手な名前でログインできた頃には、これはもう自動的にそうなってた。
+if you came and visited, you could log in and you could work.	もし MIT に遊びにきてたら、ログインして作業ができる。
+Later on we formalized this a little bit,	後にこれをちょっとは形式化した。
+as an accepted tradition specially when the Arpanet began and people started connecting to our machines from all over the country.	これは特に ARPAnetがはじまって、みんな全国からうちのマシンにつなぐようになったときにそうで、みんなが認める伝統としてってこと。
+Now what we'd hope for was that these people would actually learn to program and they would start changing theoperating system.	さて、ぼくたちが期待してたのは、そういう部外者がプログラミングを実際に学んで、OS を変えはじめることだった。
+If you say this to the system manager anywhere else he'd be horrified.	この話をほかのどこのシステム管理者にしても、みんな飛び上がるよ。
+If you'd suggest that any outsider might use the machine, he'll say	どんな部外者でもマシンが使えるなんて匂わせようものなら、その人は言うだろう。
+``But what if he starts changing our system programs?''	「でもそいつがシステムプログラムを変えちゃったらどうすんの？」
+But for us, when an outsider started to change the system programs, that meant he was showing a real interest in becoming a contributing member of the community.	でもぼくたちにとっては、部外者がシステムプログラムを変えはじめるってことは、それはつまりその人がコミュニティに貢献するメンバーになろうと本気で興味を示してるってことなんだ。
+We would always encourage them to do this.	ぼくたちはいつも、そうするよう奨励してる。
+Starting, of course, by writing new system utilities, small ones, and we would look over what they had done and correct it, but then they would move on to adding features to existing, large utilities.	最初はもちろん、新しいシステムユーティリティを書くところから、それも小さいヤツね、そしてそいつが何をやったか監督して訂正するけど、でもそしたらそれから既存の大きなユーティリティに機能を追加するほうに向かう。
+And these are programs that have existed for ten years or perhaps fifteen years, growing piece by piece as one craftsman after an other added new features.	そしてそういうプログラムはもう 10 年とか 15 年とか存在していて、一部一部ごとに、職人が次々と新しい機能を足してったものなんだ。
+Sort of like cities in France you might say,	フランスの都市みたいなもんだと言ってもいいかな。
+where you can see the extremely old buildings with additions made a few hundred years later all the way up to the present.	ものすごく古い建物に、数百年後に増築がされて、それがずっといままで続いてるような。
+Where in the field of computing, a program that was started in 1965 is essentially that.	コンピュータの世界だと、1965 年に書きはじめられたソフトってのがそれにあたる。
+So we would always hope for tourists to become system maintainers, and perhaps then they would gethired,	だからぼくたちはいつも、観光客がシステム管理者になってほしいと思ってて、そしたら雇われるかもしれない。
+after they had already begun working on system programs and shown us that they were capable of doing good work.	もちろんシステムプログラムの作業を始めて、まともな仕事ができることを証明してくれればだけど。
+But the ITS machines had certain other features that helped prevent this from getting out of hand,	でも ITS のマシンには、これが手に負えなくなるのを防ぐための機能がほかにいくつかあった。
+one of these was the ``spy'' feature, where anybody could watch what anyone else was doing.	その一つが「スパイ」機能で、だれが何をしてるか、だれでも観察できる機能だった。
+And of course tourists loved to spy, they think it's such a neat thing, it's a little bit naughty you see, but the result is that if any tourist starts doing anything that causes trouble there's always somebody else watching him.	そしてもちろん、観光客はスパイするのが大好きで、みんなそれがいかしたことだと思って、つまりちょっとイケナイ感じだけれどでも結果として、どっかの観光客が何か面倒を起こすようなまねをしても、必ずだれかがそれを見てるわけ。
+So pretty soon his friends would get very mad	それでやがてそいつの友だちはすごく怒りだす。
+because they would know that the continued existence of tourism depended on tourists being responsible.	観光が続いてくれるためには、観光客が責任ある行動をするかどうかにかかってるのを知ってるから。
+So usually there would be somebody who would know who the guy was, and we'd be able to let him leave us alone.	それでたいがいは、そいつがだれだか知ってるやつがいて、それでそういうことをしないように説明してもらえるんだ。
+And if we couldn't, then what we would do was we would turn off access from certain places completely, for a while,	それができなかったら、どうするかっていうと、特定の場所からのアクセスをしばらく完全に切る。
+and when we turned it back on, he would have gone away and forgotten about us.	そしてそれを戻す頃には、そいつはどっかよそへ行って、ぼくたちのことは忘れちゃう。
+And so it went on for years and years and years.	だからこれが何年も何年も何年も続いたんだ。
+But the Twenex system wasn't designed for this sort of thing, and eventually they wouldn't tolerate me with my password that everybody knew,	でも Twenex システムは、この手のこと用には設計されてなくて、やがて連中はみんなにパスワードを知られてるぼくを許してくれなくなった。
+tourists always logging in as me two or three at a time,	観光客がいつもぼくの名前で同時に 2 人も 3 人もログインしてたわけ。
+so they started flushing my account.	だから連中はぼくのアカウントを消すようになった。
+And by that time I was mostly working on other machines anyway, so eventually I gave up and stopped ever turning it on again.	そしてその頃には、ぼくはどうせ別のマシンで作業してるほうが多くて、だからやがてあきらめて、もうそっちのスイッチは入れなくなった。
+And that was that.	それでそれはおしまい。
+I haven't logged in on that machine as myself ... [At this point RMS is interrupted by tremendous applause] ... for.	もうあの機械にはずいぶんログインしてないな、自分のアカウントではもう……（この時点で、RMS はすさまじい拍手にさえぎられる）年も。
+But when they first got this Twenex system they had several changes in mind that they wanted to make.	でも連中が最初にこの Twenex システムを手に入れたら、まずいくつか変更をしたがった。
+Changes in the way security worked.	セキュリティの仕組みを変えたがった。
+They also wanted to have the machine on both the ARPA network and the MIT-chaos network, and it turns out that they were unable to do this, that they couldn't get anyone who was sufficiently competent to make such changes.	それとそのマシンを ARPAnet とMIT-CHAOS ネットワークに両方につなぎたがったんだけど、でも結局はそれができなくて、そういう変更をするだけの能力をもった人が見つけられなかったんだ。
+There was no longer talent available to do it, and it was to hard to change.	それをするだけの才能がもうなくなってたし、そもそもシステムの変更がむずかしかった。
+That system was much harder to understand, because it was to poorly written, and of course, Digital wouldn't do these things, so their ideas that a commercial system would essentially maintain it self, proved to be mistaken.	このシステムはずっとわかりにくくて、それはダメな書かれかたをしてたからで、もちろん Digital はそんなことしてくれなくて、だから商業システムなら基本的にはシステム管理を会社がやってくれるという考え方は、結局まちがってることが証明されたわけ。
+They had just as much need for system hackers, but they had no longer the means to entice system hackers.	システムハッカーに対するニーズは前と変わらなかったのに、でもシステムハッカーをおびきよせる手段がもうなくなってた。
+And nowadays at MIT there are more people interested in hacking on ITS, than there are interested in hacking on Twenex.	そして最近のMIT には、Twenex 上でハッキングしたがる人より ITS でハッキングしたがる人のほうが多いんだ。
+And the final reason why this is so, is that Twenex can't be shared.	そしてそうなる最終的な理由ってのは、Twenex は共有できないってことなんだ。
+Twenex is a proprietary program and you're only allowed to have the sources if you keep them secret in certain nasty ways, and this gives them a bad flavor.	Twenex は独占プログラムで、ソースコードを手に入れるには、ある嫌らしい方法でそれを秘密にしとかなきゃならなくて、これが印象を悪くしてる。
+Unless a person is oblivious	その人が無関心でなければ
+(which some people in computers are, there's some people who'll do anything if it's fun for them, and won't think for a minute whether they're cooperating with anyone else, but you'd have to be pretty oblivious to not to notice what a sad thing it is to work on a program like that, and that is a further discouragement).	（そしてコンピュータ業界にはそういう人もいて、自分たちだけが楽しければなんでもやって、ほかの人たちと協力してるかなんて一瞬たりとも考えないような人たちだけれど、でもそんなソフトの作業をするのがどんなに悲しいことかわかんないなんて、相当無関心じゃないとアレで、これがさらにマイナス要因だよね）。
+And if that isn't enough there is the fact that every year or so they're going to give you a new release full of 50 000 additional lines of code all written by monkeys.	そしてさらにだめ押しでくるのが、毎年かそこら、新しいリリースってのが出てきて、それが 50,000 行くらいの追加のコードだらけで、それが全部サルが書いたみたいな代物。
+Because they generally follow the ``million monkeys typing, and eventually they'll come up with something useful'' school of system development.	それは連中が「サル 100 万匹にタイプさせれば、いずれなんか使えるものが出てくる」式システム開発にしたがってるから。
+It was clear to me from what I saw happening to these proprietary systems	こういう独占システムで何が起きてるか見たとき、ぼくにははっきりわかった。
+that the only way we could have the spirit of the old AI lab was to have a free operating system.	かつてのAI研のスピリットをぼくらが持つ唯一の方法は、フリーの OS をつくることだってのが。
+To have a system made up of free software which could be shared with anyone.	フリーソフトだけでつくったシステムができて、それがみんなで共有できるようになることだって。
+So that we could invite everyone to join in improving it.	そうすればみんなに、その改善に参加しようと呼びかけられる。
+And that's what led up to the GNU project.	そしてそこから GNU プロジェクトが出てきたんだ。
+So I guess we've arrived at the second part of the talk.	というわけで、この話の第二部にやってきたってことだね。
+About three and a half year ago it was clear to me that I should start developing a free software system.	だいたい 3 年半くらい前に、フリーソフトシステム開発に手をつけるべきだってのは自分ではっきりしてきた。
+I could see two possible kinds of systems to develop: One: A LISP-machine-like system, essentially a system just like the MIT LISP machine system that had just been developed, except free, and running on general purpose hardware, not on special LISP machines.	開発すべきシステムとしては二種類の可能性が LISPマシンみたいなシステムで、ちょうど開発されたばかりの MIT LISP システムとまったく同じだけれど、でもフリーで、しかも特別な LISP マシンじゃなくて、ふつうのハードで動くヤツ。
+And the other possibility was a more conventional operating system, and it was clear to me that if I made a conventional operating system, I should make it compatible with UNIX,	そしてもう一つの可能性が、もっと伝統的な OS をつくるってことで、その時にはっきりしてたのは、もし伝統的な OS をつくるなら、それは UNIX と互換性をもたせるべきだってこと。
+because that would make it easy for people all around to switch to it.	そうすればいろんなとこの人たちが乗り換えやすいから。
+After a little while, I concluded I should do the latter and the reason was, that I saw that you can't have something really like the LISP machine system on general purpose hardware.	しばらくして、後者をやるべきだと決めたんだけど、その理由は、ほんとの LISP マシンみたいなものを普通のハードではできないってのが見えてきたからだったのね。
+The LISP machine system uses special hardware plus special writable microcode to gain both good execution speed and robust detection of errors at runtime,	LISP マシンは、実行速度を確保して、同時にランタイムで堅牢なエラー探知をするために、特殊なハードと特別な書き込み可能なマイクロコードを使ってるんだ。
+specially data-type errors.	エラーって、特にデータタイプのエラー。
+In order to make a LISP system run fast enough on ordinary hardware, you have to start making assumptions.	ふつうのシステムで LISP システムを十分にはやく走らせるには、いろいろ仮定をおくようにしなきゃなんない。
+Assuming that a certain argument is the right type, and then if it isn't the system just crashes.	ある引き数が正しいタイプだって仮定して、で、そうでなければシステムはあっさりクラッシュ。
+Of course you can put in explicit checks, you can write a robust program if you want, but the fact is that you are going to get things like memory addressing errors when you feed a function an argument of the wrong type if you did NOT put in things to check for it.	もちろん外的なチェックを入れることはできるし、やりたきゃ堅牢なプログラムも書けるけど、結局のところは、そのチェックを入れなければ、関数にまちがったタイプの引き数を喰わせたら、メモリアドレッシングのエラーとかが起きちゃうってことだ。
+So the result is then that you need something running underneath the LISP system to you catch these errors,	だから結果としては、LISP システムの下で何かが走ってて、そういうエラーを拾ってくれなきゃなんない。
+and give the user the ability to keep on running, and debug what happened to him.	そしてユーザがシステムを動かし続けて、起きたことをデバッグできるようにしないと。
+Finally I concluded that if I was going to have to have a operating system at a lower level, I might as well make a good operating-system--that it was a choice between an operating system and the lisp, or just an operating system;	最後に、もし下の OS をつくるんなら、それはいい OS にしようとも決心した ―― つまりこれは、OS と LISP か、あるいは OS だけか、という選択だった。
+therefore I should do the operating system first, and I should make it compatible with UNIX.	だから、まずは OS をやるべきだろう、そしてそれはUNIX 互換にすべきだ。
+Finally when I realized that I could use the most amusing word in the English language as a name for this system, it was clear which choice I had to make.	最後にこのシステムの名前として英語でいちばんおもしろい名前を使えるんだと気がついたら、ぼくの選ぶべき道ははっきりした。
+And that word is of course GNU, which stands for ``Gnu's Not Unix''.	そのことばはもちろん GNU で、これは「GNU 's Not Unix」の略。
+The recursive acronym is a very old tradition among the hacker community around MIT.	この再帰的な略称は、MIT周辺のハッカー社会ではすごく古い伝統になってる。
+It started, I believe, with an editor called TINT,	ぼくの知る限り、これは TINTというエディタではじまったはず。
+which means: ``Tint Is Not Teco'', and later on it went through names such as ``SINE'' for ``SINE Is Not Emacs'', and FINE for ``Fine Is Not Emacs'', and EINE for ``Eine Is Not Emacs'', and ZWEI for ``Zwei Was Eine Initially'', and ultimately now arrives at GNU.	これは「Tint Is Not Teco」の略で、それはやがて「SINE Is Not EMACS 」の略で SINE とか、「Fine Is Not EMACS」で FINE とか、「Eine Is Not EMACS」で EINE とか、「Zwei Was Eine Initially（Zwei はもともと Eine でした）」の ZWEI とか、そしていまはそれが GNU まできたわけ。（訳注：ドイツ語では Eine は 1 で、Zwei が 2 だというのはもちろんご承知のこととは思いますが……）
+I would say that since the time about two and a half years ago when I actually started working on GNU, I've done more than half of the work.	だいたい 2 年半ほど前に実際に GNU の仕事をはじめてから、もう作業の半分くらいは終えたと言っていいかな。
+When I was getting ready to start working on the project, I first started looking around for what I could find already available free.	このプロジェクトにとりかかろうとしてたとき、まずはすでにフリーで出回ってるものは何があるかを探すとこからはじめた。
+I found out about an interesting portable compiler system which was called ``the free university compiler kit'',	そこで見つけたのが、おもしろいポータブルなコンパイラシステムで、これは「TheFree University Compiler Kit」という名前。
+and I thought, with a name like that, perhaps I could have it.	こんな名前なら、もらえるのかな、と思った。
+So, I sent a message to the person who had developed it asking if he would give it to the GNU project,	だから開発した人にメールを送って、 GNU プロジェクトにくれないか、ときいてみたら、その人は
+and he said ``No, the university might be free, but the software they develop isn't'',	「いや、free は大学にかかることばで、そこで開発してるソフトはフリーじゃないんです」と言って、
+but he then said that he wanted to have a UNIX compatible system too, and he wanted to write a sort of kernel for it, so why didn't I then write the utilities, and they could both be distributed with his proprietary compiler, to encourage people to buy that compiler.	でもそれから言うには、かれも UNIX互換システムがほしくて、それ用のカーネルみたいなものも書いてみたいから、そしたらぼくがそれ用にユーティリティを書いて、そしたらその両方ともかれの独占コンパイラといっしょに配布できて、そしたらみんながそのコンパイラを買いたがるようになるだろう、だって。
+And I thought that this was despicable and so I told him that my first project would be a compiler.	それでぼくは、ふざけんじゃないよと思って、だからそいつに、ぼくの最初のプロジェクトはコンパイラの開発だ、と言ってやった。
+I didn't really know much about optimizing compilers at the time,	その頃は、コンパイラの最適化について実は大して知らなかった。
+because I'd never worked on one.	一度もいじったことがなかったから。
+But I got my hands on a compiler, that I was told at the time was free.	でも、その頃フリーだと言われたコンパイラを手に入れられた。
+It was a compiler called PASTEL, which the authors say means ``off-color PASCAL''.	それが PASTELっていうコンパイラで、作者たちに言わせると「色の薄いPASCAL」という意味なんだって。
+Pastel was a very complicated language including features such as parametrized types and explicit type parameters and many complicated things.	Pastel はすごく複雑な言語で、パラメータ化された型や明示タイプパラメータ（explicit type parameter）とか、いろいろ複雑なものを含んでた。
+The compiler was of course written in this language, and had many complicated features to optimize the use of these things.	コンパイラ自身ももちろんこの言語で書かれてて、こういう機能の利用を最適化するのに、いろいろ複雑な機能を持っていたんだ。
+For example: the type ``string'' in that language was a parameterized type;	たとえばこの言語では string 型はパラメータ化されていた。
+you could say ``string(n)'' if you wanted a string of a particular length;	特定の長さの文字列がほしければ「string(n)」と書ける。
+you could also just say ``string'', and the parameter would be determined from the context.	単に「string」と書けば、パラメータは文脈から決まってくる。
+Now, strings are very important, and it is necessary for a lot of constructs that use them to run fast, and this means that they had to have a lot of features to detect such things as: when the declared length of a string is an argument that is known to be constant throughout the function, to save to save the value and optimize the code they're going to produce, many complicated things.	で、文字列ってすごく大事で、それを使ういろんな構造体を高速に走らせるためにも必要で、ということはつまり、各種のことを検出するようないろんな機能が必要ってことだよね、たとえば、宣言されたストリング長が引数で、それが関数の中ではずっと定数であることを検出するとか、値を保存してそれが生み出すコードを最適化するとか、いろいろややこしいこと。
+But I did get to see in this compiler how to do automatic register allocation, and some ideas about how to handle different sorts of machines.	でもこのコンパイラの中では、少なくともレジスタ自動割り当てをどうするかとか、そういうことは読みとれたし、いろいろちがったマシンの扱い方の考え方もわかった。
+Well, since this compiler already compiled PASTEL, what i needed to do was add a front-end for C, which I did, and add a back-end for the 68000	さてこのコンパイラはすでに PASTEL をコンパイルできるので、必要なのは C のフロントエンドをつけることで、これをやって、それから 68000 用のバックエンドをつけることだった。
+which I expected to be my first target machine.	68000 がぼくの最初のターゲットマシンになるものと思ってたから。
+But I ran into a serious problem.	でもここで深刻な問題にぶちあたった。
+Because the PASTEL language was defined not to require you to declare something before you used it, the declarations and uses could be in any order, in other words: Pascal's ``forward'' declaration was obsolete, because of this it was necessary to read in an entire program, and keep it in core, and then process it all at once.	PASTEL 言語は何かを使う前に宣言しなくていいようになってたので、だから宣言と使用がどんな順序でもよくて、つまりは、Pascal の「forward」宣言は使いものにならなくて、おかげでプログラムをまるごと読み込んで、それをコアにいれといて、一挙に処理するしかなかった。
+The result was that the intermediate storage used in the compiler, the size of the memory needed, was proportional to the size of your file.	結果としてコンパイラ内部で使われる中間記憶、つまり必要メモリ量は、ファイルの大きさに比例して大きくなるわけ。
+And this also included stack-space, you needed gigantic amounts of stack space, and what I found as a result was: that the 68000 system available to me could not run the compiler.	そしてここにはスタック領域も含まれてて、ものすごいスタック領域が必要で、だから結果としてわかったこと：ぼくの手もとの 68000 システムではこのコンパイラは走らない。
+Because it was a horrible version of Unix that gave you a limit of something like 16K words of stack, this despite the existence of six megabytes in the machine, you could only have 16Kw of stack or something like that.	それはそのシステムが最悪のUNIX で、スタックに 16K ワードとかの上限があって、これってマシン自体にはメモリが 6 メガバイトもあるのにだよ、スタックは 16Kw かそこらしかとれないっての。
+And of course to generate its conflict matrix to see which temporary values conflicted, or was alive at the same time as which others, it needed a quadratic matrix of bits, and that for large functions that would get it to hundreds of thousands of bytes.	そしてもちろん、一時的な変数値がかちあってないかとか、あるいは同時に生きてるのがどれかとかを見るのに、コンフリクト行列を生成するんだけど、これはビット単位で4次元行列とかが必要で、大きな関数になるとそれが何百バイトとか何千バイトにもなる。
+So i managed to debug the first pass of the ten or so passes of the compiler, cross compiled on to that machine, and then found that the second one could never run.	だからコンパイラは 10 パスくらいかそこらあったんだけど、その最初のパスはなんとかデバッグして、それをそのマシン用にクロスコンパイルして、そしてふたを開けてみたら、二番目のやつはそもそも走らない。
+While I was thinking about what to do about these problems and wondering whether I should try to fix them or write entirely new compiler, in a roundabout fashion I began working on GNU Emacs.	こういう問題をどうしようか考えて、これをなおそうとするのか、それともまったく新しいコンパイラを書こうか考えているうちに、なんやかんやで GNU EMACS の作業にとりかかった。
+GNU Emacs is the main distributed portion of the GNU system.	GNU EMACS は GNU システムの配布分の主要部分。
+It's an extensible text editor a lot like the original emacs which I developed ten years ago, except that this one uses actual LISP as its extension language.	拡張できるテキストエディタで、ぼくが10年前に開発したオリジナルの EMACS とかなり似てるけど、こいつは拡張用言語として本物の LISP を使うんだ。
+The editor itself is implemented in C, as is the LISP interpreter, so the LISP interpreter is completely portable, and you don't need a LISP system external to the editor.	エディタ自身は C で実装されてて、LISP インタープリタも同じく C で実装されてるから、LISP インタープリタは完全に可搬性があって、エディタの外部に LISP システムを持たなくていい。
+The editor contains its own LISP system, and all of the editing commands are written in LISP so that they can provide you with examples to look at for how to write your own editing commands, and things to start with, so you can change them into the editing commands that you really want.	エディタ自身が自前の LISP システムを持ってて、すべての編集コマンドはLISP で書いてあるから、それをお手本として見て自前の編集コマンドを書いたり、何からはじめるかとか、そういうのを変えて、自分が本当にほしい編集コマンドに変えられるんだよ。
+In the summer of that year, about two years ago now, a friend of mine told me that because of his work in early development of Gosling Emacs, he had permission from Gosling in a message he had been sent to distribute his version of that.	その年の夏、いまから 2 年ほど前、ぼくの友だちがゴスリング EMACS の開発初期に手伝ったので、ゴスリングからかれのバージョンのゴスリング EMACS を配布していいよ、という許諾をメールで受け取ったと話してくれた。
+Gosling originally had set up his Emacs and distributed it free and gotten many people to help develop it, under the expectation based on Gosling's own words in his own manual that he was going to follow the same spirit that I started with the original Emacs.	ゴスリングはもともと EMACS を書き上げて、それをフリーで配布して、たくさんの人が開発に協力して、それはゴスリング自身がマニュアルの中で書いたような、ぼくがもとの EMACSを開始したのと同じ精神にしたがうというかれ自身のせりふに基づいた期待があったからなんだ。
+Then he stabbed everyone in the back by putting copyrights on it, making people promise not to redistribute it and then selling it to a software-house.	そしたらゴスリングはそいつに著作権をつけて、みんなにそれを再配布しないと約束させて、あげくにそれをソフトハウスに売って、みんなを後ろから刺して裏切ったんだ。
+My later dealings with him personally showed that he was every bit as cowardly and despicable as you would expect from that history.	その後ゴスリングと個人的にやりとりしたけど、この歴史を見て予想されるのと寸分の狂いもないくらい、臆病でふざけたやつだったよ。
+But in any case, my friend gave me this program, and my intention was to change the editing commands at the top level to make them compatible with the original Emacs that I was used to.	まあとにかく、その友たちがこのプログラムをくれて、それでぼくとしてはトップレベルの編集コマンドを変えて、ぼくの慣れ親しんでるオリジナルの EMACS と互換性を持たせたかった。
+And to make them handle all the combinations of numerical arguments and so on that one might expect that they would handle and have all the features that I wanted.	それと数値引き数の組み合わせとかいろいろ扱えるようにして、ぼくのほしいような機能を全部扱えると期待できるようにするとか。
+But after a little bit of this, I discovered that the extension language of that editor, which is called MOCKLISP, was not sufficient for the task.	でもしばらくやってるうちに、このエディタの拡張用言語、MOCKLISP っていうんだけど、それがこの作業用には力不足だってのがわかってきた。
+I found that that I had to replace it immediately in order to do what I was planning to do.	計画してることをやるためには、こいつをすぐにでもすげかえる必要があるってわかった。
+Before I had had the idea of someday perhaps replacing MOCKLISP with real LISP, but what I found out was that it had do be done first.	前にもいつかはMOCKLISP を本物の LISP に置き換えようと思ってたんだけど、でも真っ先にそれをやんなきゃっていうのがわかってきた。
+Now, the reason that MOCKLISP is called MOCK, is that it has no kind of structure datatype:	それで、MOCKLISP がなぜ「MOCK（にせ）」ってついてるかというと、そこに構造体データタイプがないからなの。
+it does not have LISP lists;	LISP リストもない。
+it does not have any kind of array.	配列もぜんぜんない。
+It also does not have LISP symbols,	LISP シンボルもない。
+which are objects with names:	これは名前つきオブジェクトね。
+for any particular name, there is only one object, so that you can type in the name and you always get the same object back.	MOCKLISP ではある名前に対してオブジェクトは一つしかなくて、だから名前をタイプすると、いつも同じオブジェクトしか戻ってこないの。
+And this tremendously hampers the writing of many kinds of programs, you have to do things by complicated string-manipulation that don't really go that way.	こいつのおかげでいろんなプログラムを書くのがえっらくやっかいで、ホントはそんなふうに使うんじゃないようなややこしいストリング操作で、あれやこれやを処理しなきゃなんなかったわけ。
+So I wrote a LISP interpreter and put it in in place of MOCKLISP and in the process I found that I had to rewrite many of the editor's internal data structures	それで LISP インタープリタを書いて、MOCKLISP をすげかえて、その過程で、エディタの内部データ構造を書き直さなきゃならないこともわかった。
+because I wanted them to be LISP objects.	ぼくはそういうのが LISP オブジェクトになっててほしかったから。
+I wanted the interface between the LISP and the editor to be clean, which means that objects such as editor buffers, sub-processes, windows and buffer-positions, all have to be LISP objects,	LISP とエディタのインターフェースがクリーンであってほしくて、それはつまり、エディタのバッファやサブプロセスやウィンドウやバッファ位置みたいなオブジェクトが、みんな LISP オブジェクトでなきゃだめだってこと。
+so that the editor primitives that work on them are actually callable as LISP functions with LISP data.	そうじゃないとそれに作用するエディタのプリミティブは LISP データの LISP 関数としてコールできるようにならない。
+This meant that I had to redesign the data formats of all those objects and rewrite all the functions that worked on them, and the result was that after about six months I had rewritten just about everything in the editor.	ということは、こういうオブジェクトすべてのデータ形式を設計しなおして、それに作用する関数もみんな書き直して、結果として 6 ヶ月後には、ぼくはエディタのほとんどすべてを書き直してたってわけ。
+In addition, because it is so hard to write things in MOCKLISP, all the things that had been written in MOCKLISP were very unclean and by rewriting them to take advantage of the power of real LISP, I could make them much more powerful and much simpler and much faster.	加えて、MOCKLISP でなんか書くのはすごく難しいので、MOCKLISP で書かれたものはみんなきたなくて、だから本物の LISP の力を使えるようにそれを書きなおせば、それをみんなもっと強力でもっと単純でもっと高速にできたんだ。
+So I did that, and the result was that when I started distributing this program only a small fraction remained from what I had received.	だからそれをやって、結果としてぼくがそれを配布しはじめときには、受け取ったものでそのまま使われてる部分はほとんどなかった。
+At this point, the company that Gosling thinks he sold the program to challenged my friend's right to distribute it, and the message was on backup tapes, so he couldn't find it.	この時点で、ゴスリングがプログラムを売ったと思ってる相手の会社が、ぼくの友だちがそれを配布する権利にケチをつけはじめて、メールはバックアップのテープに入ってて見つからなかった。
+And Gosling denied having given him permission.	そしてゴスリングは、そんな許可は与えてないと否定する。
+And then a strange thing happened.	そこでおかしなことが起きた。
+He was negotiating with this company, and it seemed that the company mainly was concerned with not having anything distributed that resembled what they were distributing.	かれはこの会社と交渉してたんだけど、この会社がいちばん気にしてるのは、自分たちが配布してるのと似たようなものが出回っちゃ困るってことだったようなの。
+See, he was still distributing, and the company where he worked, which is Megatest, was still distributing the same thing he had given me, which really was an old version of Gosling Emacs with his changes, and so he was going to make an agreement with them where he would stop distributing that, and would switch to using GNU Emacs, and they would then acknowledge that he really had the permission after all, and then supposedly everyone would be happy.	かれもまだ配布してたし、かれの職場 ―― Megatest 社ね ―― も、かれがぼくにくれたのと同じものを配布してて、それはかれの変更の入ったゴスリング EMACS で、だからかれは連中とそれを配布するのをやめるという合意をして、GNU EMACS を使うのに切り替えて、それでそしたら連中は、かれが実はやっぱり許諾を得てたんだってことを認めて、そうすればおそらくみんな満足ってことになるはずだった。
+And this company was talking to me about wanting to distribute GNU Emacs, free of course, but also sell various sorts of supporting assistance, and they wanted to hire me to help do the work.	そしてこの会社はぼくに相談をもちかけてて、GNU EMACS を配布させろ、もちろんそれはフリーだけど、でもいろんなサポートや補助を売りたいから、その作業の手伝いにぼくを雇いたいって言う。
+So it's sort of strange that they then changed their mind and refused to sign that agreement, and put up a message on the network saying that I wasn't allowed to distribute the program.	だからその後、連中の気が変わってその契約にサインするのを拒否して、ネットワークに、ストールマンにはプログラムを配布する権利はないというメッセージをポストしたってのは、ちょっと変なんだよね。
+They didn't actually say that they would do anything, they just said that it wasn't clear whether they might ever someday do something.	別に連中は何かするとか言ったわけじゃなくて、単にいずれいつの日か何か手をうたないかどうかははっきりしないとか言っただけ。
+And this was enough to scare people so that no one would use it any more, which is a sad thing.	そしてそれだけでみんなびびっちゃって、もうだれも使わなくなって、これは悲しいことだ。
+(Sometimes I think that perhaps one of the best things I could do with my life is: find a gigantic pile of proprietary software that was a trade secret, and start handing out copies on a street corner so it wouldn't be a trade secret any more, and perhaps that would be a much more efficient way for me to give people new free software than actually writing it myself; but everyone is too cowardly to even take it.)	（ときどき、一生かけてやるのに一番いい仕事ってのは、どっかで商売上の機密になってる独占ソフトのでかい山をみつけて、それを街角で配って歩いて、もう機密でもなんでもなくしてしまうことじゃないかと思って、みんなの手に新しいフリーソフトをわたしたいならそのほうが自分で新しいソフトなんかを書くよりも、ぼくとしてはずっと効率のいいやりかたじゃないかと思うんだけれど、みんなそれを受け取るのさえ怖がるほど臆病なんだもんな）
+So I was forced to rewrite all the rest that remained, and I did that, it took me about a week and a half.	というわけで、残り全部を自分で書き直すしかなくて、だからそれをやって、それに一週間半くらいかかった。
+So they won a tremendous victory.	というわけで、やつらは大勝利をおさめてさぞ満足だろうよ。
+And I certainly wouldn't ever cooperate with them in any fashion after that.	そしてぼくは、それ以降はどんな形であってもやつらとは協力なんかするもんか。
+Then after GNU Emacs was reasonably stable, which took all in all about a year and a half, I started getting back to other parts of the system.	で、GNU EMACS がそこそこ安定してから、というのはなんだかんだで1年半ほどかかったんだけど、それからシステムのほかの部分に戻った。
+I developed a debugger which I called GDB which is a symbolic debugger for C code, which recently entered distribution.	GDB っていうデバッガを開発して、これはCコード用のシンボリック・デバッガで、最近配布に入れるようにした。
+Now this debugger is to a large extent in the spirit of DBX, which is a debugger that comes with Berkeley Unix.	このデバッガは、かなりの部分が DBX の精神にのっとったもので、これはバークレー UNIX についてくるデバッガね。
+Commands consist of a word that says what you want to do, followed by arguments.	コマンドは、何をしたいかを示すことばと、それに続く引き数で構成される。
+In this debugger, commands can all be abbreviated, and the common commands have single character abbreviations, but any unique abbreviation is always allowed.	このデバッガでは、コマンドはみんな短縮形が使えて、よく使うコマンドは 1 文字の短縮形になってるんだけど、独自の短縮形も好きなように使える。
+There are extensible HELP facilities, you can type HELP followed by any command or even subcommands, and get a lengthy description of how to use that command.	充実した HELP 機能もあって、HELP のあとになんでもいいけどコマンドやサブコマンドまでタイプすると、そのコマンドの使い方が詳しく説明される。
+Of course you can type any expression in C, and it will print the value.	もちろん C の表現をタイプすれば、どれでもその値を返してくれる。
+You can also do some things that are not usual in symbolic C debuggers,	ほかにも、シンボリック C デバッガでは珍しいことができたりする。
+for example: You can refer to any C datatype at any memory address,	たとえば、どのメモリアドレスにあるどの C データ型も参照できるんだよ。
+either to examine the value, or to assign the value.	値を調べたり、値を入れたりできる。
+So for example if you want to store a floating point value in a word at a certain address,	だからたとえばあるアドレスのワードに浮動小数点の値を入れたければ、
+you just say: ``Give me the object of type FLOAT or DOUBLE at this address''	「これこれのアドレスにある FLOAT 型か DOUBLE 型のオブジェクトをよこせ」といって、
+and then assign that.	それに割り当てればいい。
+Another thing you can do is to examine all the values that have been examined in the past.	もう一つできるのが、これまで調べてみた値を全部調べられんの。
+Every value examined gets put on the ``value history''.	調べた値は全部「値ヒストリー」にのっかる。
+You can refer to any element in the history by its numerical position, or you can easily refer to the last element with just dollar-sign.	このヒストリーのどの要素でも、その番号で参照できるし、ただのドル記号（$）を使えば最後の要素を簡単に呼び出せる。
+And this makes it much easier to trace list structure.	こうすると、リスト構造をトレースするのがすごく楽になる。
+If you have any kind of C structure that contains a pointer to another one, you can do something like ``PRINT *$.next'',	別の構造体を指すポインタを含むような C 構造体があったとするでしょ、そしたらたとえば PRINT *$.next みたいなことができて、
+which says: ``Get the next field out of the last thing you showed me, and then display the structure that points at''.	これはつまり「さっきみせてくれたものの次のフィールドをとってきて、それが指してる構造体を表示しろ」ってことだ。
+And you can repeat that command, and each time you'll see then next structure in the list.	そしてこのコマンドは繰り返せて、そのたびごとにリストの次の構造体が見られる。
+Whereas in every other C debugger that I've seen the only way to do that is to type a longer command each time.	でも、ぼくがこれまで見た C デバッガだと、毎回もっと長いコマンドをタイプしなきゃなんないんだよね。
+And when this is combined with the feature that just typing carriage-return repeats the last command you issued, it becomes very convenient.	そしてこの機能と、単に CR を押したら直前のコマンドを繰り返す、という機能と組み合わせると、これはすごく便利。
+Just type carriage-return for each element in the list you want to see.	リストの中で自分が見たい要素について、どんどん CR を押してけばいい。
+There are also explicitly settable variables in the debugger,	あとデバッガの中で外部設定できる変数もある。
+any number of them.	いくらでも。
+You say dollar-sign followed by a name, and that is a variable.	ドル記号のあとに名前をつければ、それで変数。
+You can assign these variables values of any C datatype and then you can examine them later.	こういう変数値をどんな C データ型にでもアサインして、あとで検討できる。
+Among the things that these are useful for are: If there's a particular value that you're going to examine, and you know you are going to refer to it a lot, then rather than remember its number in the history you might give it a name.	これがなんの役にたつかというと、たとえば：もし調べたい値がなんかあったとして、それをたくさん参照するのがわかってたら、ヒストリーの中でその値を覚えとくより、名前をつけちゃったほうがいいかもしれない。
+You might also find use for them when you set conditional breakpoints.	あるいは、条件ブレークをセットするときにも使えるかも。
+Conditional breakpoints are a feature in many symbolic debuggers,	条件つきブレークは、シンボリックデバッガにはよくある機能で、
+you say ``stop when you get to this point in the program, but only if a certain expression is true''.	「プログラムのここまできたら止まれ、ただしこの条件式が真の場合だけね」と言うわけ。
+The variables in the debugger allow you to compare a variable in the program with a previous value of that variable that you saved in a debugger variable.	デバッガの変数は、プログラム内の変数と、デバッガ変数内に保存した変数値とをくらべさせてくれる。
+Another thing that they can be used for is for counting,	これはほかにも、数えるのに使える。
+because after all, assignments are expressions in C, therefore you can do ``$foo+=5'' to increment the value of ``$foo'' by five, or just ``$foo++'' you can do.	だって値の割付は要するにCの式でしょ、だから$hoge を 5 増やすには $hoge+=5 でもいいし、あるいは単に $hoge++ でやってもいい。
+You can even do this in a conditional breakpoint, so that's a cheap way of having it break the tenth time the breakpoint is hit, you can do ``$foo--==0''.	これを条件付きブレークでもできるから、このブレークポイントに 10 回目にきたらブレークとかするのにはお手軽でしょ、 $hoge--==0 をするんだよね。
+Does everyone follow that?	みんな、ついてきてる？
+Decrement foo and if it's zero now, break.	hoge を減らしてって、それがゼロになってたらブレークしろってこと。
+And then you set $foo to the number of times you want it to skip, and you let it go.	そしてそれから $hoge を、スキップしたい回数にセットして、それで行ける。
+You can also use that to examine elements of an array.	これを配列の中の要素を見るのにも使える。
+Suppose you have an array of pointers, you can then do:	たとえばポインタの配列があって、そしたらこんなことする：
+But first you do	でもその前にまずこれ：
+Okay, when you do that [points at the ``Print'' expression], you get the zeroth element of X,	オッケー、で、こうしたら（と「Print」式をさす）、X のゼロ番目の要素が出てくる。
+and then you do it again and it gets the first element, and suppose these are pointers to structures, then you probably put an asterisk there [before the X in the PRINT expression] and each time it prints the next structure pointed to by the element of the array.	で、もう一回やったらそれは一番目の要素で、それでこれがもし構造体へのポインタなら、たぶんここ（PRINT 式の X の前）にアステリスク（*）を入れて、そしたら毎回これはこの配列の要素がさしてる次の構造体をだしてくる。
+And of course you can repeat this command by typing carriage-return.	そしてもちろん、改行をおすだけでこれを繰り返せる。
+If a single thing to repeat is not enough, you can create a user-defined-command.	これ一つだけ繰り返すんじゃ不十分なら、ユーザ定義コマンドをつくればいい。
+You can say ``Define Mumble'', and then you give some lines of commands and then you say ``end''.	「Define むにゃむにゃ」とやって、それからコマンドを何行か入れて、「end」とやる。
+And now there is defined a ``Mumble'' command which will execute those lines.	これでもう「むにゃむにゃ」コマンドが定義されて、それが入れた行を実行する。
+And it's very useful to put these definitions in a command file.	で、こういう定義をコマンドファイルに入れておくとすごく便利なの。
+You can have a command file in each directory, that will be loaded automatically when you start the debugger with that as your working directory.	ディレクトリごとにコマンドファイルを持って、そこを作業ディレクトリにしてデバッガを起動すると、それが勝手にロードされるようにしておける。
+So for each program you can define a set of user defined commands to access the data structures of that program in a useful way.	だから各プログラムごとに、ユーザ定義コマンドをいろいろ定義しておいて、便利な形でそのプログラムのデータ構造にアクセスできるようにしとける。
+You can even provide documentation for your user-defined commands,	そういうユーザ定義コマンド用にドキュメンテーションだってつくれるんだよ。
+so that they get handled by the ``help'' features just like the built-in commands.	そうするともとからのコマンドとまったく同じように、「help」機能で処理されるんだ。
+One other unusual thing in this debugger, is the ability to discard frames from the stack.	このデバッガでもう一つ珍しいのが、スタックからフレームを捨てられるってこと。
+Because I believe it's important not just to be able to examine what's happening in the program you're debugging, but also to change it in any way conceivable.	デバッグしてるプログラムで何が起きてるか見られるだけじゃなくて、それを好き放題変えられるってのが大事だと思うんだ。
+So that after you've found one problem and you know what's wrong, you can fix things up as if that code were correct and find the next bug without having to recompile your program first.	だから問題を一つ見つけて何がダメかわかったら、そのコードが正しかったかのようにあちこちなおしてから、コンパイルしなおさなくても次のバグを見つけにいけるわけだよ。
+This means not only being able to change the data areas in you program flexibly, but also being able to change the flow of control.	ということは、プログラムのデータ領域を思い通りに直せるだけじゃなくて、コントロールのフローを好きに変えられなきゃならない。
+In this debugger you can change the flow of control very directly by saying:	このデバッガでは、こんなふうにしてコントロールのフローをすごく直接的に変えられる：
+SET $PC=<some number>	SET $PC=<なんか数字>
+So you can set the program counter.	こうやってプログラムカウンタを変えるの。
+You can also set the stack pointer, or you can say	それとスタックポインタもセットできるし、あるいはこういうふうにでも：
+SET $SP+=<something>	SET $SP+=<なんとか>
+If you want to increment the stack pointer a certain amount.	スタックポインタをちょっと増やしたいなと思うでしょ。
+But in addition you can also tell it to start at a particular line in the program, you can set the program counter to a particular source line.	でもついでに、プログラムのどこか途中からはじめたいとして、だからプログラムカウンタをそのソース行にあわせるよね。
+But what if you find that you called a function by mistake and you didn't really want to call that function at all?	でもそれで、その関数を呼んだのがまちがいで、その関数呼びたくなかった！としたら？
+Say, that function is so screwed up that what you really want to do is get back out of it and do by hand what that function should have done.	たとえばその関数がどうしようもなくいかれてて、実はそこから戻ってきて、その関数のやるべきだったことを手でやりたいとしたら？
+For that you can use the ``RETURN'' command.	それには 「RETURN」 命令を使う。
+You select a stack frame and you say ``RETURN'', and it causes that stack-frame, and all the ones within it, to be discarded as if that function were returning right now, and you can also specify the value it should return.	スタックフレームを選んで 「RETURN」とやると、そのスタックフレームや、その中にあるやつ全部が捨てられて、その関数からすぐに戻ってきたような感じになって、しかもそこから返ってくるはずの値も指定できる。
+This does not continue execution;	実行は続かないよ。
+it pretends that return happened and then stops the program again, so you can continue changing other things.	返ってきたようなふりをして、そこでまたプログラムを止めるから、ほかのものもどんどん変えられる。
+And with all these things put together you thus have pretty good control over what's going on in a program.	このくらいいろいろまとまってると、プログラムの中で何が起きてるか、かなり細かくコントロールがきくわけよ。
+In addition one slightly amusing thing:	これに加えて、もう一つちょっとおもしろいこと。
+C has string constants, what happens if you use a string constant in an expression that you're computing in the debugger?	C にはストリング定数があって、デバッガ内で計算してる数式にストリング定数を使ったらどうなるか？
+It has to create a string in the program you were debugging.	デバッグしてるプログラム内にストリングをつくらなきゃなんない。
+Well it does.	だからつくってくれる。
+It sets up a call to MALLOC in that debugged program, lets MALLOC run, and then gets control back.	デバッグ中のプログラム内で MALLOC へのコールをやってくれて、MALLOC を走らせて、それからコントロールを取り戻す。
+Thus it invisibly finds a place to put the string constant.	こうやって、知らないうちにストリング定数を置く場所を見つけてくれるの。
+Eventually when this debugger is running on the real GNU system, I intend to put in facilities in the debugger to examine all of the internal status of the process that is running underneath it.	いずれこのデバッガが本物の GNU システム上で動くようになるときには、その下で動いてる全プロセスの内部状態を調べられるような機能をつけるつもり。
+For example to examine the status of the memory map, which pages exist, which are readable, which are writable, and to examine the inferior program's terminal status.	たとえばメモリマップの状態を見ようとかね、どのページが存在して、どれが読めて、どれが書き込めるか見て、あと下部プログラムの終了状態（terminal status）を見るとか。
+There already is a bit of a command;	もうかなりコマンドはあるんだ。
+this debugger, unlike the debuggers on UNIX, keeps the terminal status completely separate for the debugger and the program you're debugging,	このデバッガは、UNIX のデバッガとはちがって、終了状態をデバッガやデバッグ中のプログラムと完全に切り離してる。
+so that it works with programs that run in raw mode, it works with programs that do interrupt driven input, and there's also a command that enables you to find out something about the terminal settings at the program you're debugging is actually using.	だからそのままのモード（raw mode）で動くプログラムも見られるし、割り込み駆動入力をするプログラムでも動くし、それにデバッグ中のプログラムが実際に使ってるものの終了状態についても調べてくれるコマンドがある。
+I believe that in general a debugger should allow you to find out everything that's going on in the inferior process.	一般にデバッガというのは、下部プロセスで起こってることはすべてわかるようにすべきだと思うな。
+There are two other main parts of the GNU system that already exist.	GNU システムのうちすでに存在する主要部分は二つある。
+One is the new C compiler, and one is the TRIX kernel.	一つは新しい C コンパイラ（訳注：もちろんこの時点ではまだ gcc という名前はなかった。）で、もう一つは TRIX カーネルだ。
+The new C compiler is something that I've written this year since last spring.	新しい C コンパイラは、この春から今年いっぱい書いてたもの。
+I finally decided that I'd have to throw out PASTEL.	ついに PASTELは捨てようと決めたんだ。
+This C compiler uses some ideas taken from PASTEL, and some ideas taken from the University of Arizona Portable Optimizer.	この C コンパイラは PASTEL からのアイデアをもらってて、アリゾナ大学ポータブル・オプチマイザからのアイデアももらってる。
+Their interesting idea was to handle many different kinds of machines by generating simple instructions, and then combining several simple instructions into a complicated instruction when the target machine permits it.	連中のおもしろいアイデアは、いろんな種類のマシンを単純な命令の生成で扱うことで、ターゲットのマシンが許せばそれをいくつか組み合わせて複雑な命令にするんだ。
+In order to do this uniformly, they represent they represent the instructions in algebraic notation.	これを総合的にやるために、命令が数学式の記法で書かれてる。
+For example, an ADD instruction might be represented like this:	たとえば ADD 命令はこんな感じで書かれる：
+This would be a representation inside their compiler	これはコンパイラ内部での命令の表現形。
+for instruction to take the contents of register two, add four and store it in register three.	2 番レジスタの中身をとって、それに 4を足して 3 番レジスタに入れろという命令。
+In this fashion you can represent any possible instruction for any machine.	こういうふうにすれば、あらゆるマシン用にあらゆる命令を表現できる。
+So they actually did represent all the instructions this way and then when it came time to try to combine them, they would do this by substituting one expression into another, making a more complicated algebraic expression for the combined instruction.	それでかれらは実際に、すべての命令をこの形式で表現して、それを組み合わせる段階になったら、ある表現式をべつので置き換えて、もっと複雑な式をつくって組み合わせて命令にするわけ。
+Sometimes depending on whether the result of the first instruction had any further use, it might be necessary to make a combined instruction with two assignment operators.	ときどき、最初の命令の結果がそれ以上使われるかどうかに応じて、割りつけ演算子を 2 つ持つような組み合わせ命令をつくんなきゃならない。
+One for this value [pointing at ???]and another one with this value [pointing at ???] substituted in it with what came from the second instruction.	この値（と何かを指さす）用に 1 つと、こっちの値（と何かを指さす）用に 1 つ、こっちは 2 番目の命令からきた値と差し替えるのね。
+But if this value was only used that once, you could eliminate it after substituting for it;	でもこの値を 1 回しか使わないなら、差し替えたあとは捨てちゃえる。
+there'd be no need to compute it any more.	もうそれで計算する必要はないんだから。
+So it's actually somewhat complicated doing the substitution correctly checking that the intervening instructions don't change any of these values and other such things.	だから。途中で入ってくる命令とかがこういう値を変えたりしないかとか、そういうのをちゃんとチェックして、差し替えをきちんとやるのはなかなかややこしい。
+When you support such things as auto-increment and auto-decrement addressing, which I do now, you also have to do various checks for those to check for situations where what you're doing is not value preserving.	自動インクリメントや自動デクリメント・アドレッシングみたいなものをサポートするなら（ぼくはしてるけど）、値を保存するんじゃないような状況についてチェックするのに、いろいろチェックもしなきゃならない。
+But after checking all those things, then you take the substituted combined expression and put it through a pattern matcher, which recognizes all the valid instructions of your chosen target machine.	でもこういうの全部チェックしたら、差し替えた組み合わせ式をパターン・マッチャーに通して、それが選んだターゲットマシンで有効な命令を全部認識してくれる。
+And if it's recognized, then you replace those two instructions with the combined one, otherwise you leave them alone.	それで認識されたら、その 2 つの命令を組み合わせ命令と置き換えて、そうでなきゃそのままにする。
+And their technique is to combine two or three instructions related by data flow in this way.	そして連中の技法ってのは、データフローで関連づけた命令 2 つ 3 つをこうやって組み合わせることなんだ。
+In the Arizona compiler, they actually represent things as text strings like this, and their compiler is horribly slow.	アリゾナコンパイラでは、いろんなものをこういう文字列で表現してて、だから連中のコンパイラはとてつもなく遅い。
+First I had some idea of just using their compiler and making changes in it, but it was clear to me I had to rewrite it entirely to get the speed I wanted, so I have rewritten it to use list structure representations for all these expressions.	最初はこのコンパイラをそのまま使ってちょっと変えるだけにしようかと思ったけれど、でもぼくの求めるスピードを出すには完全に書き換えるしかないのは明らかだったので、こういう式すべてにリスト構造の記法を使うように書き直した。
+Things like this:	たとえばこういうの：
+This looks like Lisp, but the semantics of these are not quite LISP,	なんか LISP っぽいけど、でもこいつの意味はそんなに LISP してない。
+because each symbol here is one recognized specially.	ここの各シンボルは特別に認識されるものだから。
+There's a particular fixed set of these symbols that is defined, all the ones you need.	こういうシンボルの集合が特別に定義されていて、必要なのは全部そこにある。
+And each one has a particular pattern of types of arguments,	そしてそれぞれが特定の引数のパターンを持ってる。
+for example: ``reg'' always has an integer, because registers are numbered, but ``+'' takes two subexpressions, and so on.	たとえば：「reg」は必ず integer で、それはレジスタに番号がついてるからだけど、「+」は必ずサブの式を二つ持ってて、とかね。
+And with each of these expressions is also a data type which says essentially whether it's fixed or floating and how many bytes long it is.	そしてそれぞれの式にはデータ型があって、それが基本的に、それが固定か浮動か、バイト長はどんだけか、なんてことを指示する。
+It could be extended to handle other things too if you needed to.	必要なら、ほかの物を扱えるように拡張することもできる。
+And the way I do automatic register allocation is that when I initially generate this code, and when I do the combination and all those things, for every variable that conceivably go into a register, I allocate what I call a pseudo register number, which is a number starting at sixteen or whatever is to high to be a real register for your target machine.	それでぼくが自動レジスタ割り当てをやる方法ってのは、ぼくが最初にコードを生成するとき、組み合わせとかいろいろやるときだけど、レジスタに入りそうな変数にはすべて、自称疑似レジスタ番号ってのを割り振って、これは 16 とかなんとか、そのターゲットのマシンで実際のレジスタになるには大きすぎる番号からはじまる数字だ。
+So the real registers are numbered zero to fifteen or whatever and above that comes pseudo registers.	だから本物のレジスタは 0 から 15 までとかなんとかに割り当てられてて、そのあとに疑似レジスタがくる。
+And then one of the last parts of the compiler consists of going through and changing all the pseudo registers to real registers.	それで、コンパイラの最後のところで何をやるかというと、ずっと見てって、疑似レジスタを本物のレジスタに変えてくんだ。
+Again it makes a conflict graph, it sees which pseudo registers are alive at the same point and they of course can't go in the same real register, and then it tries packing pseudo registers into real registers as much as it can, ordering them by priority of how important they are.	またもやここでコンフリクトグラフをつくって、どの疑似レジスタ同士が同じ時点で生きてるかを見て、もちろんそれを本物のレジスタの同じところに入れるわけにはいかないので、だからなるべく疑似レジスタを固めてなるべく本物のレジスタに入れるようにして、しかもその重要度に応じて並べるわけ。
+And finally it then has to correct the code for various problems,	そして最後に、いろんな問題に対応してコードを訂正しなきゃならない。
+such as happen when there were pseudo registers that don't fit in the real registers, that had to be put into stack slots instead.	たとえば本物のレジスタにおさまりきらない疑似レジスタがあって、それをかわりにスタックのスロットに入れなきゃならないとする。
+When that happens on certain machines, some of the instructions may become invalid.	一部のマシンだと、これが起きると命令の一部は無効になっちゃうかもしれない。
+For example on the 68000 you can add a register into memory and you can add memory into register, but you can't add one memory location into another.	たとえば 68000 だと、レジスタの内容をメモりに加算したり、メモリの内容をレジスタに加算したりはできるけれど、メモリの内容同士の加算はできない。
+So if you have an ADD instruction, and you're headed for a 68000 and both of the things end up in memory, it's not valid.	だから ADD 命令があって、68000 を相手にしてて両方の値がメモリにおさまっちゃったら、この命令は無効になる。
+So this final pass goes through and copies things into registers and out of registers as needed to correct those problems.	だから最後のパスでは、ずっと見てって、必要に応じていろんなものをレジスタにコピーしたり、戻したりして、こういう問題を片づける。
+Problems can also arise with index registers.	インデックスレジスタも問題になる。
+If you're trying to index by something, then most of the time that code will become invalid if the index quantity is in memory,	何かをインデックスにしてアドレスを決めるとき、そのインデックス値がメモリに入ってたら、そのコードはほとんどの場合役にたたなくなる。
+except in a few cases on some machines where you can it with indirect addressing.	ただし、間接アドレッシングでそれができるマシンは別だけど。
+In the cases when you're doing auto-increment on an index register you may have to copy the value into a register, do the instruction, and then copy the incremented value back to the memory slot where it really lives.	インデックスレジスタに自動インクリメントとかかけてるときには、その値をレジスタに入れて、命令をやって、インクリメントした値をほんとにあるべきメモリのスロットに戻してやらなきゃならないかもしれない。
+There's got room for a lot of hair, and I've not finished implementing all the hair needed to make really fully efficient.	まだまだいろいろ小細工の余地はあって、ぼくもまだ十分に効率よくなるほどの細工は実装しきってない。
+This compiler currently works by having a parser which turns C code into effectively a syntax tree annotated with C datatype information.	このコンパイラは、C のコードをとって、それを実質的にはCデータ型の注釈がついた構文ツリーに変えるパーサーを持つことでいまは動いてる。
+Then another pass which looks at that tree and generates code like this [LISP like code].	それから次のパスではそのツリーをながめて、こんな（ LISP 状の）コードを生成する。
+Then several optimization passes.	それから最適化パスがいくつかある。
+One to handle things like jumps across jumps, jumps to jumps, jumps to .+1, all of which can be immediately simplified.	一つには、ジャンプからジャンプ、ジャンプへのジャンプ、.+1 へのジャンプなんかを扱うもので、こんなのはみんなすぐに簡素化できる。
+Then a common subexpression recognizer, then finding basic blocks, and performing dataflow-analysis, so that it can tell for each instruction which values are used in that instruction and never used afterward.	それからよくある副次式の認識、さらに基本ブロック探し、それからデータフロー分析をして、どの命令にどの値が使われて、その後まったく使われないのはどれかがわかる。
+And also linking each instruction to the places where the values it uses were generated, so if I have one instruction which generates pseudo register R[28], and then another instruction later which uses R[28] and it's the first place to use R[28], I make the second one point back to the first one, and this pointer is used to control the attempts to combine the instructions.	そしてそれぞれの命令を、それが使う値の生成場所とリンクさせて、だから疑似レジスタ R[28] を生成するある命令があって、別の命令があとでR[28] を使って、それが R[28] を使う最初の場所だったら、二番目のやつが最初のやつを戻って指すようにして、このポインタが、命令を組み合わせようとするときの制御に使われる。
+You don't combine adjacent instructions, you combine an instruction that uses a value with the instruction that produced that value.	隣り合った命令を組み合わせるんじゃなくて、ある値を使う命令と、それを生成する命令とを組み合わせるの。
+Even if there are other instructions in between, they don't matter for this, you just have to check them to make sure they don't do anything to interfere.	間にほかの命令がはさまっていても、ここでは関係なくて、単に介入してきたりしないかどうかチェックしなきゃならないだけ。
+Then after the combiner comes the dynamic register allocator, and finally something to convert it into assembly code.	それで組み合わせ機能が動的レジスタ割り当てをやって、そして最後に、アセンブリコードにする部分がくる。
+In the Arizona compiler the instruction recognizer was generated with LEX.	アリゾナコンパイラでは、命令認識部分は LEX で生成されてた。
+Your machine description was simply a LEX program that LEX would turn into a C function to recognize valid instructions as strings.	マシン記述はただの LEX プログラムで、LEX はそれを C 関数にして、有効な命令を文字列として認識する。
+What I have is instead a special purpose decision tree that's generated from a machine description written in this syntax as if it were LISP.	ぼくがかわりにつけたのは、特別な専用デシジョン・ツリーで、まるでLISP みたいなこの構文で書かれたマシン記述から生成される。
+And this recognizer is used as a subroutine for many different parts of the compiler.	そしてこの認識部分は、コンパイラ内のいろんな部分のためのサブルーチンとして使われてる。
+Currently this compiler runs about as fast as PCC.	いまんとこ、このコンパイラは PCC くらいの速度で走る。
+It runs noticeably faster if you tell it not to do the hairy register allocation, in which case it allocates registers the same way as PCC does.	レジスタ割り当ての小細工をするなといえば、目に見えて速くはなって、それだと PCC とレジスタの割り当ては同じ。
+In its super hairy mode it does a much better job of allocating registers than PCC, and I observe that for the VAX it generates the best code I've seen from any C compiler on the VAX.	超小細工モードだと、PCC よりずっと上手にレジスタ割り当てをやって、ぼくの見立てでは VAX だと VAX 用のどの C コンパイラよりもいいコードを生成してくれるね。
+For the 68000 the code is still not ideal.	68000 だとコードはまだ理想的とはいえない。
+I can see places where early stages do things that are not the best, because it can't fully look ahead.	前段で、十分に先を見通してないから、最高とはいえないようなことをしてる部分が見える。
+It has a choice in an early stage, and it does the thing that it thinks is going to be best, but really if it did the other one, a later stage is actually smart enough to do something even better.	前段では選択の余地があって、だからそいつが一番いいと思うことをやるんだけれど、でも別のやりかたをしてくれたら後段のほうが頭がいいから、もっといい処理をしてくれたはず。
+But the early stage doesn't know what the later stage is going to do, so I have more work to do on some of these things.	だけど前段は、後段がそんなことしてくれるとは知らないので、だからそういうのでもっと手を入れないと。
+Sometimes this causes it to free up registers unnecessarily.	ときどきこのせいで、レジスタが無用に解放されちゃう。
+Because when things wind up in memory and it needs to copy them into registers, it needs to get registers to copy them into.	だって、何かがメモリのほうにおさまって、それをレジスタにコピーしなきゃならなかったら、まずはそれをコピーするためのレジスタが必要になる。
+This means taking registers that it has already allocated to, and kicking those temporary quantities out to stack slots.	これはつまり、すでに割り当てたレジスタを持ってきて、一時的な値をスタックのスロットに蹴り出すってことだ。
+Of course this may invalidate more instructions now that those things are in memory, not registers, so it has to check again and again.	もちろんそういうのがレジスタからメモリにいっちゃうと、さらにほかの命令が無効になるかもしれなくて、だから何度も何度もチェックが必要になる。
+Sometimes it thinks it has to copy things to registers and really it isn't going to have to, so it may free up too many things and thus not use all the registers that it could.	ときどきこいつは、何かをレジスタにコピーしなきゃと思うんだけど、でもそんな必要がなかったりして、すると必要以上のレジスタを解放しちゃって、使えるレジスタを使い切らなかったりするんだ。
+(Question: Do you have a code generator for 32000?)	（質問: 32000 用のコードジェネレータはありますか？）
+Not yet, but again, it's not a code generator it's just a machine description that you need.	まだだけど、でも言っとくと、要るのはコードジェネレータじゃなくて、ただのマシンの記述だけね。
+A list of all the machine instructions described in this [LISP like] form.	そのマシンの命令が全部こんなふうに（LISP っぽい形式で）リストしてあればいい。
+So in fact aside from the work of implementing the idea of constraints on which arguments can be in registers and which kind of registers, which is something which was needed for the 68000 and was not needed for the VAX, the work of porting this compiler from the VAX to the 68000 just took a few days.	だから実際問題として、どの引数がレジスタに入れてとかどのレジスタにとかいう制約条件の考え方を実装するところは別にして、これは 68000 には必要だけど VAXでは不要だった話なんだけど、でもそれを別にすれば、このコンパイラを VAX から68000 に移植するのはほんの数日しかかからなかった。
+So it's very easy to port.	だから、すごく簡単に移植できるんだ。
+The compiler currently generates assembler code and it can generate debugging information either in the format that DBX wants, or in the special internal format of GDB.	コンパイラはいまはアセンブラ・コードを生成して、デバッグ情報を DBX の求める形式でも出せるし、GDB の特別な内部形式でも出せる。
+I'd say the only work needed on this compiler is in three areas.	ぼくに言わせれば、このコンパイラで手をいれなきゃいけないのは、あとたった 3 分野だけ。
+One: I have to add a ``profiling'' feature,	* 「プロファイリング」機能をつけなきゃならない。
+like the one that the UNIX compilers have.	UNIX のコンパイラにあるやつ。
+Two: I have to make these register allocation things smarter,	* レジスタ割り当てをもう少し賢くしないとダメ。
+so that I can stop seeing stupid things appearing in the output.	出力にバカな代物が出てこないようにする。
+And three: There are various bugs, things that doesn't handle correctly yet,	* 最後に、いろんなバグがあるし、ちゃんと扱えてないものがある。
+although it has compiled itself correctly.	自分自身はコンパイルはできてるんだけどね。
+I expect this will just take a few months, and then I will release the compiler.	これだけやるのに、まあ数ヶ月もあればってとこで、そしたらコンパイラをリリースする。
+The other sizable part of the system that exist, is the kernel.	システムの中ですでに存在する大きな部分がカーネル。
+(Question: A pause?)	(質問：休みは？)
+Ah, yeah I guess we've forgotten about breaks.	ああ、うん、そういや休憩を忘れてたね。
+Why don't I finish talking about the kernel,	とりあえずカーネルの話だけ終わらせてよ。
+which should only take about five minutes,	5分ほどですむから。
+and then we can take a break.	そしたら休憩にしよう。
+Now, for the kernel I am planning to use a system called TRIX (it doesn't stand for anything that I know of)	で、カーネルには TRIX （ぼくの知る限りでは、何の略でもないみたい）っていうシステムを使う予定（訳注：不詳。きいたことない。でも、すでにマルチサーバ式の OS らしきものは構想されているのがわかる。なおここでは、この 1986 年の時点でカーネルがまもなくできそうな雰囲気だが、実際に GNU のカーネルであるHURD がまがりなりにもリリースされたのは、1997 年になってからのことだった。）。
+which was developed as a research project at MIT.	これは MIT の研究プロジェクトで開発されたもので、
+This system is based on Remote Procedure Call.	リモート・プロシージャ・コールに基づいてる。
+Thus programs are called domains.	だからプログラムはドメインと呼ばれてる。
+Each domain is a address space and various capabilities, and a capability is none other than the ability to call a domain.	各ドメインはアドレス空間といろんな機能（capability）で、機能（capability）ってのはまさに、ドメインを呼び出す能力なんだ。
+Any domain can create ``capability ports'' to call it, and then it can pass these ports to other domains, and there is no difference between calling the system and calling another user domain.	どのドメインもそれを呼び出す「capability ports」（機能ポート）がつくれて、そしてシステムコールとほかのユーザドメインをコールするのとがまったく同じ。
+In fact you can't tell which you have.	どっちをしてるのかすら区別できない。
+Thus it is very easy to have devices implemented by other user programs.	だからほかのユーザプログラムでデバイスを簡単に実装できる。
+A file system could be implemented by a user program, transparently.	ファイルシステムも、透過的にユーザプログラムで実装できる。
+It's also transparent to communicate across networks.	さらにネットワークごしに通信するのも透過的。
+You think that you're directly calling another domain, but really you're calling the network server domain.	ほかのドメインを直接呼んでるつもりでも、実はネットワークサーバのドメインを呼んでるかもしれない。
+It takes the information that you gave in the call, and passes this over the network to another server program which then calls the domain that you're trying to talk to.	コールで与えた情報をとって、それをネットワーク越しに別のサーバプログラムに渡して、それがこんどはあなたの話そうとしてるドメインを呼び出す。
+But you and that other domain see this as happening invisibly.	でも、あなたとその相手のドメインには、そういう動きはまったく見えずに起こる。
+The TRIX kernel runs, and it has a certain limited amount of UNIX compatibility, but it needs a lot more.	TRIX カーネルは動くし、ごく限られたかたちで UNIX と互換性もあるんだけれど、でもまだまだだね。
+Currently it has a file system that uses the same structure on disk as the ancient UNIX file system does.	いまのところ、ディスク上では古くさい UNIX ファイルシステムが使ってるのと同じ構造を使ったファイルシステムを持ってる。
+This made it easier to debug the thing,	おかげでデバッグはやさしいよ。
+because they could set up the files with UNIX, and then they could run TRIX,	ファイルを UNIX でセットして、それを TRIX で走らせたりできるから。
+but that file system doesn't have any of the features that I believe are necessary.	でもこのファイルシステムは、ぼくが必要だと思う機能をぜんぜん持ってない。
+Features that I believe must be added include: Version numbers, undeletion, information on when and how and where the file was backed up on tape, atomic superseding of files.	どうしても追加するべきだと思う機能としては、バージョン番号、削除ファイルの復活、ファイルがいつどこでテープにバックアップされたかの情報、ファイルの詳細更新（atomic superseding of files）。
+I believe that it is good that in Unix when a file is being written, you can already look at what's going there,	UNIX でいいと思うのは、ファイルが書き込まれているときには、いつでもどうなってるか見られるってことね。
+so for example, you can use ``tail'' to see how far the thing got, that's very nice.	たとえば「tail」を使ってどこまで進んだか見るとか、あれっていいよね。
+And if the program dies, having partly written the file, you can see what it produced.	それでプログラムが、ファイル書きかけで死んだりしたら、どこまで行ったかも見られる。
+These things are all good, but, that partly written output should not ever be taken for the complete output that you expected to have eventually.	こういうのっていいんだけど、でもこの書きかけの出力が、いずれ期待してた完全な出力にまちがえられるようなことは、絶対にあってはならない。
+The previous version of that should continue to be visible and used by everyone who tries to use it, until the new version is completely and correctly made.	その前のバージョンもちゃんと見られて、新しいバージョンが完全に正しくできるまでは、それを使おうとする人みんなに使われるべきでしょ。
+This means that the new version should be visible in the file system but not under the name it is supposed to have.	ということはつまり、新しいバージョンはファイルシステムの中で見えなきゃダメだけれど、でも名前は予定されてた名前じゃいけないってことだ。
+It should get renamed when it's finished.	作業が完了してはじめてリネームされるようにしないと。
+Which is by the way what happens in ITS, although there each user program has to do this explicitly.	これはまさに ITS がそうで、だけどここでは、各ユーザプログラムがそれを明示的にやる必要があった。
+For UNIX compatibility with the user programs, it has to happen invisibly.	ユーザプログラムに UNIX と互換性を持たせるには、これを目に見えない形でやる必要がある。
+I have a weird hairy scheme to try to make version numbers fit with the existing UNIX user programs.	バージョン番号を、いまの UNIX のユーザプログラムにフィットさせるための、すごい小細工っぽい方式を考えてある。
+And this is the idea that you specify a file name leaving the version number implicit, if you just specify the name in the ordinary way.	それでこれって、ファイル名をそのまま指定してバージョン番号を略すと、ふつうの形で名前を指定するってこと。
+But if you wish to specify a name exactly, either because you want to state explicitly what version to use, or because you don't want versions at all, you put a point at the end of it.	でもファイル名をはっきり指定したければ、たとえばはっきりどのバージョンを使いたいか指定するとか、あるいはぜんぜんバージョンを使いたくなければ、ファイル名の最後にピリオドをつける。
+Thus if you give the filename ``FOO'' it means ``Search the versions that exists for FOO and take the latest one''.	だからもし「HOGE」っていうファイル名を与えたら、これはつまり「HOGE のバージョンを全部見て、最新のヤツをもっといで」という意味。
+But if you say ``FOO.'' it means ``use exactly the name FOO and none other''.	でも「HOGE.」といえば、「純粋に HOGE という名前だけのファイルを持っといで、それ以外はいらないよ」ってこと。
+If you say ``FOO.3.'' it says ``use exactly the name FOO.3 '' which of course is version three of FOO and none other.	「HOGE.3.」ってのは「ずばり HOGE.3 って名前のファイル」で、これはもちろん HOGE のバージョン3そのもの。
+On output, if you just say ``FOO'', it will eventually create a new version of ``FOO'', but if you say ``FOO.'' it will write a file named exactly ``FOO''.	出力では、単に「HOGE」といったら、これはいずれ「HOGE」の新しいバージョンをつくるけれど、でも「HOGE.」と指定すれば、純粋に「HOGE」という名前のファイルに書き込む。
+Now there's some challenges involved in working out all the details in this, and seeing whether there are any lingering problems, whether some UNIX software actually breaks despite feeding them names with points in them and so on, to try to make it get the same behavior.	さて、細かいところを全部つめて、問題が残ってないかとか、UNIX がファイル名にピリオドをつけたらいかれるかかなんとか、同じ行動をさせるようにするには、いろいろまだハードルが残ってはいる。
+I would expect that when you open a file for output whose name ends in a point, you should actually open that name right away,	出力用に、名前がピリオドで終わるファイルを開いたら、その名前をすぐに開いて、だから同じ UNIX の振る舞いが得られるようにしたい。
+so you get the so you get the same UNIX behavior, the partially written output is immediately visible, whereas when you output a name that doesn't end in a point, the new version should appear when you close it, and only if you close it explicitly.	書きかけの出力がそのまま見えるようになって、でもピリオドで終わらない名前に出力したら、閉じたときには新しいバージョンがあらわれて、しかもそれを明示的に閉じないと新しいバージョンにならない。
+If it gets closed because the job dies, or because the system crashes or anything like that, it should be under a different name.	システムがクラッシュしたとかなんとかで、ジョブが死んだためにファイルが閉じたら、それは名前が変わる。
+And this idea can be connected up to ``star matching'',	そしてこのアイデアは、「スター・マッチング」に結びつけられる。
+by saying that a name that doesn't end in a point is matched against all the names without their version numbers,	つまり、ピリオドで終わらない名前はバージョン番号のついてない名前とマッチするようになるってわけ。
+so if a certain directory has files like this:	だからあるディレクトリにこんなファイルがあったとしよう：
+If I say ``*'', that's equivalent to foo bar	ここで「*」と言ったら、それは：ho　　ge に相当する。
+because it takes all the names and gets rid of their versions, and takes all the distinct ones.	名前をとって、バージョン番号をそこから除いて、それで区別がつくものを選ぶから。
+But if I say ``*.'' then it takes all the exact names, puts a point after each one, and matches against them.	でも「*.」といえば、絶対名を全部とってきて、それにピリオドをつけて、それに対してマッチしたのをさがす。
+So this gives me all the names for all the individual versions that exist.	だから存在する個別バージョンがすべてあてはまる。
+And similar, you can see the difference between ``*.c'' and ``*.c.''	同じようにして「*.c」と「*.c.」のちがいもわかるよね。
+this [the first] would give you essentially versionless references to all the ``.c'' files, whereas this [the second] will give you all the versions ..... well this actually wouldn't, you'd have to say ``*.c.*.''.	こいつ（最初の）は基本的にバージョンなしの「.c」ファイルすべてをさすんだけど、こいつ（二番目）は全バージョンをさす……わけじゃないな、それだと「*.c.*.」とやんなきゃいけないのか。
+I haven't worked out the details here.	まだ細かいところはつめきってないんだ。
+Another thing, that isn't a user visible feature and is certainly compatible to put in, is failsafeness in the file system.	もう一つ、ユーザからは見えない機能でしかも確実に互換性があるのが、ファイルシステムのフェイルセーフさってこと。
+Namely, by writing all the information on disk in the proper order, arranging that you can press ``halt'' at any time without ever corrupting thereby the file system on disk.	つまり、全情報をディスクにちゃんとした順序で書けば、うまくそれができれば「停止」ボタンをいつ押しても、それでディスク上のファイルシステムがいかれるようなことは絶対ないふうにできる。
+It is so well known how to do this,	これのやりかたはよく知られてる。
+I can't imagine why anyone would neglect it.	なんでみんなそれを無視するのか、想像もつかないよ。
+Another idea is further redundant information.	もう一つのアイデアは、さらに情報の冗長性をもたせる。
+I'm not sure whether I'll do this or not, but I have ideas for how to store in each file all of its names, and thus make it possible if any directory on disk is lost, to reconstruct it from the rest of the contents of the disk.	これをやるかどうかはよくわからないけど、でも各ファイルに名前を全部入れて、だからディスク上のディレクトリが壊れても、それをディスクのほかの中身から再構築することが可能になるようにする方法について、ちょっと考えがあるんだ。
+Also I think I know how to make it possible to atomically update any portion of a file.	あと、ファイルの任意の一部を細かく（atomically）更新できるようにするにはどうしたらいいか、ぼくはわかってるつもりだ。
+Thus if you want to replace a certain subrange of a file with new data in such a fashion that any attempt to read the file will either see only the old data, or only the new data.	つまりファイルの一部分を新しいデータで更新して置き換えるときに、それだとファイルを読もうとすれば、見えるのは古いデータだけとか新しいデータだけとかね。
+I believe I can do that,	できると思う。
+without any locking even.	しかもファイルをロックしたりとかもしなくてね、ぜんぜん。
+For network support, I intend eventually to implement TCP/IP for this system.	ネットワークのサポートとしては、いずれこのシステム用に TCP/IP を実装するつもり。
+I also think it's possible to use KERMIT to get something effectively equivalent to UUCP.	それと実質的に UUCP に相当するものとして、KERMIT がつかえると思う。
+A shell I believe has already been written.	シェルは確かもう書き上がってるはず。
+It has two modes, one imitating the BOURNE shell, and one imitating the C-shell in the same program.	二つのモードがあって、一つは BOURNEシェル風で、同じプログラムが別のモードでは C シェル風になる。
+I have not received a copy of it yet, and I don't know how much work I'll have to do on it.	まだこいつはぼくの手元には届いてないから、どのくらい手をかけなきゃなんないかもわかんないや。
+Also many other utilities exists.	それ以外にもたくさんユーティリティがある。
+A MAKE exists, LS, there's a YACC replacement called BISON which is being distributed.	MAKE はあるし、LS も、あとBISON っていう YACC にかわるものもあって、配布されてる。
+Something pretty close to a LEX exits, but it's not totally compatible, it needs some work.	LEX にかなり近いものもできてるんだけど、完全に互換性はないので、ちょっと作業が必要。
+And, in general what remains to be done is much less that what's been done, but we still need lots of people to help out.	そして全体として、これからやんなきゃならないことは、もう済んだことよりはずっと少ないんだけれど、でもまだまだたくさん手伝いがいるんだ。
+People always ask me ``When is it going to be finished?''	みんながしょっちゅうきくのが「いつになったら完成するの」ってこと。
+Of course I can't know when it's going to be finished, but that's the wrong question to ask me.	もちろんぼくだって、いつできんのかなんてわかりゃしないけど、これはぼくにすべき正しい質問じゃない。
+If you were planning to pay for it, it would make sense for you to want to know exactly what are you going to get and when.	もしその人がそれにお金を払う気なら、そりゃずばりどんなものをいつ手に入れられるか知りたがるのは当然だ。
+But since you're not going to pay for it, the right question for you to ask is ``how can you help make it get finished sooner?''	でも、お金を払うことにはならないんだから、きみたちがきくべき正しい質問は「もっとはやく完成させるために、どんな手伝いをしたらいいですか」なんだ。
+I have a list of projects, it is on a file at MIT, and people who are interested in helping could send me mail at this Internet address, and I will send back a list of projects.	プロジェクトのリストがあって、MIT のファイルにおいてあるんだけど、手伝いたい人はこのインターネットアドレスにメールをくれれば、プロジェクトのリストを送ってあげる。
+(I wonder if this is will work (looking at the chalk)).	（こいつ、うまく動くかな（とチョークを見つめて言う）。
+Is this readable?	これ、読める？
+This is ``RMS@GNU.ORG''	RMS@GNU.ORG だよ
+(just follow the bouncing ball.)	（カラオケ風に色が変わる通り）。
+And now let's take a break,	で、ここでちょっと休憩といこうか。
+and after the break, I will say some really controversial things.	そして休憩が終わったら、ぼくはすごい問題発言をいろいろするからね。
+So don't leave now.	いま帰っちゃだめだよ。
+If you leave now, you're going to miss the real experience.	いま帰ったら、ホントの山場をみのがすからね。
+[Here we had a 15 min. break]	[ここで15分休憩]
+I've been asked to announce how you can get copies of GNU software.	GNU ソフトの入手法を言っとくようにと言われた。
+Well, one way of course is if you know a friend who has a copy, you can copy it, but if you don't know a friend who has a copy, and you're not on the Internet, you can't FTP it, then you can always order a distribution tape, and send some money to the Free Software Foundation.	で、一つの方法はもちろん、もしそれを持ってる友だちがいたら、それをコピーすればいいけど、でもそういう友だちがいなかったら、そしてインターネットにもつながってなかくて、だからFTP も使えないなら、配布テープを注文してフリーソフトウェア財団（FSF）にお金を送ってくれればいい。
+Of course free programs is not the same thing as free distribution.	もちろん、フリーソフトは無料配布ってのとは別物なんだよ。
+I'll explain this in detail later.	この話はまたあとで詳しくやる。
+Here I have an EMACS manual, of the nicely printed variety.	ここに取り出しましたるは EMACS のマニュアルだけど、きれいに印刷製本したやつ。
+It has been phototypeset and then offset printed.	写真製版してオフセット印刷してある。
+Although you can also print it yourself from the sources that come in the EMACS distribution, you can get these copies from the Free Software Foundation.	EMACS の配布パッケージに入ってるソースから自分で印刷してもいいし、こっちのやつを FSF から買ってくれてもいい。
+You can come afterwards and look at this and also this contains an order for you might copy some information from, and this [front] picture has also sometimes been enjoyed.	あとでここにきて、こいつを見てみて、それとこれには注文書もあってあとでそれを写したりとか、あとこの（表紙の）絵もおもしろがってもらえたりする。
+This [pointing at a figure being chased by RMS riding a gnu] is a scared software hoarder,	こいつ（と、絵の中でヌーにまたがったRMSに追いかけられてる人物を指さす）は、びびってるソフト隠匿者。
+I'll be talking about him in a moment.	あとでこいつの話もしよう。
+Software is a relatively new phenomenon.	ソフトウェアってのは比較的新しい現象だ。
+People started distributing software perhaps thirty years ago.	人がソフトを配布し出したのは、せいぜい 30 年前かな。
+It was only about twenty years ago that someone had the idea of making a business about it.	だれかがそれを商売にしようと思いついたのは、たった 20年ほど昔だ。
+It was an area with no tradition about how people did things, or what rights anybody had.	人がどうするかについて、なんの前例もないし、だれが何の権利を持ってるかもわからない世界だった。
+And there were several ideas for what other areas of life you might bring traditions from by analogy.	そして、アナロジーでほかの分野の伝統を持ち込めたんだけど、その際のアイデアがいくつかあった。
+One analogy that is liked by a lot of professors in Europe, is that between programs and mathematics.	ヨーロッパの教授たちがお気に入りのアナロジーは、プログラムと数学とのアナロジー。
+A program is sort of a large formula.	プログラムってのは一種の大きな数式みたいなもんだ。
+Now, traditionally nobody can own a mathematical formula.	さて伝統的には、だれも数式を所有したりはできない。
+Anybody can copy them and use them.	だれでもそれを写して使える。
+The analogy that's most meaningful to ordinary people is with recipes.	一般の人にいちばん意味があるアナロジーは、料理のレシピだろう。
+If you think about it, the thing that you have in ordinary life that's most like program is a recipe, it's instructions for doing something.	考えてみれば、日常生活でプログラムにいちばん近いものっていえばレシピなんだよ。
+The differences come because a recipe is followed by a person, not by a machine automatically.	ちがいといえば、レシピは人が従うもので、機械が自動的にやることじゃないってこと。
+It's true there's no difference between source code and object code for a recipe, but it's still the closest thing.	確かにレシピにはソースコードとオブジェクトコードの差はないけれど、でもいちばん近いのは事実。
+And no-one is allowed to own a recipe.	そしてだれもレシピを所有することは認められていない。
+But the analogy that was chosen was the analogy with books, which have copyright.	でも選ばれたアナロジーは、本とのアナロジーで、本には著作権がある。
+And why was this choice made?	そして、なぜそれが選ばれたのか？
+Because the people that had the most to gain from making that particular choice were allowed to make the decision.	それは、この選択をすることでいちばん利益を被る人が選択権を与えられたからだ。
+The people who wrote the programs, not the people who used the programs, were allowed to decide, and they decided in a completely selfish fashion, and as a result they've turned the field of programming into an ugly one.	プログラムを使う人じゃなくて、書く人が決定を認められて、そしてみんなはまったくの利己的な決断をくだして、おかげでプログラミングの世界は醜いところに変わってしまった。
+When I entered the field, when I started working at MIT in 1971, the idea that programs we developed might not be shared was not even discussed.	ぼくがこの世界に入ってきたとき、1971 年に MIT で働きだしたとき、ぼくたちの開発したプログラムが共有されないかもなんて考えは、議論すらされなかった。
+And the same was Stanford and CMU, and everyone, and even DIGITAL.	そしてスタンフォードも CMU もみんな、DIGITAL でさえそうだった。
+The operating system from DIGITAL at that time was free.	当時のDIGITAL からの OS は無料だった。
+And every so often I got pieces of program from DIGITAL system such as a PDP-11 cross assembler, and I ported it to run on ITS, and added lots of features.	それにぼくも、PDP-11 クロスアセンブラとかあれこれプログラムをもらうことがよくあって、それをポートして ITS で動くようにして、いろんな機能も加えた。
+It was no copyright on that program.	そのプログラムには版権はなかったんだ。
+It was only in the late seventies that this began to change.	こいつが変わりはじめたのは、やっと 1970 年代後半に入ってからのことなんだよ。
+I was extremely impressed by the sharing spirit that we had.	ぼくはぼくらの共有精神にはすごく感激した。
+We were doing something that we hoped was useful and were happy if people could use it.	ぼくたちは、願わくば役に立つことをやっていて、人々がそれを使えれば幸せだった。
+So when I developed the first EMACS, and people wanted to start use it outside of MIT, I said that it belongs to the EMACS ``Commune'', that in order to use EMACS you had to be a member of the commune, and that meant that you had the responsibility to contribute all the improvements that you made.	だから最初の EMACS を開発したとき、MIT の外の人がそれを使いたいな、と言い出したとき、ぼくはそれがEMACS「コミューン」のものだ、だから EMACS を使うにはそのコミューンの一員じゃなきゃだめで、それはつまり、自分が改良を加えたらそれを貢献する責任があるんだという意味だよ、と言った。
+All the improvements to the original EMACS had to be sent back to me	オリジナルの EMACS への改良はすべてぼくに送らなきゃならなかったんだ。
+so that I could incorporate them into newer versions of EMACS, so that everyone in the community could benefit from them.	そうすれば新しいバージョンの EMACS にそれを入れて、コミュニティの全員がメリットを得られる。
+But this started to be destroyed when SCRIBE was developed at CMU, and then was sold to a company.	でも CMU で SCRIBE が開発されて、それが会社に売られたときに、これが破壊されはじめた。
+This was very disturbing to a lot of us at many universities,	これはいろんな大学のぼくたちみんなにとって大問題だった。
+because we saw that this was a temptation placed in front of everyone, that it was so profitable to be uncooperative and those of us who still believed in cooperation had no weapon to try to compel people to cooperate with us.	みんなの目の前に大きな誘惑がおかれて、協力をやめるのがすごく儲かるようになって、協力を信じているぼくたちは、協力するように説得する材料がなにもなかった。
+Clearly, one after another, people would defect and stop cooperating with the rest of society, until only those of us with very strong consciences would still cooperate.	はっきりと、一人また一人と、寝返って社会との協力をやめて、ぼくたちの中ですごく良心の強い人だけが協力を続けるだけになるだろう。
+And that's what happened.	そしてまさにそうなったわけ。
+The field of programming has now become an ugly one,	プログラミングの世界は醜いところになっちゃったよね。
+where everyone cynically thinks about how much money he is going to get by not being nice to the other people in the field, and to the users.	みんなシニカルで、同じ分野の人たちやユーザに意地悪にしたらいくら儲かるかな、と考えてる。
+I want to establish that the practice of owning software is both materially wasteful, spiritually harmful to society and evil.	ぼくは、ソフトを所有するという慣行は物質的にも無駄が多く、精神面でも社会的に有害で邪悪なものだと断言したい。
+All these three things being interrelated.	この 3 つはすべて相互に関係しあってる。
+It's spiritually harmful because it involves every member of society who comes in contact with computers in a practice that is obviously materially wasteful to other people.	なぜ精神的に有害かと言えば、それはコンピュータに触れるあらゆる社会人にかかわるからで、その接触を明らかに他人に対して無駄の多い形でやらせる慣行だからだ。
+And every time you do something for your own good, which you know is hurting other people more that it helps you, you have to become cynical in order to support such a thing in your mind.	そして自分だけの利益のために何かをして、しかもそれが自分の助かるよりも他人に害を与えるほうが大きいことを知ってやるたびに、心の中でそんなことを正当化するために、きみはシニカルになるしかない。
+And it's evil because it is deliberately wasting the work done in society and causing social decay.	そしてそれは、意図的に社会で行われた作業を無駄にするものであり、社会の退廃を招いているがゆえに邪悪なんだ。
+First I want to explain the kinds of harm that are done by attempts to own software and other information that's generally useful,	まず、ソフトウェアとか、その他一般的に役に立つ情報を所有しようとすることで、どんな害が生じるかを説明しよう。
+then I'll go on to rebut the arguments made to support that practice, and then I want to talk about how to fight that phenomenon, and how I'm fighting it.	それからその慣行を弁護するような議論に反論して、この現象とどうやって闘えばいいか、そしてぼくがどうやって闘ってるかを話そう。
+The idea of owning information is harmful in three different levels.	情報の所有という考え方は、3つの異なるレベルで有害だ。
+Materially harmful on three different levels, and each kind of material harm has a corresponding spiritual harm.	3 つのレベルで物質的に有害だし、それぞれの物質的な害は、対応する精神的な害を伴う。
+The first level is just that it discourages the use of the program, it causes fewer people to use the program, but in fact it takes no less work to make a program for fewer people to use.	最初のレベルでは、それは単に、利用者がそのソフトを使うのをじゃまするんだけど、実は使う人が少なくてもプログラミングの作業が減るわけじゃない。
+When you have a price on the use of a program this an incentive, that's the word these software hoarders love to use, the price is an incentive for people not to use the program, and this is a waste.	プログラムの利用にお値段がついたらこれはみんながプログラムを使わないインセンティブ、というのはこの手のソフト隠匿者どもが大好きなことばなんだけど、使わないインセンティブになって、これは無駄だ。
+If for example only half as many people use the program because it has a price on it, the program has been half wasted.	たとえばあるプログラムにお値段がついて、だから使う人間の数が半減しちゃったら、プログラムの半分は無駄になったことになる。
+The same amount of work has produced only half as much wealth.	同じだけの作業が、半分の富しかつくりださなかったんだから。
+Now in fact, you don't have to do anything special to cause a program to get around to all the people who want to use it,	さて実は、プログラムが使いたい人みんなに出回るようにするには、特別なことは何もしなくていい。
+because they can copy it themselves perfectly well, and it will get to everyone.	みんなコピーくらい自分でちゃんとできるし、だからいずれはみんなの手に入る。
+All you have to do after you've written the program is to sit back and let people do what they want to do.	プログラムを書いたら、あとはすわってて、みんなのしたいようにさせればいいの。
+But that's not what happens;	でも、そうはならない。
+instead somebody deliberately tries to obstruct the sharing of the program,	かわりにだれかが意図的にプログラムの共有を妨害しようとする。
+and in fact, he doesn't just try to obstruct it, he tries to pressure other people into helping.	そしてそれどころか、そいつが妨害しようとするだけじゃなくて、ほかの人を手伝わせるよう圧力かける。
+Whenever a user signs a nondisclosure agreement he has essentially sold out his fellow users.	ユーザが守秘契約にサインしたら、その人は要するにほかの仲間のユーザたちを売り渡したってことだ。
+Instead of following the golden rule and saying,	黄金律にしたがって
+``I like this program, my neighbor would like the program, I want us both to have it'',	「ぼくはこのソフトが好きだ、ぼくの隣人もこのソフトが気に入るだろう、だから二人ともそれが持てるようにしよう」
+instead he said,	というかわりに、そいつはこう言ってるんだ。
+``Yeah, give it to me.	「いいよ、おれにくれよ。
+To hell with my neighbor!	隣人なんか地獄に堕ちろ！
+I'll help you keep it away from my neighbor, just give it to me!'',	おれもそいつを隣人の手に入らないようにするのに手を貸すからさ、とにかくおれにくれ！」
+and that spirit is what does the spiritual harm.	そしてこの精神が、精神的に有害なんだ。
+That attitude of saying, ``To hell with my neighbors, give ME a copy''.	この「隣人なんか地獄に堕ちろ、このおれにコピーをよこせ」という態度が。
+After I ran into people saying they wouldn't let me have copies of something, because they had signed some secrecy agreement, then when somebody asked me to sign a thing like that I knew it was wrong.	守秘契約とかなんとかにサインしたからってんでぼくに何かのコピーをくれないような人に出くわしてから、ほかのだれかがぼくにその手のものにサインしろって言ったときには、そんなのがまちがってるのはわかった。
+I couldn't do to somebody else the thing that had made me so angry when it was done to me.	自分がやられてあんなに腹がたったことを、このぼくが人にやれるわけないでしょ。
+But this is just one of the levels of harm.	でもこれは、害の中で最初のレベルにすぎない。
+The second level of harm comes when people want to change the program,	第二のレベルは、人がプログラムを変えたいときに生じる。
+because no program is really right for all the people who would like to use it.	だって、使いたい人みんなに完全にあったプログラムなんてないもの。
+Just as people like to vary recipes,	人は料理に手を加えるでしょ。
+putting in less salt say, or maybe they like to add some green peppers, so people also need to change programs in order to get the effects that they need.	塩を減らすとか、ちょっとピーマンを入れるとかさ、同じように、プログラムだって自分のほしい効果を得るには手直しがいるんだ。
+Now, the software owners don't really care whether people can change the program or not, but it's useful for their ends to prevent people.	さて、ソフト所有者たちは、人がプログラムを変えようがどうしようが、実はぜんぜん気にしてないんだけれど、ただ連中の目的のためには、人にそんなことをさせないほうが都合がいい。
+Generally when software is proprietary you can't get the sources, you can't change it, and this causes a lot of wasted work by programmers, as well as a lot of frustration by users.	ソフトが独占ソフトだと、ソースは手に入らないし、変えられないし、おかげでプログラマにとってはすごく無駄な作業が増えて、ユーザもいらいらがつのる。
+For example: I had a friend who told me how she worked for many months at a bank where she was a programmer, writing a new program.	たとえば、何ヶ月も銀行でプログラマやって、新しいプログラムを書いてた友だちの話なんだけど、
+Now, there was a commercially available program that was almost right, but it was just not quite the thing they needed, and in fact as it was it was useless for them.	それにはほとんど大丈夫な市販ソフトがあったんだけれど、でもかれらの求めるものそのものってわけじゃなくて、その差があるおかげで、その市販ソフトは使いものにならなかったんだ。
+The amount of change it would have taken to make it do what they needed was probably small,	そこの部分だけ変える労力はほんのわずかですんだだろうね。
+but because the sources of that program were not available, that was impossible.	でもそのプログラムのソースがなかったから、それは不可能だった。
+She had to start over from scratch and waste a lot of work.	彼女はゼロからはじめるしかなくて、だからたくさん仕事を無駄にした。
+And we can only speculate about what fraction of all the programmers in the world are wasting their time in this fashion.	世界でこんな風に時間を無駄にしているプログラマが、どのくらいいるのかは神のみぞ知る、だよね。
+And then there is also the situation where a program is adequate make do, but it's uncomfortable.	それと、あるソフトがその場しのぎには使えるけれど、でもしっくりこないことがある。
+For example: The first time we had a graphics printer at MIT, we wrote the software ourselves, and we put in lots of nice features,	たとえば MIT にはじめてグラフィックプリンタがきたとき、ソフトは自分で書いて、いろいろすてきな機能をつけたんだ。
+for example it would send you a message when your job had finished printing, and it would send you a message if the printer ran out of paper and you had a job in the queue, and lots of other things that were what we wanted.	たとえば自分のジョブが印刷し終わったらメッセージを送ってくれるとか、自分のジョブがキューに入ってる時に紙切れになったら教えてくれるとか、ほかにもいろいろほしいような機能を入れた。
+We then got a much nicer graphic printer, one of the first laser printers, but then the software was supplied by Xerox, and we couldn't change it.	その後、もっとずっといいグラフックプリンタが入って、最初のレーザプリンタだったんだけど、でもそのソフトは Xerox のもので、それは変えられなかった。
+They wouldn't put in these features, and we couldn't, so we had to make do with things that ``half worked''.	で、そういう機能とかも入れてくれないし、ぼくたちが足すこともできなかったし、だから「その場しのぎ」の代物で我慢しなきゃならなかった。
+And it was very frustrating to know that we were ready, willing and able to fix it, but weren't permitted.	自分たちには、それをなおす意志もやる気も能力も十分にあることがわかってるのに、それが許されてないってのは、すごくいらだたしかったね。
+We were sabotaged.	これって妨害工作だよ。
+And then there are all the people who use computers and say that the computers are a mystery to them, they don't know they work.	それと、コンピュータを使ってるのに、コンピュータはわけわからん、仕組みがわからんと言う人がたくさんいる。
+Well how can they possibly know?	うん、そりゃわかりっこないよね。
+They can't read the programs they're using.	自分の使ってるソフトが読めないんだもん。
+The only way people learn how programs should be written, or how programs do what they do, is by reading the source code.	プログラムの正しい書き方を学ぶ唯一の方法、そしてプログラムがどう動いてるのかを知る唯一の方法は、ソースコードを読むことなんだもん。
+So I could only wonder whether the idea of the user who just thinks of the computer as a tool is not actually a self-fulfilling prophecy, a result of the practice of keeping source code secret.	だから思うんだけど、コンピュータをただの道具としてしか考えない利用者ってのは、実はソースコードを秘密にしとく習慣のせいで生まれた、ニワトリか卵か式の悪循環なのかもしれないよ。
+Now the spiritual harm that goes with this kind of material harm, is in the spirit of self-sufficiency.	さてこの種の物質的害に伴う精神的な害は、自分さえよければという精神だ。
+When a person spends a lot of time using a computer system, the configuration of that computer system becomes the city that he lives in.	人が長時間コンピュータシステムを使ってると、そのコンピュータシステムの設定はその人が住まう都市になる。
+Just as the way our houses and furniture are laid out, determines what it's like for us to live among them, so that the computer system that we use, and if we can't change the computer system that we use to suit us, then our lives are really under the control of others.	ちょうど自分の家や家具の配置が、その中ですむぼくたちの生活を規定するように、ぼくたちの使うコンピュータシステムもそうで、自分たちにあうようにコンピュータシステムを変えられなければ、ぼくたちの生活は実は他人に支配されてることになる。
+And a person who sees this becomes in a certain way demoralized:	そしてこれに気がついた人は、ある意味でモラルが低下するんだ。
+``It's no use trying to change those things, they're always going to be bad.	「こういうのを変えようとしても無駄だよ、ずっとこうやってひどいままなんだから。
+No point even hassling it.	不満をいうのさえ無駄だ。
+I'll just put in my time and ..... when it's over I'LL go away and try not to think about it any more''.	とにかく時間をつぎ込んで……これがすんだらぼくがどっかへ行こう、そしてもうこのことは考えないようにしよう」
+That kind of spirit, that unenthusiasm is what results from not being permitted to make things better when you have feelings of public spirit.	公徳心ってのもがあるのに物事の改善が許されないと、結果としてこの手の精神、この手のやる気のなさが生じるんだ。
+The third level of harm is in the interaction between software developers themselves.	第三のレベルの害は、ソフトウェア開発者自身の間のやりとり。
+Because any field of knowledge advance most when people can build on the work of others, but ownership of information is explicitly designed to prevent anyone else to doing that.	あらゆる知識分野は、人が他人の成果の上に積み上げられるときにいちばんはやく進歩する、でも情報の所有権は、まさに他人がそうしないようにするためにつくられてる。
+If people could build on other people's work, then the ownership would become unclear, so they make sure each new entry to the field has to start from the beginning, and thus they greatly slow down the advance of the field.	もし人が他人の成果に積み上げられたら、その所有権ははっきりしなくなって、だからみんな、その分野への新規参入がゼロからはじめるしかないように手を打って、おかげでその分野の進歩が大幅に後れる。
+So we can see:	だからわかるでしょ。
+How many spreadsheet systems were made all by different companies, all without any benefit of understanding how it was done before?	表計算ソフトが別々の会社からたくさん出てるけど、みんなそれがそれまでどうやってきたのか見てみるという恩恵なしにやってる。
+Yes it's true, the first spreadsheet written wasn't perfect.	そりゃ確かに、最初に書かれた表計算ソフトは完璧じゃなかった。
+It probably only ran on certain kinds of computers, and it didn't do some things in the best possible way.	たぶん、一部のコンピュータでしか動かなくて、なにかをするときにもいちばんいい方法ではやらなかった。
+So there were various reasons why certain people would want to rewrite parts of it.	だから、それを部分的に書き換えたい人が出てくる理由はいろいろあったろう。
+But if they had only to rewrite the parts that they really wanted to improve, that would have made for a lot less work.	でも、自分の改善したいところだけを書き直せばいいんだったら、作業量はずっと少なくて済んだよね。
+You may see how to make one aspect of a system better, you may not see how to make another aspect of the same system any better,	システムのある部分をよくする方法は見えるかもしれないけれど、同じシステムの別の部分なんかぜんぜんマシにできないかもしれない。
+in fact you might have a great deal of trouble doing it as well.	いや、同じくらいのレベルに達するのだって、えらく苦労するかもしれない。
+Now if you could take the part that you like and redo only the part that you have an inspiration for, you could have a system that's better in all ways, with much less work than it now takes to write a completely new system.	自分の好きなところをとって、自分がひらめいた部分だけをやりなおせたら、あらゆる面で前より優れたシステムが手に入って、まったく新しいシステムを書くよりもずっと作業は減る。
+And we all know that system can often benefit from being completely rewritten,	そりゃシステムをゼロから書き直すといいこともあるのはみんな知ってる。
+but that's only if you can read the old one first.	でもそれは、古いのをまず読んでからの話だ。
+Thus, the people in the programming field have evolved a way of wasting a lot of their time and thus making apparently a need for more programmers than we really need.	だからプログラミング業界の人たちは、時間をたくさん無駄にする方法を編み出したわけで、おかげで表面上は、本当に必要なのよりもずっとたくさんのプログラマが必要になったように見える。
+Why is there a programmer shortage?	なぜプログラマ不足なんてことが言われるのか？
+Because with intellectual property programmers have arranged to waste half the work they do, so we seem to need twice as many programmers.	知的所有権のおかげで、プログラマたちは自分のやる仕事の半分を無駄にするような仕組みにしちゃったからだよ。
+And so, when people point to the system of intellectual property and say ``look at the large employment statistics, look at how big this industry is''	だからみんなが知的所有権システムを指さして「ほら、こんなに雇用を生み出してる、産業がこんなにでかくなってるじゃないか」なんて言うけど、
+what that really proves is that people are wasting a lot of money and time.	それが証明してるのは、実はみんながお金と時間をたくさん無駄にしてるってことなんだ。
+If they talk about looking for ways to improve programmer productivity, they're happy to do this if it involves superior tools, but to improve programmer productivity by getting rid of the explicit things that is done to reduce programmer productivity, that they're against.	プログラマの生産性を上げる話をするときでも、高度なツールがどうのこうのといえば、連中は喜ぶけど、でもプログラマのやってるよけいなことを削ることで生産性をあげるって話になると、とたんに反対する。
+Because that would reduce the number of programmers employed.	そうなったら雇われてるプログラマの数が減るからって。
+There's something a little bit schizophrenic there.	これってちょっと、分裂症じみた議論だと思わない？
+And the spiritual harm that corresponds to this level of material harm is to the spirit of scientific cooperation,	そしてこのレベルの物質的害に対応する精神的な害は、科学的な協力精神に及ぼす害だ。
+which used to be so strong that scientists even in countries that were at war would continue cooperating, because they knew that what they were doing had nothing to do with the war, it was just for the long term benefit of humanity.	これは昔はすごく強くて、戦争してる国同士の科学者ですら協力を続けてた、自分たちがやってるのが戦争とは何にも関係なくて、人類の長期的なメリットのためなんだってのがわかってたから。
+Nowadays, people don't care about the long term benefit of humanity any more.	最近じゃみんな、もう人類の長期的なメリットのことなんか気にもしない。
+To get an idea of what it's like to obstruct the use of a program, let's imagine that we had a sandwich, that you could eat, and it wouldn't be consumed.	プログラムの利用をじゃまするのがどんなことか理解するには、仮にここにサンドイッチがあって、食べられるけれど、食べてもなくならないとしよう。
+You could eat it, and another person could eat it, the same sandwich, any number of times, and it would always remain just as nourishing as originally.	あなたが食べて、別の人がその同じサンドイッチを食べて、何度でも食べて、それでも毎回もとのと同じだけ栄養がある。
+The best thing to do, the thing that we ought to do with this sandwich is carry it around to the places where there are hungry people;	それでやるべきいちばんいいこと、このサンドイッチを使って何をすべきかといえば、おなかのすいた人たちがいるところにそれを持ってくことだ。
+bringing it to as many mouths as possible, so that it feeds as many people as possible.	なるべく多くの口にそれを与えて、なるべく多くの人の腹を満たすようにすることだ。
+By all means, we should not have a price to eat from this sandwich,	このサンドイッチを食べることに、値段なんか絶対つけちゃいけない。
+because then people would not afford to eat it, and it would be wasted.	値段をつけたら金がなくて食べられない人が出てくるからで、そうしたらそれは無駄になる。
+The program is like this sandwich, but even more so because it can be in many different places at once being eaten, used by different people one after the other.	プログラムってのはこのサンドイッチみたいなものなんだけれど、でももっといいもので、なぜかといえば同時にいろんなところにあって同時に食べられて、どんどん別の人に使ってもらえるから。
+It is as if this sandwich was enough to feed everyone, everywhere, forever, and that were not allowed to happen, because someone believed he should own it.	このサンドイッチがみんなをあらゆる場所で永遠に食べてもらえるのに、だれかがそれを自分の所有物だと決めたせいで、それが実現できないでいるんだ。
+Now, the people who believe that they can own programs, generally put forward two lines of argument for this.	さて、プログラムを所有できると信じてる人たちは、ふつうはそれを正当化するのに 2 つの議論を持ち出す。
+The first one is	最初の議論は、
+``I wrote it, it is a child of my spirit, my heart, my soul is in this.	「おれが書いたんだ、おれの魂の申し子だ、わが心、わが魂がここにはこもってる。
+How can anyone take it away from me?	それを他人が奪い取るなんて？
+Wherever it goes it's mine, mine, MINE!!''.	どこまでいってもこいつはおれのもんだ、おれのおれのおれのぉっ！」というやつ。
+Well, it's sort of strange that most of them signs agreements saying it belongs to the company they work for.	でも不思議なことに、こういうこと言う人のほとんどは、そのソフトは勤め先の会社のものだっていう合意書にサインしてるんだよね。
+So I believe this is one of the things you can easily talk yourself into believing is important,	だからこれって、簡単に自分をごまかして何かが重要だと思いこんでしまえることの一つだと思う。
+but you can just as easily convince yourself it doesn't matter at all.	同じくらい簡単に、そんなのぜんぜん大事じゃないと自分を説得することもできるんだ。
+Usually, these people use this argument to demand the right to control even how people can change a program.	こういう人はこの論法を使って、人がこのプログラムを変えるやりかたまでコントロールする権利を要求するんだ。
+They say: ``Nobody should be able to mess up my work of art''.	「だれにもわたしの芸術作品をめちゃくちゃにさせてなるものか」って。
+Well, imagine that the person who invented a dish that you plan to cook had the right to control how you can cook it, because it's his work of art.	じゃあ、これからつくろうと思ってる料理を発明した人が、それはその人の芸術作品だからってきみの料理の仕方をどうこうする権利があったらどうなると思う？
+You want to leave out the salt, but he says	塩を使わないようにしようと思っても、そいつは
+``Oh, no.	「ダメダメ、
+I designed this dish, and it has to have this much salt!''	わたしがこの料理を設計したんだから、これはこんだけ塩をいれなきゃダメ！」
+``But my doctor says it's not safe for me to eat salt.	「でも、ぼくは医者に塩をとめられてるんですよ、
+What can I do?''.	どうしましょう？」
+Clearly, the person who is using the program is much closer to the event.	明らかに、プログラムを使ってる人のほうが、その現場に近いんだ。
+The use of the program affects him very directly, whereas it only has a sort of abstract relation to the person who wrote the program.	プログラムの利用はその人に直接はねかえってくるけど、それを書いた人には、一種のごく抽象的な関係しかない。
+And therefore, for the sake of giving people as much control as possible over their own lives, it has to be the user who decides those things.	したがって、人々に自分自身のくらしをできる限り好きなようにさせるという趣旨からして、そういうことを決めるのはそのユーザであるべきなんだ。
+The second line of argument they make is the economic one.	連中の二番目の議論は、経済的なものだ。
+``How will people get payed to program?''	「プログラムを書いても報酬が得られないじゃないか」
+they say, and there's a little bit of real issue in this.	と言うわけで、ここには確かにホントの問題がちょっとはある。
+But a lot of what they say is confusion.	でも連中のいうことのかなりの部分は混乱してる。
+And the confusion is, it's not at all the same to say	そしてどこが混乱してるかっていうと、
+``if we want to have a lot of people programming we must arrange for them not to need to make a living in any other fashion''	「たくさんの人がプログラミングするようにしたいなら、ほかの手段で生計をたてなくてもいいような仕組みをつくらなきゃ」
+on the one hand, and to say	というのと、その一方では
+``We need to have the current system, you need to get rich by programming''	「いまのシステムじゃなきゃダメだ、プログラミングで金持ちにならなきゃ」
+on the other hand.	というのとでは、話がまるっきしちがうってこと。
+There's a big difference between just making a living wage and making the kind of money programmers, at least in the US make nowadays.	生きてけるだけの賃金を得るのと、少なくとも最近のアメリカのプログラマがもらってるような給料をもらうってのとでは、話がぜんぜんちがう。
+They always say:	みんながいつも言うのは
+``How will I eat?'',	「じゃあおれはどうやって喰ってけばいいんだ？」
+but the problem is not really how	ってことだけれど、実際には
+``Will he eat?'',	「こいつは食えるか」
+but ``How will he eat sushi?''.	ってことじゃなくて「こいつは寿司（訳注：高くて高級なぜいたくな飯という意味）が食えるか」
+``How will I have a roof over my head?'',	ってことで、「雨つゆがしのげるか」
+but the real problem is	ってことじゃなくてホントに言いたいのは
+``How can he afford a condo?''.	「高級マンションが買えるか」ってことなんだ。
+The current system were chosen by the people who invest in software development, because it gives them the possibility of making the most possible money,	いまの方式は、最大限の儲けを得るためにソフト開発に投資しようと思った人の選んだシステム。
+not because it's the only way anyone can ever come up with money to support a system development effort.	システム開発をサポートするための唯一の方法だからこうなってるわけじゃないんだ。
+In fact, even as recently as ten and fifteen years ago it was common to support software development in other ways.	実は、ほんの 10 年とか 15 年とか前のごく最近までは、ソフト開発をほかの方法でサポートするのがあたりまえだったんだ。
+For example, those DIGITAL operating systems that were free, even in the early seventies, were developed by people who were paid for their work.	たとえばDIGITAL の OS は 1970 年代初期までフリーだったけれど、フリーの OS ってのは、70 年代初期ですら、ちゃんと給料もらってる人が開発してたんだよ。
+Many useful programs has been developed at universities.	役に立つプログラムの多くは大学で開発されてる。
+Nowadays those programs are often sold, but fifteen years ago they were usually free, yet the people were paid for their work.	最近だとこういうプログラムは売られることが多いけど、15 年前ならふつうはフリーで、それでもみんな給料がもらえてたんだ。
+When you have something like a program, like an infinite sandwich, like a road, which has to be built once, but once it is built it pretty much doesn't matter how much you use it, there's no cost in using it, generally it's better if we don't put any price on using it.	プログラムみたいなものだと、これは無限サンドイッチとか、道とかみたいなもので、一回はつくらなきゃダメだけど、一度つくったらもうそれを何回使おうが関係なくて、使うのにコストもかかんないなら、使うのに値段なんかつけないほうが一般的にいい。
+And there are plenty of those things that we develop now, and pay people to build.	そして、いまでもぼくたちがつくって、作った人に金を払うようなそういうものってのはたくさんある。
+For example, all the streets out there.	たとえばそこらの道がそうだよね。
+It's very easy to find people who will program without being paid; it really is impossible to find people who will build streets without being paid.	お金を払わずに道を造ってくれる人を見つけるのは無理だ。
+Building streets is not creative and fun like programming.	道をつくるのはプログラミングとちがってクリエイティブじゃないし、楽しくもない。
+But we have plenty of streets out there, we do come up with the money to pay them,	でも、世の中にはたくさん道があって、それに支払うだけの金も捻出されてる。
+and it's much better the way we do it	そしてそのほうが、ずっといいよね。
+than if if we said:	でもこういうことだってできる。
+``Let's have companies go and build streets and put toll booths up, and then every time you turn another street corner, you pay another toll.	「企業に道をつくらせて勝手に料金所をつけさせて、街角を曲がるたびに通行料を支払うようにしよう。
+And then the companies that picked the good places to put their streets, they will be profitable, and the others will go bankrupt.''	そしていい場所に道を敷いた企業は儲かって、そうでないのは倒産するようにしよう」
+There's a funny thing that happens whenever someone comes up with a way of making lots of money by hoarding something.	だれかが、何かを隠匿することで大金を儲ける方法を編み出すと、変なことが起きる。
+Until that time you've probably had lots and lots of people who were really enthusiastic and eager to workin that field,	それまでは、たぶんその分野にすごく情熱をもっていて、熱心に働く人たちがたくさんいたんだ。
+the only sort of question is how can they get any sort of livelihood at all.	唯一の問題は、その人たちはそもそも喰っていけるのか、ということだけ。
+If we think of mathematicians for example, there are a lot more people who want to be pure mathematicians than there is funding for anybody to be pure mathematicians.	たとえば数学者を考えてみると、純粋数学者に支給されるお金よりも、純粋数学者志望者のほうがずっと多い。
+And even when you do get funding, you don't get very much, they don't live well.	そして支払われたとしても、大した額じゃないし、あまりいい暮らしもできない。
+And for musicians it's even worse.	ミュージシャンとなるともっとひどい。
+I saw a statistics for how much the average musician, the average person devoting most of his time trying to be a musician, in Massachusetts made;	時間の大半を費やしてミュージシャンになろうとしてる人が、平均的なミュージシャンでどのくらい稼いでるかっていう統計を見たことがある。
+it was something like half the median income or less.	マサチューセッツでは、確か州平均所得の半分以下だったんだよ。
+It is barely enough to live on, it's difficult.	かつかつで暮らしてけるくらいで、つらいよね。
+But there are lots of them trying to do that.	でも、そうしたがる人はたくさんいる。
+And then, somehow when it gets generally possible to get very well paid to do something,	そこへ、何かをすることですごくたくさん稼げるようになったとしよう。
+all those people disappear, and people start saying	するとそういう人たちは消えて、みんなこう言うんだ。
+``nobody will do it unless they get paid that well''.	「そのくらい儲からなきゃ、だれもやりゃしないよ」
+And I saw this happen in the field of programming.	そしてぼくは、これがプログラミングの分野でおこるのを見てきた。
+The very same people who used to work at the AI lab and get payed very little and love it, now wouldn't dream of working for less than fifty thousand dollars a year.	AI 研で働いてて、大した給料もなかったのに仕事が大好きだった人たちが、いまでは年に 5 万ドルはもらわなきゃとても働けないよ、なんて言う。
+What happened?	どうしちゃったわけ？
+When you dangle before people the possibility of making lots of money, when they see that other people doing similar work are getting paid that much money, they feel that they should get the same, and thus no-one is willing to continue the old way.	人の前に大金を儲ける可能性をぶら下げてやると、似たようなことをしてるほかの人たちが、そんだけの金を稼いでるのを見ると、みんな自分たちも同じくらい稼ぐべきだという気になって、だから昔ながらのやりかたを続けようという人はだれもいない。
+And it's easy after this has happened to think that paying people a lot of money is the only way it could be, but that's not so.	そしてこれが起きちゃったら、人に大金を払うしか手がないんだと思いこむのは簡単なんだけれど、でもそりゃちがう。
+If the possibility of making a lots of money did not exist, you would have people who would accept doing it for a little money,	もし大金を儲ける可能性がなかったら、ちょっとのお金でもそれをやろうって人が出てくるだろう。
+specially when it's something that is creative and fun.	特にそれがクリエイティブでおもしろいことなら。
+Now I saw the unique world of the AI lab destroyed, and I saw that selling software was an intrinsic part of what had destroyed it, and I saw also, as I explained before, how you need to have free software in order to have a community like that.	AI 研のユニークな世界が破壊されるのを見てきて、ソフトを売るのがその核心なんだってことも見てきたし、さらにはさっき説明したように、ああいう社会を手に入れるにはフリーソフトが必要なんだってことも見てきた。
+But then thinking about it more, I realized all these ways in which hoarding software hurts all of society,	でもそれからいろいろ考えてみて、ソフト隠匿がいろんな形で社会全てを傷つけることに思い当たったんだ。
+most specially by pressuring people to sell out their neighbors and causing social decay.	特に、人々に隣人を売り渡すよう圧力をかけて、それが社会の退廃を招いてるってことに。
+The same spirit that leads people to watch while somebody in the street is getting stabbed and not tell anyone.	道で人が刺されてるのを見ても、黙ってようとするのと同じ精神だよ。
+The spirit that we can see so many companies all around us displaying all the time.	そこらじゅうの企業がしょっちゅう示してるのがわかる、あの精神だよね。
+And it was clear to me I had a choice,	そして、ぼくは自分が道を選べるのがはっきりしてた。
+I could become part of that world and feel unhappy about what I was doing with my life, or I could decide to fight it.	その世界の一部となって、自分の送ってる人生について不幸に感じ続けるか、それともそれと闘うか。
+So I decided to fight it.	だからぼくは闘うことにした。
+I've dedicated my career to try to rebuild the software sharing community, to trying to put an end to the phenomenon of hoarding generally useful information.	ぼくはキャリアを捧げて、ソフト共有コミュニティの再建に努めてきたし、一般にとって有用な情報を員臆するという現象を終わらせようと努力してきた。
+And the GNU system is a means to this end.	そして GNU システムは、この目的達成のための手段なんだ。
+It is a technical means to a social end.	社会的な目的のための、技術的な手段だ。
+With the GNU system, I hope to vacinate the users against the threat of the software hoarders.	GNU システムによって、ぼくはソフト隠匿者どもの脅しに対してユーザたちにワクチンをあげたいんだ。
+Right now the hoarders essentially claims the power to render a person's computer useless.	いま現在、この隠匿者どもは基本的に、人のコンピュータを粗大ゴミにしてしまう力を持ってる。
+There used to be people in the US, most commonly about fifty years ago, they were in the Mafia,	アメリカでは、だいたい 50 年くらい前に、マフィアとかでそういう連中がいた。
+they would go up to stores and bars, especially bars when bars were illegal of course.	店やバーに行って、特にもちろん違法なバーだよね。
+They would go up and say:	それでこう言う。
+``A lot of places around here have been burning down lately.	「ここらへんじゃあ、最近火事が多いですなあ。
+You wouldn't want your place to burn down, would you?	あんたんとこも、火事なんかになったらいやだよねえ。
+Well we can protect you from fires, you just have to pay us a thousand dollars a month, and we'll make sure you don't have a fire here''.	おれたちなら、あんたを火事から守ってやれるんだよ、月に 1,000 ドル払ってくれるだけで、ここで火事が起きないようにしてやるよ」
+And this was called ``the protection racket''.	これがいわゆる「保護恐喝」ってやつ。
+Now we have something where a person says	さていまはだれかがこう言う。
+``You got a nice computer there, and you've got some programs there that you're using.	「なかなかいいコンピュータをお持ちですな、それでいろいろソフトも使ってらっしゃる。
+Well, if you don't want those programs to disappear, if you don't want the police to come after you, you better pay me a thousand dollars,	さて、そのソフトに消えてほしくなければ、警察に追われる身になりたくなければ、わたしに 1,000 ドル払いなさい。
+and I'll give you a copy of this program with a license'',	そしたらこのプログラムをライセンス付きで売ってあげよう」
+and this is called ``the software protection racket''.	これが人呼んで「ソフト保護恐喝」。
+Really all they're doing is interfering with everybody else doing what needs to be done,	ホント、連中がなにやってるかといえば、ほかの人がやるべきことをしようとすんのをじゃましてるだけじゃん。
+but they're pretending as much to them selves as to the rest of us, that they are providing a useful function.	なのに、連中はわれわれに対しても自分自身に対しても、自分たちがなにか有益な機能を果たしてるようなふりをしてみせてる。
+Well, what I hope is that when that software Mafia guy comes up and says,	で、ぼくの願いは、ソフトウェア・マフィアの連中がやってきて
+``You want those programs to disappear on your computer?'',	「そのプログラムがコンピュータから消えてもいいのか？」
+the user can say	と言ったら、利用者たちが
+``I'm not afraid of you any more.	「おまえなんかもうこわくないぞ、
+I have this free GNU software,	ぼくにはこのフリーの GNU ソフトがあるんだ。
+and there's nothing you can do to me now.''	もうおまえたちは手も足も出ないんだぞ」と言えることなんだ。
+Now, one of the justifications people sometimes offer for owning software, is the idea of giving people an incentive to produce things.	さて、ソフト所有を正当化する議論として出てくるのが、みんなにものをつくるインセンティブを与えるってやつだ。
+I support the idea of private enterprise in general, and the idea of hope to make money by producing things that other people like to use, but it's going haywire in the field of software now.	ぼくは私企業の考え方には一般的に賛成だし、ほかの人が喜んで使ってくれるものをつくってお金を得たいな、と思うのにも賛成だけれど、ソフトの分野ではこれが収拾つかない状態になってきてる。
+Producing a proprietary program is not the same contribution to society as producing the same program and letting it be free. Because writing the program is just a potential contribution to society.	独占ソフトをつくるのは、同じプログラムをつくってそれをフリーにするのとでは、社会への貢献度がぜんぜんちがう。
+The real contribution to the wealth of society happens only when the program is used.	社会の富への貢献が起こるのは、そのプログラムが使われたときだけなんだ。
+And if you prevent the program from being used, the contribution doesn't actually happen.	プログラムが使われるのを妨害したら、その貢献は起きないんだ。
+So, the contribution that society needs is not these proprietary programs that everyone has such an incentive to make, the contribution we really want is free software, so our society is going haywire because it gives people an incentive to do what is not very useful, and no incentive to do what is useful.	だから社会が必要としている貢献は、みんながえらくインセンティブをもってつくってる独占ソフトではなくて、ぼくたちが本当に求めてる貢献はフリーソフトで、ぼくたちの社会が収拾つかなくなっているのは、それがあまり役にたたないことをするインセンティブを人に与えて、役に立つことをするインセンティブをぜんぜん与えてないからだ。
+Thus the basic idea of private enterprise is not being followed, and you could even say that the society is neurotic.	だから私企業の基本的な考え方がここではおかしくなっていて、だから社会自体が神経症気味とさえ言えるかもね。
+After all when an individual encourages in others behavior that is not good for that individual we call this a neurosis.	だってさ、個人が他人に対して、その個人自身にとってよくない行動を推奨するとき、その人は神経症なんだから。
+Here society is behaving in that fashion,	ここでは社会がそういうふうに行動してる。
+encouraging programmers to do things that is not good for society.	プログラマに、社会にとってよくないことをするように奨励してるんだから。
+I'm unusual.	ぼくは変わり者なんだ。
+I'd rather believe that I'm a good member of society and that I'm contributing something, than feel that I'm ripping society off successfully,	自分が社会のよき一員で、何かを社会に貢献していると感じていたいんだよ、うまいこと社会をカモにしてるなんて感じるよりはね。
+and that's why I've decided to do what I have done	だからぼくは、いまの自分の道を選んだ。
+But every one is at least a little bit bothered by the feeling that they are getting paid to do what's not really useful.	でもだれでも、自分が実は役にたってないことでお金をもらってるという気分は、多少なりともすっきりしないものを感じてるんだ。
+So let's stop defending this idea of incentives to do the wrong thing and let's at least try to come up with arrangements to encourage people to do the right thing,	だから、こんなまちがったことをするためのインセンティブなんて考え方を擁護するのはやめて、みんなに正しいことを奨励するような仕組みを考えつく努力くらいはしようではないの。
+which is to make free software.	その正しいことってのは、フリーソフトをつくることなんだ。
+Thank you.	ご静聴どうも。
+[After this RMS answered questions for about an hour.	[このあと、RMS は一時間ばかり質問に答えた。
+I have only included a very few of the questions and answers in this version.	ここには質疑応答のほんの一部しか入れていない。
+The tape was bad, and I didn't have the time to do a proper job on all of it]	テープが悪かったし、そのすべてをまともに書き出す暇がなかったので、悪しからず]
+Q: Has anyone tried to make problems for you?	Q：だれかあなたを訴えたりとか、面倒を起こそうとしたことはありますか
+A: The only time anyone has tried to make a problem for me was those owners, so called, self-styled owners of Gosling Emacs.	A：そういうもめごとを唯一起こそうとしたのは、ゴスリング EMACS の持ち主、というか自称持ち主、詐称持ち主どもだけだな。
+Aside from that they have no grounds to do so, so there is not much they can do.	それをのぞけば、あやをつける手がかりがないから、大して何もしようがないよね。
+By the way, I'd like to call everyone's attention to the way in which people use language to try to encourage people to think certain thoughts and not think of others.	ところで、あることを考えさせて、あることを考えなくさせるためにことばが使われてることに、みんなもっと注意してほしいなと思うんだ。
+Much of the terminology current in the field was chosen by the self-styled software owners to try to encourage you to try to make you see software as similar to material objects that are property, and overlook the differences.	いまこの分野での用語は、自称詐称ソフトウェア所有者たちが選んだもので、なるべくソフトウェアを、所有物になる物質的ものと同じ物だと思わせて、そのちがいを見過ごすようにしてあるんだ。
+The most flagrant example of this is the term ``pirate''.	これのいちばん明白な例が「海賊」ってことば。
+Please refuse to use to use the term ``pirate'' to describe somebody who wishes to share software with his neighbor like a good citizen.	よき市民として隣人とソフトを共有しようとする人間を表現するのに、「海賊」ということばを使うのは拒否してほしいんだ。
+I forgot to tell you this:	話しそこねてたけど、
+The idea of copyright was invented after the printing press.	著作権の考え方は印刷術の後に発明された。
+In ancient times authors copied from each other freely, and this was not considered wrong, and it was even very useful:	古代には、著者はおたがい自由にコピーしあってたし、それがまちがってるとも思われなかったし、すごい役にたったりもした。
+The only way certain authors works have survived, even in fragments, is because some of them were quoted at length in other works which have survived.	一部の著者が後世に伝えられたのは、断片的ではあっても、その一部がほかの著作の中でまとまって引用されてたおかげなんだ。
+This was because books were copied one copy at the time.	これは、本というものが一部ずつ筆写するものだったからそうなった。
+It was ten times as hard to make ten copies as it was to make one copy.	10 部つくるのは、1 部つくるのの 10 倍手間がかかった。
+Then the printing press was invented, and this didn't prevent people from copying books by hand, but by comparison with printing them, copying by hand was so unpleasant that it might as well have been impossible.	そこへ印刷術が発明されて、だからといって人は本の筆写ができなくなったわけではないけれど、でも印刷するのに比べたら、筆写はえらく面倒で、実質的に不可能といってよくなったわけね。
+When books could only be made by mass production, copyright then started to make sense and it also did not take away the freedom of the reading public.	本が大量生産でしかつくれなくなったら、著作権が意味を持つようになってきて、そしてそれは読書大衆の自由を奪ったりもしなかった。
+As a member of the public who didn't own a printing press, you couldn't copy a book anyway.	印刷術を持っていない一般大衆の一員である人は、どのみち本をコピーできなかったから、
+So you weren't loosing any freedom just because there were copyrights.	著作権ができたって、別に自由を失うわけじゃなかった。
+Thus copyright was invented, and made sense morally because of a technological change.	だから技術的な変化のために著作権が発明されて、道徳的にも筋が通ってたわけ。
+Now the reverse change is happening.	いまはその反対の変化が起きてる。
+Individual copying of information is becoming better and better, and we can see that the ultimate progress of technology is to make it possible to copy any kind of information.	情報の個別コピーがどんどんよくなってきてて、やがて技術が究極にまで進歩すれば、どんな情報でもコピーできるようになるというのが見えてきた。
+[break due to turning of tape]	[テープを裏返すので中断]
+Thus we are back in the same situation as in the ancient world where copyright did not make sense.	だからぼくたちは、著作権なんか無意味だった古代世界と同じ状況に戻ってるんだ。
+If we consider our idea of property, they come from material objects.	ぼくたちの所有物の概念を考えてみると、それは物質的なものからきている。
+Material objects satisfy a conservation law, pretty much.	物質的なものは、ほぼ保存則にしたがう。
+Yes it's true I can break a chalk in half, that's not it, and it gets worn down, it gets consumed.	うん、確かにチョークは半分に折れるから、正確にはちがうし、すりへるし、消費もされる。
+But basically this is one chair [pointing at a chair].	でも基本的にこれは（と椅子を指さす）、椅子一脚だ。
+I can't just sort of snap my finger and have two chairs.	指をパチンとならしてこれを二つにするわけにはいかない。
+The only way to get another one is to build it just the way the first one was build.	これをもう一つ手に入れるには、最初のやつをつくったのと同じようにつくるしかない
+It takes more raw materials, it takes more work of production, and our ideas of property were evolved to make moral sense to fit these facts.	原材料がもっといるし、もっと労働もいるし、だからぼくたちの所有物の考え方は、そういう事実にあてはまるよう、道徳的に納得がいくかたちで発展してきたんだ。
+For a piece of information that anyone can copy, the facts are different.	だれでもコピーできる情報なら、話はちがってくる。
+And therefor the moral attitudes that fit are different.	だからそれにあてはまる道徳的な態度もちがう。
+Our moral attitudes comes from thinking how much it will help people and how much it will hurt people to do certain things.	ぼくたちの道徳的な態度というのは、何かをしたら人がどれだけ助かるか、人がどれだけ害を被るか考えることで決まってくる。
+With a material object, you can come and take away this chair, but you couldn't come and copy it.	ものだと、この椅子をとってくことはできるけど、これをコピーすることはできない。
+And if you took away the chair, it wouldn't be producing anything, so there's no excuse.	そしてきみがこの椅子をもっていったら、それで何かが生まれるわけじゃないから、これはまったく正当化できない。
+I somebody says: ``I did the work to make this one chair, and only one person can have this chair, it might as well me'',	だれかが「おれはこの椅子一脚をつくる作業をしたんだし、こいつを持てるやつが一人しかいないんなら、それはおれだろう」と言ったとしたら、
+we might as well say: ``Yeah, that makes sense''.	確かにみんな「うん、そりゃ筋が通ってる」と言うだろう。
+When a person says: ``I carved the bits on this disk, only one person can have this disk, so don't you dare take it away from me'',	だれかが「おれはこのディスクにビットを刻んだんだ、だからこいつおれから奪ったら承知しないぞ」と言ったら、
+well that also make sense.	うん、これも確かに筋が通ってる。
+If only one person is going to have the disk, it might as well be the guy who owns that disk.	そのディスクを一人しか持てないんなら、じゃあそれはそのディスクの所有者でいいよ。
+But when somebody else comes up and says:	でもだれかがやってきてこう言ったとする。
+``I'm not going to hurt your disk, I'm just gonna magically make another one just like it and then I'll take it away and then you can go on using this disk just the same as before'',	「あんたのディスクはこわさないよ、ただまったく同じものを魔法で作り出して、それを持ってくから、あんたはいままでどおりディスクを使えばいいんだよ」
+well it's the same as if somebody said: ``I've got a magic chair copier. You can keep on enjoying your chair, sitting in it, having it always there when you want it, but I'll have a chair too''.	そしたらこれは「ぼくは魔法の椅子コピー機を持ってて、きみはいままで通り椅子を楽しんですわったりできて、いつでも手元においとけて、でもぼくもその椅子が使えるんだ」というのとおなじで、
+That's good.	これはいいことだ。
+If people don't have to build, they can just snap their fingers and duplicate them, that's wonderful.	つくんなくていいんなら、指をパチンと鳴らせば複製できるんなら、すばらしいことだ。
+But this change in technology doesn't suit the people who wants to be able to own individual copies and can get money for individual copies.	でもこの技術の変化は、個別コピーを所有して個別コピーで金を儲けようとする人にはお気に召さない。
+That's an idea that only fits conserved objects.	連中の考えは、保存する物体にしか通用しない。
+So they do their best to render programs like material objects.	だからなんとかプログラムを実体のある物質みたいにしようとする。
+Have you wondered why, when you go to the software store and buy a copy of a program it comes in something that looks like a book?	ソフト屋にいってプログラムを買うと、なんか本みたいなものについてくるでしょう。不思議じゃない？
+They want people to think as if they were getting a material object, not to realize what they have really got in the form of digital copyable data.	あれはみんなに、自分が買ってるのが物体なんだと思ってほしくて、本当はデジタルのコピー可能なデータを手に入れたんだと気がつかないでほしいからなの。
+What is a computer after all but a universal machine?	コンピュータって結局のところ、万能マシンでしょ。
+You've probably studied universal Turing machines,	たぶんみんな、ユニバーサルチューリングマシンについては勉強してるよね。
+the machines that can imitate any other machine.	ほかのどんなマシンでも模倣できるマシンね。
+The reason a universal machine is so good is because you can make it imitate any other machine and the directions can be copied and changed,	万能マシンがすばらしいのは、ほかのマシンを模倣できるだけじゃなくて、その指示をコピーして変えられるってことだ。
+exactly the things you can't do with a material object.	これってまさに、物質ではできないことだ。
+And those are is exactly what the software hoarders want to stop the public from doing.	そしてこれがまさに、ソフトウェア隠匿者どもがみんなにやらせるまいとしてることなんだ。
+They want to have the benefit of the change in technology, to universal machines, but they don't want the public to get that benefit.	万能マシンという技術変化のメリットは享受したがってるくせに、一般社会にはそのメリットを手に入れさせたくないんだよ。
+Essentially they are trying to preserve the ``material object age'', but it's gone,	基本的に連中は「物の時代」を温存しようとしてるんだけれど、でもそんな時代はもう終わってる。
+and we should get our ideas of right and wrong in sync with the actual facts of the world we live in.	だからぼくたちも、正しいとか間違ってるとかの考え方を、ぼくたちが住む世界の実状にあわせてシンクロさせるべきなんだ。
+Q: So it boils down to ownership of information.	Q：つまり結局のところ、情報の所有権の問題なんですね。
+Do you think there are any instances where, you opinion, it's right to own information?	情報を所有することが正しいような場合というのは、あるんでしょうか。どう思います？
+A: With information that's not generally useful, or is of a personal nature, I would say it's OK.	A： 一般的な利用価値のない情報なら、あるいは個人的な情報なら、所有オッケーだと思う。
+In other words not information about how to do things, but information about what you intend to do.	言い換えると、なにかのやりかたじゃなくて、それでどうするつもりかという情報。
+Information whose only value to others is speculative, that is they can take some money away from you, but they can't actually create anything with it.	他人にとっての価値が疑わしいもの、あなたからお金をむしり取るには使えても、それで何かを作り出したりはできないような情報。
+It's perfectly reasonable I'd say to keep that sort of thing secret and controlled.	ぼくに言わせれば、そういうものを秘密にして統制するのはまったく問題ない。
+But in terms of creative information, information that people can use or enjoy, and that will be used and enjoyed more the more people who have it, always we should encourage the copying.	でも創造に係わる情報、人が使って楽しめる情報、そしてそれを持ってる人が多ければ多いほど、もっと利用されて楽しまれるような情報、そういうのは必ずコピーを推奨すべきなんだ。

@@ -1,0 +1,82 @@
+Linus Torvalds Interview	リーヌス・トーヴァルド interview
+When several years ago, a student in Finland started writing an OS kernel for the purpose of his own study, no one even remotely imagined that it would become this huge Software movement that would embrace millions of users world wide.	数年前にフィンランドの一学生がちょっとしたOSを勉強用に書き始めた時は、それが数百万ユーザを擁する一大ソフト運動になるとはだれも想像だにしていなかった。
+This was of course the free software Linux, and its author Linus Torvalds.	Linux（リヌクス、リナックス）と、その著者リーヌス・トーヴァルド。
+Linus is not trying to make the world a better place through free software (although he just might).	かれはフリーソフトで世界を改良しようとはしていない。
+As you can see in the following interview, he doesn't really care about the clear distinction between "commercial" software and "proprietary" software, something that RMS is really sensitive about.	ストールマンが非常に気にしていた、商業ソフトと独占ソフトの厳密な使い分けも特に気にしていないのは、インタビューを通じて明らかだ。
+He even encourages the development of proprietary software that runs on Linux, something that RMS would probably frown upon.	楽しいから、好きだからソフトをみんなで育てるというフリーソフトの精神は健在だけれど、Linux上の独占ソフトを奨励するという、ストールマンなら顔をしかめるようなこともまったく平気。
+This looseness or openness, however, is a major source of power for Linux and its popularity.	逆にその野放図な融通無碍さがLinuxの身上でもあり、その人気の一つの要因でもある。
+Don't set any rigid frameworks or direction, let things happen and take in what's good.	いいものはどんどん取り入れてしまうし、
+He's not impressed with sheer technological trends and fads (his resistance to the use of the now-very-trendy microkernel has been really consistent from the beginning of Linux),	なんのかの.言っても、使われなきゃダメだよ、と言って人がそれをどう使おうとまるで気にしない。
+However, this pragmatic freedom of Linux have been really essential in expanding the horizon for free software.	でも、そのほうがずっと受け入れられやすく、結果としてフリーソフトの裾野を広げているのはおもしろいところ。
+this is one movement (and person) that you'd definitely want to keep an eye on for at least the next five years.	今後五年ほどのコンピュータの、そしてフリーソフトの動きの中で、絶対に目を離してはならない運動の中心人物である。
+HY:  You have become one of the champions of free software.	――Linuxの成功で、あなたはフリーソフトの王様の一人になったわけですが、
+However, unlike Richard Stallman, we don't see you commenting much on what free software should be and what it means to all of us.	あまりフリーソフトのあるべき姿というような話はしないですよね。
+Linus:  I'm generally a very pragmatic person:	うん、ぼくはプラグマティストだから。
+that which works, works.	使えるものは使えるってだけなのよ。
+When it comes to software, I _much_ prefer free software,	その意味で、フリーソフトのほうがずっといいのは事実。
+because I have very seldom seen a program that has worked well enough for my needs, and having sources available can be a life-saver.	使い物になるソフトにはめったにないから、ソースがあって命拾いする場合は多々あるので。
+So in that sense I am an avid promoter of free software, and GPL'd stuff in particular	だからぼくはフリーソフトの支持者だし、特にGPLの支持者だよ。
+(because once it's GPL'd I _know_ it's going to stay free, so I don't have to worry about future releases).	だっていったんGPLになったら、その先ずっとフリーだから、先のリリースの心配をしなくていい。
+However, that doesn't mean that I'm opposed to commercial software.	でも、商業ソフトに反対ってことではない。
+Commercial software development has some advantages too - the money-making aspects introduces some new incentives that aren't there for most free software.	Linuxの場合でも、使いやすいパッケージングの問題が解決されて、何もかもずっと手に入れやすくなった。
+Before the commercial ventures, Linux tended to be rather hard to set up, because most of the developers were motivated mainly by their own interests, which very seldom include issues like ease-of-use.	フリーソフトだと、みんな自分の関心でやってて、使いやすさとかはなかなか考えないよね。
+And with Linux, commercialism doesn't exclude the availability of sources, so you get the best of both worlds.	しかもLinuxの場合だとソースも入手できるから、両方のいいとこどりができる。
+Then there is software that is commercial but doesn't come with sources (the "traditional" commercial software as opposed to a Red Hat Linux distribution). And I don't try to preach against that either:	それとソースコードなしの伝統的な商業ソフトに文句をいう気もないよ。
+I hate the fact that I (and others) can't fix bugs in them, but sometimes that kind of software is the way to go.	バグを自分で直せないのは頭にくるけれど、でもまあそれしかないこともあるし。
+HY:  When and why did you decide to place Linux under GPL?	――LinuxをGPLにしようとしたのはいつです？
+Did you ever regret not making it into a shareware?	シェアウェアにしなかったのを後悔したことは？
+Linus:  I've never regretted not making Linux shareware:	後悔したことはないなあ。
+I really don't like the "pay for use" binary shareware programs that are so common in the MS-DOS world.	それにMS-DOSとかで通常行われているような、バイナリだけのシェアウェアって嫌い。
+In my opinion, shareware tends to combine the worst of commercial software (no sources) with the worst of free software (no finishing touches).	商業ソフトの悪いところ（ソースがない）とフリーソフトの悪いところ（仕上げが雑）がそろってるでしょう。
+I simply do not believe in the shareware market at all.	まったく信用してない。
+I actually originally released Linux with complete sources under a non-GPL copyright that was actually much more restrictive than the GPL:	もともとLinuxはいっさい売買を認めないきつい条件で配布してた。
+That original copyright was mainly a reaction against the operating system I had been trying to use before Linux: "Minix". Minix was meant to be a teaching operating system, but it had been to limited and in my opinion too expensive for that. It was also hard to get hold of.	これはお手本にしたMinixが、教育用の限定的なシステムにしては高値で販売されてたことへの反動だった。
+So when I made Linux, I wanted it to be easily available over ftp with full sources, and I did _not_ want it to be too expensive for anybody.	Linuxは入手しやすくて、ソースもついてきて、だれも高いなんて言えないようにしたかったんだ。
+it quickly became evident that my original copyright was so restrictive that it prohibited some entirely valid uses	でも半年くらいして、その条件だときつすぎるのがわかった。
+And while I was nervous about the GPL at first, I also wanted to show my appreciation to the gcc C compiler that Linux depended on, which was obviously GPL'd.	それと、最初はGPLに不安もあったけど、でもGNUのCコンパイラを使っていて、それに対する敬意の表明の意味もあった。
+Making Linux GPL'd was definitely the best thing I ever did.	非常に優れた選択だったと思う。
+HY:  You obviously work on Linux because you enjoy it (in one way or another).	――あなたはもちろん趣味でLinux開発をしているんですが、
+Now, if someone paid you to concentrate on Linux development, do you think things would have been different?	それに対してだれかが報酬を支払ったら、状況はちがったでしょうか。
+Linux:  I actually didn't want to work for a commercial Linux venture exactly because I didn't want to get pressurized into doing something I didn't want to do.	仕事をLinux関係にしなかったのは、まさにLinuxに関してやりたくないことをやらされる恐れがないようにと思ってのこと。
+Also, I actually wanted to have my work not be 100% Linux-oriented anyway, because I was worried that I'd get bored with Linux if that was all I ever did.	それと、100パーセントLinuxだけに関わってたら、すぐに飽きそうで怖い。
+So the work here at Transmeta was pretty much perfect for me:	だから今の会社は文句なし。
+doing something very interesting that is not Linux-related, while at the same time allowing me to work on Linux too,	Linux以外でおもしろい仕事で、しかも暇をみてLinuxの作業もできる、と。
+and with no strings attached when it comes to Linux	OSの中身に興味のないユーザの存在は、Linuxの優秀さの証だよ
+HY:  What's your views on Richard Stallman's idea of "free ware"?	――ストールマンのような、フリーソフト以外の独占ソフトは邪悪だ、という考えはどうでしょう。
+Linus:  I'm not as black and white as rms:	ぼくはrmsほど白黒はっきりしてるわけじゃない。
+I tend to think that people can do whatever they want to, but obviously personally I prefer to use free software.	みんな好きにすればいいと思うけど、自分ではフリーソフトのほうが好きだ。
+And the reason I prefer free software is not actually anything religious or anything like that: it's just that I have a lot of different machines, and I want to be able to work on them all.	それは別に、信念とか信仰の問題ではなくて、いろんな種類のマシンを持っているから（Alphaとインテル）、その全部で作業したい。
+Having free software means that I can compile it both on my alphas and my PC's.	ソースがあればどれでも動くようにコンパイルしなおせる。
+On the other hand I tend to think that some things work better as commercial software, mainly because a lot of the program is that "final polish" that commercial software is so good at.	一方で、商業ソフトのほうがいいのは、仕上げのところ。
+For example, user interfaces are _usually_ better in commercial software.	ユーザインタフェースは、概して商業ソフトのほうがいい。
+I'm not saying that this is always true, but in many cases the user interface to a program is the most important part for a commercial company: whether the programs works correctly or not seems to be secondary	それが商業ソフトにとって一番重要な部分だったりする
+(as shown by the many buggy microsoft programs - not that MS is nearly the only offender).	（マイクロソフトのプログラムなんて、それ以外はバグだらけじゃん）。
+So things like Word Processors _tend_ to be better when they are commercial,	だからワープロなんかは商業ソフトのほうがいいことが多い。
+because in a word processor the most important part really is the user interface.	それは、ワープロで一番大事なのはインターフェースだからだよね。
+HY:  We have seen many distributions of Linux that allows users to install Linux without knowing what's under the hood. While this has brought in tremendous new users to Linux, there are people who claim that this undermines the spirit of freeware because people are never forced to look under the hood and understand its workings. Is this a concern for you?	――するとLinuxはインストールが簡単になったのでブラックボックス化してけしからん、フリーソフトの精神に反する、というようなことは……
+Linus:  No,	別に。
+I think this is only for the best.	ありがたいことだと思う。
+I don't think everybody should be interested in how an operating system works:	だってみんながOSの中身なんかに興味持つ必要はないもの。
+it happens to be what _I_ am interested in, but I also think that any program is only as good as it is useful.	ぼくはもちろん興味あるけれど、でも一方で、プログラムってものは役にたたなきゃ始まらないよ。
+So a useless program cannot be good, regardless of _how_ well it is implemented.	どんなに実装がよくても、それだけではいいソフトにはならない。
+The fact that there are lots of Linux users who don't care how the kernel works but only want to use it is not only a tribute to how good Linux is, but it also brings up issues that I would never have thought of otherwise.	カーネルの中身に興味のないユーザの存在は、Linuxの優秀さの証だし、それにおかげで思いもよらなかった点に気がついたりもするし。
+HY:  (I know you've been asked this question a million times, but...) Why did Linux become such a big success?	――もう嫌ってくらい聞かれた質問でしょうが、Linuxがここまで成功したのはなぜでしょう。
+Some people say it's you, some people say it's just a matter of good timing and a lot of luck. What's your opinion?	単にタイミングの問題とか運がよかっただけとか言う人もいますが。
+Linus:  There are lots of reasons. Good timing, lots of luck are certainly two obvious ones.	うん、それは絶対ある。
+But at the same time I also like to think that I*ve been a good manager (and obviously a good programmer),	でも同時に、ぼくとしては自分がよきマネージャ（そしてもちろんよきプログラマ）だったのが大きいと思いたい。
+and that that fact has also been very instrumental in making Linux a successful product.	それと、Linux開発モデルが優れていると思う。
+I also think that the Linux development model in general is a very good model: Linux tends to have fewer rules than other developments, and anybody can chip in doing whatever they want.	何も縛りがなくて、みんな好き勝手に提案できて、非常に自由だ。
+I act as a general "filter"  for all the patches,	ぼくが最後のフィルタ役を果たす。
+HY:  Now that Linux has become so big, do you feel a great pressure about keeping it in "the right course"?	――こんだけ大きくなると、プレッシャーとかないですか？
+What is the biggest concern that you have for the future of Linux?	Linuxの将来について心配とかは？
+Linus:  I*ve always felt pressure about keeping Linux "right", but they have always been technical pressures, and as such I haven't worried too much about them. The good thing with technical pressures is that technical questions always have a good answer - it's only non-technical questions that sometimes don't have an answer at all. So technical concerns tend to eventually find a solution as long as there are good people working on them.	プレッシャーはずっとあったけど、それは主に技術的な面での話で、技術的な問題は必ずよい答えがあるんだ。
+And Linux has the very best.	最高に優秀な連中が作業してるし。
+So I*m not really worried about the future of Linux - technically I think Linux is going to only become better and better, and the non-technical side I don't personally worry all that much about.	だからまったく心配してないし、技術以外の面は、どうでもいいや。
+HY:  Do you think of these other PC-Unix systems as rivals, or more of a colleague?	――ほかのPC-UNIXと比較したりします？
+Do you often look at them to see what can be incorporated into Linux, or do they never bother you at all?	NetBSDなんかに比べてどこが長所でしょう。
+HY:  Do you consider yourself (or Linux) as a threat to Microsoft?	――自分がマイクロソフトに対する脅威だと思いますか？
+Do you try to be one? Or do you see Linux as occupying a separate niche from Windows?	LinuxはWindowsの競合相手なのか、それとも住み分けるのか……
+Linus:  I don't try to be a threat to MicroSoft, mainly because I don't really see MS as competition.	マイクロソフトの脅威になるつもりはないし、競合とも思ってないなあ。
+Especially not Windows - the goals of Linux and Windows are simply so different.	特にWindowsはぜんぜん目標がちがうから。
+I used to be interested in Windows NT, but the more I see of it the more it looks like traditional Windows with a stabler kernel. I don't find anything technically interesting there.	前はNTに関心があったけれど、技術的に見るべきものはないね。
+In my opinion MS is a lot better at making money than it is at making good operating systems.	かれらはOSづくりより金儲けのほうがうまいってことじゃない？

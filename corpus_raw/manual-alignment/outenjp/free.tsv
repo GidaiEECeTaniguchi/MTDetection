@@ -1,0 +1,47 @@
+Free Software is More Reliable!	フリーソフトウェアは独占的ソフトウェアよりも信頼できる
+Apologists for proprietary software like to say,	独占的ソフトウェア の弁明をする人たちは、 こういう話をするのが好きです。
+``free software is a nice dream, but we all know that only the proprietary system can produce reliable products.	フリーソフトウェア は素敵な夢だが、 信頼性の高い製品を作れるのは、 独占的な組織だけだっていうのは、 我々みんなが知ってることだよ。
+A bunch of hackers just can't do this.''	ハッカーの寄り集まりにはそんなことできっこない」
+Empirical evidence disagrees, however;	しかしながら、経験上得られた事実はその意見に反しています。
+scientific tests, described below, have found GNU software to be more reliable than comparable proprietary software.	以下で述べる科学的なテストによれば、 GNUソフトウェアは、それと比較できる独占的ソフトウェアよりももっと信頼できることがわかったのです。
+This should not be a surprise;	これは驚くべきことではありません。
+there are good reasons for the high reliability of GNU software, good reasons to expect free software will often (though not always) have high reliability.	GNUソフトウェアが高信頼性であることには確かな理由がありますし、 フリーソフトウェアがたいてい（常に、とはかぎりませんが） 高信頼性であることにも確かな理由があるのです。
+* GNU Utilities Safer!	* GNUユーティリティはより安全
+* Why Free Software is More Reliable	* フリーソフトウェアがより信頼できるのはなぜか
+* Cancer Clinic Relies on Free Software!	* ガンクリニックもフリーソフトウェアを頼っています
+* Help Bulletproof GNU Utilities!	* GNUユーティリティの防弾チョッキを援助してください
+GNU Utilities Safer!	GNUユーティリティはより安全
+Barton P. Miller and his colleagues tested the reliability of Unix utility programs in 1990 and 1995.	Barton P. Millerとその同僚は、 1990年と1995年に、Unixのユーティリティプログラムの信頼性をテストしました。
+Each time, GNU's utilities came out considerably ahead.	そのいずれにおいても、GNUのユーティリティは非常に抜きん出ていました。
+They tested seven commercial Unix systems as well as GNU.	彼らは7つの商用UnixシステムをGNU同様にテストしました。
+By subjecting them to a random input stream,	ランダムな入力ストリームを与えたところ、
+they could ``crash (with core dump) or hang (infinite loop) over 40% (in the worst case) of the basic utility programs ...''	「基本的なユーティリティプログラムのうち40%以上が、（コアダンプして）クラッシュしたり、 ハング（無限ループ）したりしました…」
+These researchers found that the commercial Unix systems had a failure rate that ranged from 15% to 43%.	この研究者たちは、 商用のUnixシステムの故障率 （訳者： failure rate。適切な訳語は？ ） は15%から43%の範囲なのに対して、
+In contrast, the failure rate for GNU was only 7%.	GNUの故障率は7%にすぎない、 ということを発見したのです。
+Miller also said that,	Millerはまた次のように言っています。
+``the three commercial systems that we compared in both 1990 and 1995 noticeably improved in reliability,	「我々が比較した商業製品のシステム3つは、 1990年と1995年にはるかに信頼性が改善された。
+but still had significant rates of failure	しかし、failureの割合はそれでも著しく高かったのだ
+(the basic utilities from GNU/Linux still were noticeably better than those of the commercial systems).''	（GNU/Linuxからの基本ユーティリティは、 これらの商業製品よりもはるかによかった）」
+For details, see their paper:	詳細は彼らの論文を参照してください。
+Why Free Software is More Reliable	フリーソフトウェアがより信頼できるのはなぜか
+It is no fluke that the GNU utilities are so reliable.	GNUユーティリティの信頼性がこんなに高いのは、まぐれではありません。
+There are good reasons why free software tends to be of high quality.	フリーソフトウェアが高信頼性を持つ傾向があるのには、 確かな理由があるのです。
+One reason is that free software gets the whole community involved in working together to fix problems.	理由の一つは、フリーソフトウェアは 問題を解決するために、全コミュニティが協力しあって関わっているという点です。
+Users not only report bugs, they even fix bugs and send in fixes.	ユーザはバグを報告するだけではなく、バグを修正したり、修正を送ったりすることすらあります。
+Users work together, conversing by email, to get to the bottom of a problem and make the software work trouble-free.	問題の深みまで至り、そのソフトを問題なく動作させるために、 ユーザは電子メールで互いに会話をしながら一緒に作業するのです。
+Another is that developers really care about reliability.	別の理由は、開発者は信頼性を本当に気にかけているということです。
+Free software packages do not always compete commercially, but they still compete for a good reputation,	フリーソフトウェアパッケージは商業的に競っているとは限りませんが、 それでも競っていい評判を得ようと努力しています。
+and a program which is unsatisfactory will not achieve the popularity that developers hope for.	不充分なプログラムは、開発者が期待する人気を得ることはないでしょう。
+What's more, an author who makes the source code available for all to see puts his reputation on the line, and had better make the software clean and clear, on pain of the community's disapproval.	さらに、ソースコードを万人に見えるようにしている作者は自分の評判をオンラインに置いており、 コミュニティから否認の刑にさらされないために、 ソフトウェアをクリーンでクリアなものにしておくべきなのです。
+Cancer Clinic Relies on Free Software!	ガンクリニックもフリーソフトウェアを頼っています
+The Roger Maris Cancer Center in Fargo, North Dakota (the same Fargo which was recently the scene of a movie and a flood) uses Linux-based GNU systems	ノースダコタ州、Fargo （最近映画と洪水で話題になったFargoと同じ）のTheRoger Maris Cancer Centerでは、 LinuxベースのGNUシステムを使っています。
+precisely because reliability is essential.	そこでは信頼性が本質的に重要だからです。
+A network of GNU/Linux machines runs the information system, coordinates drug therapies, and performs many other functions.	GNU/Linuxマシンのネットワークが情報システムを動かし、 薬物療法(drug therapies)を組織的に結び付け、 さらに他の多数の機能を果たしています。
+This network needs to be available to the Center's staff at a moment's notice.	そのネットワークは、 センターのスタッフが必要に応じてすぐに利用可能である必要があります。
+According to Dr. G.W. Wettstein <greg@wind.rmcc.com>:	G.W.Wettstein博士の話 <greg@wind.rmcc.com>:
+``the proper care of our cancer patients would not be what it is today without [GNU/]Linux ...	「Linuxが存在しなかったら、 我々のガン患者を現在のような形で適切 にケアすることはできなかっただろう。
+The tools that we have been able to deploy from free software channels have enabled us to write and develop innovative applications which ... do not exist through commercial avenues.''	…フリーソフトウェアのルートから入手できたツールたちを使うことで、 我々は、販売されていないような…革新的なアプリケーションを書き、開発することができたのだ」
+Bulletproof GNU Utilities!	GNUユーティリティの防弾チョッキを援助してください
+Scott Maxwell is leading an effort to eliminate "fuzz bugs" from GNU software,	Scott Maxwellは、 GNUソフトウェアから「ファズ・バグズ(fuzz bugs)」 を根絶する作業を率いています。
+thus making them even more reliable.	そうすることで、GNUソフトウェアはさらにもっと信頼性が高まるのです。
+You can read about the project on http://home.pacbell.net/s-max/scott/bulletproof-penguin.html.	このプロジェクトについては、http://home.pacbell.net/s-max/scott/bulletproof-penguin.html を参照してください。
