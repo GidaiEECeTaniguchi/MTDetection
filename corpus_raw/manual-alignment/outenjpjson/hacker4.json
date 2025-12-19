@@ -1,0 +1,171 @@
+{"en": "The Manager FAQ", "ja": "ハッカーのための管理職 FAQ"}
+{"en": "The following list is an attempt to cover some of the issues that will invariably come up when hackers without previous experience of the business community first start working in it.", "ja": "以下のリストは、業界経験のないハッカーがはじめてその中で働き始める際に、必ず頭をもたげる問題点の一部を網羅しようという試みである。"}
+{"en": "Other workers may also find it informative.", "ja": "そうでない社会人の参考になるかもしれない。"}
+{"en": "DISCLAIMER:", "ja": "免責事項："}
+{"en": "The author is a hacker.", "ja": "作者はハッカーである。"}
+{"en": "Bias is inevitable.", "ja": "バイアスがかかるのは避けられない。"}
+{"en": "Unaltered distribution is permitted.", "ja": "変更を加えない限り、配布は許可される。"}
+{"en": "Revision 0.01 - Last modified February 7, 2001", "ja": "0.01版 - 2001年2月7日最終更新"}
+{"en": "Questions and Answers:", "ja": "質問と回答："}
+{"en": "Section 1: Basic understanding.", "ja": "1章: 基本的な理解"}
+{"en": "1.1: Why doesn't my manager just do some actual work?", "ja": "1.1: どうしてうちの管理職は、まともに働こうとしないのですか？"}
+{"en": "Management is a kind of work.", "ja": "管理が業務内容なのです。"}
+{"en": "Just as programs need architecture and design,  functional groups of people can need organizing principles.", "ja": "ちょうどプログラムにアーキテクチャと設計が必要なように、人間が集団で機能するには、組織原理が必要になるのです。"}
+{"en": "Having a person picked to handle this work can reduce the amount of time spent trying to decide how to make decisions, and can free other people up to do the work they're best at.", "ja": "こうした仕事をさばく人間を割り当てることで、決定を行なう方法を決めるのに要する時間を減らし、他の人達がベストの仕事をできるよう解放できます。"}
+{"en": "1.2: Is it useful for me to have a manager?", "ja": "1.2: 管理職がいるということは、僕にとって有益なのでしょうか？"}
+{"en": "It depends on the kind of job you're doing.", "ja": "あなたの職種に依ります。"}
+{"en": "A manager can dramatically improve your performance, both as an individual and as a member of a team, or a manager can get in the way and keep you from working .", "ja": "管理職がいることで、あなたの仕事の効率が、個人としても、チームの一員としても劇的に向上することがありえますし、そうでなければ管理職があなたの仕事の邪魔にもなりえます。"}
+{"en": "Work environments where managers are particularly useful are:", "ja": "管理職の存在が特に有益になる職場環境というのは："}
+{"en": "Large environments, especially with high turnover.", "ja": "大きな職場、特に異動が多い場合"}
+{"en": "Jobs where a significant amount of incoming information must be factored into planning.", "ja": "大量の情報を計画に織り込まなければならないような職場"}
+{"en": "Jobs which are prone to substantial obstructions coming between workers and their work.", "ja": "働く人間とその仕事の間に入る障害が大きくなりがちな職場"}
+{"en": "Jobs where managers may interfere are:", "ja": "管理職の存在が妨げになる可能性がある職場は："}
+{"en": "Creative work.", "ja": "創造的な仕事"}
+{"en": "Fundamental engineering or research.", "ja": "基礎技術の研究"}
+{"en": "More generally, if the job allows for a person (who might not be able to do the job) to substantially help the people actually doing the work get it done, or depends on a substantial amount of decision making that doesn't really require everyone's constant input, it will probably benefit from management.", "ja": "もっと一般的に言うと、その仕事に実際に携わる人間がうまくやれるようにしっかりと助ける（その仕事を実際にやる能力はない）人間が必要な場合か、皆の同意を必要としない意思決定の量が多い場合、大抵マネージメントによる恩恵があります。"}
+{"en": "If the job consists entirely of things a single person can just sit down and do, a manager may just get underfoot.", "ja": "もしその仕事が、一人の人がただ座ってやるだけでできることから成り立っているなら、管理職の存在が足手まといになるかもしれません。"}
+{"en": "The good news is, a manager who does a good job of \"running interference\" for his workers can improve productivity by amazing amounts;", "ja": "朗報なのは、部下にとって「防波堤」となるような良い仕事をしてくれる管理職がいると、驚くほど生産性を向上させることが可能である、ということです。"}
+{"en": "you may see five to ten times the productivity you would have gotten if everyone had to stop working all the time to interact with the rest of the company (or the outside world).", "ja": "もし職場の全員が、その会社の別の部署（もしくは外の世界）と交流するのに、働くのを止めずに済むなら、その生産性は５倍から１０倍にもなるかもしれません。"}
+{"en": "This won't happen all the time, but it will happen.", "ja": "これはいつも起こることではありませんが、往々にして起こることなのです。"}
+{"en": "1.3: How should I deal with my manager's management?", "ja": "1.3: 僕は自分の管理職の管理にどう対処すべきなのでしょうか？"}
+{"en": "The same way you deal with any other source of requirements.", "ja": "他からの要求への対処と同じ要領です。"}
+{"en": "Whenever possible, assume that she is basically aware of what needs to happen - possibly more aware than you are.", "ja": "可能なときは常に、彼女が自分よりもよく気付いているからこそ、要求すべきことに気付くのだと思うようにしてください。"}
+{"en": "Don't fight her without good cause, and she'll be fine.", "ja": "正当な理由なしに彼女と争わないようにすれば、彼女の機嫌はよいでしょう。"}
+{"en": "1.4: I don't understand this at all.", "ja": "1.4: 僕にはまったく理解できません。"}
+{"en": "This is confusing.", "ja": "戸惑ってます。"}
+{"en": "Is there a book on this?", "ja": "これについて書かれた本はありますか？"}
+{"en": "Probably not.", "ja": "たぶんありません。"}
+{"en": "There's lots of books for your manager on how to deal with employees, though, and if you read them, you may get a good idea of where he's coming from.", "ja": "経営者が従業員を扱う方法について書かれた本はたくさんありますから、そうしたものを読めば、管理職の考えがどこから来てるかよく分かるかもしれません。"}
+{"en": "Section 2: Social issues", "ja": "2章： 社会性の問題"}
+{"en": "2.1: My manager doesn't fit in well with our corporate society.", "ja": "2.1: うちの管理職は我々の企業社会とうまく調和してません。"}
+{"en": "He seems to to a good job, but he's not getting along with the engineers.", "ja": "仕事はうまくやっているようなのですが、技術者と反りが合ってないのです。"}
+{"en": "This is common.", "ja": "よくあることです。"}
+{"en": "Your manager may not have found any people who get along well with \"suits\".", "ja": "あなたのとこの管理職は、「スーツ族」と仲良くやれる人間を見つけてないのかもしれません。"}
+{"en": "A lot of engineers don't have the personality traits (or social skills) to adapt to people different from themselves;", "ja": "技術者には、自分達と異なる人間に適合する習性（か社会的技能）を持ち合わせてない人が多いのです。"}
+{"en": "you should consider making an effort to get to know your manager, and accept his differences.", "ja": "管理職のことを知るための努力をすることを心がけ、彼との違いを受け入れるべきなのです。"}
+{"en": "2.2: My manager seems to dress funny.", "ja": "2.2: うちの管理職は服装がヘンなんです。"}
+{"en": "Is there any way to impress upon him the pointlessness of corporate appearance?", "ja": "企業において風采にこだわることの無意味さを叩き込む方法はあるでしょうか？"}
+{"en": "Your manager is probably aware that,", "ja": "あなたのところの管理職は、おそらくそれを分かっています。"}
+{"en": "in the abstract, the way she dresses changes nothing.", "ja": "理論的には、彼女が何を着ようが変わりはありません。"}
+{"en": "However, part of her job is to interact with other people, and there are rules of etiquette for these dealings.", "ja": "しかし、彼女の仕事には、他の会社の人達と交渉をすることも含まれていて、そうした交渉にはエチケットに関する決まりがあります。"}
+{"en": "Your manager's clothing, even when she's not dealing with other people, is selected in part as a way of telling you that she takes you seriously;", "ja": "あなたのとこの管理職の服装は、例え彼女が他の会社の人間と取り引きをしていない場合でも、彼女があなたのことを重要だと考えていることを示す一手段として選択されているところがあるのです。"}
+{"en": "it's just like calling people \"sir\".", "ja": "それはちょうど人を「sir」と呼ぶようなものです。"}
+{"en": "It's a convention, but that doesn't mean it's not a real convention, and your manager is honoring it.", "ja": "約束事に過ぎませんが、それが真の尊重を意味しないということはではなく、あなたのとこの管理職はちゃんと敬意を払っているのです。"}
+{"en": "2.3: My manager insists on being called by a title, and treated in a formal manner.", "ja": "2.3: うちの管理職は、自分のことを肩書きで呼び、礼儀正しく接するように要求するんです。"}
+{"en": "Your manager's position is an aspect of a corporate hierarchy;", "ja": "管理職の地位は、企業における序列の一面です。"}
+{"en": "his title, and the formal modes of interaction, are part of that structure.", "ja": "つまり、彼の肩書きや、礼儀正しい対し方は、その構造の一部なのです。"}
+{"en": "He is trying to do his job, which involves being aware of the \"chain of command\" and other corporate structures.", "ja": "彼が仕事をしようとするとき、そこには「命令系統」や他の会社組織への意識が含まれます。"}
+{"en": "He may talk as though you are \"beneath\" him, and in terms of who has the decision-making power, you probably are", "ja": "彼は、あたかもあなたが彼の「下位」にいるような話し方をするかもしれませんし、意思決定権を持つ人間という点では、確かにあなたは彼の下位にいるわけですが、"}
+{"en": "- but this may not mean that he thinks you are a less valuable person than he is.", "ja": "彼があなたのことを自分よりも価値の低い人間であると考えていることを意味するわけではありません。"}
+{"en": "Try to treat him with respect, and remember that, in general, you show people respect on their terms, not on the terms you might otherwise prefer.", "ja": "一般的に、人に敬意を示すときは、あなたがそうしたいと思うやり方ではなく、その人がそうされたいと思うやりかたですべきだということを覚えておきましょう。"}
+{"en": "2.4: My manager complains when I identify faults in the work of my coworkers.", "ja": "2.4: うちの管理職は、僕が同僚の仕事にミスを見つけると文句を言うんです。"}
+{"en": "Take your manager aside, and offer details of what's wrong with the existing work.", "ja": "あなたのとこの管理職をわきに連れて行き、現在の仕事のおかしいところを詳しいところまで申告するのです。"}
+{"en": "She may end up not doing anything, but don't nag her about it;", "ja": "彼女は何もしないで終わるもかもしれませんが、それについて彼女にうるさく言ってはいけません。"}
+{"en": "she's juggling a lot of other priorities, too, and there may be good reasons for which she's not doing anything about your complaints.", "ja": "彼女は他のたくさんの優先事項もやりくりしていて、彼女があなたの不満については何もしない正当な理由があるのかもしれません。"}
+{"en": "Whenever possible, try to help people solve problems, rather than just complaining about them.", "ja": "可能ならいつでも、文句を言いっぱなしでなく、他の人が問題を解決するのを助ける努力をしましょう。"}
+{"en": "Remember that there aren't enough great engineers to go around;", "ja": "方向転換をすることのできる優れた技術者はそういないことを覚えておくことです。"}
+{"en": "you may have to learn to live with the work that people who are merely competent can do.", "ja": "ちょっと有能なだけの人達がこなせる仕事に甘んじることを学ばなければならないのかもしれません。"}
+{"en": "Section 3: Productivity.", "ja": "3章： 生産性"}
+{"en": "3.1: My manager complains when I spend time decompressing with games.", "ja": "3.1: うちの管理職は、僕がゲームでガス抜きする時間を使うことに文句を言うんです。"}
+{"en": "Managers are used to measuring work in terms of \"hours of work done\";", "ja": "管理職というものは、仕事を「労働時間」で測るのに慣れているのです。"}
+{"en": "in many cases, the work they're evaluating doesn't have a \"percolation\" phase, or isn't essentially unpredictable.", "ja": "多くの場合、彼らの査定作業には、「浸透」段階や、どうしても予測できない部分が入ってないのです。"}
+{"en": "Try to find ways to decompress that look a little more useful, if you can, or see if you can explain the \"background thought\" process to your manager.", "ja": "可能ならば、もう少し益がありそうに見えるガス抜きの方法を見つける努力をすることで、もしくは「バックグラウンドで考える」方法を管理職に説明できないか考えてみることです。"}
+{"en": "3.2: My manager is getting impatient during a design phase.", "ja": "3.2: うちの管理職は、設計のフェーズの間イライラしてるんです。"}
+{"en": "Managers are trying to deal with a lot of requirements you may never see.", "ja": "管理職は、あなたが直面したことがないであろう、大量の要件に対処しているのです。"}
+{"en": "The manager is trying to run a business;", "ja": "管理職はビジネスを動かそうとしているのです。"}
+{"en": "he wants to know what the product is, and when it will exist.", "ja": "彼は製品がどんなもので、いつできあがるかを知りたがります。"}
+{"en": "He wants to estimate costs.", "ja": "彼はコストを見積もりたがります。"}
+{"en": "It's never possible to do a perfect job, but your manager is going to do the best job he can", "ja": "完璧な仕事というのは不可能ですが、あなたのとこの管理職は、できる限りベストを尽くそうとしています。"}
+{"en": "- which means he's going to try to figure out how long your design phase is.", "ja": "つまり、彼は設計フェーズにどれくらい時間がかかるのか理解しようとしているのです。"}
+{"en": "How do you figure out how long something takes?", "ja": "あなたは、あることにどれくらい時間がかかるかどうやって見積もりますか？"}
+{"en": "You measure the amount done so far, you look at how long it took, and you extrapolate.", "ja": "あなたはこれまでかかった時間を量り、推定するでしょう。"}
+{"en": "Unfortunately, this doesn't work very well for design.", "ja": "残念なことに、これは設計に関してはうまくいきません。"}
+{"en": "Still, you can help your manager if you can find ways to express the state of the work.", "ja": "それでも、あなたが作業の状態を表現する方法を見つけることができれば、あなたのとこの管理職を助けになります。"}
+{"en": "Doodle things on whiteboards.", "ja": "ホワイトボードにざっと書いてみたり、"}
+{"en": "Write papers summarizing what issues you're wrestling with, and what issues you think are nailed down.", "ja": "あなたが取り組んでいる問題点や、釘づけになっている問題点を要約した文書を書いてみたりして、"}
+{"en": "The act of explaining may help you clarify these issues", "ja": "説明作業をすれば、そうした問題点を明確にする助けになるかもしれませんし、"}
+{"en": "- and even if it doesn't, it will show your manager that progress, of some sort, is happening.", "ja": "例えそうならなくても、あなたのとこの管理職に、どれぐらい作業が進行しているかを示すことになります。"}
+{"en": "3.3: My manager doesn't understand why I need to do this.", "ja": "3.3: うちの管理職は、僕に設計フェーズが必要なことを理解してくれないんです。"}
+{"en": "See if you can make time to try to explain it.", "ja": "それを説明する時間を作ってみましょう。"}
+{"en": "Try to find ways to work through your problems that meet your manager's expectations for what people \"working\" look like.", "ja": "あなたのとこの管理職が持っている「働く」人間の期待像に沿うような方法で問題に取り組めないかどうか考えてみましょう。"}
+{"en": "3.4: My manager complains whenever something I need to do wasn't written in my job description.", "ja": "3.4: うちの管理職は、僕がやるべきことについて職務記述書を書かないことに文句を言うんです。"}
+{"en": "Try to explain to her that the task needs to happen, and no one else is doing it.", "ja": "やるべき作業を彼女に説明し、他の誰もそれをしてないことを説明してみましょう。"}
+{"en": "You might suggest getting \"general troubleshooting\" added to your job description.", "ja": "あなたの職務記述書に、「一般的なトラブルシューティング」を付け加えることを提案するのもよいかもしれません。"}
+{"en": "Try to get documentation on how useful the work you're doing is", "ja": "あなたがやっている仕事がいかに有益か文書化してみましょう。"}
+{"en": "- ask other employees to testify about the importance of what you're doing for them, for instance.", "ja": "例えば、他の従業員に、あなたが彼らのためにやっていることの重要性について証言するようお願いしてみるとか。"}
+{"en": "3.5: My work is done, but my manager wants me to look busy.", "ja": "3.5: 僕の仕事は済んだのですが、管理職は僕に忙しそうにしてほしいようなんです。"}
+{"en": "Explain that your work is done.", "ja": "あなたの仕事が済んだことを説明しましょう。"}
+{"en": "If your work is moderately periodic, such as phone support, suggest some low-priority tasks you could soak up...", "ja": "あなたの仕事が、電話サポートなどの、ほどほどに断続的なものなら、あなたがこなすことのできる優先度の低い作業を申し出る…"}
+{"en": "or, as an alternative, explain that part of the job is that you're effectively \"on retainer\", to make sure they have someone when the job does need to be done.", "ja": "か、それに代わる手段として、その仕事に関してあなたは一種の「保証」であって、いざという時にその仕事をする人を彼等が確保しているのだ、ということを説明してみましょう。"}
+{"en": "3.6: I'm stuck, and my manager won't stop pressuring me to get unstuck.", "ja": "3.6: 僕は行き詰まっていて、うちの管理職は僕に先に進むようプレッシャーをかけるのを止めようとしないんです。"}
+{"en": "The best solution I've ever heard is to ask your manager what happens if he loses his keys.", "ja": "僕がこれまで聞いた中で最良の解決法は、管理職に鍵をなくしたときに起こることを尋ねることです。"}
+{"en": "How long will it take to find them?", "ja": "鍵を見つけるのにどれくらい時間がかかるでしょうか？"}
+{"en": "Once he's done looking everywhere he can think of, why doesn't he keep looking in all those places over and over and over?", "ja": "一度考えつくあらゆる場所を探したのに、どうしてそうしたところを何度も何度も何度も探しつづけるのでしょう？"}
+{"en": "This is the best analogy to difficult creative work that most people will have had experience with.", "ja": "これこそが、大抵の人が経験したことのある、困難な創造的な仕事と最も類似したものです。"}
+{"en": "3.7: My job is boring and there's nothing to do.", "ja": "3.7: 僕の仕事は退屈で、やることが何もないんです。"}
+{"en": "Ask your manager for more interesting work, or try to get a transfer to a different department, or look for new work.", "ja": "あなたのとこの管理職にもっと面白い仕事を頼むか、別の部署に転属するか、新しい仕事を探しましょう。"}
+{"en": "3.8: My manager wants me to stop \"showing off\".", "ja": "3.8: うちの管理職は、僕に「力のひけらかし」を止めてほしいようなんです。"}
+{"en": "Try to avoid stepping on other peoples' toes too much.", "ja": "他の人の感情を損ねることは避けましょう。"}
+{"en": "If someone you're working with can't get his job done, and it's faster for you to do it, go to your manager privately and discuss your concerns.", "ja": "もし、あなたと一緒に働いている人の仕事がうまくいかなくて、かつ自分がやった方が早く済むなら、密かに管理職のとこに出向き、あなたの考えについて議論しましょう。"}
+{"en": "If she says to live with it, do;", "ja": "もし彼女がそれを受け入れろと言うのなら、それに従いなさい。"}
+{"en": "there are many reasons why this could make sense.", "ja": "そういう状態が道理に適う場合というのが往々にしてあるものなのです。"}
+{"en": "3.9: My manager insists that I come in to the office.", "ja": "3.9: うちの管理職は、僕にちゃんとオフィスに来るように言い張るんです。"}
+{"en": "While much productive work can be done on your own time, in your own place, there's a lot of benefit to social interaction with coworkers.", "ja": "多くの生産的作業が労働時間外に、自分自身の場所でなされ得るとしても、同僚との社会的な相互関係から得る恩恵は大きいものがあります。"}
+{"en": "Your manager is trying to make sure that you all see each other occasionally, and build some social bonds.", "ja": "あなたのとこの管理職が、あなたが他の皆とたまには顔を合わせ、社会的な結びつきを築いていることを確かめようとしているのです。"}
+{"en": "He's also probably aware that, when you do come in, you may get into a spontaneous conversation about some design issue, which can save weeks of work if you get the right people together.", "ja": "彼はまた、あなたがちゃんと職場に来れば、設計の問題について自発的に会話をすることになり、的確な人材と一緒に仕事をすれば、仕事にかかる時間を数週間節約できることを分かっているのでしょう。"}
+{"en": "Not all meetings are productive;", "ja": "全ての会議が生産的というわけではありませんが、"}
+{"en": "that doesn't mean no meetings are.", "ja": "あらゆる会議に意味がないということにはならないのです。"}
+{"en": "Section 4: Stimulus and response", "ja": "4章: 鼓舞と反応"}
+{"en": "4.1: My manager is doing a good job.", "ja": "4.1: うちの管理職はいい仕事しています。"}
+{"en": "Should I thank her?", "ja": "僕は彼女に感謝すべきなのでしょうか？"}
+{"en": "Yes!", "ja": "そうですね！"}
+{"en": "Managers, just like everyone else, need to know when they're doing their jobs well.", "ja": "管理職も、他の皆と同じように、仕事をうまくやっていることをしるべきなのです。"}
+{"en": "4.2: My manager did something that bothered me, and I want to get back at him.", "ja": "4.2: うちの管理職が僕を困らせるようなことをしたので、僕としては仕返しをしてやりたいところです。"}
+{"en": "Don't punish him.", "ja": "彼をこらしめてはいけません。"}
+{"en": "Talk to him.", "ja": "彼と話をするのです。"}
+{"en": "Explain why the behavior bothered you.", "ja": "その行動があなたを困らせた理由を説明し、"}
+{"en": "Ask him why he did it, or why this was necessary.", "ja": "彼が何故そうしたか、何故それが必要だったかを尋ねるのです。"}
+{"en": "Try to understand his reasons;", "ja": "彼の根拠を理解しましょう。"}
+{"en": "they may be good ones,", "ja": "それが正当なものであるかもしれません。"}
+{"en": "such as", "ja": "例えば、"}
+{"en": "\"if we don't finish this project soon, we run out of money to pay you in about three months\".", "ja": "「このプロジェクトをすぐに終わらせないと、三月ぐらいで君に給料を支払うお金を使い果たすことになるんだ」というような。"}
+{"en": "If you find that the reasons are good, try to be understanding.", "ja": "その根拠が正当なものだと分かったら、物分り良くなりましょうね。"}
+{"en": "Let your manager know that you were convinced.", "ja": "あなたのとこの管理職に、あなたが納得したことを伝えましょう。"}
+{"en": "If you aren't convinced, try to live with the inconvenience anyway.", "ja": "もし納得できない場合は、なんとかしてその迷惑を受け入れるようにしましょう。"}
+{"en": "4.3: My manager wants me to do management;", "ja": "4.3: うちの管理職は、僕にマネージメントをやってほしいようです。"}
+{"en": "I am not interested, but she seems offended by this.", "ja": "僕には興味がないのですが、彼女はそれに気を悪くしてるみたいなんです。"}
+{"en": "Your manager is from a corporate structure in which one advances in a hierarchy;", "ja": "あなたのとこの管理職は、ヒエラルキーを昇進していく会社組織の見地から考えているのです。"}
+{"en": "she may not be aware that you're enjoying your work for its own merits, not doing it in the hopes of being \"advanced\" to a new position.", "ja": "彼女は、あなたが自分のために仕事を楽しんでいて、新たな地位に「昇進」する希望を持って仕事していないことに気付いてないのかもしれません。"}
+{"en": "Try to explain that you're doing the kind of work you are because you enjoy it.", "ja": "あなたが楽しめる仕事をやっていることを説明することです。"}
+{"en": "4.4: My manager can't raise my salary any more because I earn as much as he does.", "ja": "4.4: うちの管理職は、僕が彼と同じくらい稼いでいるのだから、僕の給料を上げられないと言うんです。"}
+{"en": "This is silly, but it may be beyond your manager's power to fix.", "ja": "それはばかげていますが、管理職の権限で修正できる範囲を越えているのかもしれません。"}
+{"en": "See if you can find alternatives - maybe he can offer you extended benefits.", "ja": "代替案を見つけることができれば、追加分の給与をオファーできるかもしれません。"}
+{"en": "If all else fails, try to get him to give you permission to do freelance consulting on your own time, and pick up some supplemental money.", "ja": "どうしてもダメなら、あなたが会社での労働時間外に、フリーのコンサルティングをやり、補助となるお金を手に入れる許可を与えるようかけあってみましょう。"}
+{"en": "4.5: I can't believe the manager on my staff is worth as much as we're paying.", "ja": "4.5: 私にはうちの管理職が、給料分の価値があるとは信じられないのです。"}
+{"en": "As you go through the day, try to keep track of all the things you're using and depending on that \"just happen\".", "ja": "一日の間、あなたが「無意識に」使ったり依存したりしているもの全てを記録しようとしてみてください。"}
+{"en": "Did you pay that phone bill?", "ja": "あなたはその電話代を支払ったのですか？"}
+{"en": "Who did?", "ja": "誰が支払ったのでしょう？"}
+{"en": "Your manager is probably doing a lot of things you aren't even aware are happening;", "ja": "あなたのとこの管理職が、あなたが起こっていることを意識さえしないようなたくさんのことをこなしているのです。"}
+{"en": "this is allowing you to focus on what's important, doing your job.", "ja": "これであなたも重要なことに集中でき、仕事にかかれるでしょう。"}
+{"en": "Section 5: What does that mean?", "ja": "5章： それどういう意味？"}
+{"en": "5.1: My manager doesn't speak English.", "ja": "5.1: うちの管理職は英語を喋りません。"}
+{"en": "At least, I don't think so.", "ja": "少なくとも、私にはそう思えます。"}
+{"en": "Managers have evolved their own set of words, just like technical jargon, to communicate more effectively.", "ja": "管理職たちは、お互いが効率よく意思疎通ができるように、自分たち独自の言葉を作ってきました。"}
+{"en": "Unfortunately, one of the things it's designed to communicate is", "ja": "残念なことに、そうした言語が伝えたいのは"}
+{"en": "\"I can speak long words without stuttering\".", "ja": "「私はつっかえずに長い単語が言えるぞ」ということなんです。"}
+{"en": "Still, the chances are that most of what you're hearing does have meaning, although it may be a little verbose.", "ja": "それにしても少し冗長かもしれませんが、あなたが耳にすることのほとんどのものには意味がある可能性が高いのです。"}
+{"en": "[It is also possible that English is not your manager's native language, and that it's not yours either.", "ja": "[英語があなたのとこの管理職のネイティブな言語でないこともまたありえますし、あなた自身がそうでないかもしれません。"}
+{"en": "Feel free to substitute a more appropriate language.]", "ja": "自由に適当な言語に置き換えて読んで下さい。]"}
+{"en": "5.2: My manager is demanding an estimate for something I haven't figured out yet.", "ja": "5.2: うちの管理職は、私がまだ見定めてないものについての見積もりを要求するんです。"}
+{"en": "Your manager is trying to decide trivial little things like \"where does the paycheck come from\".", "ja": "あなたのとこの管理職は、「その給与はどこから出たのか」といった取るに足らない些細なことを見定めようとしているのでしょう。"}
+{"en": "If paychecks are to come on regular schedules, the company's income must come on, at least, a predictable schedule - which means your manager needs to have some idea of how long it will take you to do something.", "ja": "もし給与が規則正しく支払われることになっているなら、その会社の収入も、少なくとも予想できるスケジュールで入ってこなければならず、つまりあなたのとこの管理職は、あなたが何かやるのにどれぐらいかかるか分かっておくべきなのです。"}
+{"en": "Try to estimate.", "ja": "まず見積もってみましょう。"}
+{"en": "Go ahead and warn your manager that the estimate is inaccurate;", "ja": "それから、思い切って管理職にその見積もりが不正確であることを警告するのです。"}
+{"en": "you may want to use the example of \"finding keys\" to explain why.", "ja": "その理由を説明するのに、「鍵を見つける」例が使えるかもしれません。"}
+{"en": "5.3: My manager has no sense of humor.", "ja": "5.3: うちの管理職には、ユーモアのセンスというものがないんです。"}
+{"en": "Your manager probably doesn't have the same appreciation for meta-humor, recursion, and obscure technical puns that you do.", "ja": "あなたの管理職が、メタユーモア、反復、そして曖昧な技術関係の駄洒落について、あなたと同じようにはおもしろさを感じ取れないのでしょう。"}
+{"en": "Try not to depend on jokes that require an engineering background (or at least an engineer's attitude) as a means of communication or bonding with people who aren't, in the end, here to be engineers.", "ja": "コミュニケーションや、とどのつまり、技術者でない人達と触れ合う手段としては、技術的なバックグラウンド（さもなくば少なくとも技術者的姿勢）を必要とするジョークに頼らないようにしましょう。"}
+{"en": "5.4: My manager counts from one.", "ja": "5.4: うちの管理職は、数を１から数え始めます。"}
+{"en": "Ordinals (counting numbers) have always started from one;", "ja": "序数（数えるのに使う数字）は常に１から始まります。"}
+{"en": "counting from zero, while obvious and natural to many programmers, is probably wrong from a linguistic standpoint.", "ja": "０からはじめるのは、多くのプログラマーにとっては自明で自然なことかもしれませんが、言語学の見地からは多分間違っています。"}
+{"en": "Try to be flexible.", "ja": "柔軟になりましょうね。"}

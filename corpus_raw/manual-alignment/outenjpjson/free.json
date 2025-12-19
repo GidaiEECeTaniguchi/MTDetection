@@ -1,0 +1,47 @@
+{"en": "Free Software is More Reliable!", "ja": "フリーソフトウェアは独占的ソフトウェアよりも信頼できる"}
+{"en": "Apologists for proprietary software like to say,", "ja": "独占的ソフトウェア の弁明をする人たちは、 こういう話をするのが好きです。"}
+{"en": "``free software is a nice dream, but we all know that only the proprietary system can produce reliable products.", "ja": "フリーソフトウェア は素敵な夢だが、 信頼性の高い製品を作れるのは、 独占的な組織だけだっていうのは、 我々みんなが知ってることだよ。"}
+{"en": "A bunch of hackers just can't do this.''", "ja": "ハッカーの寄り集まりにはそんなことできっこない」"}
+{"en": "Empirical evidence disagrees, however;", "ja": "しかしながら、経験上得られた事実はその意見に反しています。"}
+{"en": "scientific tests, described below, have found GNU software to be more reliable than comparable proprietary software.", "ja": "以下で述べる科学的なテストによれば、 GNUソフトウェアは、それと比較できる独占的ソフトウェアよりももっと信頼できることがわかったのです。"}
+{"en": "This should not be a surprise;", "ja": "これは驚くべきことではありません。"}
+{"en": "there are good reasons for the high reliability of GNU software, good reasons to expect free software will often (though not always) have high reliability.", "ja": "GNUソフトウェアが高信頼性であることには確かな理由がありますし、 フリーソフトウェアがたいてい（常に、とはかぎりませんが） 高信頼性であることにも確かな理由があるのです。"}
+{"en": "* GNU Utilities Safer!", "ja": "* GNUユーティリティはより安全"}
+{"en": "* Why Free Software is More Reliable", "ja": "* フリーソフトウェアがより信頼できるのはなぜか"}
+{"en": "* Cancer Clinic Relies on Free Software!", "ja": "* ガンクリニックもフリーソフトウェアを頼っています"}
+{"en": "* Help Bulletproof GNU Utilities!", "ja": "* GNUユーティリティの防弾チョッキを援助してください"}
+{"en": "GNU Utilities Safer!", "ja": "GNUユーティリティはより安全"}
+{"en": "Barton P. Miller and his colleagues tested the reliability of Unix utility programs in 1990 and 1995.", "ja": "Barton P. Millerとその同僚は、 1990年と1995年に、Unixのユーティリティプログラムの信頼性をテストしました。"}
+{"en": "Each time, GNU's utilities came out considerably ahead.", "ja": "そのいずれにおいても、GNUのユーティリティは非常に抜きん出ていました。"}
+{"en": "They tested seven commercial Unix systems as well as GNU.", "ja": "彼らは7つの商用UnixシステムをGNU同様にテストしました。"}
+{"en": "By subjecting them to a random input stream,", "ja": "ランダムな入力ストリームを与えたところ、"}
+{"en": "they could ``crash (with core dump) or hang (infinite loop) over 40% (in the worst case) of the basic utility programs ...''", "ja": "「基本的なユーティリティプログラムのうち40%以上が、（コアダンプして）クラッシュしたり、 ハング（無限ループ）したりしました…」"}
+{"en": "These researchers found that the commercial Unix systems had a failure rate that ranged from 15% to 43%.", "ja": "この研究者たちは、 商用のUnixシステムの故障率 （訳者： failure rate。適切な訳語は？ ） は15%から43%の範囲なのに対して、"}
+{"en": "In contrast, the failure rate for GNU was only 7%.", "ja": "GNUの故障率は7%にすぎない、 ということを発見したのです。"}
+{"en": "Miller also said that,", "ja": "Millerはまた次のように言っています。"}
+{"en": "``the three commercial systems that we compared in both 1990 and 1995 noticeably improved in reliability,", "ja": "「我々が比較した商業製品のシステム3つは、 1990年と1995年にはるかに信頼性が改善された。"}
+{"en": "but still had significant rates of failure", "ja": "しかし、failureの割合はそれでも著しく高かったのだ"}
+{"en": "(the basic utilities from GNU/Linux still were noticeably better than those of the commercial systems).''", "ja": "（GNU/Linuxからの基本ユーティリティは、 これらの商業製品よりもはるかによかった）」"}
+{"en": "For details, see their paper:", "ja": "詳細は彼らの論文を参照してください。"}
+{"en": "Why Free Software is More Reliable", "ja": "フリーソフトウェアがより信頼できるのはなぜか"}
+{"en": "It is no fluke that the GNU utilities are so reliable.", "ja": "GNUユーティリティの信頼性がこんなに高いのは、まぐれではありません。"}
+{"en": "There are good reasons why free software tends to be of high quality.", "ja": "フリーソフトウェアが高信頼性を持つ傾向があるのには、 確かな理由があるのです。"}
+{"en": "One reason is that free software gets the whole community involved in working together to fix problems.", "ja": "理由の一つは、フリーソフトウェアは 問題を解決するために、全コミュニティが協力しあって関わっているという点です。"}
+{"en": "Users not only report bugs, they even fix bugs and send in fixes.", "ja": "ユーザはバグを報告するだけではなく、バグを修正したり、修正を送ったりすることすらあります。"}
+{"en": "Users work together, conversing by email, to get to the bottom of a problem and make the software work trouble-free.", "ja": "問題の深みまで至り、そのソフトを問題なく動作させるために、 ユーザは電子メールで互いに会話をしながら一緒に作業するのです。"}
+{"en": "Another is that developers really care about reliability.", "ja": "別の理由は、開発者は信頼性を本当に気にかけているということです。"}
+{"en": "Free software packages do not always compete commercially, but they still compete for a good reputation,", "ja": "フリーソフトウェアパッケージは商業的に競っているとは限りませんが、 それでも競っていい評判を得ようと努力しています。"}
+{"en": "and a program which is unsatisfactory will not achieve the popularity that developers hope for.", "ja": "不充分なプログラムは、開発者が期待する人気を得ることはないでしょう。"}
+{"en": "What's more, an author who makes the source code available for all to see puts his reputation on the line, and had better make the software clean and clear, on pain of the community's disapproval.", "ja": "さらに、ソースコードを万人に見えるようにしている作者は自分の評判をオンラインに置いており、 コミュニティから否認の刑にさらされないために、 ソフトウェアをクリーンでクリアなものにしておくべきなのです。"}
+{"en": "Cancer Clinic Relies on Free Software!", "ja": "ガンクリニックもフリーソフトウェアを頼っています"}
+{"en": "The Roger Maris Cancer Center in Fargo, North Dakota (the same Fargo which was recently the scene of a movie and a flood) uses Linux-based GNU systems", "ja": "ノースダコタ州、Fargo （最近映画と洪水で話題になったFargoと同じ）のTheRoger Maris Cancer Centerでは、 LinuxベースのGNUシステムを使っています。"}
+{"en": "precisely because reliability is essential.", "ja": "そこでは信頼性が本質的に重要だからです。"}
+{"en": "A network of GNU/Linux machines runs the information system, coordinates drug therapies, and performs many other functions.", "ja": "GNU/Linuxマシンのネットワークが情報システムを動かし、 薬物療法(drug therapies)を組織的に結び付け、 さらに他の多数の機能を果たしています。"}
+{"en": "This network needs to be available to the Center's staff at a moment's notice.", "ja": "そのネットワークは、 センターのスタッフが必要に応じてすぐに利用可能である必要があります。"}
+{"en": "According to Dr. G.W. Wettstein <greg@wind.rmcc.com>:", "ja": "G.W.Wettstein博士の話 <greg@wind.rmcc.com>:"}
+{"en": "``the proper care of our cancer patients would not be what it is today without [GNU/]Linux ...", "ja": "「Linuxが存在しなかったら、 我々のガン患者を現在のような形で適切 にケアすることはできなかっただろう。"}
+{"en": "The tools that we have been able to deploy from free software channels have enabled us to write and develop innovative applications which ... do not exist through commercial avenues.''", "ja": "…フリーソフトウェアのルートから入手できたツールたちを使うことで、 我々は、販売されていないような…革新的なアプリケーションを書き、開発することができたのだ」"}
+{"en": "Bulletproof GNU Utilities!", "ja": "GNUユーティリティの防弾チョッキを援助してください"}
+{"en": "Scott Maxwell is leading an effort to eliminate \"fuzz bugs\" from GNU software,", "ja": "Scott Maxwellは、 GNUソフトウェアから「ファズ・バグズ(fuzz bugs)」 を根絶する作業を率いています。"}
+{"en": "thus making them even more reliable.", "ja": "そうすることで、GNUソフトウェアはさらにもっと信頼性が高まるのです。"}
+{"en": "You can read about the project on http://home.pacbell.net/s-max/scott/bulletproof-penguin.html.", "ja": "このプロジェクトについては、http://home.pacbell.net/s-max/scott/bulletproof-penguin.html を参照してください。"}

@@ -1,0 +1,210 @@
+{"en": "The Hacker FAQ", "ja": "管理職のためのハッカー FAQ"}
+{"en": "The following list is an attempt to cover some of the issues that will invariably come up when people without previous experience of the hacker community try to hire a hacker.", "ja": "以下のリストは、ハッカー・コミュニティに属した経験のない人がハッカーを雇おうとする際に常に頭をもたげる問題をある程度カバーしようとする試みである。"}
+{"en": "This FAQ is intended for free distribution, and may be copied as desired.", "ja": "この FAQ は自由な配布を意図しているし、好きなように複製してよい。"}
+{"en": "It is in an early revision.", "ja": "これは初期の改訂版である。"}
+{"en": "If you wish to modify the FAQ, or distribute it for publication, please contact the author.", "ja": "もしこの FAQ を修正したい、もしくは出版物による配布をしたい場合は、どうか作者に連絡していただきたい。"}
+{"en": "The author is seebs@plethora.net.", "ja": "作者は seebs@plethora.net である。"}
+{"en": "The official distribution site (as of revision 0.05) is \"http://www.plethora.net/‾seebs/faqs/hacker.html\".", "ja": "正式版（0.05 版）があるサイトは、\"http://www.plethora.net/‾seebs/faqs/hacker.html\" である。"}
+{"en": "DISCLAIMER:", "ja": "免責事項："}
+{"en": "The author is a hacker.", "ja": "作者はハッカーである。"}
+{"en": "Bias is inevitable.", "ja": "バイアスがかかるのは避けられない。"}
+{"en": "Unaltered distribution is permitted.", "ja": "変更を加えない限り配布は許可される。"}
+{"en": "Revision 0.05 - Last modified September 28, 1999", "ja": "0.05版：1999年9月28日最終更新"}
+{"en": "Questions and Answers:", "ja": "質問と回答："}
+{"en": "Section 0: Basic understanding.", "ja": "0章： 基本的な理解"}
+{"en": "0.0: Won't my hacker break into my computer and steal my trade secrets?", "ja": "0.0: うちで働くハッカーは私のコンピュータに侵入したり、企業秘密を盗んだりしないでしょうか？"}
+{"en": "No.", "ja": "いえ。"}
+{"en": "Hackers aren't, contrary to media reporting, the people who break into computers.", "ja": "ハッカーというのは、メディアの報道に反して、コンピュータに侵入する人間のことではありません。"}
+{"en": "Those are crackers.", "ja": "そうした手合はクラッカーです。"}
+{"en": "Hackers are people who enjoy playing with computers.", "ja": "ハッカーはコンピュータと戯れる人達です。"}
+{"en": "Your hacker may occasionally circumvent security measures, but this is not malicious;", "ja": "あなたが雇っているハッカーは時折安全対策を出し抜いたりしますが、これに悪意はないのです。"}
+{"en": "she just does it when the security is in her way, or because she's curious.", "ja": "セキュリティがそれなりのものである場合に特にそうしたがるわけで、これはすなわち好奇心ゆえなのです。"}
+{"en": "0.1: Was it a good idea to hire a hacker?", "ja": "0.1: ハッカーを雇ったのは得策だったでしょうか？"}
+{"en": "It depends on the job.", "ja": "仕事に依ります。"}
+{"en": "A hacker can be dramatically more effective than a non-hacker at a job, or dramatically less effective.", "ja": "ハッカーはある仕事においては非ハッカーよりも劇的に有能たりえるし、そうでなければ劇的に劣ってしまいます。"}
+{"en": "Jobs where hackers are particularly good are:", "ja": "ハッカーが特に得意とする仕事は、"}
+{"en": "Systems administration", "ja": "システム管理"}
+{"en": "Programming", "ja": "プログラミング"}
+{"en": "Design", "ja": "デザイン"}
+{"en": "Jobs where hackers are particularly bad are:", "ja": "ハッカーが特に不得手とする仕事は、"}
+{"en": "Data entry", "ja": "データ入力"}
+{"en": "More generally, a job that requires fast and unexpected changes, significant skill, and is not very repetitive will be one a hacker will excel at.", "ja": "大体において、迅速さや予期せぬ変化、傑出した技能を必要とし、余り繰り返しのない仕事というのが、ハッカーが秀でるところです。"}
+{"en": "Repetitive, simple jobs are a waste of a good hacker, and will make your hacker bored and frustrated.", "ja": "繰り返しが多い単調な仕事は優れたハッカーを無駄にし、あなたが雇っているハッカーを退屈させ欲求不満にさせるでしょう。"}
+{"en": "No one works well bored and frustrated.", "ja": "退屈で欲求不満ではよく働いてはくれませんよね。"}
+{"en": "The good news is, if you get a hacker on something he particularly likes, you will frequently see performance on the order of five to ten times what a \"normal\" worker would produce.", "ja": "ありがたいことに、ハッカーを彼が特に好むところに置いてやれば、しばしば「平均的な」労働者のおよそ５倍から１０倍もの成績を上げるのを目の当たりにするでしょう。"}
+{"en": "This is not consistent, and you shouldn't expect to see it all the time, but it will happen.", "ja": "これは首尾一貫しておらず、毎度それを期待すべきではないのですが、往々にして起きることです。"}
+{"en": "This is most visible on particularly difficult tasks.", "ja": "これは特に困難な仕事を与えたときに最も目にします。"}
+{"en": "0.2: How should I manage my hacker?", "ja": "0.2: 私はうちで雇っているハッカーを管理すべきなのでしょうか？"}
+{"en": "The same way you herd cats.", "ja": "猫を飼うのと同じ要領です。"}
+{"en": "It can be a bit confusing;", "ja": "いくらか困惑するでしょう。"}
+{"en": "they're not like most other workers.", "ja": "彼らは他の大部分の労働者と毛色が異なるわけですから。"}
+{"en": "Don't worry!", "ja": "でも心配無用！"}
+{"en": "Your hacker is likely to be willing to suggest answers to problems, if asked.", "ja": "あなたのところのハッカーは、もし求められたら、問題への解を進んで提案してくれるでしょう。"}
+{"en": "Most hackers are nearly self-managing.", "ja": "多くのハッカーはほとんど自己管理がなってます。"}
+{"en": "0.3: Wait, you just said \"10 times\", didn't you?", "ja": "0.3: 待ってください、「１０倍」とおっしゃられましたよね？"}
+{"en": "You're not serious, right?", "ja": "ご冗談でしょう？"}
+{"en": "Actually, I said \"ten times\".", "ja": "本当に「１０倍」と申しました。"}
+{"en": "And yes, I am serious;", "ja": "そうです、私は真剣です。"}
+{"en": "a hacker on a roll may be able to produce, in a period of a few months, something that a small development group (say, 7-8 people) would have a hard time getting together over a year.", "ja": "好調時のハッカーなら、二三ヶ月で、小規模な開発グループ（７、８人の）が団結しながらも一年以上苦労しているものを作りうるのです。"}
+{"en": "He also may not. Your mileage will vary.", "ja": "人によりますから、あなたのところのハッカーがそこまですごいかどうかはわかりませんが。"}
+{"en": "IBM used to report that certain programmers might be as much as 100 times as productive as other workers, or more.", "ja": "IBM はかつて、特定のプログラマーが他の労働者の１００倍、もしくはそれ以上の生産性を示したことを報告しました。"}
+{"en": "This kind of thing happens.", "ja": "この種のことが起こるのです。"}
+{"en": "0.4: I don't understand this at all.", "ja": "0.4: 私には全く理解できません。"}
+{"en": "This is confusing.", "ja": "困惑してます。"}
+{"en": "Is there a book on this?", "ja": "それを示した書籍などありますか？"}
+{"en": "Not yet.", "ja": "今のとこまだです。"}
+{"en": "In the meantime, check out The New Hacker's Dictionary (references below; also known as \"the jargon file\"), in particular some of the appendices.", "ja": "当面は、「New Hacker's Dictionary」（下記参照、「ジャーゴン・ファイル」として知られている）を、特にアペンディクスをチェックしてください。"}
+{"en": "The entire work is full of clarifications and details of how hackers think.", "ja": "全体にハッカーの思考法の説明と細目でいっぱいです。"}
+{"en": "Section 1: Social issues", "ja": "1章： 社会性の問題"}
+{"en": "1.0: My hacker doesn't fit in well with our corporate society.", "ja": "1.0: うちのハッカーは我々の企業社会とうまく調和してません。"}
+{"en": "She seems to do her work well, but she's not really making many friends.", "ja": "仕事はうまくやってくれてるようなのですが、友達をあまり作ろうとしないのです。"}
+{"en": "This is common.", "ja": "よくあることです。"}
+{"en": "Your hacker may not have found any people around who get along with hackers.", "ja": "あなたの雇ったハッカーは、ハッカーと仲良くやれる人間を見つけてないのかもしれません。"}
+{"en": "You may wish to consider offering her a position telecommuting, or flexible hours (read: night shift),", "ja": "あなたとしては在宅勤務やフレックス勤務（夜型への移行）を提案することを考えてみてはどうでしょう。"}
+{"en": "which may actually improve her productivity.", "ja": "そうしてみれば生産性が向上するかもしれません。"}
+{"en": "Or hire another one.", "ja": "さもなくば他のハッカーを雇うことですね。"}
+{"en": "1.1: My hacker seems to dress funny.", "ja": "1.1: うちのハッカーは服装がヘンなんです。"}
+{"en": "Is there any way to impress upon him the importance of corporate appearance?", "ja": "企業における風采の重要性を叩き込む方法はあるでしょうか？"}
+{"en": "Your hacker has a very good understanding of the importance of corporate appearance.", "ja": "あなたのところのハッカーは団体における風采の重要性をとてもよく理解してますよ。"}
+{"en": "It doesn't help you get your job done.", "ja": "つまりそれが仕事の助けにはならないということをです。"}
+{"en": "IBM, Ford, and Microsoft have all realized that people work better when they can dress however they want.", "ja": "IBM、フォード、そしてマイクロソフトもみんな、従業員が望む服装をさせるのが仕事にもよいことを認識してますよ。"}
+{"en": "Your hacker is dressed comfortably.", "ja": "あなたのところのハッカーはその人にとって気持ちのよい服装をしているのです。"}
+{"en": "A polite request to dress up some for special occasions may well be honored, and most hackers will cheerfully wear clothes without (unintentional) holes in them if specifically asked.", "ja": "特別な機会にはいくらかドレスアップするよう礼儀正しく要求するのはもっともなことで、殆どのハッカーは丁重に求められれば、快活に（意図せざる）穴のあいてない服を着てくれます。"}
+{"en": "1.2: My hacker won't call me by my title,", "ja": "1.2: うちのハッカーは私を肩書きで呼ぼうとしません。"}
+{"en": "and doesn't seem to respect me at all.", "ja": "それどころか私に全く敬意を払ってないように見えるのです。"}
+{"en": "Your hacker doesn't respect your title.", "ja": "ハッカーは肩書きに敬意を払いません。"}
+{"en": "Hackers don't believe that management is \"above\" engineering;", "ja": "ハッカーというのは、マネージメントがエンジニアリングの「上位」にくるなんて思わないのです。"}
+{"en": "they believe that management is doing one job, and engineering is doing another.", "ja": "つまり、彼らにとってマネージメントというのはある役目を果たすことであって、エンジニアリングもまたしかりです。"}
+{"en": "They may well frequently talk as if management is beneath them, but this is really quite fair;", "ja": "彼らはあたかもマネージメントが彼らの下位にあるかのような口振りをすることも多分頻繁にあるかもしれませんが、これは実際公平だといえます。"}
+{"en": "your question implies that you talk as if engineering is beneath you.", "ja": "つまり、あなたの問いによると、あなたはエンジニアリングがあなたの下位にあるかのようにほのめかしてるからです。"}
+{"en": "Treat your hacker as an equal,", "ja": "ハッカーを対等な存在として扱うことです。"}
+{"en": "and she will probably treat you as an equal", "ja": "そうしたら、彼女も恐らくはあなたを対等な存在として扱うでしょう。"}
+{"en": "-- quite a compliment!", "ja": "全く光栄なことではないですか！"}
+{"en": "1.3: My hacker constantly insults the work of my other workers.", "ja": "1.3: うちのハッカーは、うちの他の従業員の仕事をしょっちゅう侮辱するのです。"}
+{"en": "Take your hacker aside, and ask for details of what's wrong with the existing work.", "ja": "あなたの雇っているハッカーをわきに連れて行き、現在の仕事のおかしいところを詳しいところまで助言を求めるのです。"}
+{"en": "It may be that there's something wrong with it.", "ja": "何か問題があるのかもしれません。"}
+{"en": "Don't let the fact that it runs most of the time fool you;", "ja": "大抵の場合うまくいっているという事実に騙されてはいけません。"}
+{"en": "your hacker is probably bothered by the fact that it crashes at all.", "ja": "あなたのとこのハッカーは、その問題が全てを破綻させてしまうという事実が気になっているのかもしれません。"}
+{"en": "He may be able to suggest improvements which could dramatically improve performance, reliability, or other features.", "ja": "彼はパフォーマンス、信頼性、そして他の主要点について劇的に向上させる改良点を指摘できるかもしれません。"}
+{"en": "It's worth looking into.", "ja": "これは調べてみる価値があります。"}
+{"en": "You may be able to convince your hacker to be more polite, but if there appear to be major differences, it's quite possible that one or more of your existing staff are incompetent.", "ja": "あなたはあなたのとこのハッカーに説得してもう少し礼儀正しくするようにさせることができるかもしれませんが、もし彼と他の従業員との間で大きな見解の相違があるようならば、あなたが現在抱えるスタッフの一人、もしくはそれ以上が無能である、ということも大いにありうることです。"}
+{"en": "Note that hackers, of course, have different standards of competence than many other people.", "ja": "勿論のこと、ハッカーは他の多くの人達とは能力の基準が違うことに注意してください"}
+{"en": "(Read \"different\" as \"much higher\".)", "ja": "（「基準が違う」を「基準がより高い」と読みかえてもよいです）。"}
+{"en": "Section 2: Productivity.", "ja": "2章: 生産性"}
+{"en": "2.0: My hacker plays video games on company time.", "ja": "2.0: うちのハッカーは就業時間にビデオゲームで遊ぶのです。"}
+{"en": "Hackers, writers, and painters all need some amount of time to spend \"percolating\" -- doing something else to let their subconscious work on a problem.", "ja": "ハッカー、作家、そして画家は皆「浸透」のために費やす時間がいくらか必要で、彼らの潜在意識の働きを問題に向けるために何か他のことをしているのです。"}
+{"en": "Your hacker is probably stuck on something difficult.", "ja": "あなたのとこのハッカーは多分何か困難に突き当たっているのでしょう。"}
+{"en": "Don't worry about it.", "ja": "心配には及びません。"}
+{"en": "2.1: But it's been two weeks since I saw anything!", "ja": "2.1: しかし見るところ二週間そればっかりなんですよ！"}
+{"en": "Your hacker is working, alone probably, on a big project, and just started, right?", "ja": "あなたのとこのハッカーは、多分一人で、ビッグ・プロジェクトに従事していて、それは始まったばかり、でよろしいですか？"}
+{"en": "She's probably trying to figure it all out in advance.", "ja": "彼女は多分その全容をあらかじめ理解しようとしているのです。"}
+{"en": "Ask her how it's going;", "ja": "彼女に進捗を尋ねてみてください。"}
+{"en": "if she starts a lot of sentences, but interrupts them all with \"no, wait...\" or \"drat, that won't work\", it's going well.", "ja": "もし彼女が次々とセンテンスを話しだすが、「いや、待って・・・」とか「ちぇっ、上手くいかないぞ」といった言葉で中断するようなら、順調です。"}
+{"en": "2.2: Isn't this damaging to productivity?", "ja": "2.2: それって生産性にダメージを与えてませんか？"}
+{"en": "No.", "ja": "いいえ、"}
+{"en": "Your hacker needs to recreate and think about things in many ways.", "ja": "あなたのとこのハッカーは色々なやり方で気晴らしをし、物事を考える必要があるのです。"}
+{"en": "He will be more productive with this recreation than without it.", "ja": "気晴らしをしないより、した方がより生産的であるでしょう。"}
+{"en": "Your hacker enjoys working;", "ja": "あなたのとこのハッカーは仕事を楽しんでます。"}
+{"en": "don't worry about things getting done reasonably well and quickly.", "ja": "合理的にかつ迅速に仕事がなされるかについて心配することはありません。"}
+{"en": "2.3: My hacker is constantly doing things unrelated to her job responsibilities.", "ja": "2.3: うちのとこのハッカーはいつも自分の職責と関係のないことをやってます。"}
+{"en": "Do they need to be done?", "ja": "その職責を果たす必要があるのですか？"}
+{"en": "Very few hackers can resist solving a problem when they can solve it, and no one else is solving it.", "ja": "自分は問題を解けるが他の誰もそれを解けない場合、問題を解くことに抵抗できるハッカーはほとんどいません。"}
+{"en": "For that matter, is your hacker getting her job done?", "ja": "この場合、あなたのとこのハッカーは仕事をうまくやってますか？"}
+{"en": "If so, consider these other things a freebie or perk (for you).", "ja": "もしそうなら、そうした行動を（あなたへの）無償のサービス、チップと考えてみて下さい。"}
+{"en": "Although it may not be conventional, it's probably helping out quite a bit.", "ja": "それは協定にはないかもしれないが、いくばかりか助力にはなるでしょう。"}
+{"en": "2.4: My hacker is writing a book, reading USENET news, playing video games, talking with friends on the phone, and building sculptures out of paper clips.", "ja": "2.4: うちのとこのハッカーは本を書き、USENET を読み、ビデオゲームで遊び、電話で友人と話し、紙ばさみで彫刻を創っているんです。"}
+{"en": "On company time!", "ja": "就業時間にですよ！"}
+{"en": "He sounds happy.", "ja": "幸せそうですね。"}
+{"en": "The chances are he's in one of three states:", "ja": "多分以下の三つのいずれかなのでしょう："}
+{"en": "Basic job responsibilities are periodic (phone support, documentation, et al.) and there's a lull in incoming work.", "ja": "基本的な職責が周期的なもの（電話サポート、文書調査など）で、次に来る仕事までの小康状態である。"}
+{"en": "Don't worry about it!", "ja": "心配御無用です！"}
+{"en": "Your hacker is stuck on a difficult problem.", "ja": "あなたのとこのハッカーは困難な問題に突き当たっている。"}
+{"en": "Your hacker is bored silly and is trying to find amusement.", "ja": "あなたのとこのハッカーはひどく退屈していて、娯楽を見つけようとしている。"}
+{"en": "Perhaps you should find him more challenging work?", "ja": "できましたら、あなたはよりやりがいのある仕事を見つけてやるべきではないでしょうか？"}
+{"en": "Any of these factors may be involved.", "ja": "以上の要素のいずれかがあてはまるのかもしれません。"}
+{"en": "All of them may be involved.", "ja": "全部があてはまるのかもしれません。"}
+{"en": "In general, if the work is challenging, and is getting done, don't worry too much about the process.", "ja": "一般に、もし仕事にやりがいがあり、うまくいっているなら、そのプロセスについて心配することはありません。"}
+{"en": "You might ask for your corporation to be given credit in the book.", "ja": "ハッカーが書いた本にクレジットが与えられるようかけあってみては如何でしょう。"}
+{"en": "2.5: But my other workers are offended by my hacker's success, and it hurts their productivity.", "ja": "2.5: しかしですね、うちの他の従業員はハッカーの成功に気分を損ねてますし、彼らの生産性を損なっているのですが。"}
+{"en": "Do you really need to have workers around who would rather be the person getting something done, than have it done already?", "ja": "あなたは本当に、既に何かをやってしまった労働者より、現在うまくやっている労働者を求めているのですか？"}
+{"en": "Ego has very little place in the workplace.", "ja": "エゴなんて職場で重視するものではないでしょう。"}
+{"en": "If they can't do it well, assign them to something they can do.", "ja": "もし連中がうまくできてないのなら、連中ができる仕事を割り当てることです。"}
+{"en": "Section 3: Stimulus and response", "ja": "3章: 鼓舞と反応"}
+{"en": "3.0: My hacker did something good, and I want to reward him.", "ja": "3.0: うちのハッカーはよくやってますので、私としては彼に報酬を与えたいのですが。"}
+{"en": "Good!", "ja": "素晴らしい！"}
+{"en": "Here are some of the things most hackers would like to receive in exchange for their work:", "ja": "多くのハッカーが自分の仕事と引き換えに受けたいと思うものの幾つかを以下に挙げます。"}
+{"en": "Discounts on expensive toys.", "ja": "高価なおもちゃの割引"}
+{"en": "These are not necessarily in order.", "ja": "必ずしも順番通りではありません。"}
+{"en": "The 4th item (understanding) is the most difficult.", "ja": "４番目の項目（理解）が最も難しいでしょう。"}
+{"en": "Try to remember this good thing your hacker just did the next time you discover he just spent a day playing x-trek.", "ja": "次回あなたのとこのハッカーが x-trek をやって遊んでいるのを見かけたときに、ハッカーが成し遂げたいい仕事のことを思い出そうとしてください。"}
+{"en": "Rather than complaining about getting work done, write it off as \"a perk\" that was granted (informally) as a bonus for a job well done.", "ja": "仕事にぐちをこぼすよりは、うまくいった仕事へのボーナスとして（非公式に）与えられる「臨時収入」とみなすことです。"}
+{"en": "Don't worry;", "ja": "心配御無用！"}
+{"en": "hackers get bored quickly when they aren't doing their work.", "ja": "ハッカーというものは仕事をやらなければすぐに退屈してしまうものですから。"}
+{"en": "3.1: My hacker did something bad, and I want to punish him.", "ja": "3.1: うちのとこのハッカーは仕事が上手くいってないので、私としては彼に処罰を与えたいところです。"}
+{"en": "Don't.", "ja": "それはいけません。"}
+{"en": "30 years of psychological research has shown that punishment has no desirable long-term effects.", "ja": "３０年に渡る心理学の調査によると、処罰では長期的には望ましい効果がでません。"}
+{"en": "Your hacker is not a lab rat.", "ja": "あなたのとこのハッカーは実験用ネズミではないのです"}
+{"en": "(Even if he were a lab rat, punishment wouldn't work;", "ja": "（あまつさえ彼が実験用ネズミであるとしても、処罰ではうまくいかないでしょう。"}
+{"en": "at least, not if he were one of the sorts of lab rats the psych research was done on.)", "ja": "少なくとも、心理調査が有効な実験用ネズミの類だったとしたら）。"}
+{"en": "If you don't like something your hacker is doing, express your concerns.", "ja": "もしあなたがそのハッカーのすることが気に食わないなら、あなたの考えを伝えることです。"}
+{"en": "Explain what it is that bothers you about the behavior.", "ja": "振る舞いについて、あなたを悩ませていることを説明するのです。"}
+{"en": "Be prepared for an argument;", "ja": "議論のための準備をすることです。"}
+{"en": "your hacker is a rational entity, and presumably had reasons.", "ja": "あなたのとこのハッカーは道理をわきまえた存在であって、理由があったのでしょうね。"}
+{"en": "Don't jump on him too quickly;", "ja": "彼を余りにも性急にこっぴどくしからないことです。"}
+{"en": "they may turn out to be good reasons.", "ja": "ちゃんとした理由があったことが分かるかもしれません。"}
+{"en": "Don't be afraid to apologize if you're wrong.", "ja": "もしあなたの方が間違っていたら、素直に謝りましょう。"}
+{"en": "If your hacker admits to having been wrong, don't demand an apology;", "ja": "もしあなたのとこのハッカーが非を認めても、謝罪を要求しないように。"}
+{"en": "so far as the hacker is concerned, admitting to being wrong is an apology, most likely.", "ja": "ハッカーにおいては、非を認めることは、大抵において謝罪なのです。"}
+{"en": "3.2: I don't get it.", "ja": "3.2: 私には理解できません。"}
+{"en": "I offered my hacker a significant promotion, and she turned it down and acted offended.", "ja": "私はうちのハッカーに著しい昇進をオファーしたのですが、彼女はそれを拒絶し、まるで傷つけられたかのように振る舞ったのです。"}
+{"en": "A promotion frequently involves spending more time listening to people describing what they're doing, and less time playing with computers.", "ja": "昇進により、他人の仕事の説明を聞くために費やす時間が増え、コンピュータと戯れる時間が減るということが往々にして起こります。"}
+{"en": "Your hacker is enjoying her work;", "ja": "あなたのとこのハッカーは現在の仕事を楽しんでいるのです。"}
+{"en": "if you want to offer a reward, consider an improvement in title, a possible raise, and some compliments.", "ja": "つまり、もしあなたが報酬を申し出るなら、肩書きにおける昇進、可能な給料の引き上げ、そしてちょっとした賛辞を考慮することです。"}
+{"en": "Make sure your hacker knows you are pleased with her accomplishments", "ja": "あなたが彼女の業績に満足していることを確かに知らしめること、"}
+{"en": "-- that's what she's there for.", "ja": "それこそが彼女が求めるものなのです。"}
+{"en": "3.3: My company policy won't let me give my hacker any more raises until he's in management.", "ja": "3.3: 我が社の規定では、管理職になってもらわないとハッカーに昇給を認めるわけにはいかないのです。"}
+{"en": "Your company policy is broken.", "ja": "貴社の規定はおかしいですよ。"}
+{"en": "A hacker can earn as much as $200 an hour (sometimes more) doing freelance consulting.", "ja": "フリーランスのコンサルティングをやって、時給 200 ドル（時にはそれ以上）も稼げるハッカーもいます。"}
+{"en": "You may wish to offer your hacker a contracted permanent consulting position with benefits, or otherwise find loopholes.", "ja": "あなたのとこのハッカーに、手当て付きの終身のコンサルティングの地位を申し出てもよいでしょうし、それができないのなら抜け道を探すことです。"}
+{"en": "Or, find perks to offer", "ja": "さもなければ、何か役得を見つけてやることですね。"}
+{"en": "- many hackers will cheerfully accept a discount on hardware from their favorite manufacturer as an effective raise.", "ja": "多くのハッカーは、彼らのお気に入りのメーカー製のハードウェアの割引を、印象的な昇給として喜んで受け入れるでしょう。"}
+{"en": "3.4: I can't believe the hacker on my staff is worth as much as we're paying.", "ja": "3.4: 私にはうちのスタッフのハッカーに給料分の価値があるとは信じられないのです。"}
+{"en": "Ask the other staff in the department what the hacker does, and what they think of it.", "ja": "その部署の他のスタッフに、そのハッカーがやっている仕事や、それについての感想を尋ねなさい。"}
+{"en": "The chances are that your hacker is spending a few hours a week answering arcane questions that would otherwise require an expensive external consultant.", "ja": "恐らく、あなたのとこのハッカーは週に二三時間、他だったら高額な外部のコンサルタントが必要な、難解な質問に答えるのに費やしているのでしょう。"}
+{"en": "Your hacker may be fulfilling another job's worth of responsibilities in his spare time around the office.", "ja": "あなたのとこのハッカーは、時間を切りつめて、オフィスまわりでもう一人分の仕事に値する職責を果たしているのかもしれません。"}
+{"en": "Very few hackers aren't worth what they're getting paid;", "ja": "給料分の価値のないハッカーなどごく少数です。"}
+{"en": "they enjoy accomplishing difficult tasks, and improving worker efficiency.", "ja": "彼らは困難な仕事を成し遂げることを楽しみ、労働者の効率を改善しているのです。"}
+{"en": "Section 4: What does that mean?", "ja": "4章: それはどういう意味？"}
+{"en": "4.0: My hacker doesn't speak English.", "ja": "4.0: うちのハッカーは英語を喋りません。"}
+{"en": "At least, I don't think so.", "ja": "少なくとも、私にはそうでないように思えます。"}
+{"en": "Your hacker is a techie.", "ja": "あなたのとこのハッカーは techie（技術オタク）なんです。"}
+{"en": "Your best bet is to pick up a copy of TNHD (The New Hacker's Dictionary).", "ja": "TNHD（The New Hacker's Dictionary）のコピーをピックアップすれば間違いないでしょう。"}
+{"en": "If you have trouble understanding that reference, ask your hacker if she has a copy, or would be willing to explain her terms.", "ja": "そうした参考文献を理解するのが困難なら、あなたのとこのハッカーに、コピーを持ってないかとか、もし良ければ用語を説明してくれないかなと尋ねてみましょう。"}
+{"en": "Most hackers are willing to explain terms.", "ja": "殆どのハッカーは専門用語を説明するのをいとわないです。"}
+{"en": "Be ready for condescension;", "ja": "恩着せがましい態度をとられるかもしれません。"}
+{"en": "it's not intended as an insult,", "ja": "でもそれは彼女があなたを侮辱しようと思っているわけではないのです。"}
+{"en": "but if you don't know the words, she probably has to talk down to you at first to explain them.", "ja": "あなたがその単語を知らなければ、彼女はまずそれを説明するためにレベルを落として話さなければならないのですから。"}
+{"en": "It's a reasonably difficult set of words;", "ja": "当然ながらそれは難しい単語の集まりです。"}
+{"en": "there are a lot of them, and their usage is much more precise than it sounds.", "ja": "なにしろ沢山ありますし、それらの単語の用法はぱっと聞いた印象よりずっとより厳密です。"}
+{"en": "Hackers love word games.", "ja": "ハッカーは言語ゲームが好きなんです。"}
+{"en": "[It is also possible that English is not your hacker's native language, and that it's not yours either.", "ja": "[英語があなたのとこのハッカーのネイティブな言語でないこともまたありえますし、あなた自身がそうでないかもしれません。"}
+{"en": "Feel free to substitute a more appropriate language.]", "ja": "その場合は上記の説明の English を適当な言語に置き換えて読んで下さい。]"}
+{"en": "4.1: I can't get an estimate out of my hacker.", "ja": "4.1: うちのハッカーは見積もりを出してくれません。"}
+{"en": "Your hacker hasn't figured out how hard the problem is yet.", "ja": "あなたのとこのハッカーは、まだその問題の困難さの程度を解析しきれていません。"}
+{"en": "Unlike most workers, hackers will try very hard to refuse to give an estimate until they know for sure that they understand the problem.", "ja": "大部分の労働者と違い、ハッカーは問題を確かに理解したと納得できるまで、見積もりを出すことに大きな抵抗を示すでしょう。"}
+{"en": "This may include solving it.", "ja": "時には、理解しようとしている間に問題を解いてしまうことさえありえます。"}
+{"en": "No good engineer goes beyond 95% certainty.", "ja": "優秀な技術者は、決して95%以上の確信を持ちません。"}
+{"en": "Most hackers are good engineers.", "ja": "そして大抵のハッカーは優秀な技術者です。"}
+{"en": "If you say you will not try to hold him to the estimate (and mean it!) you are much more likely to get an approximate estimate.", "ja": "もしあなたが、無理に見積もり通りにやらせたりはしないと言えば（しかも本気で！）、大抵の場合は、おおまかな見積もりを出してくれるんじゃないでしょうか。"}
+{"en": "The estimate may sound very high or very low;", "ja": "この見積もりはえらく高く思えたり、あるいはえらく低く思えるかもしれません。"}
+{"en": "it may be very high or very low.", "ja": "実際、その通りなのかもしれません。"}
+{"en": "Still, it's an estimate,", "ja": "結局それは見積もりでしかないんですから。"}
+{"en": "and you get what you ask for.", "ja": "でもそれがあなたの欲しかったものでしょ。"}
+{"en": "4.2: My hacker makes obscure, meaningless jokes.", "ja": "4.2: うちのハッカーは、はっきりしない、意味のないジョークをかますのです。"}
+{"en": "If you feel brave, ask for an explanation.", "ja": "もしあなたが勇敢なら、説明を求めてみては。"}
+{"en": "Most of them can be explained.", "ja": "そうしたものの殆どは説明可能です。"}
+{"en": "It may take a while, but it may prove interesting.", "ja": "しばらくかかるかもしれないが、おもしろさが分かるかもしれません。"}
+{"en": "4.3: My hacker counts from zero.", "ja": "4.3: うちのハッカーは、数字を０から数え始めます。"}
+{"en": "So does the computer.", "ja": "コンピュータがそうするからです。"}
+{"en": "You can hide it, but computers count from zero.", "ja": "あなたならそれを避けることもできますが、コンピュータは０から数え始めます。"}
+{"en": "Most hackers do by habit, also.", "ja": "大部分のハッカーもまた、くせになっているのです。"}

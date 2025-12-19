@@ -1,0 +1,920 @@
+{"en": "RMS (Richard M. Stallman) Lecture at KTH (Kungliga Tekniska H?gskolan (Royal Institute of Technology)) Stocholm Sweden. Arranged by the student society ``Datorf?reningen Stacken'' 30. October 1986 [Note: This is a slightly edited transcript of the talk.", "ja": "[コメント：これは 1986 年 10 月 30 日に、リチャード・M・ストールマンが、学生会「Datorforeningen Stacken」の招きでスウェーデンのストックホルム市にある王立工科大学で行った講演のテープ起こしに、ちょっと手を入れたものだ。"}
+{"en": "As such it contains false starts, as well as locutions that are natural in spoken English but look strange in print.", "ja": "だから変な始まりかたや、口語では自然だけれど字にするとへんてこな語法も入ってる。"}
+{"en": "It is not clear how to correct them to written English style without ' doing violence to the original speech'.]", "ja": "これを「もとの講演をゆがめることなく」文語にするにはどうすればいいか、よくわかんないのだ。]"}
+{"en": "It seems that there are three things that people would like me to talk about.", "ja": "みんながぼくに話してほしい話題は三つあるみたいだね。"}
+{"en": "On the one hand I thought that the best thing to talk about here for a club of hackers, was what it was like at the MIT in the old days.", "ja": "一つはまず、このハッカー集団に話すのにいちばんいいのは、昔の MIT ってのがどんなとこだったのかってことかな、と思った。"}
+{"en": "What made the Artificial Intelligence Lab such a special place.", "ja": "人工知能研究所のどこがそんなに特別だったのか。"}
+{"en": "But people tell me also that since these are totally different people from the ones who were at the conference Monday and Tuesday that I ought to talk about what's going on in the GNU project and that I should talk about why software and information can not be owned,", "ja": "でも、今日きてる人は月曜と火曜に会議にきたのとぜんぜんちがう人だから、GNU プロジェクトがどうなってるかとか、ソフトウェアや情報がなぜ所有できないかとかについて話すべきだ、とも言われた。"}
+{"en": "which means three talks in all, and since two of those subjects each took an hour it means we're in for a rather long time.", "ja": "ということはつまり全部で三つの話ってことで、このうち 2 つがそれぞれ 1 時間かかったんだから、みんなかなり長時間ここにいることになるわけだ。"}
+{"en": "So I had the idea that perhaps I could split it in to three parts, and people could go outside for the parts they are not interested in, and that then when I come to the end of a part I can say it's the end and people can go out and I can send Jan Rynning out to bring in the other people.", "ja": "それで思ったんだけれど、全体を 3 つにわけて、みんな自分の興味がない部分は外に出られるようにして、それで各部分の終わりにきたら、終わりだって言うから、みんな外にでて、それでぼくはヤン・ライニングにお願いしてほかの人を呼んできてもらうようにするってのはどうだろう。"}
+{"en": "(Someone else says: ``Janne, han trenger ingen mike'' (translation: ``Janne, he doesn't need a mike'')).", "ja": "（だれかが「Janne, han trenger ingen mike」 (「Janne、この人マイクなんかいらないよ」)と言う）"}
+{"en": "Jan, are you prepared to go running out to fetch the other people?", "ja": "ヤン、ひとっ走りして人を呼んできてもらってもいい？"}
+{"en": "Jmr: I am looking for a microphone, and someone tells me it is inside this locked box.", "ja": "Jmr: マイクを探してるんですけど、なんかこの鍵のかかった箱の中にあるっていうんですよ。"}
+{"en": "Rms: Now in the old days at the AI lab we would have taken a sledgehammer and cracked it open,", "ja": "Rms: うん、昔の AI 研でなら、でっかいハンマーを持ってきてそいつをぶち開けてただろうね。"}
+{"en": "and the broken door would be a lesson to whoever had dared to lock up something that people needed to use.", "ja": "その壊れたドアを見て、みんなが必要とするものを鍵かけてしまいこもうとするようなヤツも少しは勉強になったろう。"}
+{"en": "Luckily however I used to study Bulgarian singing, so I have no trouble managing without a microphone.", "ja": "でも運のいいことに、ぼくは昔ブルガリア歌唱法を勉強したことがあって、だからマイクなしでも全然問題ないよ。"}
+{"en": "Anyway, should I set up this system to notify you about the parts of the talk,", "ja": "とにかく、話がどの部分か知らせるシステムって要る？"}
+{"en": "or do You just like to sit through all of it?", "ja": "それともずっとすわって全部きいてたい？"}
+{"en": "(Answer: Yeaaah)", "ja": "（答：そうだそうだ)"}
+{"en": "When I started programming, it was 1969, and I did it in an IBM laboratory in New York.", "ja": "ぼくがプログラミングをはじめたのは 1969 年のことで、ニューヨークの IBM 研究所でのことだった。"}
+{"en": "After that I went to a school with a computer science department that was probably like most of them.", "ja": "そのあと、コンピュータ科学の学部がある学校があって、まあここはほかと似たりよったり。"}
+{"en": "There were some professors that were in charge of what was supposed to be done, and there were people who decided who could use what.", "ja": "何をすべきか決める教授たちがいて、だれが何を使っていいか決める連中がいて。"}
+{"en": "There was a shortage of terminals for most people, but a lot of the professors had terminals of their own in their offices, which was wasteful, but typical of their attitude.", "ja": "ほとんどの人には端末が不足してたんだけれど、教授たちはほとんどみんなオフィスの中に専用端末を持ってて、これは資源の無駄なんだけれど、連中の姿勢からすればまあありがちなことだよね。"}
+{"en": "When I visited the Artificial Intelligence lab at MIT I found a spirit that was refreshingly different from that.", "ja": "MIT の人工知能研に遊びにいったら、そういうのとは爽快なくらいにちがった精神があったんだ。"}
+{"en": "For example: there, the terminals was thought of as belonging to everyone,", "ja": "たとえば、そこでの端末はみんなのものだと思われてた。"}
+{"en": "and professors locked them up in their offices on pain of finding their doors broken down.", "ja": "だから自分のオフィスに鍵をかけるような教授は、ドアがぶち破られるというつらい目にあうわけ。"}
+{"en": "I was actually shown a cart with a big block of iron on it, that had been used to break down the door of one professors office, when he had the gall to lock up a terminal.", "ja": "ある教授のオフィスのドアをぶち破るのに使った、でっかい鉄のかたまりが載った台車をホントにみせてもらったよ。"}
+{"en": "There were very few terminals in those days, there was probably something like five display terminals for the system, so if one of them was locked up, it was a considerable disaster.", "ja": "その頃は端末はほんとに少なくて、システム全部にディスプレイ端末 5 つくらいかな、だからそのうち 1 台がしまい込まれてると、ものすごい損害だったわけ。"}
+{"en": "In the years that followed I was inspired by that ideas, and many times I would climb over ceilings or underneath floors to unlock rooms that had machines in them that people needed to use,", "ja": "その後の数年、ぼくはその考え方に刺激を受けて、何度も天井をのりこえたり床下を這ったりして、みんなが使いたいマシンのある部屋の鍵を開けてきた。"}
+{"en": "and I would usually leave behind a note explaining to the people that they shouldn't be so selfish as to lock the door.", "ja": "そして通常は、ドアに鍵をかけるような身勝手なまねはしなさんな、というメモをおいてった。"}
+{"en": "The people who locked the door were basically considering only themselves.", "ja": "ドアに鍵をかけるような人は、基本的には自分のことしか考えてないんだ。"}
+{"en": "They had a reason of course,", "ja": "もちろんその人たちにもそれなりの理由はあるだろう。"}
+{"en": "there was something they thought might get stolen and they wanted to lock it up,", "ja": "何か盗まれそうなものがあってそれに鍵をかけときたいとか。"}
+{"en": "but they didn't care about the other people they were affecting by locking up other things in the same room.", "ja": "でも同じ部屋にある別のものがしまいこまれちゃうと、ほかの人に影響が出るってことは気にもしなかったんだ。"}
+{"en": "Almost every time this happened, once I brought it to their attention, that it was not up to them alone whether that room should be locked, they were able to find a compromise solution:", "ja": "これが起きる度に必ずいえることだけど、それで一回はぼくも指摘したんだけど、別の解決策はあるんだ。鍵をかけるかどうかってのはかれらの勝手じゃないんだ。"}
+{"en": "some other place to put the things they were worried about, a desk they could lock, another little room.", "ja": "心配なものをしまっとく場所はほかにもあるし、デスクに鍵をかけることだってできる。"}
+{"en": "But the point is that people usually don't bother to think about that.", "ja": "でも要するに、みんなそんなことをわざわざ考えようとはしないんだよね。"}
+{"en": "They have the idea: ``This room is Mine, I can lock it, to hell with everyone else'',", "ja": "「この部屋はおれのだ、鍵をかけるのもおれの勝手、ほかの連中クソ食らえ」と思ってる。"}
+{"en": "and that is exactly the spirit that we must teach them not to have.", "ja": "そしてこれぞまさに、持ってはいけない精神なんだってことは教え込む必要がある。"}
+{"en": "But this spirit of unlocking doors wasn't an isolated thing, it was part of an entire way of life.", "ja": "でも、この鍵をかけない精神は、孤立したものじゃなくて、生き様全体の一部だったんだ。"}
+{"en": "The hackers at the AI lab were really enthusiastic about writing good programs, and interesting programs.", "ja": "AI 研のハッカーたちはいいプログラム、おもしろいプログラムをかくことにすごく熱心だった。"}
+{"en": "And it was because they were so eager to get more work done, that they wouldn't put up with having the terminals locked up,", "ja": "そしてもっともっと作業したくてたまんなかったので、端末に鍵がかかってるなんて黙ってられなかったんだ。"}
+{"en": "or lots of other things that people could do to obstruct useful work.", "ja": "あるいはその他、役に立つ仕事をじゃましようとして人がやるいろんなこととかも。"}
+{"en": "The differences between people with high morale who really care about what they're trying to do, and people who think of it as just a job.", "ja": "そのちがいってのは、高いモラルをもってて、自分が何をしようとしてるのか本当に気にかけてる人と、ただの仕事でやってる人との差だ。"}
+{"en": "If it's just a job, who cares if the people who hired you are so stupid they make you sit and wait,", "ja": "ただの仕事なら、雇い主が馬鹿で、こっちがずっと何もしないですわってなきゃなんなくたって、だれが気にするもんか。"}
+{"en": "it's their time, their money", "ja": "連中の時間だし、連中の金だし。"}
+{"en": "but not much gets done in a place like that, and it's no fun to be in a place like that.", "ja": "でもそんなとこでは、大した仕事はできないし、そんなとこにいたっておもしろくもなんともない。"}
+{"en": "Another thing that we didn't have at the AI lab was file protection.", "ja": "あと、AI 研になかったものといえば、ファイル保護。"}
+{"en": "There was no security at all on the computer.", "ja": "コンピュータにはセキュリティはまったくなかった。"}
+{"en": "And we very consciously wanted it that way.", "ja": "そしてこれはきわめて意識的に選んだ道だった。"}
+{"en": "The hackers who wrote the Incompatible Timesharing System decided that file protection was usually used by a self-styled system manager to get power over everyone else.", "ja": "Incompatible Timesharing System (ITS) を書いたハッカーたちは、ファイル保護なんてものは身勝手なシステム管理者が、ほかのみんなに対して権力を行使するのに使うもんだって思ってた。"}
+{"en": "They didn't want anyone to be able to get power over them that way, so they didn't implement that kind of a feature.", "ja": "ハッカーたちは、そんな権力を行使されるのはまっぴらだったから、その手の機能は実装しなかった。"}
+{"en": "The result was, that whenever something in the system was broken, you could always fix it.", "ja": "結果として、システムのどこかがこわれたら、いつも自分でなおせた。"}
+{"en": "You never had to sit there in frustration because there was NO WAY, because you knew exactly what's wrong, and somebody had decided they didn't trust you to do it.", "ja": "いらいらしながらじっとすわってなきゃならないなんてことは絶対許せないよね、こっちはどこがおかしいかずばりわかってて、それなのにだれかが、自分を信用してないからそれをさせないと決めてるなんて。"}
+{"en": "You don't have to give up and go home, waiting for someone to come in in the morning and fix the system", "ja": "あきらめて家に帰って、朝にだれかがきてシステムをなおしてくれるのを待つなんて、しなくていいじゃない。"}
+{"en": "when you know ten times as well as he does what needs to be done.", "ja": "何をしなきゃいけないのか、自分にはその人の10倍もよくわかってるってのに。"}
+{"en": "And we didn't let any professors or bosses decide what work was going to be done either,", "ja": "あと、どんな作業をやるのかについても、教授だの上司だのには決めさせなかった。"}
+{"en": "because our job was to improve the system!", "ja": "だってぼくたちの仕事はシステムの改善だったんだもん！"}
+{"en": "We talked to the users of course;", "ja": "もちろん利用者とは話をした。"}
+{"en": "if you don't do that you can't tell what's needed.", "ja": "だってそうしないと何が必要かわからないからね。"}
+{"en": "But after doing that, we were the ones best able to see what kind of improvements were feasible,", "ja": "でもそれがすんだら、どんな改善が実現可能かいちばんよく判断できるのはぼくたちだったんだ。"}
+{"en": "and we were always talking to each other about how we'd like to see the system changed, and what sort of neat ideas we'd seen in other systems and might be able to use.", "ja": "そしてぼくちはいつも、システムをこう変えたらいいだろうな、とかほかのシステムで、こんないかしたアイデアを見たよ、とか、それを使えないものかな、とか話してた。"}
+{"en": "So the result is that we had a smoothly functioning anarchy,", "ja": "だから結果として、そこにはなめらかに機能するアナーキーがあった。"}
+{"en": "and after my experience there, I'm convinced that that is the best way for people to live.", "ja": "そしてそこでの自分の経験から、ぼくはそれこそ人が生きる最高のやりかただと確信してる。"}
+{"en": "Unfortunately the AI lab in that form was destroyed.", "ja": "残念ながら、そういう形の AI 研は破壊されちゃったんだ。"}
+{"en": "For many years we were afraid the AI lab would be destroyed by another lab at MIT, the Lab for Computer Science,", "ja": "何年ものあいだ、AI研は MIT の別の研究所、コンピュータ科学研に破壊されるんじゃないか、というのがぼくたちのおそれていたことだった。"}
+{"en": "whose director was a sort of empire builder type, doing everything he could to get himself promoted within MIT, and make his organization bigger, and he kept trying to cause the AI lab to be made a part of his lab,", "ja": "そこの所長は一種の帝国建設者タイプで、自分の組織をでかくして MIT の中で昇進するためならなんでもやるような人間で、いつも AI 研を自分の研究所に吸収しようとしてたんだ。"}
+{"en": "and nobody wanted to do things his way", "ja": "だれもそいつの流儀でなんか作業したくなかった。"}
+{"en": "because he believed that people should obey orders and things like that.", "ja": "そいつは、人は指示に従うべきだとかなんとか、その手のことを信じてたからね。"}
+{"en": "But that danger we managed to defend against, only to be destroyed by something we had never anticipated,", "ja": "でもその危険に対してはなんとか防衛できたのに、まったく予想してなかったものによってぼくたちは破壊されてしまった。"}
+{"en": "and that was commercialism.", "ja": "それが商業主義だった。"}
+{"en": "Around the early 80's the hackers suddenly found that there was now commercial interest in what they were doing.", "ja": "1980 年代初期になって、ハッカーたちがハッと気がつくと、自分たちのやっていることには商売上の関心がもたれていたわけ。"}
+{"en": "It was possible to get rich by working at a private company.", "ja": "民間企業で働いて金持ちになることが可能になったんだ。"}
+{"en": "All that was necessary was to stop sharing their work with the rest of the world and destroy the MIT-AI lab,", "ja": "必要なのは、自分の仕事をほかの世界と共有するのをやめて、MIT AI 研をぶちこわせばいいだけ。"}
+{"en": "and this is what they did despite all the efforts I could make to prevent them.", "ja": "そしてぼくは手を尽くしてそれを止めようとしたけど、でもみんなそれをやっちゃったんだ。"}
+{"en": "Essentially all the competent programmers except for me, at the AI lab were hired away, and this caused more than a momentary change,", "ja": "要するに、AI 研にいたぼく以外の有能なプログラマは、みんな雇われてやめちゃって、おかげでそれは一時的な変化じゃすまなくなってた。"}
+{"en": "it caused a permanent transformation", "ja": "永続的な変化が生じた。"}
+{"en": "because it broke the continuity of the culture of hackers.", "ja": "ハッカー文化の連続性がとぎれちゃったんだよ。"}
+{"en": "New hackers were always attracted by the old hackers;", "ja": "新人ハッカーはいつだって古参ハッカーに惹かれる。"}
+{"en": "there were the most fun computers and the people doing the most interesting things, and also a spirit which was a great deal of fun to be part of.", "ja": "だっていちばんおもしろいコンピュータがあって、いちばんおもしろいことしてる人たちがいて、そして参加したら最高におもしろいスピリットもあったんだから。"}
+{"en": "Once these things were gone, there is nothing to recommend the place to anyone new, so new people stopped arriving.", "ja": "それがなくなったら、そこを新人に推薦するべき理由もなくなっちゃって、だから新人もこなくなった。"}
+{"en": "There was no-one they could be inspired by, no-one that they could learn those traditions from.", "ja": "ひらめきを受けるような人もないし、伝統を学べる人もいないし。"}
+{"en": "In addition no-one to learn how to do good programming from.", "ja": "ついでに、いいプログラミングを学ぶ人もいない。"}
+{"en": "With just a bunch of professors and graduate students, who really don't know how to make a program work, you can't learn to make good programs work.", "ja": "いるのは、使えるプログラムを書く方法なんか実は知らない教授や院生がうじゃうじゃいるだけだから、使えるプログラムの書き方なんか習えるわけがない。"}
+{"en": "So the MIT AI lab that I loved is gone.", "ja": "だからぼくの愛した MIT AI 研はもうなくなった。"}
+{"en": "and after a couple of years of fighting against the people who did it to try to punish them for it I decided that I should dedicate my self to try to create a new community with that spirit.", "ja": "そして何年か、それをやった人たちと闘って連中に罰を与えようとしてから、ぼくはその精神をもった新しいコミュニティづくりに精を出そうと決めたんだ。"}
+{"en": "But one of the problems I had to face was the problem of proprietary software (18k characters).", "ja": "でも、直面せざるを得なかった問題の一つが、独占ソフト（proprietary software）の問題だった。"}
+{"en": "For example one thing that happened at the lab, after the hackers left, was that the machines and the software that we had developed could no longer be maintained.", "ja": "たとえばハッカーたちが去ってから研究所で起こったことの一つは、ぼくたちが開発したマシンやソフトがもうメンテされないってことだった。"}
+{"en": "The software of course worked, and it continued to work if nobody changed it, but the machines did not.", "ja": "ソフトはもちろん動いたし、だれもそれを変えなければずっと動いてたけど、でもマシンはそうはいかない。"}
+{"en": "The machines would break and there would be no-one who could fix them and eventually they would be thrown out.", "ja": "マシンは壊れるし、だれもなおせるやつがいないから、やがて捨てられる。"}
+{"en": "In the old days, yes we had service contracts for the machines, but it was essentially a joke.", "ja": "昔は、ええ確かに保守契約なんてものはあったけど、でもまあ悪い冗談みたいなもんだった。"}
+{"en": "That was a way of getting parts after the expert hackers from the AI lab fixed the problem.", "ja": "それって単に、AI 研のエキスパート・ハッカーたちが問題を解決してから、パーツを入手するための手段でしかなかった。"}
+{"en": "Because if you let the field-service person fix it it would take them days, and you didn't want to do that, you wanted it to work.", "ja": "だって修理担当者になおさせたら、何日かかるやらわかんなくて、そんなのやってられないよね、すぐ動くようにしてくれないと。"}
+{"en": "So, the people who knew how to do those things would just go and fix it quickly, and since they were ten times as competent as any field service person, they could do a much better job.", "ja": "だから、やりかたのわかってる人間がだまって行ってさっさとなおして、それでそいつらはどんな修理担当者より 10倍も有能だったから、ずっとましな仕事をしたんだ。"}
+{"en": "And then they would have the ruined boards, they would just leave them there and tell the field service person ``take these back and bring us some new ones''.", "ja": "それでそうすると、こわれた基板とかが出るから、それをそこにおいといて、修理担当者には「こいつを持って帰って、新しいのをちょっともってきてくださいね」と言うわけ。"}
+{"en": "In the real old days our hackers used to modify the machines that came from Digital also.", "ja": "すごい昔の頃だと、ハッカーたちは Digital からきたマシンのほうも変更した。"}
+{"en": "For example, they built paging-boxes to put on the PDP-10's.", "ja": "たとえば、PDP-10 のてっぺんにのせる呼び出し用ボックスもつくったんだよ。"}
+{"en": "Nowadays I think there are some people here [in Stocholm] who do such things too, but it was a pretty unusual thing in those days.", "ja": "最近だと、ここ（ストックホルム）でもそういうことをする人はいると思うけど、当時はかなり異例なことだった。"}
+{"en": "And the really old days, the beginning of the 1960's people used to modify computers adding all sorts of new instructions and new fancy timesharing features, so that the PDP-1 at MIT by the time it was retired in the mid-seventies had something like twice as many instructions as it had when it was delivered by Digital in the early sixties, and it had special hardware scheduler assisting features and strange memory-mapping features making it possible to assign individual hardware devices to particular timesharing jobs and lots of things that I hardly really know about.", "ja": "それにうーんと昔、1960 年代初めとかだと、みんなコンピュータを変更して、いろんな新しい命令を足したり、すっごい TSS 機能を足したりして、だから MIT の PDP-1 は、引退する頃には 60 年代はじめに Digital が届けたときの 2 倍くらいの命令を持ってたし、特別なハードウェア・スケジューラ補助機能や変なメモリマッピング機能なんかもあって、個別ハード装置を特定のTSS ジョブに割り当てたり、その他ぼくでもほとんど知らないようないろんなことになってた。"}
+{"en": "I think they also built in some kind of extended addressing modes they added index registers and indirect addressing, and they turned it essentially from a weak machine into a semi-reasonable one.", "ja": "それと確か、一種の拡張アドレッシングモードも組み込んで、インデックスレジスタ修飾とか間接修飾とか追加して、要するに軟弱なマシンだったのをそこそこ使えるものにまで仕立てたんだ。"}
+{"en": "I guess it is one of the disadvantages of VLSI that it's no longer so feasible to add instructions to your machines.", "ja": "VLSI の欠点の一つは、もうマシンの命令を追加したりできなくなっちゃったことだろうね。"}
+{"en": "The PDP-1 also had a very interesting feature, which is that it was possible to interesting programs in very few instructions.", "ja": "PDP-1 にはまたすごくおもしろい特徴があって、おもしろいプログラムをほんの数命令で書けちゃうってこと。"}
+{"en": "Fewer that any other machine since then.", "ja": "それ以降のどんなマシンよりも少ない命令数でね。"}
+{"en": "I believe for example that the famous display hack ``munching squares'' which made squares that get bigger and break up into lots of smaller squares which gets bigger and break up into smaller squares.", "ja": "確かたとえば有名なディスプレイのハック「マンチング・スクウェア」ってのがあって、四角がどんどんでかくなって、それがたくさんの小さい四角に分裂して、それがまた大きくなってそれがまた小さいのに分裂するんだけど。"}
+{"en": "That was written in something like five instructions on the pdp-1.", "ja": "これって PDP-1 ではなんか 5 命令くらいで書かれてた。"}
+{"en": "And many other beautiful display programs could be written in few instructions.", "ja": "それとかいろんな美しいディスプレイプログラムが、ほんの数命令で書ける。"}
+{"en": "So, that was the AI lab.", "ja": "というわけで、これが AI 研の様子だった。"}
+{"en": "But what was the culture of hackers like aside from their anarchism?", "ja": "でもハッカーたちの文化は、アナキズム以外にはどんなものだったのか？"}
+{"en": "In the days of the PDP-1 only one person could use the machine,", "ja": "PDP-1 の頃には、マシンは一度に 1 人のユーザしか使えなかった。"}
+{"en": "at the beginning at least.", "ja": "少なくとも最初はね。"}
+{"en": "Several years later they wrote a timesharing system, and they added lots of hardware for it.", "ja": "何年かして TSS を書いて、それ用にたくさんハードを追加した。"}
+{"en": "But in the beginning you just had to sign up for some time.", "ja": "でも初めの頃は、時間枠を予約しなきゃならなかった。"}
+{"en": "Now of course the professors and the students working on official projects would always come in during the day.", "ja": "さてもちろん、公式プロジェクトの仕事をしてる教授や学生は、いつも昼間にやってくる。"}
+{"en": "So, the people who wanted to get lots of time would sign up for time at night when there were less competition,", "ja": "だから時間がたくさんほしい人たちは、競争の少ない夜を予約する。"}
+{"en": "and this created the custom of hackers working at night.", "ja": "これでハッカーたちは夜に働く習慣ができた。"}
+{"en": "Even when there was timesharing it would still be easier to get time, you could get more cycles at night, because there were fewer users.", "ja": "TSS が入ってからも、ユーザが少なかったから夜のほうが時間をとりやすい、CPU サイクルは夜のほうが使えたわけ。"}
+{"en": "So people who wanted to get lots of work done, would still come in at night.", "ja": "だから作業をいっぱいしたい人は、相変わらず夜にやってきた。"}
+{"en": "But by then it began to be something else because you weren't alone, there were a few other hackers there too, and so it became a social phenomenon.", "ja": "でもその頃になると、それだけじゃなくなってて、それは自分がもう 1 人じゃなくて、ほかにも何人かハッカーたちがいたからで、だから社会的な現象になったのね。"}
+{"en": "During the daytime if you came in, you could expect to find professors and students who didn't really love the machine, whereas if during the night you came in you would find hackers.", "ja": "昼間にきたら、たぶんいるのは教授や学生とか、マシンをほんとは愛してない連中だけど、夜ならばそこにはハッカーがいる。"}
+{"en": "Therefore hackers came in at night to be with their culture.", "ja": "だからハッカーたちは、自分の文化に加わるために夜にやってきた。"}
+{"en": "And they developed other traditions", "ja": "そしてハッカーたちはほかの伝統も開始した。"}
+{"en": "such as getting Chinese food at three in the morning.", "ja": "朝の 3 時にテイクアウトの中華料理を買ってくるとか。"}
+{"en": "And I remember many sunrises seen from a car coming back from Chinatown.", "ja": "だからぼくは、チャイナタウンから戻ってくる車の中から見た日の出がいくつも記憶に残っている。"}
+{"en": "It was actually a very beautiful thing to see a sunrise, cause' that's such a calm time of day.", "ja": "日の出を見るってのは、すごく美しいもので、だって一日の中ですごく穏やかな時間だからね。"}
+{"en": "It's a wonderful time of day to get ready to go to bed.", "ja": "寝る準備をするにはすばらしい時間帯だ。"}
+{"en": "It's so nice to walk home with the light just brightening and the birds starting to chirp, you can get a real feeling of gentle satisfaction, of tranquility about the work that you have done that night.", "ja": "ちょうど空が白んできて、鳥が鳴き出す頃に家に歩いてくと、穏やかな満足感が実感としてあるんだ、その晩にやった仕事に対する静謐な気持ちってのが。"}
+{"en": "Another tradition that we began was that of having places to sleep at the lab.", "ja": "ほかにもぼくたちのはじめた伝統は、研究室に泊まること。"}
+{"en": "Ever since I first was there, there was always at least one bed at the lab.", "ja": "ぼくがはじめてそこに行ったときから、研究室には少なくとも一つベッドがあった。"}
+{"en": "And I may have done a little bit more living at the lab than most people", "ja": "そしてぼくは、ほかの人よりちょっとばかし研究室で暮らす期間が長かった。"}
+{"en": "because every year of two for some reason or other I'd have no apartment and I would spend a few months living at the lab.", "ja": "1 年か 2 年おきくらいに、あれやこれやでアパートがなくて、だから研究所で数ヶ月暮らしたりしたんだ。"}
+{"en": "And I've always found it very comfortable, as well as nice and cool in the summer.", "ja": "いつでもすごく快適で、しかも夏にはすごくすずしくていいんだ。"}
+{"en": "But it was not at all uncommon to find people falling asleep at the lab, again because of their enthusiasm;", "ja": "でも、研究所で寝ちゃう人を見かけるのはぜんぜんしょっちゅうで、これもまた熱意のせいだよね。"}
+{"en": "you stay up as long as you possibly can hacking, because you just don't want to stop.", "ja": "とにかく手をとめたくないからできるだけながいこと起きててハッキングする。"}
+{"en": "And then when you're completely exhausted, you climb over to the nearest soft horizontal surface.", "ja": "そして完全に疲れきったら、最寄りのやわらかい水平面によじのぼる。"}
+{"en": "A very informal atmosphere.", "ja": "すごく形式張らない雰囲気。"}
+{"en": "But when the hackers all left the lab this caused a demographic change,", "ja": "でもハッカーたちがみんな研究所を離れたら、これは人口構成の変化を招いた。"}
+{"en": "because the professors and the students who didn't really love the machine were just as numerous as before, so they were now the dominant party, and they were very scared.", "ja": "マシンをほんとは愛してない教授や学生どもは、昔と同じにうじゃうじゃいたから、連中がいまや強い勢力になったわけで、みんな怖がってた。"}
+{"en": "Without hackers to maintain the system, they said,", "ja": "システム管理をしてくれるハッカーがいなくなったので、連中はこう言ったんだ。"}
+{"en": "``we're going to have a disaster, we must have commercial software'',", "ja": "「このままじゃ大変なことになる、商業ソフトを入れなきゃ」"}
+{"en": "and they said ``we can expect the company to maintain it''.", "ja": "そして「そしたらメーカーがメンテもしてくれるよ」だって。"}
+{"en": "It proved that they were utterly wrong, but that's what they did.", "ja": "やがて連中がまったくまちがってたことが証明されたけど、でも連中はそれをやったんだ。"}
+{"en": "That was exactly when a new KL-10 system was supposed to arrive, and the question was, would it run the Incompatible Timesharing System or would it run digital's Twenex system.", "ja": "まさにその時に、新しい KL-10 システムがくるはずになってて、そこでの問題は、それで Incompatible Timesharing System を動かすか、Digital の Twenex システムを動かすかってことだった。"}
+{"en": "Once the hackers were gone who probably would have supported using ITS, the academic types chose to run the commercial software, and this had several immediate effects.", "ja": "ハッカーたちはたぶん ITS を使うのを支持したろうけど、それがいなくなってたから、学者タイプの連中は商業ソフトを使う選択をして、これはすぐに目に見えて影響が出てきた。"}
+{"en": "Some of them weren't actually so immediate but they followed inevitably as anyone who thought about it would see.", "ja": "なかにはそんなすぐには出てこなかったものもあったけど、でもこの問題を考えてみた人ならわかるように、遅かれ早かれ出てきたんだ。"}
+{"en": "One thing was that that software was much more poorly written, and harder to understand; therefore making it harder for people to make the changes that were in fact needed.", "ja": "一つには、そのソフトはずっと質が悪くて、わかりにくくて、だから本当に必要な変更をするのがむずかしかったってこと。"}
+{"en": "Another was, that that software came with security, which had the inevitable effect of causing people to cooperate with each other less.", "ja": "もう一つの影響は、このソフトにはセキュリティがあって、おかげでみんながお互いに協力する機会はどうしても減ってきた。"}
+{"en": "In the old days on ITS it was considered desirable that everyone could look at any file, change any file,", "ja": "ITS の時代には、だれもがどんなファイルでも見て変えられるってのはいいことだと考えられてた。"}
+{"en": "because we had reasons to.", "ja": "それなりの理由があったからね。"}
+{"en": "I remember one interesting scandal where somebody sent a request for help in using Macsyma.", "ja": "それで思い出したけど、だれかが Macsyma の使い方について助けてくれって言ってきたときに、おもしろいスキャンダルがもちあがったんだ。"}
+{"en": "Macsyma is a symbolic algebra program that was developed at MIT.", "ja": "Macsyma ってのは MIT で開発したシンボリック数学プログラム。"}
+{"en": "He sent to one of the people working on it a request for some help, and he got an answer a few hours later from somebody else.", "ja": "その人は、Macsyma の作業をしてるある人に、助けてくれってメールを出したら、数時間たって別の人から返事がきた。"}
+{"en": "He was horrified, he sent a message", "ja": "その人はびっくりしちゃって、"}
+{"en": "``so-and-so must be reading your mail, can it be that mail files aren't properly protected on your system?''", "ja": "「だれそれはあなたのメールを読んでるみたいですよ、ひょっとしてメールのファイルの保護がちゃんとしてないんじゃないですか？」"}
+{"en": "``Of course, no file is protected on our system.", "ja": "「当然でしょう、ぼくたちのシステムでは保護されてるファイルなんかない。"}
+{"en": "What's the problem?", "ja": "なんかいけませんか？"}
+{"en": "You got your answer sooner; why are you unhappy?", "ja": "あなたはすぐに答がもらえたし、何が不満なの？"}
+{"en": "Of course we read each other's mail", "ja": "ぼくたちはお互いのメールを読む。"}
+{"en": "so we can find people like you and help them.''", "ja": "あたりまえじゃん、そうやってあなたみたいな人を見つけて助けてあげるんだから」"}
+{"en": "Some people just don't know when they're well off.", "ja": "まったく、自分が得してるのにわかんない人ってのもいるんだからなぁ。"}
+{"en": "But of course Twenex not only has security, and by default turns on security, but it's also designed with the assumption that security is in use.", "ja": "でももちろん、Twenex にはセキュリティがあっただけでなく、それをデフォルトで機能させるし、さらにセキュリティが使われてるという前提で設計されてる。"}
+{"en": "So there are lots of things that are very easy to do that can cause a lot of damage, and the only thing that would stop you from doing them by accident, is security.", "ja": "だから、簡単にできちゃってすごいダメージを与えるようなことってのがたくさんあって、うっかりそういうことをしないようにしてくれる唯一の手段がセキュリティなんだ。"}
+{"en": "On ITS we evolved other means of discouraging people from doing those things by accident,", "ja": "ITS では、そういうことをうっかりやっちゃわないようにするほかのいろんな方法が考案されてた。"}
+{"en": "but on Twenex you didn't have them", "ja": "でも Twenex にはそんなものはない。"}
+{"en": "because they assumed that there was going to be be strict security in effect and only the bosses were going to have the power to do them.", "ja": "厳格なセキュリティが機能してて、そういうことをする権限を持つのはボスたちだけだ、と想定してたからだ。"}
+{"en": "So they didn't put in any other mechanism to make it hard to do by accident.", "ja": "だから、そういううっかりミスを難しくするメカニズムはほかにぜんぜんつけてなかった。"}
+{"en": "The result of this is that you can't just take Twenex and turn of the security and have what you'd really like to have, and there were no longer the hackers to make the changes to put in those other mechanisms, so people were forced to use the security.", "ja": "その結果として、単に Twenex をもってきてセキュリティをオフにするとほしいものが手に入るわけじゃなくなってて、そしてその他のメカニズムを入れ込むハッカーたちもいなかったから、みんなセキュリティを使うしかなくなってた。"}
+{"en": "And about six months after the machine was there they started having some coups d'etat.", "ja": "そしてマシンがやってきて 6 ヶ月ほどしたら、連中はクーデターをはじめた。"}
+{"en": "That is, at first we had the assumption that everyone who worked for the lab was going to have the wheel bit which gave full powers to override all security measures,", "ja": "つまり、最初は AI 研で働いてる人はみんな、全セキュリティ機能をオーバーライドする全権を与えるホイールビットをオンにしてもらえるもんだ、という想定をしてた。"}
+{"en": "but some days you'd come in some afternoon and find out that the wheel bits of just about everybody had been turned off.", "ja": "でもある日のある午後にやってきてみると、ほとんど全員のホイールビットがオフにされてた。"}
+{"en": "When I found out about those, I overthrew them.", "ja": "こんなのがわかったとき、ぼくはそれを打倒した。"}
+{"en": "The first time, I happened to know the password of one of the people who was included among the elite, so I was able to use that to turn everyone back on.", "ja": "最初は、たまたまエリート層に属してるある人のパスワードを知ってたので、それを使ってみんなのビットを戻せた。"}
+{"en": "The second time he had changed his password, he had now changed his sympathies, he was now part of the aristocratic party.", "ja": "二回目には、そいつはパスワードを変えてて、だから所属意識も変わってて、いまやもう貴族社会の一員だった。"}
+{"en": "So, I had to bring the machine down and use non-timeshared DDT to poke around.", "ja": "そこでぼくはマシンを停止させて、TSS でない DDT を使ってつつきまわさなきゃなんなかった。"}
+{"en": "I poked around in the monitor for a while, and eventually figured out how to get it to load itself in and let me patch it, so that I could turn off password checking and then I turned back on a whole bunch of people's wheel bits and posted a system message.", "ja": "モニタの中でつつきまわして、やがて OS をロードさせてパッチがあてられるようにするにはどうしたらいいかつきとめて、それでパスワードのチェックをオフにして、それからいろんな人のホイールビットを戻して、システムメッセージをポストした。"}
+{"en": "I have to explain that the name of this machine was OZ, so I posted a system message saying:", "ja": "説明しとくとこのマシンの名前は OZ で、だからこんなシステムメッセージをポストした。"}
+{"en": "``There was another attempt to seize power.", "ja": "「またもや権力を奪取せんとする試みが行われた。"}
+{"en": "So far the aristocratic forces have been defeated - Radio Free OZ''", "ja": "いまのところ、貴族階級の勢力は打倒された ―― ラジオ・フリー・OZ」"}
+{"en": "Later I discovered that ``Radio Free OZ'' is one of the things used by Firesign Theater.", "ja": "あとで知ったんだけど、「ラジオ・フリー・OZ」というのはファイアサイン劇場で使ってるものの一つなんだね。"}
+{"en": "I didn't know that at the time.", "ja": "その頃は知らなかった。"}
+{"en": "But gradually things got worse and worse,", "ja": "でも状況はだんだんと、どんどん悪いほうに向かってったね。"}
+{"en": "it's just the nature of the way the system had been constructed forced people to demand more and more security.", "ja": "要はそのシステムのつくられかたのせいで、それがみんなもっともっとセキュリティを要求するような性質もものだったってこと。"}
+{"en": "Until eventually I was forced to stop using the machine, because I refused to have a password that was secret.", "ja": "しまいにやがて、ぼくはそのマシンを使うのをやめなきゃなんなくなってきた。"}
+{"en": "Ever since passwords first appeared at the MIT-AI lab I had come to the conclusion that to stand up for my belief, to follow my belief that there should be no passwords, I should always make sure to have a password that is as obvious as possible and I should tell everyone what it is.", "ja": "MIT AI 研にパスワードが初めて登場して以来、ぼくは自分の信念のために立ち上がろう、パスワードなんかあってはならないという信念にしたがおう、絶対にできるだけわかりやすいパスワードにして、それをみんなにばらすようにしようと決心したんだ。"}
+{"en": "Because I don't believe that it's really desirable to have security on a computer, I shouldn't be willing to help uphold the security regime.", "ja": "ぼくはコンピュータにセキュリティをつけるのはいいととは思わないから、セキュリティ支配が続くのを助けるようなこともすべきじゃない。"}
+{"en": "On the systems that permit it I use the ``empty password'', and on systems where that isn't allowed, or where that means you can't log in at all from other places, things like that, I use my login name as my password.", "ja": "「空のパスワード」を使えるシステムでは使うし、それが許されないシステムとか、それだとほかの場所からは一切ログインできないとか、その手のシステムとかだと、ぼくはログイン名をパスワードにする。"}
+{"en": "It's about as obvious as you can get.", "ja": "これ以上はないってくらい自明でしょ。"}
+{"en": "And when people point out that this way people might be able to log in as me, i say", "ja": "そしてだれかが、そんなことだと他人がきみになってログインできちゃうじゃないか、と指摘すると、ぼくはこう言う。"}
+{"en": "``yes that's the idea,", "ja": "「うん、まさにそれがねらい。"}
+{"en": "somebody might have a need to get some data from this machine.", "ja": "だれかがこのマシンのデータを必要とするかもしれない。"}
+{"en": "I want to make sure that they aren't screwed by security''", "ja": "そのときに、その人がセキュリティのおかげでバカを見たりすることが絶対ないようにしときたいのよ」"}
+{"en": "And an other thing that I always do is I always turn of all protection on my directory and files,", "ja": "それともう一つやるのが、自分のディレクトリやファイルの保護は全部はずす。"}
+{"en": "because from time to time I have useful programs stored there and if there's a bug I want people to be able to fix it.", "ja": "だって役に立つソフトをそこに持っていることもよくあって、もしそれにバグがあったら、みんながなおせるようにしときたいから。"}
+{"en": "But that machine wasn't designed also to support the phenomenon called ``tourism''.", "ja": "でもこのマシンはまた、「観光」と呼ばれる現象をサポートするようにはできていなかった。"}
+{"en": "Now ``tourism'' is a very old tradition at the AI lab, that went along with our other forms of anarchy, and that was that we'd let outsiders come and use the machine.", "ja": "さて、「観光」ってのは AI 研ではすごく古い伝統で、ほかの形のアナーキーといっしょに続いてきてて、これはつまり、部外者にも自由にマシンを使わせるってこと。"}
+{"en": "Now in the days where anybody could walk up to the machine and log in as anything he pleased this was automatic:", "ja": "さて昔々、だれでもマシンにやってきて、勝手な名前でログインできた頃には、これはもう自動的にそうなってた。"}
+{"en": "if you came and visited, you could log in and you could work.", "ja": "もし MIT に遊びにきてたら、ログインして作業ができる。"}
+{"en": "Later on we formalized this a little bit,", "ja": "後にこれをちょっとは形式化した。"}
+{"en": "as an accepted tradition specially when the Arpanet began and people started connecting to our machines from all over the country.", "ja": "これは特に ARPAnetがはじまって、みんな全国からうちのマシンにつなぐようになったときにそうで、みんなが認める伝統としてってこと。"}
+{"en": "Now what we'd hope for was that these people would actually learn to program and they would start changing theoperating system.", "ja": "さて、ぼくたちが期待してたのは、そういう部外者がプログラミングを実際に学んで、OS を変えはじめることだった。"}
+{"en": "If you say this to the system manager anywhere else he'd be horrified.", "ja": "この話をほかのどこのシステム管理者にしても、みんな飛び上がるよ。"}
+{"en": "If you'd suggest that any outsider might use the machine, he'll say", "ja": "どんな部外者でもマシンが使えるなんて匂わせようものなら、その人は言うだろう。"}
+{"en": "``But what if he starts changing our system programs?''", "ja": "「でもそいつがシステムプログラムを変えちゃったらどうすんの？」"}
+{"en": "But for us, when an outsider started to change the system programs, that meant he was showing a real interest in becoming a contributing member of the community.", "ja": "でもぼくたちにとっては、部外者がシステムプログラムを変えはじめるってことは、それはつまりその人がコミュニティに貢献するメンバーになろうと本気で興味を示してるってことなんだ。"}
+{"en": "We would always encourage them to do this.", "ja": "ぼくたちはいつも、そうするよう奨励してる。"}
+{"en": "Starting, of course, by writing new system utilities, small ones, and we would look over what they had done and correct it, but then they would move on to adding features to existing, large utilities.", "ja": "最初はもちろん、新しいシステムユーティリティを書くところから、それも小さいヤツね、そしてそいつが何をやったか監督して訂正するけど、でもそしたらそれから既存の大きなユーティリティに機能を追加するほうに向かう。"}
+{"en": "And these are programs that have existed for ten years or perhaps fifteen years, growing piece by piece as one craftsman after an other added new features.", "ja": "そしてそういうプログラムはもう 10 年とか 15 年とか存在していて、一部一部ごとに、職人が次々と新しい機能を足してったものなんだ。"}
+{"en": "Sort of like cities in France you might say,", "ja": "フランスの都市みたいなもんだと言ってもいいかな。"}
+{"en": "where you can see the extremely old buildings with additions made a few hundred years later all the way up to the present.", "ja": "ものすごく古い建物に、数百年後に増築がされて、それがずっといままで続いてるような。"}
+{"en": "Where in the field of computing, a program that was started in 1965 is essentially that.", "ja": "コンピュータの世界だと、1965 年に書きはじめられたソフトってのがそれにあたる。"}
+{"en": "So we would always hope for tourists to become system maintainers, and perhaps then they would gethired,", "ja": "だからぼくたちはいつも、観光客がシステム管理者になってほしいと思ってて、そしたら雇われるかもしれない。"}
+{"en": "after they had already begun working on system programs and shown us that they were capable of doing good work.", "ja": "もちろんシステムプログラムの作業を始めて、まともな仕事ができることを証明してくれればだけど。"}
+{"en": "But the ITS machines had certain other features that helped prevent this from getting out of hand,", "ja": "でも ITS のマシンには、これが手に負えなくなるのを防ぐための機能がほかにいくつかあった。"}
+{"en": "one of these was the ``spy'' feature, where anybody could watch what anyone else was doing.", "ja": "その一つが「スパイ」機能で、だれが何をしてるか、だれでも観察できる機能だった。"}
+{"en": "And of course tourists loved to spy, they think it's such a neat thing, it's a little bit naughty you see, but the result is that if any tourist starts doing anything that causes trouble there's always somebody else watching him.", "ja": "そしてもちろん、観光客はスパイするのが大好きで、みんなそれがいかしたことだと思って、つまりちょっとイケナイ感じだけれどでも結果として、どっかの観光客が何か面倒を起こすようなまねをしても、必ずだれかがそれを見てるわけ。"}
+{"en": "So pretty soon his friends would get very mad", "ja": "それでやがてそいつの友だちはすごく怒りだす。"}
+{"en": "because they would know that the continued existence of tourism depended on tourists being responsible.", "ja": "観光が続いてくれるためには、観光客が責任ある行動をするかどうかにかかってるのを知ってるから。"}
+{"en": "So usually there would be somebody who would know who the guy was, and we'd be able to let him leave us alone.", "ja": "それでたいがいは、そいつがだれだか知ってるやつがいて、それでそういうことをしないように説明してもらえるんだ。"}
+{"en": "And if we couldn't, then what we would do was we would turn off access from certain places completely, for a while,", "ja": "それができなかったら、どうするかっていうと、特定の場所からのアクセスをしばらく完全に切る。"}
+{"en": "and when we turned it back on, he would have gone away and forgotten about us.", "ja": "そしてそれを戻す頃には、そいつはどっかよそへ行って、ぼくたちのことは忘れちゃう。"}
+{"en": "And so it went on for years and years and years.", "ja": "だからこれが何年も何年も何年も続いたんだ。"}
+{"en": "But the Twenex system wasn't designed for this sort of thing, and eventually they wouldn't tolerate me with my password that everybody knew,", "ja": "でも Twenex システムは、この手のこと用には設計されてなくて、やがて連中はみんなにパスワードを知られてるぼくを許してくれなくなった。"}
+{"en": "tourists always logging in as me two or three at a time,", "ja": "観光客がいつもぼくの名前で同時に 2 人も 3 人もログインしてたわけ。"}
+{"en": "so they started flushing my account.", "ja": "だから連中はぼくのアカウントを消すようになった。"}
+{"en": "And by that time I was mostly working on other machines anyway, so eventually I gave up and stopped ever turning it on again.", "ja": "そしてその頃には、ぼくはどうせ別のマシンで作業してるほうが多くて、だからやがてあきらめて、もうそっちのスイッチは入れなくなった。"}
+{"en": "And that was that.", "ja": "それでそれはおしまい。"}
+{"en": "I haven't logged in on that machine as myself ... [At this point RMS is interrupted by tremendous applause] ... for.", "ja": "もうあの機械にはずいぶんログインしてないな、自分のアカウントではもう……（この時点で、RMS はすさまじい拍手にさえぎられる）年も。"}
+{"en": "But when they first got this Twenex system they had several changes in mind that they wanted to make.", "ja": "でも連中が最初にこの Twenex システムを手に入れたら、まずいくつか変更をしたがった。"}
+{"en": "Changes in the way security worked.", "ja": "セキュリティの仕組みを変えたがった。"}
+{"en": "They also wanted to have the machine on both the ARPA network and the MIT-chaos network, and it turns out that they were unable to do this, that they couldn't get anyone who was sufficiently competent to make such changes.", "ja": "それとそのマシンを ARPAnet とMIT-CHAOS ネットワークに両方につなぎたがったんだけど、でも結局はそれができなくて、そういう変更をするだけの能力をもった人が見つけられなかったんだ。"}
+{"en": "There was no longer talent available to do it, and it was to hard to change.", "ja": "それをするだけの才能がもうなくなってたし、そもそもシステムの変更がむずかしかった。"}
+{"en": "That system was much harder to understand, because it was to poorly written, and of course, Digital wouldn't do these things, so their ideas that a commercial system would essentially maintain it self, proved to be mistaken.", "ja": "このシステムはずっとわかりにくくて、それはダメな書かれかたをしてたからで、もちろん Digital はそんなことしてくれなくて、だから商業システムなら基本的にはシステム管理を会社がやってくれるという考え方は、結局まちがってることが証明されたわけ。"}
+{"en": "They had just as much need for system hackers, but they had no longer the means to entice system hackers.", "ja": "システムハッカーに対するニーズは前と変わらなかったのに、でもシステムハッカーをおびきよせる手段がもうなくなってた。"}
+{"en": "And nowadays at MIT there are more people interested in hacking on ITS, than there are interested in hacking on Twenex.", "ja": "そして最近のMIT には、Twenex 上でハッキングしたがる人より ITS でハッキングしたがる人のほうが多いんだ。"}
+{"en": "And the final reason why this is so, is that Twenex can't be shared.", "ja": "そしてそうなる最終的な理由ってのは、Twenex は共有できないってことなんだ。"}
+{"en": "Twenex is a proprietary program and you're only allowed to have the sources if you keep them secret in certain nasty ways, and this gives them a bad flavor.", "ja": "Twenex は独占プログラムで、ソースコードを手に入れるには、ある嫌らしい方法でそれを秘密にしとかなきゃならなくて、これが印象を悪くしてる。"}
+{"en": "Unless a person is oblivious", "ja": "その人が無関心でなければ"}
+{"en": "(which some people in computers are, there's some people who'll do anything if it's fun for them, and won't think for a minute whether they're cooperating with anyone else, but you'd have to be pretty oblivious to not to notice what a sad thing it is to work on a program like that, and that is a further discouragement).", "ja": "（そしてコンピュータ業界にはそういう人もいて、自分たちだけが楽しければなんでもやって、ほかの人たちと協力してるかなんて一瞬たりとも考えないような人たちだけれど、でもそんなソフトの作業をするのがどんなに悲しいことかわかんないなんて、相当無関心じゃないとアレで、これがさらにマイナス要因だよね）。"}
+{"en": "And if that isn't enough there is the fact that every year or so they're going to give you a new release full of 50 000 additional lines of code all written by monkeys.", "ja": "そしてさらにだめ押しでくるのが、毎年かそこら、新しいリリースってのが出てきて、それが 50,000 行くらいの追加のコードだらけで、それが全部サルが書いたみたいな代物。"}
+{"en": "Because they generally follow the ``million monkeys typing, and eventually they'll come up with something useful'' school of system development.", "ja": "それは連中が「サル 100 万匹にタイプさせれば、いずれなんか使えるものが出てくる」式システム開発にしたがってるから。"}
+{"en": "It was clear to me from what I saw happening to these proprietary systems", "ja": "こういう独占システムで何が起きてるか見たとき、ぼくにははっきりわかった。"}
+{"en": "that the only way we could have the spirit of the old AI lab was to have a free operating system.", "ja": "かつてのAI研のスピリットをぼくらが持つ唯一の方法は、フリーの OS をつくることだってのが。"}
+{"en": "To have a system made up of free software which could be shared with anyone.", "ja": "フリーソフトだけでつくったシステムができて、それがみんなで共有できるようになることだって。"}
+{"en": "So that we could invite everyone to join in improving it.", "ja": "そうすればみんなに、その改善に参加しようと呼びかけられる。"}
+{"en": "And that's what led up to the GNU project.", "ja": "そしてそこから GNU プロジェクトが出てきたんだ。"}
+{"en": "So I guess we've arrived at the second part of the talk.", "ja": "というわけで、この話の第二部にやってきたってことだね。"}
+{"en": "About three and a half year ago it was clear to me that I should start developing a free software system.", "ja": "だいたい 3 年半くらい前に、フリーソフトシステム開発に手をつけるべきだってのは自分ではっきりしてきた。"}
+{"en": "I could see two possible kinds of systems to develop: One: A LISP-machine-like system, essentially a system just like the MIT LISP machine system that had just been developed, except free, and running on general purpose hardware, not on special LISP machines.", "ja": "開発すべきシステムとしては二種類の可能性が LISPマシンみたいなシステムで、ちょうど開発されたばかりの MIT LISP システムとまったく同じだけれど、でもフリーで、しかも特別な LISP マシンじゃなくて、ふつうのハードで動くヤツ。"}
+{"en": "And the other possibility was a more conventional operating system, and it was clear to me that if I made a conventional operating system, I should make it compatible with UNIX,", "ja": "そしてもう一つの可能性が、もっと伝統的な OS をつくるってことで、その時にはっきりしてたのは、もし伝統的な OS をつくるなら、それは UNIX と互換性をもたせるべきだってこと。"}
+{"en": "because that would make it easy for people all around to switch to it.", "ja": "そうすればいろんなとこの人たちが乗り換えやすいから。"}
+{"en": "After a little while, I concluded I should do the latter and the reason was, that I saw that you can't have something really like the LISP machine system on general purpose hardware.", "ja": "しばらくして、後者をやるべきだと決めたんだけど、その理由は、ほんとの LISP マシンみたいなものを普通のハードではできないってのが見えてきたからだったのね。"}
+{"en": "The LISP machine system uses special hardware plus special writable microcode to gain both good execution speed and robust detection of errors at runtime,", "ja": "LISP マシンは、実行速度を確保して、同時にランタイムで堅牢なエラー探知をするために、特殊なハードと特別な書き込み可能なマイクロコードを使ってるんだ。"}
+{"en": "specially data-type errors.", "ja": "エラーって、特にデータタイプのエラー。"}
+{"en": "In order to make a LISP system run fast enough on ordinary hardware, you have to start making assumptions.", "ja": "ふつうのシステムで LISP システムを十分にはやく走らせるには、いろいろ仮定をおくようにしなきゃなんない。"}
+{"en": "Assuming that a certain argument is the right type, and then if it isn't the system just crashes.", "ja": "ある引き数が正しいタイプだって仮定して、で、そうでなければシステムはあっさりクラッシュ。"}
+{"en": "Of course you can put in explicit checks, you can write a robust program if you want, but the fact is that you are going to get things like memory addressing errors when you feed a function an argument of the wrong type if you did NOT put in things to check for it.", "ja": "もちろん外的なチェックを入れることはできるし、やりたきゃ堅牢なプログラムも書けるけど、結局のところは、そのチェックを入れなければ、関数にまちがったタイプの引き数を喰わせたら、メモリアドレッシングのエラーとかが起きちゃうってことだ。"}
+{"en": "So the result is then that you need something running underneath the LISP system to you catch these errors,", "ja": "だから結果としては、LISP システムの下で何かが走ってて、そういうエラーを拾ってくれなきゃなんない。"}
+{"en": "and give the user the ability to keep on running, and debug what happened to him.", "ja": "そしてユーザがシステムを動かし続けて、起きたことをデバッグできるようにしないと。"}
+{"en": "Finally I concluded that if I was going to have to have a operating system at a lower level, I might as well make a good operating-system--that it was a choice between an operating system and the lisp, or just an operating system;", "ja": "最後に、もし下の OS をつくるんなら、それはいい OS にしようとも決心した ―― つまりこれは、OS と LISP か、あるいは OS だけか、という選択だった。"}
+{"en": "therefore I should do the operating system first, and I should make it compatible with UNIX.", "ja": "だから、まずは OS をやるべきだろう、そしてそれはUNIX 互換にすべきだ。"}
+{"en": "Finally when I realized that I could use the most amusing word in the English language as a name for this system, it was clear which choice I had to make.", "ja": "最後にこのシステムの名前として英語でいちばんおもしろい名前を使えるんだと気がついたら、ぼくの選ぶべき道ははっきりした。"}
+{"en": "And that word is of course GNU, which stands for ``Gnu's Not Unix''.", "ja": "そのことばはもちろん GNU で、これは「GNU 's Not Unix」の略。"}
+{"en": "The recursive acronym is a very old tradition among the hacker community around MIT.", "ja": "この再帰的な略称は、MIT周辺のハッカー社会ではすごく古い伝統になってる。"}
+{"en": "It started, I believe, with an editor called TINT,", "ja": "ぼくの知る限り、これは TINTというエディタではじまったはず。"}
+{"en": "which means: ``Tint Is Not Teco'', and later on it went through names such as ``SINE'' for ``SINE Is Not Emacs'', and FINE for ``Fine Is Not Emacs'', and EINE for ``Eine Is Not Emacs'', and ZWEI for ``Zwei Was Eine Initially'', and ultimately now arrives at GNU.", "ja": "これは「Tint Is Not Teco」の略で、それはやがて「SINE Is Not EMACS 」の略で SINE とか、「Fine Is Not EMACS」で FINE とか、「Eine Is Not EMACS」で EINE とか、「Zwei Was Eine Initially（Zwei はもともと Eine でした）」の ZWEI とか、そしていまはそれが GNU まできたわけ。（訳注：ドイツ語では Eine は 1 で、Zwei が 2 だというのはもちろんご承知のこととは思いますが……）"}
+{"en": "I would say that since the time about two and a half years ago when I actually started working on GNU, I've done more than half of the work.", "ja": "だいたい 2 年半ほど前に実際に GNU の仕事をはじめてから、もう作業の半分くらいは終えたと言っていいかな。"}
+{"en": "When I was getting ready to start working on the project, I first started looking around for what I could find already available free.", "ja": "このプロジェクトにとりかかろうとしてたとき、まずはすでにフリーで出回ってるものは何があるかを探すとこからはじめた。"}
+{"en": "I found out about an interesting portable compiler system which was called ``the free university compiler kit'',", "ja": "そこで見つけたのが、おもしろいポータブルなコンパイラシステムで、これは「TheFree University Compiler Kit」という名前。"}
+{"en": "and I thought, with a name like that, perhaps I could have it.", "ja": "こんな名前なら、もらえるのかな、と思った。"}
+{"en": "So, I sent a message to the person who had developed it asking if he would give it to the GNU project,", "ja": "だから開発した人にメールを送って、 GNU プロジェクトにくれないか、ときいてみたら、その人は"}
+{"en": "and he said ``No, the university might be free, but the software they develop isn't'',", "ja": "「いや、free は大学にかかることばで、そこで開発してるソフトはフリーじゃないんです」と言って、"}
+{"en": "but he then said that he wanted to have a UNIX compatible system too, and he wanted to write a sort of kernel for it, so why didn't I then write the utilities, and they could both be distributed with his proprietary compiler, to encourage people to buy that compiler.", "ja": "でもそれから言うには、かれも UNIX互換システムがほしくて、それ用のカーネルみたいなものも書いてみたいから、そしたらぼくがそれ用にユーティリティを書いて、そしたらその両方ともかれの独占コンパイラといっしょに配布できて、そしたらみんながそのコンパイラを買いたがるようになるだろう、だって。"}
+{"en": "And I thought that this was despicable and so I told him that my first project would be a compiler.", "ja": "それでぼくは、ふざけんじゃないよと思って、だからそいつに、ぼくの最初のプロジェクトはコンパイラの開発だ、と言ってやった。"}
+{"en": "I didn't really know much about optimizing compilers at the time,", "ja": "その頃は、コンパイラの最適化について実は大して知らなかった。"}
+{"en": "because I'd never worked on one.", "ja": "一度もいじったことがなかったから。"}
+{"en": "But I got my hands on a compiler, that I was told at the time was free.", "ja": "でも、その頃フリーだと言われたコンパイラを手に入れられた。"}
+{"en": "It was a compiler called PASTEL, which the authors say means ``off-color PASCAL''.", "ja": "それが PASTELっていうコンパイラで、作者たちに言わせると「色の薄いPASCAL」という意味なんだって。"}
+{"en": "Pastel was a very complicated language including features such as parametrized types and explicit type parameters and many complicated things.", "ja": "Pastel はすごく複雑な言語で、パラメータ化された型や明示タイプパラメータ（explicit type parameter）とか、いろいろ複雑なものを含んでた。"}
+{"en": "The compiler was of course written in this language, and had many complicated features to optimize the use of these things.", "ja": "コンパイラ自身ももちろんこの言語で書かれてて、こういう機能の利用を最適化するのに、いろいろ複雑な機能を持っていたんだ。"}
+{"en": "For example: the type ``string'' in that language was a parameterized type;", "ja": "たとえばこの言語では string 型はパラメータ化されていた。"}
+{"en": "you could say ``string(n)'' if you wanted a string of a particular length;", "ja": "特定の長さの文字列がほしければ「string(n)」と書ける。"}
+{"en": "you could also just say ``string'', and the parameter would be determined from the context.", "ja": "単に「string」と書けば、パラメータは文脈から決まってくる。"}
+{"en": "Now, strings are very important, and it is necessary for a lot of constructs that use them to run fast, and this means that they had to have a lot of features to detect such things as: when the declared length of a string is an argument that is known to be constant throughout the function, to save to save the value and optimize the code they're going to produce, many complicated things.", "ja": "で、文字列ってすごく大事で、それを使ういろんな構造体を高速に走らせるためにも必要で、ということはつまり、各種のことを検出するようないろんな機能が必要ってことだよね、たとえば、宣言されたストリング長が引数で、それが関数の中ではずっと定数であることを検出するとか、値を保存してそれが生み出すコードを最適化するとか、いろいろややこしいこと。"}
+{"en": "But I did get to see in this compiler how to do automatic register allocation, and some ideas about how to handle different sorts of machines.", "ja": "でもこのコンパイラの中では、少なくともレジスタ自動割り当てをどうするかとか、そういうことは読みとれたし、いろいろちがったマシンの扱い方の考え方もわかった。"}
+{"en": "Well, since this compiler already compiled PASTEL, what i needed to do was add a front-end for C, which I did, and add a back-end for the 68000", "ja": "さてこのコンパイラはすでに PASTEL をコンパイルできるので、必要なのは C のフロントエンドをつけることで、これをやって、それから 68000 用のバックエンドをつけることだった。"}
+{"en": "which I expected to be my first target machine.", "ja": "68000 がぼくの最初のターゲットマシンになるものと思ってたから。"}
+{"en": "But I ran into a serious problem.", "ja": "でもここで深刻な問題にぶちあたった。"}
+{"en": "Because the PASTEL language was defined not to require you to declare something before you used it, the declarations and uses could be in any order, in other words: Pascal's ``forward'' declaration was obsolete, because of this it was necessary to read in an entire program, and keep it in core, and then process it all at once.", "ja": "PASTEL 言語は何かを使う前に宣言しなくていいようになってたので、だから宣言と使用がどんな順序でもよくて、つまりは、Pascal の「forward」宣言は使いものにならなくて、おかげでプログラムをまるごと読み込んで、それをコアにいれといて、一挙に処理するしかなかった。"}
+{"en": "The result was that the intermediate storage used in the compiler, the size of the memory needed, was proportional to the size of your file.", "ja": "結果としてコンパイラ内部で使われる中間記憶、つまり必要メモリ量は、ファイルの大きさに比例して大きくなるわけ。"}
+{"en": "And this also included stack-space, you needed gigantic amounts of stack space, and what I found as a result was: that the 68000 system available to me could not run the compiler.", "ja": "そしてここにはスタック領域も含まれてて、ものすごいスタック領域が必要で、だから結果としてわかったこと：ぼくの手もとの 68000 システムではこのコンパイラは走らない。"}
+{"en": "Because it was a horrible version of Unix that gave you a limit of something like 16K words of stack, this despite the existence of six megabytes in the machine, you could only have 16Kw of stack or something like that.", "ja": "それはそのシステムが最悪のUNIX で、スタックに 16K ワードとかの上限があって、これってマシン自体にはメモリが 6 メガバイトもあるのにだよ、スタックは 16Kw かそこらしかとれないっての。"}
+{"en": "And of course to generate its conflict matrix to see which temporary values conflicted, or was alive at the same time as which others, it needed a quadratic matrix of bits, and that for large functions that would get it to hundreds of thousands of bytes.", "ja": "そしてもちろん、一時的な変数値がかちあってないかとか、あるいは同時に生きてるのがどれかとかを見るのに、コンフリクト行列を生成するんだけど、これはビット単位で4次元行列とかが必要で、大きな関数になるとそれが何百バイトとか何千バイトにもなる。"}
+{"en": "So i managed to debug the first pass of the ten or so passes of the compiler, cross compiled on to that machine, and then found that the second one could never run.", "ja": "だからコンパイラは 10 パスくらいかそこらあったんだけど、その最初のパスはなんとかデバッグして、それをそのマシン用にクロスコンパイルして、そしてふたを開けてみたら、二番目のやつはそもそも走らない。"}
+{"en": "While I was thinking about what to do about these problems and wondering whether I should try to fix them or write entirely new compiler, in a roundabout fashion I began working on GNU Emacs.", "ja": "こういう問題をどうしようか考えて、これをなおそうとするのか、それともまったく新しいコンパイラを書こうか考えているうちに、なんやかんやで GNU EMACS の作業にとりかかった。"}
+{"en": "GNU Emacs is the main distributed portion of the GNU system.", "ja": "GNU EMACS は GNU システムの配布分の主要部分。"}
+{"en": "It's an extensible text editor a lot like the original emacs which I developed ten years ago, except that this one uses actual LISP as its extension language.", "ja": "拡張できるテキストエディタで、ぼくが10年前に開発したオリジナルの EMACS とかなり似てるけど、こいつは拡張用言語として本物の LISP を使うんだ。"}
+{"en": "The editor itself is implemented in C, as is the LISP interpreter, so the LISP interpreter is completely portable, and you don't need a LISP system external to the editor.", "ja": "エディタ自身は C で実装されてて、LISP インタープリタも同じく C で実装されてるから、LISP インタープリタは完全に可搬性があって、エディタの外部に LISP システムを持たなくていい。"}
+{"en": "The editor contains its own LISP system, and all of the editing commands are written in LISP so that they can provide you with examples to look at for how to write your own editing commands, and things to start with, so you can change them into the editing commands that you really want.", "ja": "エディタ自身が自前の LISP システムを持ってて、すべての編集コマンドはLISP で書いてあるから、それをお手本として見て自前の編集コマンドを書いたり、何からはじめるかとか、そういうのを変えて、自分が本当にほしい編集コマンドに変えられるんだよ。"}
+{"en": "In the summer of that year, about two years ago now, a friend of mine told me that because of his work in early development of Gosling Emacs, he had permission from Gosling in a message he had been sent to distribute his version of that.", "ja": "その年の夏、いまから 2 年ほど前、ぼくの友だちがゴスリング EMACS の開発初期に手伝ったので、ゴスリングからかれのバージョンのゴスリング EMACS を配布していいよ、という許諾をメールで受け取ったと話してくれた。"}
+{"en": "Gosling originally had set up his Emacs and distributed it free and gotten many people to help develop it, under the expectation based on Gosling's own words in his own manual that he was going to follow the same spirit that I started with the original Emacs.", "ja": "ゴスリングはもともと EMACS を書き上げて、それをフリーで配布して、たくさんの人が開発に協力して、それはゴスリング自身がマニュアルの中で書いたような、ぼくがもとの EMACSを開始したのと同じ精神にしたがうというかれ自身のせりふに基づいた期待があったからなんだ。"}
+{"en": "Then he stabbed everyone in the back by putting copyrights on it, making people promise not to redistribute it and then selling it to a software-house.", "ja": "そしたらゴスリングはそいつに著作権をつけて、みんなにそれを再配布しないと約束させて、あげくにそれをソフトハウスに売って、みんなを後ろから刺して裏切ったんだ。"}
+{"en": "My later dealings with him personally showed that he was every bit as cowardly and despicable as you would expect from that history.", "ja": "その後ゴスリングと個人的にやりとりしたけど、この歴史を見て予想されるのと寸分の狂いもないくらい、臆病でふざけたやつだったよ。"}
+{"en": "But in any case, my friend gave me this program, and my intention was to change the editing commands at the top level to make them compatible with the original Emacs that I was used to.", "ja": "まあとにかく、その友たちがこのプログラムをくれて、それでぼくとしてはトップレベルの編集コマンドを変えて、ぼくの慣れ親しんでるオリジナルの EMACS と互換性を持たせたかった。"}
+{"en": "And to make them handle all the combinations of numerical arguments and so on that one might expect that they would handle and have all the features that I wanted.", "ja": "それと数値引き数の組み合わせとかいろいろ扱えるようにして、ぼくのほしいような機能を全部扱えると期待できるようにするとか。"}
+{"en": "But after a little bit of this, I discovered that the extension language of that editor, which is called MOCKLISP, was not sufficient for the task.", "ja": "でもしばらくやってるうちに、このエディタの拡張用言語、MOCKLISP っていうんだけど、それがこの作業用には力不足だってのがわかってきた。"}
+{"en": "I found that that I had to replace it immediately in order to do what I was planning to do.", "ja": "計画してることをやるためには、こいつをすぐにでもすげかえる必要があるってわかった。"}
+{"en": "Before I had had the idea of someday perhaps replacing MOCKLISP with real LISP, but what I found out was that it had do be done first.", "ja": "前にもいつかはMOCKLISP を本物の LISP に置き換えようと思ってたんだけど、でも真っ先にそれをやんなきゃっていうのがわかってきた。"}
+{"en": "Now, the reason that MOCKLISP is called MOCK, is that it has no kind of structure datatype:", "ja": "それで、MOCKLISP がなぜ「MOCK（にせ）」ってついてるかというと、そこに構造体データタイプがないからなの。"}
+{"en": "it does not have LISP lists;", "ja": "LISP リストもない。"}
+{"en": "it does not have any kind of array.", "ja": "配列もぜんぜんない。"}
+{"en": "It also does not have LISP symbols,", "ja": "LISP シンボルもない。"}
+{"en": "which are objects with names:", "ja": "これは名前つきオブジェクトね。"}
+{"en": "for any particular name, there is only one object, so that you can type in the name and you always get the same object back.", "ja": "MOCKLISP ではある名前に対してオブジェクトは一つしかなくて、だから名前をタイプすると、いつも同じオブジェクトしか戻ってこないの。"}
+{"en": "And this tremendously hampers the writing of many kinds of programs, you have to do things by complicated string-manipulation that don't really go that way.", "ja": "こいつのおかげでいろんなプログラムを書くのがえっらくやっかいで、ホントはそんなふうに使うんじゃないようなややこしいストリング操作で、あれやこれやを処理しなきゃなんなかったわけ。"}
+{"en": "So I wrote a LISP interpreter and put it in in place of MOCKLISP and in the process I found that I had to rewrite many of the editor's internal data structures", "ja": "それで LISP インタープリタを書いて、MOCKLISP をすげかえて、その過程で、エディタの内部データ構造を書き直さなきゃならないこともわかった。"}
+{"en": "because I wanted them to be LISP objects.", "ja": "ぼくはそういうのが LISP オブジェクトになっててほしかったから。"}
+{"en": "I wanted the interface between the LISP and the editor to be clean, which means that objects such as editor buffers, sub-processes, windows and buffer-positions, all have to be LISP objects,", "ja": "LISP とエディタのインターフェースがクリーンであってほしくて、それはつまり、エディタのバッファやサブプロセスやウィンドウやバッファ位置みたいなオブジェクトが、みんな LISP オブジェクトでなきゃだめだってこと。"}
+{"en": "so that the editor primitives that work on them are actually callable as LISP functions with LISP data.", "ja": "そうじゃないとそれに作用するエディタのプリミティブは LISP データの LISP 関数としてコールできるようにならない。"}
+{"en": "This meant that I had to redesign the data formats of all those objects and rewrite all the functions that worked on them, and the result was that after about six months I had rewritten just about everything in the editor.", "ja": "ということは、こういうオブジェクトすべてのデータ形式を設計しなおして、それに作用する関数もみんな書き直して、結果として 6 ヶ月後には、ぼくはエディタのほとんどすべてを書き直してたってわけ。"}
+{"en": "In addition, because it is so hard to write things in MOCKLISP, all the things that had been written in MOCKLISP were very unclean and by rewriting them to take advantage of the power of real LISP, I could make them much more powerful and much simpler and much faster.", "ja": "加えて、MOCKLISP でなんか書くのはすごく難しいので、MOCKLISP で書かれたものはみんなきたなくて、だから本物の LISP の力を使えるようにそれを書きなおせば、それをみんなもっと強力でもっと単純でもっと高速にできたんだ。"}
+{"en": "So I did that, and the result was that when I started distributing this program only a small fraction remained from what I had received.", "ja": "だからそれをやって、結果としてぼくがそれを配布しはじめときには、受け取ったものでそのまま使われてる部分はほとんどなかった。"}
+{"en": "At this point, the company that Gosling thinks he sold the program to challenged my friend's right to distribute it, and the message was on backup tapes, so he couldn't find it.", "ja": "この時点で、ゴスリングがプログラムを売ったと思ってる相手の会社が、ぼくの友だちがそれを配布する権利にケチをつけはじめて、メールはバックアップのテープに入ってて見つからなかった。"}
+{"en": "And Gosling denied having given him permission.", "ja": "そしてゴスリングは、そんな許可は与えてないと否定する。"}
+{"en": "And then a strange thing happened.", "ja": "そこでおかしなことが起きた。"}
+{"en": "He was negotiating with this company, and it seemed that the company mainly was concerned with not having anything distributed that resembled what they were distributing.", "ja": "かれはこの会社と交渉してたんだけど、この会社がいちばん気にしてるのは、自分たちが配布してるのと似たようなものが出回っちゃ困るってことだったようなの。"}
+{"en": "See, he was still distributing, and the company where he worked, which is Megatest, was still distributing the same thing he had given me, which really was an old version of Gosling Emacs with his changes, and so he was going to make an agreement with them where he would stop distributing that, and would switch to using GNU Emacs, and they would then acknowledge that he really had the permission after all, and then supposedly everyone would be happy.", "ja": "かれもまだ配布してたし、かれの職場 ―― Megatest 社ね ―― も、かれがぼくにくれたのと同じものを配布してて、それはかれの変更の入ったゴスリング EMACS で、だからかれは連中とそれを配布するのをやめるという合意をして、GNU EMACS を使うのに切り替えて、それでそしたら連中は、かれが実はやっぱり許諾を得てたんだってことを認めて、そうすればおそらくみんな満足ってことになるはずだった。"}
+{"en": "And this company was talking to me about wanting to distribute GNU Emacs, free of course, but also sell various sorts of supporting assistance, and they wanted to hire me to help do the work.", "ja": "そしてこの会社はぼくに相談をもちかけてて、GNU EMACS を配布させろ、もちろんそれはフリーだけど、でもいろんなサポートや補助を売りたいから、その作業の手伝いにぼくを雇いたいって言う。"}
+{"en": "So it's sort of strange that they then changed their mind and refused to sign that agreement, and put up a message on the network saying that I wasn't allowed to distribute the program.", "ja": "だからその後、連中の気が変わってその契約にサインするのを拒否して、ネットワークに、ストールマンにはプログラムを配布する権利はないというメッセージをポストしたってのは、ちょっと変なんだよね。"}
+{"en": "They didn't actually say that they would do anything, they just said that it wasn't clear whether they might ever someday do something.", "ja": "別に連中は何かするとか言ったわけじゃなくて、単にいずれいつの日か何か手をうたないかどうかははっきりしないとか言っただけ。"}
+{"en": "And this was enough to scare people so that no one would use it any more, which is a sad thing.", "ja": "そしてそれだけでみんなびびっちゃって、もうだれも使わなくなって、これは悲しいことだ。"}
+{"en": "(Sometimes I think that perhaps one of the best things I could do with my life is: find a gigantic pile of proprietary software that was a trade secret, and start handing out copies on a street corner so it wouldn't be a trade secret any more, and perhaps that would be a much more efficient way for me to give people new free software than actually writing it myself; but everyone is too cowardly to even take it.)", "ja": "（ときどき、一生かけてやるのに一番いい仕事ってのは、どっかで商売上の機密になってる独占ソフトのでかい山をみつけて、それを街角で配って歩いて、もう機密でもなんでもなくしてしまうことじゃないかと思って、みんなの手に新しいフリーソフトをわたしたいならそのほうが自分で新しいソフトなんかを書くよりも、ぼくとしてはずっと効率のいいやりかたじゃないかと思うんだけれど、みんなそれを受け取るのさえ怖がるほど臆病なんだもんな）"}
+{"en": "So I was forced to rewrite all the rest that remained, and I did that, it took me about a week and a half.", "ja": "というわけで、残り全部を自分で書き直すしかなくて、だからそれをやって、それに一週間半くらいかかった。"}
+{"en": "So they won a tremendous victory.", "ja": "というわけで、やつらは大勝利をおさめてさぞ満足だろうよ。"}
+{"en": "And I certainly wouldn't ever cooperate with them in any fashion after that.", "ja": "そしてぼくは、それ以降はどんな形であってもやつらとは協力なんかするもんか。"}
+{"en": "Then after GNU Emacs was reasonably stable, which took all in all about a year and a half, I started getting back to other parts of the system.", "ja": "で、GNU EMACS がそこそこ安定してから、というのはなんだかんだで1年半ほどかかったんだけど、それからシステムのほかの部分に戻った。"}
+{"en": "I developed a debugger which I called GDB which is a symbolic debugger for C code, which recently entered distribution.", "ja": "GDB っていうデバッガを開発して、これはCコード用のシンボリック・デバッガで、最近配布に入れるようにした。"}
+{"en": "Now this debugger is to a large extent in the spirit of DBX, which is a debugger that comes with Berkeley Unix.", "ja": "このデバッガは、かなりの部分が DBX の精神にのっとったもので、これはバークレー UNIX についてくるデバッガね。"}
+{"en": "Commands consist of a word that says what you want to do, followed by arguments.", "ja": "コマンドは、何をしたいかを示すことばと、それに続く引き数で構成される。"}
+{"en": "In this debugger, commands can all be abbreviated, and the common commands have single character abbreviations, but any unique abbreviation is always allowed.", "ja": "このデバッガでは、コマンドはみんな短縮形が使えて、よく使うコマンドは 1 文字の短縮形になってるんだけど、独自の短縮形も好きなように使える。"}
+{"en": "There are extensible HELP facilities, you can type HELP followed by any command or even subcommands, and get a lengthy description of how to use that command.", "ja": "充実した HELP 機能もあって、HELP のあとになんでもいいけどコマンドやサブコマンドまでタイプすると、そのコマンドの使い方が詳しく説明される。"}
+{"en": "Of course you can type any expression in C, and it will print the value.", "ja": "もちろん C の表現をタイプすれば、どれでもその値を返してくれる。"}
+{"en": "You can also do some things that are not usual in symbolic C debuggers,", "ja": "ほかにも、シンボリック C デバッガでは珍しいことができたりする。"}
+{"en": "for example: You can refer to any C datatype at any memory address,", "ja": "たとえば、どのメモリアドレスにあるどの C データ型も参照できるんだよ。"}
+{"en": "either to examine the value, or to assign the value.", "ja": "値を調べたり、値を入れたりできる。"}
+{"en": "So for example if you want to store a floating point value in a word at a certain address,", "ja": "だからたとえばあるアドレスのワードに浮動小数点の値を入れたければ、"}
+{"en": "you just say: ``Give me the object of type FLOAT or DOUBLE at this address''", "ja": "「これこれのアドレスにある FLOAT 型か DOUBLE 型のオブジェクトをよこせ」といって、"}
+{"en": "and then assign that.", "ja": "それに割り当てればいい。"}
+{"en": "Another thing you can do is to examine all the values that have been examined in the past.", "ja": "もう一つできるのが、これまで調べてみた値を全部調べられんの。"}
+{"en": "Every value examined gets put on the ``value history''.", "ja": "調べた値は全部「値ヒストリー」にのっかる。"}
+{"en": "You can refer to any element in the history by its numerical position, or you can easily refer to the last element with just dollar-sign.", "ja": "このヒストリーのどの要素でも、その番号で参照できるし、ただのドル記号（$）を使えば最後の要素を簡単に呼び出せる。"}
+{"en": "And this makes it much easier to trace list structure.", "ja": "こうすると、リスト構造をトレースするのがすごく楽になる。"}
+{"en": "If you have any kind of C structure that contains a pointer to another one, you can do something like ``PRINT *$.next'',", "ja": "別の構造体を指すポインタを含むような C 構造体があったとするでしょ、そしたらたとえば PRINT *$.next みたいなことができて、"}
+{"en": "which says: ``Get the next field out of the last thing you showed me, and then display the structure that points at''.", "ja": "これはつまり「さっきみせてくれたものの次のフィールドをとってきて、それが指してる構造体を表示しろ」ってことだ。"}
+{"en": "And you can repeat that command, and each time you'll see then next structure in the list.", "ja": "そしてこのコマンドは繰り返せて、そのたびごとにリストの次の構造体が見られる。"}
+{"en": "Whereas in every other C debugger that I've seen the only way to do that is to type a longer command each time.", "ja": "でも、ぼくがこれまで見た C デバッガだと、毎回もっと長いコマンドをタイプしなきゃなんないんだよね。"}
+{"en": "And when this is combined with the feature that just typing carriage-return repeats the last command you issued, it becomes very convenient.", "ja": "そしてこの機能と、単に CR を押したら直前のコマンドを繰り返す、という機能と組み合わせると、これはすごく便利。"}
+{"en": "Just type carriage-return for each element in the list you want to see.", "ja": "リストの中で自分が見たい要素について、どんどん CR を押してけばいい。"}
+{"en": "There are also explicitly settable variables in the debugger,", "ja": "あとデバッガの中で外部設定できる変数もある。"}
+{"en": "any number of them.", "ja": "いくらでも。"}
+{"en": "You say dollar-sign followed by a name, and that is a variable.", "ja": "ドル記号のあとに名前をつければ、それで変数。"}
+{"en": "You can assign these variables values of any C datatype and then you can examine them later.", "ja": "こういう変数値をどんな C データ型にでもアサインして、あとで検討できる。"}
+{"en": "Among the things that these are useful for are: If there's a particular value that you're going to examine, and you know you are going to refer to it a lot, then rather than remember its number in the history you might give it a name.", "ja": "これがなんの役にたつかというと、たとえば：もし調べたい値がなんかあったとして、それをたくさん参照するのがわかってたら、ヒストリーの中でその値を覚えとくより、名前をつけちゃったほうがいいかもしれない。"}
+{"en": "You might also find use for them when you set conditional breakpoints.", "ja": "あるいは、条件ブレークをセットするときにも使えるかも。"}
+{"en": "Conditional breakpoints are a feature in many symbolic debuggers,", "ja": "条件つきブレークは、シンボリックデバッガにはよくある機能で、"}
+{"en": "you say ``stop when you get to this point in the program, but only if a certain expression is true''.", "ja": "「プログラムのここまできたら止まれ、ただしこの条件式が真の場合だけね」と言うわけ。"}
+{"en": "The variables in the debugger allow you to compare a variable in the program with a previous value of that variable that you saved in a debugger variable.", "ja": "デバッガの変数は、プログラム内の変数と、デバッガ変数内に保存した変数値とをくらべさせてくれる。"}
+{"en": "Another thing that they can be used for is for counting,", "ja": "これはほかにも、数えるのに使える。"}
+{"en": "because after all, assignments are expressions in C, therefore you can do ``$foo+=5'' to increment the value of ``$foo'' by five, or just ``$foo++'' you can do.", "ja": "だって値の割付は要するにCの式でしょ、だから$hoge を 5 増やすには $hoge+=5 でもいいし、あるいは単に $hoge++ でやってもいい。"}
+{"en": "You can even do this in a conditional breakpoint, so that's a cheap way of having it break the tenth time the breakpoint is hit, you can do ``$foo--==0''.", "ja": "これを条件付きブレークでもできるから、このブレークポイントに 10 回目にきたらブレークとかするのにはお手軽でしょ、 $hoge--==0 をするんだよね。"}
+{"en": "Does everyone follow that?", "ja": "みんな、ついてきてる？"}
+{"en": "Decrement foo and if it's zero now, break.", "ja": "hoge を減らしてって、それがゼロになってたらブレークしろってこと。"}
+{"en": "And then you set $foo to the number of times you want it to skip, and you let it go.", "ja": "そしてそれから $hoge を、スキップしたい回数にセットして、それで行ける。"}
+{"en": "You can also use that to examine elements of an array.", "ja": "これを配列の中の要素を見るのにも使える。"}
+{"en": "Suppose you have an array of pointers, you can then do:", "ja": "たとえばポインタの配列があって、そしたらこんなことする："}
+{"en": "But first you do", "ja": "でもその前にまずこれ："}
+{"en": "Okay, when you do that [points at the ``Print'' expression], you get the zeroth element of X,", "ja": "オッケー、で、こうしたら（と「Print」式をさす）、X のゼロ番目の要素が出てくる。"}
+{"en": "and then you do it again and it gets the first element, and suppose these are pointers to structures, then you probably put an asterisk there [before the X in the PRINT expression] and each time it prints the next structure pointed to by the element of the array.", "ja": "で、もう一回やったらそれは一番目の要素で、それでこれがもし構造体へのポインタなら、たぶんここ（PRINT 式の X の前）にアステリスク（*）を入れて、そしたら毎回これはこの配列の要素がさしてる次の構造体をだしてくる。"}
+{"en": "And of course you can repeat this command by typing carriage-return.", "ja": "そしてもちろん、改行をおすだけでこれを繰り返せる。"}
+{"en": "If a single thing to repeat is not enough, you can create a user-defined-command.", "ja": "これ一つだけ繰り返すんじゃ不十分なら、ユーザ定義コマンドをつくればいい。"}
+{"en": "You can say ``Define Mumble'', and then you give some lines of commands and then you say ``end''.", "ja": "「Define むにゃむにゃ」とやって、それからコマンドを何行か入れて、「end」とやる。"}
+{"en": "And now there is defined a ``Mumble'' command which will execute those lines.", "ja": "これでもう「むにゃむにゃ」コマンドが定義されて、それが入れた行を実行する。"}
+{"en": "And it's very useful to put these definitions in a command file.", "ja": "で、こういう定義をコマンドファイルに入れておくとすごく便利なの。"}
+{"en": "You can have a command file in each directory, that will be loaded automatically when you start the debugger with that as your working directory.", "ja": "ディレクトリごとにコマンドファイルを持って、そこを作業ディレクトリにしてデバッガを起動すると、それが勝手にロードされるようにしておける。"}
+{"en": "So for each program you can define a set of user defined commands to access the data structures of that program in a useful way.", "ja": "だから各プログラムごとに、ユーザ定義コマンドをいろいろ定義しておいて、便利な形でそのプログラムのデータ構造にアクセスできるようにしとける。"}
+{"en": "You can even provide documentation for your user-defined commands,", "ja": "そういうユーザ定義コマンド用にドキュメンテーションだってつくれるんだよ。"}
+{"en": "so that they get handled by the ``help'' features just like the built-in commands.", "ja": "そうするともとからのコマンドとまったく同じように、「help」機能で処理されるんだ。"}
+{"en": "One other unusual thing in this debugger, is the ability to discard frames from the stack.", "ja": "このデバッガでもう一つ珍しいのが、スタックからフレームを捨てられるってこと。"}
+{"en": "Because I believe it's important not just to be able to examine what's happening in the program you're debugging, but also to change it in any way conceivable.", "ja": "デバッグしてるプログラムで何が起きてるか見られるだけじゃなくて、それを好き放題変えられるってのが大事だと思うんだ。"}
+{"en": "So that after you've found one problem and you know what's wrong, you can fix things up as if that code were correct and find the next bug without having to recompile your program first.", "ja": "だから問題を一つ見つけて何がダメかわかったら、そのコードが正しかったかのようにあちこちなおしてから、コンパイルしなおさなくても次のバグを見つけにいけるわけだよ。"}
+{"en": "This means not only being able to change the data areas in you program flexibly, but also being able to change the flow of control.", "ja": "ということは、プログラムのデータ領域を思い通りに直せるだけじゃなくて、コントロールのフローを好きに変えられなきゃならない。"}
+{"en": "In this debugger you can change the flow of control very directly by saying:", "ja": "このデバッガでは、こんなふうにしてコントロールのフローをすごく直接的に変えられる："}
+{"en": "SET $PC=<some number>", "ja": "SET $PC=<なんか数字>"}
+{"en": "So you can set the program counter.", "ja": "こうやってプログラムカウンタを変えるの。"}
+{"en": "You can also set the stack pointer, or you can say", "ja": "それとスタックポインタもセットできるし、あるいはこういうふうにでも："}
+{"en": "SET $SP+=<something>", "ja": "SET $SP+=<なんとか>"}
+{"en": "If you want to increment the stack pointer a certain amount.", "ja": "スタックポインタをちょっと増やしたいなと思うでしょ。"}
+{"en": "But in addition you can also tell it to start at a particular line in the program, you can set the program counter to a particular source line.", "ja": "でもついでに、プログラムのどこか途中からはじめたいとして、だからプログラムカウンタをそのソース行にあわせるよね。"}
+{"en": "But what if you find that you called a function by mistake and you didn't really want to call that function at all?", "ja": "でもそれで、その関数を呼んだのがまちがいで、その関数呼びたくなかった！としたら？"}
+{"en": "Say, that function is so screwed up that what you really want to do is get back out of it and do by hand what that function should have done.", "ja": "たとえばその関数がどうしようもなくいかれてて、実はそこから戻ってきて、その関数のやるべきだったことを手でやりたいとしたら？"}
+{"en": "For that you can use the ``RETURN'' command.", "ja": "それには 「RETURN」 命令を使う。"}
+{"en": "You select a stack frame and you say ``RETURN'', and it causes that stack-frame, and all the ones within it, to be discarded as if that function were returning right now, and you can also specify the value it should return.", "ja": "スタックフレームを選んで 「RETURN」とやると、そのスタックフレームや、その中にあるやつ全部が捨てられて、その関数からすぐに戻ってきたような感じになって、しかもそこから返ってくるはずの値も指定できる。"}
+{"en": "This does not continue execution;", "ja": "実行は続かないよ。"}
+{"en": "it pretends that return happened and then stops the program again, so you can continue changing other things.", "ja": "返ってきたようなふりをして、そこでまたプログラムを止めるから、ほかのものもどんどん変えられる。"}
+{"en": "And with all these things put together you thus have pretty good control over what's going on in a program.", "ja": "このくらいいろいろまとまってると、プログラムの中で何が起きてるか、かなり細かくコントロールがきくわけよ。"}
+{"en": "In addition one slightly amusing thing:", "ja": "これに加えて、もう一つちょっとおもしろいこと。"}
+{"en": "C has string constants, what happens if you use a string constant in an expression that you're computing in the debugger?", "ja": "C にはストリング定数があって、デバッガ内で計算してる数式にストリング定数を使ったらどうなるか？"}
+{"en": "It has to create a string in the program you were debugging.", "ja": "デバッグしてるプログラム内にストリングをつくらなきゃなんない。"}
+{"en": "Well it does.", "ja": "だからつくってくれる。"}
+{"en": "It sets up a call to MALLOC in that debugged program, lets MALLOC run, and then gets control back.", "ja": "デバッグ中のプログラム内で MALLOC へのコールをやってくれて、MALLOC を走らせて、それからコントロールを取り戻す。"}
+{"en": "Thus it invisibly finds a place to put the string constant.", "ja": "こうやって、知らないうちにストリング定数を置く場所を見つけてくれるの。"}
+{"en": "Eventually when this debugger is running on the real GNU system, I intend to put in facilities in the debugger to examine all of the internal status of the process that is running underneath it.", "ja": "いずれこのデバッガが本物の GNU システム上で動くようになるときには、その下で動いてる全プロセスの内部状態を調べられるような機能をつけるつもり。"}
+{"en": "For example to examine the status of the memory map, which pages exist, which are readable, which are writable, and to examine the inferior program's terminal status.", "ja": "たとえばメモリマップの状態を見ようとかね、どのページが存在して、どれが読めて、どれが書き込めるか見て、あと下部プログラムの終了状態（terminal status）を見るとか。"}
+{"en": "There already is a bit of a command;", "ja": "もうかなりコマンドはあるんだ。"}
+{"en": "this debugger, unlike the debuggers on UNIX, keeps the terminal status completely separate for the debugger and the program you're debugging,", "ja": "このデバッガは、UNIX のデバッガとはちがって、終了状態をデバッガやデバッグ中のプログラムと完全に切り離してる。"}
+{"en": "so that it works with programs that run in raw mode, it works with programs that do interrupt driven input, and there's also a command that enables you to find out something about the terminal settings at the program you're debugging is actually using.", "ja": "だからそのままのモード（raw mode）で動くプログラムも見られるし、割り込み駆動入力をするプログラムでも動くし、それにデバッグ中のプログラムが実際に使ってるものの終了状態についても調べてくれるコマンドがある。"}
+{"en": "I believe that in general a debugger should allow you to find out everything that's going on in the inferior process.", "ja": "一般にデバッガというのは、下部プロセスで起こってることはすべてわかるようにすべきだと思うな。"}
+{"en": "There are two other main parts of the GNU system that already exist.", "ja": "GNU システムのうちすでに存在する主要部分は二つある。"}
+{"en": "One is the new C compiler, and one is the TRIX kernel.", "ja": "一つは新しい C コンパイラ（訳注：もちろんこの時点ではまだ gcc という名前はなかった。）で、もう一つは TRIX カーネルだ。"}
+{"en": "The new C compiler is something that I've written this year since last spring.", "ja": "新しい C コンパイラは、この春から今年いっぱい書いてたもの。"}
+{"en": "I finally decided that I'd have to throw out PASTEL.", "ja": "ついに PASTELは捨てようと決めたんだ。"}
+{"en": "This C compiler uses some ideas taken from PASTEL, and some ideas taken from the University of Arizona Portable Optimizer.", "ja": "この C コンパイラは PASTEL からのアイデアをもらってて、アリゾナ大学ポータブル・オプチマイザからのアイデアももらってる。"}
+{"en": "Their interesting idea was to handle many different kinds of machines by generating simple instructions, and then combining several simple instructions into a complicated instruction when the target machine permits it.", "ja": "連中のおもしろいアイデアは、いろんな種類のマシンを単純な命令の生成で扱うことで、ターゲットのマシンが許せばそれをいくつか組み合わせて複雑な命令にするんだ。"}
+{"en": "In order to do this uniformly, they represent they represent the instructions in algebraic notation.", "ja": "これを総合的にやるために、命令が数学式の記法で書かれてる。"}
+{"en": "For example, an ADD instruction might be represented like this:", "ja": "たとえば ADD 命令はこんな感じで書かれる："}
+{"en": "This would be a representation inside their compiler", "ja": "これはコンパイラ内部での命令の表現形。"}
+{"en": "for instruction to take the contents of register two, add four and store it in register three.", "ja": "2 番レジスタの中身をとって、それに 4を足して 3 番レジスタに入れろという命令。"}
+{"en": "In this fashion you can represent any possible instruction for any machine.", "ja": "こういうふうにすれば、あらゆるマシン用にあらゆる命令を表現できる。"}
+{"en": "So they actually did represent all the instructions this way and then when it came time to try to combine them, they would do this by substituting one expression into another, making a more complicated algebraic expression for the combined instruction.", "ja": "それでかれらは実際に、すべての命令をこの形式で表現して、それを組み合わせる段階になったら、ある表現式をべつので置き換えて、もっと複雑な式をつくって組み合わせて命令にするわけ。"}
+{"en": "Sometimes depending on whether the result of the first instruction had any further use, it might be necessary to make a combined instruction with two assignment operators.", "ja": "ときどき、最初の命令の結果がそれ以上使われるかどうかに応じて、割りつけ演算子を 2 つ持つような組み合わせ命令をつくんなきゃならない。"}
+{"en": "One for this value [pointing at ???]and another one with this value [pointing at ???] substituted in it with what came from the second instruction.", "ja": "この値（と何かを指さす）用に 1 つと、こっちの値（と何かを指さす）用に 1 つ、こっちは 2 番目の命令からきた値と差し替えるのね。"}
+{"en": "But if this value was only used that once, you could eliminate it after substituting for it;", "ja": "でもこの値を 1 回しか使わないなら、差し替えたあとは捨てちゃえる。"}
+{"en": "there'd be no need to compute it any more.", "ja": "もうそれで計算する必要はないんだから。"}
+{"en": "So it's actually somewhat complicated doing the substitution correctly checking that the intervening instructions don't change any of these values and other such things.", "ja": "だから。途中で入ってくる命令とかがこういう値を変えたりしないかとか、そういうのをちゃんとチェックして、差し替えをきちんとやるのはなかなかややこしい。"}
+{"en": "When you support such things as auto-increment and auto-decrement addressing, which I do now, you also have to do various checks for those to check for situations where what you're doing is not value preserving.", "ja": "自動インクリメントや自動デクリメント・アドレッシングみたいなものをサポートするなら（ぼくはしてるけど）、値を保存するんじゃないような状況についてチェックするのに、いろいろチェックもしなきゃならない。"}
+{"en": "But after checking all those things, then you take the substituted combined expression and put it through a pattern matcher, which recognizes all the valid instructions of your chosen target machine.", "ja": "でもこういうの全部チェックしたら、差し替えた組み合わせ式をパターン・マッチャーに通して、それが選んだターゲットマシンで有効な命令を全部認識してくれる。"}
+{"en": "And if it's recognized, then you replace those two instructions with the combined one, otherwise you leave them alone.", "ja": "それで認識されたら、その 2 つの命令を組み合わせ命令と置き換えて、そうでなきゃそのままにする。"}
+{"en": "And their technique is to combine two or three instructions related by data flow in this way.", "ja": "そして連中の技法ってのは、データフローで関連づけた命令 2 つ 3 つをこうやって組み合わせることなんだ。"}
+{"en": "In the Arizona compiler, they actually represent things as text strings like this, and their compiler is horribly slow.", "ja": "アリゾナコンパイラでは、いろんなものをこういう文字列で表現してて、だから連中のコンパイラはとてつもなく遅い。"}
+{"en": "First I had some idea of just using their compiler and making changes in it, but it was clear to me I had to rewrite it entirely to get the speed I wanted, so I have rewritten it to use list structure representations for all these expressions.", "ja": "最初はこのコンパイラをそのまま使ってちょっと変えるだけにしようかと思ったけれど、でもぼくの求めるスピードを出すには完全に書き換えるしかないのは明らかだったので、こういう式すべてにリスト構造の記法を使うように書き直した。"}
+{"en": "Things like this:", "ja": "たとえばこういうの："}
+{"en": "This looks like Lisp, but the semantics of these are not quite LISP,", "ja": "なんか LISP っぽいけど、でもこいつの意味はそんなに LISP してない。"}
+{"en": "because each symbol here is one recognized specially.", "ja": "ここの各シンボルは特別に認識されるものだから。"}
+{"en": "There's a particular fixed set of these symbols that is defined, all the ones you need.", "ja": "こういうシンボルの集合が特別に定義されていて、必要なのは全部そこにある。"}
+{"en": "And each one has a particular pattern of types of arguments,", "ja": "そしてそれぞれが特定の引数のパターンを持ってる。"}
+{"en": "for example: ``reg'' always has an integer, because registers are numbered, but ``+'' takes two subexpressions, and so on.", "ja": "たとえば：「reg」は必ず integer で、それはレジスタに番号がついてるからだけど、「+」は必ずサブの式を二つ持ってて、とかね。"}
+{"en": "And with each of these expressions is also a data type which says essentially whether it's fixed or floating and how many bytes long it is.", "ja": "そしてそれぞれの式にはデータ型があって、それが基本的に、それが固定か浮動か、バイト長はどんだけか、なんてことを指示する。"}
+{"en": "It could be extended to handle other things too if you needed to.", "ja": "必要なら、ほかの物を扱えるように拡張することもできる。"}
+{"en": "And the way I do automatic register allocation is that when I initially generate this code, and when I do the combination and all those things, for every variable that conceivably go into a register, I allocate what I call a pseudo register number, which is a number starting at sixteen or whatever is to high to be a real register for your target machine.", "ja": "それでぼくが自動レジスタ割り当てをやる方法ってのは、ぼくが最初にコードを生成するとき、組み合わせとかいろいろやるときだけど、レジスタに入りそうな変数にはすべて、自称疑似レジスタ番号ってのを割り振って、これは 16 とかなんとか、そのターゲットのマシンで実際のレジスタになるには大きすぎる番号からはじまる数字だ。"}
+{"en": "So the real registers are numbered zero to fifteen or whatever and above that comes pseudo registers.", "ja": "だから本物のレジスタは 0 から 15 までとかなんとかに割り当てられてて、そのあとに疑似レジスタがくる。"}
+{"en": "And then one of the last parts of the compiler consists of going through and changing all the pseudo registers to real registers.", "ja": "それで、コンパイラの最後のところで何をやるかというと、ずっと見てって、疑似レジスタを本物のレジスタに変えてくんだ。"}
+{"en": "Again it makes a conflict graph, it sees which pseudo registers are alive at the same point and they of course can't go in the same real register, and then it tries packing pseudo registers into real registers as much as it can, ordering them by priority of how important they are.", "ja": "またもやここでコンフリクトグラフをつくって、どの疑似レジスタ同士が同じ時点で生きてるかを見て、もちろんそれを本物のレジスタの同じところに入れるわけにはいかないので、だからなるべく疑似レジスタを固めてなるべく本物のレジスタに入れるようにして、しかもその重要度に応じて並べるわけ。"}
+{"en": "And finally it then has to correct the code for various problems,", "ja": "そして最後に、いろんな問題に対応してコードを訂正しなきゃならない。"}
+{"en": "such as happen when there were pseudo registers that don't fit in the real registers, that had to be put into stack slots instead.", "ja": "たとえば本物のレジスタにおさまりきらない疑似レジスタがあって、それをかわりにスタックのスロットに入れなきゃならないとする。"}
+{"en": "When that happens on certain machines, some of the instructions may become invalid.", "ja": "一部のマシンだと、これが起きると命令の一部は無効になっちゃうかもしれない。"}
+{"en": "For example on the 68000 you can add a register into memory and you can add memory into register, but you can't add one memory location into another.", "ja": "たとえば 68000 だと、レジスタの内容をメモりに加算したり、メモリの内容をレジスタに加算したりはできるけれど、メモリの内容同士の加算はできない。"}
+{"en": "So if you have an ADD instruction, and you're headed for a 68000 and both of the things end up in memory, it's not valid.", "ja": "だから ADD 命令があって、68000 を相手にしてて両方の値がメモリにおさまっちゃったら、この命令は無効になる。"}
+{"en": "So this final pass goes through and copies things into registers and out of registers as needed to correct those problems.", "ja": "だから最後のパスでは、ずっと見てって、必要に応じていろんなものをレジスタにコピーしたり、戻したりして、こういう問題を片づける。"}
+{"en": "Problems can also arise with index registers.", "ja": "インデックスレジスタも問題になる。"}
+{"en": "If you're trying to index by something, then most of the time that code will become invalid if the index quantity is in memory,", "ja": "何かをインデックスにしてアドレスを決めるとき、そのインデックス値がメモリに入ってたら、そのコードはほとんどの場合役にたたなくなる。"}
+{"en": "except in a few cases on some machines where you can it with indirect addressing.", "ja": "ただし、間接アドレッシングでそれができるマシンは別だけど。"}
+{"en": "In the cases when you're doing auto-increment on an index register you may have to copy the value into a register, do the instruction, and then copy the incremented value back to the memory slot where it really lives.", "ja": "インデックスレジスタに自動インクリメントとかかけてるときには、その値をレジスタに入れて、命令をやって、インクリメントした値をほんとにあるべきメモリのスロットに戻してやらなきゃならないかもしれない。"}
+{"en": "There's got room for a lot of hair, and I've not finished implementing all the hair needed to make really fully efficient.", "ja": "まだまだいろいろ小細工の余地はあって、ぼくもまだ十分に効率よくなるほどの細工は実装しきってない。"}
+{"en": "This compiler currently works by having a parser which turns C code into effectively a syntax tree annotated with C datatype information.", "ja": "このコンパイラは、C のコードをとって、それを実質的にはCデータ型の注釈がついた構文ツリーに変えるパーサーを持つことでいまは動いてる。"}
+{"en": "Then another pass which looks at that tree and generates code like this [LISP like code].", "ja": "それから次のパスではそのツリーをながめて、こんな（ LISP 状の）コードを生成する。"}
+{"en": "Then several optimization passes.", "ja": "それから最適化パスがいくつかある。"}
+{"en": "One to handle things like jumps across jumps, jumps to jumps, jumps to .+1, all of which can be immediately simplified.", "ja": "一つには、ジャンプからジャンプ、ジャンプへのジャンプ、.+1 へのジャンプなんかを扱うもので、こんなのはみんなすぐに簡素化できる。"}
+{"en": "Then a common subexpression recognizer, then finding basic blocks, and performing dataflow-analysis, so that it can tell for each instruction which values are used in that instruction and never used afterward.", "ja": "それからよくある副次式の認識、さらに基本ブロック探し、それからデータフロー分析をして、どの命令にどの値が使われて、その後まったく使われないのはどれかがわかる。"}
+{"en": "And also linking each instruction to the places where the values it uses were generated, so if I have one instruction which generates pseudo register R[28], and then another instruction later which uses R[28] and it's the first place to use R[28], I make the second one point back to the first one, and this pointer is used to control the attempts to combine the instructions.", "ja": "そしてそれぞれの命令を、それが使う値の生成場所とリンクさせて、だから疑似レジスタ R[28] を生成するある命令があって、別の命令があとでR[28] を使って、それが R[28] を使う最初の場所だったら、二番目のやつが最初のやつを戻って指すようにして、このポインタが、命令を組み合わせようとするときの制御に使われる。"}
+{"en": "You don't combine adjacent instructions, you combine an instruction that uses a value with the instruction that produced that value.", "ja": "隣り合った命令を組み合わせるんじゃなくて、ある値を使う命令と、それを生成する命令とを組み合わせるの。"}
+{"en": "Even if there are other instructions in between, they don't matter for this, you just have to check them to make sure they don't do anything to interfere.", "ja": "間にほかの命令がはさまっていても、ここでは関係なくて、単に介入してきたりしないかどうかチェックしなきゃならないだけ。"}
+{"en": "Then after the combiner comes the dynamic register allocator, and finally something to convert it into assembly code.", "ja": "それで組み合わせ機能が動的レジスタ割り当てをやって、そして最後に、アセンブリコードにする部分がくる。"}
+{"en": "In the Arizona compiler the instruction recognizer was generated with LEX.", "ja": "アリゾナコンパイラでは、命令認識部分は LEX で生成されてた。"}
+{"en": "Your machine description was simply a LEX program that LEX would turn into a C function to recognize valid instructions as strings.", "ja": "マシン記述はただの LEX プログラムで、LEX はそれを C 関数にして、有効な命令を文字列として認識する。"}
+{"en": "What I have is instead a special purpose decision tree that's generated from a machine description written in this syntax as if it were LISP.", "ja": "ぼくがかわりにつけたのは、特別な専用デシジョン・ツリーで、まるでLISP みたいなこの構文で書かれたマシン記述から生成される。"}
+{"en": "And this recognizer is used as a subroutine for many different parts of the compiler.", "ja": "そしてこの認識部分は、コンパイラ内のいろんな部分のためのサブルーチンとして使われてる。"}
+{"en": "Currently this compiler runs about as fast as PCC.", "ja": "いまんとこ、このコンパイラは PCC くらいの速度で走る。"}
+{"en": "It runs noticeably faster if you tell it not to do the hairy register allocation, in which case it allocates registers the same way as PCC does.", "ja": "レジスタ割り当ての小細工をするなといえば、目に見えて速くはなって、それだと PCC とレジスタの割り当ては同じ。"}
+{"en": "In its super hairy mode it does a much better job of allocating registers than PCC, and I observe that for the VAX it generates the best code I've seen from any C compiler on the VAX.", "ja": "超小細工モードだと、PCC よりずっと上手にレジスタ割り当てをやって、ぼくの見立てでは VAX だと VAX 用のどの C コンパイラよりもいいコードを生成してくれるね。"}
+{"en": "For the 68000 the code is still not ideal.", "ja": "68000 だとコードはまだ理想的とはいえない。"}
+{"en": "I can see places where early stages do things that are not the best, because it can't fully look ahead.", "ja": "前段で、十分に先を見通してないから、最高とはいえないようなことをしてる部分が見える。"}
+{"en": "It has a choice in an early stage, and it does the thing that it thinks is going to be best, but really if it did the other one, a later stage is actually smart enough to do something even better.", "ja": "前段では選択の余地があって、だからそいつが一番いいと思うことをやるんだけれど、でも別のやりかたをしてくれたら後段のほうが頭がいいから、もっといい処理をしてくれたはず。"}
+{"en": "But the early stage doesn't know what the later stage is going to do, so I have more work to do on some of these things.", "ja": "だけど前段は、後段がそんなことしてくれるとは知らないので、だからそういうのでもっと手を入れないと。"}
+{"en": "Sometimes this causes it to free up registers unnecessarily.", "ja": "ときどきこのせいで、レジスタが無用に解放されちゃう。"}
+{"en": "Because when things wind up in memory and it needs to copy them into registers, it needs to get registers to copy them into.", "ja": "だって、何かがメモリのほうにおさまって、それをレジスタにコピーしなきゃならなかったら、まずはそれをコピーするためのレジスタが必要になる。"}
+{"en": "This means taking registers that it has already allocated to, and kicking those temporary quantities out to stack slots.", "ja": "これはつまり、すでに割り当てたレジスタを持ってきて、一時的な値をスタックのスロットに蹴り出すってことだ。"}
+{"en": "Of course this may invalidate more instructions now that those things are in memory, not registers, so it has to check again and again.", "ja": "もちろんそういうのがレジスタからメモリにいっちゃうと、さらにほかの命令が無効になるかもしれなくて、だから何度も何度もチェックが必要になる。"}
+{"en": "Sometimes it thinks it has to copy things to registers and really it isn't going to have to, so it may free up too many things and thus not use all the registers that it could.", "ja": "ときどきこいつは、何かをレジスタにコピーしなきゃと思うんだけど、でもそんな必要がなかったりして、すると必要以上のレジスタを解放しちゃって、使えるレジスタを使い切らなかったりするんだ。"}
+{"en": "(Question: Do you have a code generator for 32000?)", "ja": "（質問: 32000 用のコードジェネレータはありますか？）"}
+{"en": "Not yet, but again, it's not a code generator it's just a machine description that you need.", "ja": "まだだけど、でも言っとくと、要るのはコードジェネレータじゃなくて、ただのマシンの記述だけね。"}
+{"en": "A list of all the machine instructions described in this [LISP like] form.", "ja": "そのマシンの命令が全部こんなふうに（LISP っぽい形式で）リストしてあればいい。"}
+{"en": "So in fact aside from the work of implementing the idea of constraints on which arguments can be in registers and which kind of registers, which is something which was needed for the 68000 and was not needed for the VAX, the work of porting this compiler from the VAX to the 68000 just took a few days.", "ja": "だから実際問題として、どの引数がレジスタに入れてとかどのレジスタにとかいう制約条件の考え方を実装するところは別にして、これは 68000 には必要だけど VAXでは不要だった話なんだけど、でもそれを別にすれば、このコンパイラを VAX から68000 に移植するのはほんの数日しかかからなかった。"}
+{"en": "So it's very easy to port.", "ja": "だから、すごく簡単に移植できるんだ。"}
+{"en": "The compiler currently generates assembler code and it can generate debugging information either in the format that DBX wants, or in the special internal format of GDB.", "ja": "コンパイラはいまはアセンブラ・コードを生成して、デバッグ情報を DBX の求める形式でも出せるし、GDB の特別な内部形式でも出せる。"}
+{"en": "I'd say the only work needed on this compiler is in three areas.", "ja": "ぼくに言わせれば、このコンパイラで手をいれなきゃいけないのは、あとたった 3 分野だけ。"}
+{"en": "One: I have to add a ``profiling'' feature,", "ja": "* 「プロファイリング」機能をつけなきゃならない。"}
+{"en": "like the one that the UNIX compilers have.", "ja": "UNIX のコンパイラにあるやつ。"}
+{"en": "Two: I have to make these register allocation things smarter,", "ja": "* レジスタ割り当てをもう少し賢くしないとダメ。"}
+{"en": "so that I can stop seeing stupid things appearing in the output.", "ja": "出力にバカな代物が出てこないようにする。"}
+{"en": "And three: There are various bugs, things that doesn't handle correctly yet,", "ja": "* 最後に、いろんなバグがあるし、ちゃんと扱えてないものがある。"}
+{"en": "although it has compiled itself correctly.", "ja": "自分自身はコンパイルはできてるんだけどね。"}
+{"en": "I expect this will just take a few months, and then I will release the compiler.", "ja": "これだけやるのに、まあ数ヶ月もあればってとこで、そしたらコンパイラをリリースする。"}
+{"en": "The other sizable part of the system that exist, is the kernel.", "ja": "システムの中ですでに存在する大きな部分がカーネル。"}
+{"en": "(Question: A pause?)", "ja": "(質問：休みは？)"}
+{"en": "Ah, yeah I guess we've forgotten about breaks.", "ja": "ああ、うん、そういや休憩を忘れてたね。"}
+{"en": "Why don't I finish talking about the kernel,", "ja": "とりあえずカーネルの話だけ終わらせてよ。"}
+{"en": "which should only take about five minutes,", "ja": "5分ほどですむから。"}
+{"en": "and then we can take a break.", "ja": "そしたら休憩にしよう。"}
+{"en": "Now, for the kernel I am planning to use a system called TRIX (it doesn't stand for anything that I know of)", "ja": "で、カーネルには TRIX （ぼくの知る限りでは、何の略でもないみたい）っていうシステムを使う予定（訳注：不詳。きいたことない。でも、すでにマルチサーバ式の OS らしきものは構想されているのがわかる。なおここでは、この 1986 年の時点でカーネルがまもなくできそうな雰囲気だが、実際に GNU のカーネルであるHURD がまがりなりにもリリースされたのは、1997 年になってからのことだった。）。"}
+{"en": "which was developed as a research project at MIT.", "ja": "これは MIT の研究プロジェクトで開発されたもので、"}
+{"en": "This system is based on Remote Procedure Call.", "ja": "リモート・プロシージャ・コールに基づいてる。"}
+{"en": "Thus programs are called domains.", "ja": "だからプログラムはドメインと呼ばれてる。"}
+{"en": "Each domain is a address space and various capabilities, and a capability is none other than the ability to call a domain.", "ja": "各ドメインはアドレス空間といろんな機能（capability）で、機能（capability）ってのはまさに、ドメインを呼び出す能力なんだ。"}
+{"en": "Any domain can create ``capability ports'' to call it, and then it can pass these ports to other domains, and there is no difference between calling the system and calling another user domain.", "ja": "どのドメインもそれを呼び出す「capability ports」（機能ポート）がつくれて、そしてシステムコールとほかのユーザドメインをコールするのとがまったく同じ。"}
+{"en": "In fact you can't tell which you have.", "ja": "どっちをしてるのかすら区別できない。"}
+{"en": "Thus it is very easy to have devices implemented by other user programs.", "ja": "だからほかのユーザプログラムでデバイスを簡単に実装できる。"}
+{"en": "A file system could be implemented by a user program, transparently.", "ja": "ファイルシステムも、透過的にユーザプログラムで実装できる。"}
+{"en": "It's also transparent to communicate across networks.", "ja": "さらにネットワークごしに通信するのも透過的。"}
+{"en": "You think that you're directly calling another domain, but really you're calling the network server domain.", "ja": "ほかのドメインを直接呼んでるつもりでも、実はネットワークサーバのドメインを呼んでるかもしれない。"}
+{"en": "It takes the information that you gave in the call, and passes this over the network to another server program which then calls the domain that you're trying to talk to.", "ja": "コールで与えた情報をとって、それをネットワーク越しに別のサーバプログラムに渡して、それがこんどはあなたの話そうとしてるドメインを呼び出す。"}
+{"en": "But you and that other domain see this as happening invisibly.", "ja": "でも、あなたとその相手のドメインには、そういう動きはまったく見えずに起こる。"}
+{"en": "The TRIX kernel runs, and it has a certain limited amount of UNIX compatibility, but it needs a lot more.", "ja": "TRIX カーネルは動くし、ごく限られたかたちで UNIX と互換性もあるんだけれど、でもまだまだだね。"}
+{"en": "Currently it has a file system that uses the same structure on disk as the ancient UNIX file system does.", "ja": "いまのところ、ディスク上では古くさい UNIX ファイルシステムが使ってるのと同じ構造を使ったファイルシステムを持ってる。"}
+{"en": "This made it easier to debug the thing,", "ja": "おかげでデバッグはやさしいよ。"}
+{"en": "because they could set up the files with UNIX, and then they could run TRIX,", "ja": "ファイルを UNIX でセットして、それを TRIX で走らせたりできるから。"}
+{"en": "but that file system doesn't have any of the features that I believe are necessary.", "ja": "でもこのファイルシステムは、ぼくが必要だと思う機能をぜんぜん持ってない。"}
+{"en": "Features that I believe must be added include: Version numbers, undeletion, information on when and how and where the file was backed up on tape, atomic superseding of files.", "ja": "どうしても追加するべきだと思う機能としては、バージョン番号、削除ファイルの復活、ファイルがいつどこでテープにバックアップされたかの情報、ファイルの詳細更新（atomic superseding of files）。"}
+{"en": "I believe that it is good that in Unix when a file is being written, you can already look at what's going there,", "ja": "UNIX でいいと思うのは、ファイルが書き込まれているときには、いつでもどうなってるか見られるってことね。"}
+{"en": "so for example, you can use ``tail'' to see how far the thing got, that's very nice.", "ja": "たとえば「tail」を使ってどこまで進んだか見るとか、あれっていいよね。"}
+{"en": "And if the program dies, having partly written the file, you can see what it produced.", "ja": "それでプログラムが、ファイル書きかけで死んだりしたら、どこまで行ったかも見られる。"}
+{"en": "These things are all good, but, that partly written output should not ever be taken for the complete output that you expected to have eventually.", "ja": "こういうのっていいんだけど、でもこの書きかけの出力が、いずれ期待してた完全な出力にまちがえられるようなことは、絶対にあってはならない。"}
+{"en": "The previous version of that should continue to be visible and used by everyone who tries to use it, until the new version is completely and correctly made.", "ja": "その前のバージョンもちゃんと見られて、新しいバージョンが完全に正しくできるまでは、それを使おうとする人みんなに使われるべきでしょ。"}
+{"en": "This means that the new version should be visible in the file system but not under the name it is supposed to have.", "ja": "ということはつまり、新しいバージョンはファイルシステムの中で見えなきゃダメだけれど、でも名前は予定されてた名前じゃいけないってことだ。"}
+{"en": "It should get renamed when it's finished.", "ja": "作業が完了してはじめてリネームされるようにしないと。"}
+{"en": "Which is by the way what happens in ITS, although there each user program has to do this explicitly.", "ja": "これはまさに ITS がそうで、だけどここでは、各ユーザプログラムがそれを明示的にやる必要があった。"}
+{"en": "For UNIX compatibility with the user programs, it has to happen invisibly.", "ja": "ユーザプログラムに UNIX と互換性を持たせるには、これを目に見えない形でやる必要がある。"}
+{"en": "I have a weird hairy scheme to try to make version numbers fit with the existing UNIX user programs.", "ja": "バージョン番号を、いまの UNIX のユーザプログラムにフィットさせるための、すごい小細工っぽい方式を考えてある。"}
+{"en": "And this is the idea that you specify a file name leaving the version number implicit, if you just specify the name in the ordinary way.", "ja": "それでこれって、ファイル名をそのまま指定してバージョン番号を略すと、ふつうの形で名前を指定するってこと。"}
+{"en": "But if you wish to specify a name exactly, either because you want to state explicitly what version to use, or because you don't want versions at all, you put a point at the end of it.", "ja": "でもファイル名をはっきり指定したければ、たとえばはっきりどのバージョンを使いたいか指定するとか、あるいはぜんぜんバージョンを使いたくなければ、ファイル名の最後にピリオドをつける。"}
+{"en": "Thus if you give the filename ``FOO'' it means ``Search the versions that exists for FOO and take the latest one''.", "ja": "だからもし「HOGE」っていうファイル名を与えたら、これはつまり「HOGE のバージョンを全部見て、最新のヤツをもっといで」という意味。"}
+{"en": "But if you say ``FOO.'' it means ``use exactly the name FOO and none other''.", "ja": "でも「HOGE.」といえば、「純粋に HOGE という名前だけのファイルを持っといで、それ以外はいらないよ」ってこと。"}
+{"en": "If you say ``FOO.3.'' it says ``use exactly the name FOO.3 '' which of course is version three of FOO and none other.", "ja": "「HOGE.3.」ってのは「ずばり HOGE.3 って名前のファイル」で、これはもちろん HOGE のバージョン3そのもの。"}
+{"en": "On output, if you just say ``FOO'', it will eventually create a new version of ``FOO'', but if you say ``FOO.'' it will write a file named exactly ``FOO''.", "ja": "出力では、単に「HOGE」といったら、これはいずれ「HOGE」の新しいバージョンをつくるけれど、でも「HOGE.」と指定すれば、純粋に「HOGE」という名前のファイルに書き込む。"}
+{"en": "Now there's some challenges involved in working out all the details in this, and seeing whether there are any lingering problems, whether some UNIX software actually breaks despite feeding them names with points in them and so on, to try to make it get the same behavior.", "ja": "さて、細かいところを全部つめて、問題が残ってないかとか、UNIX がファイル名にピリオドをつけたらいかれるかかなんとか、同じ行動をさせるようにするには、いろいろまだハードルが残ってはいる。"}
+{"en": "I would expect that when you open a file for output whose name ends in a point, you should actually open that name right away,", "ja": "出力用に、名前がピリオドで終わるファイルを開いたら、その名前をすぐに開いて、だから同じ UNIX の振る舞いが得られるようにしたい。"}
+{"en": "so you get the so you get the same UNIX behavior, the partially written output is immediately visible, whereas when you output a name that doesn't end in a point, the new version should appear when you close it, and only if you close it explicitly.", "ja": "書きかけの出力がそのまま見えるようになって、でもピリオドで終わらない名前に出力したら、閉じたときには新しいバージョンがあらわれて、しかもそれを明示的に閉じないと新しいバージョンにならない。"}
+{"en": "If it gets closed because the job dies, or because the system crashes or anything like that, it should be under a different name.", "ja": "システムがクラッシュしたとかなんとかで、ジョブが死んだためにファイルが閉じたら、それは名前が変わる。"}
+{"en": "And this idea can be connected up to ``star matching'',", "ja": "そしてこのアイデアは、「スター・マッチング」に結びつけられる。"}
+{"en": "by saying that a name that doesn't end in a point is matched against all the names without their version numbers,", "ja": "つまり、ピリオドで終わらない名前はバージョン番号のついてない名前とマッチするようになるってわけ。"}
+{"en": "so if a certain directory has files like this:", "ja": "だからあるディレクトリにこんなファイルがあったとしよう："}
+{"en": "If I say ``*'', that's equivalent to foo bar", "ja": "ここで「*」と言ったら、それは：ho　　ge に相当する。"}
+{"en": "because it takes all the names and gets rid of their versions, and takes all the distinct ones.", "ja": "名前をとって、バージョン番号をそこから除いて、それで区別がつくものを選ぶから。"}
+{"en": "But if I say ``*.'' then it takes all the exact names, puts a point after each one, and matches against them.", "ja": "でも「*.」といえば、絶対名を全部とってきて、それにピリオドをつけて、それに対してマッチしたのをさがす。"}
+{"en": "So this gives me all the names for all the individual versions that exist.", "ja": "だから存在する個別バージョンがすべてあてはまる。"}
+{"en": "And similar, you can see the difference between ``*.c'' and ``*.c.''", "ja": "同じようにして「*.c」と「*.c.」のちがいもわかるよね。"}
+{"en": "this [the first] would give you essentially versionless references to all the ``.c'' files, whereas this [the second] will give you all the versions ..... well this actually wouldn't, you'd have to say ``*.c.*.''.", "ja": "こいつ（最初の）は基本的にバージョンなしの「.c」ファイルすべてをさすんだけど、こいつ（二番目）は全バージョンをさす……わけじゃないな、それだと「*.c.*.」とやんなきゃいけないのか。"}
+{"en": "I haven't worked out the details here.", "ja": "まだ細かいところはつめきってないんだ。"}
+{"en": "Another thing, that isn't a user visible feature and is certainly compatible to put in, is failsafeness in the file system.", "ja": "もう一つ、ユーザからは見えない機能でしかも確実に互換性があるのが、ファイルシステムのフェイルセーフさってこと。"}
+{"en": "Namely, by writing all the information on disk in the proper order, arranging that you can press ``halt'' at any time without ever corrupting thereby the file system on disk.", "ja": "つまり、全情報をディスクにちゃんとした順序で書けば、うまくそれができれば「停止」ボタンをいつ押しても、それでディスク上のファイルシステムがいかれるようなことは絶対ないふうにできる。"}
+{"en": "It is so well known how to do this,", "ja": "これのやりかたはよく知られてる。"}
+{"en": "I can't imagine why anyone would neglect it.", "ja": "なんでみんなそれを無視するのか、想像もつかないよ。"}
+{"en": "Another idea is further redundant information.", "ja": "もう一つのアイデアは、さらに情報の冗長性をもたせる。"}
+{"en": "I'm not sure whether I'll do this or not, but I have ideas for how to store in each file all of its names, and thus make it possible if any directory on disk is lost, to reconstruct it from the rest of the contents of the disk.", "ja": "これをやるかどうかはよくわからないけど、でも各ファイルに名前を全部入れて、だからディスク上のディレクトリが壊れても、それをディスクのほかの中身から再構築することが可能になるようにする方法について、ちょっと考えがあるんだ。"}
+{"en": "Also I think I know how to make it possible to atomically update any portion of a file.", "ja": "あと、ファイルの任意の一部を細かく（atomically）更新できるようにするにはどうしたらいいか、ぼくはわかってるつもりだ。"}
+{"en": "Thus if you want to replace a certain subrange of a file with new data in such a fashion that any attempt to read the file will either see only the old data, or only the new data.", "ja": "つまりファイルの一部分を新しいデータで更新して置き換えるときに、それだとファイルを読もうとすれば、見えるのは古いデータだけとか新しいデータだけとかね。"}
+{"en": "I believe I can do that,", "ja": "できると思う。"}
+{"en": "without any locking even.", "ja": "しかもファイルをロックしたりとかもしなくてね、ぜんぜん。"}
+{"en": "For network support, I intend eventually to implement TCP/IP for this system.", "ja": "ネットワークのサポートとしては、いずれこのシステム用に TCP/IP を実装するつもり。"}
+{"en": "I also think it's possible to use KERMIT to get something effectively equivalent to UUCP.", "ja": "それと実質的に UUCP に相当するものとして、KERMIT がつかえると思う。"}
+{"en": "A shell I believe has already been written.", "ja": "シェルは確かもう書き上がってるはず。"}
+{"en": "It has two modes, one imitating the BOURNE shell, and one imitating the C-shell in the same program.", "ja": "二つのモードがあって、一つは BOURNEシェル風で、同じプログラムが別のモードでは C シェル風になる。"}
+{"en": "I have not received a copy of it yet, and I don't know how much work I'll have to do on it.", "ja": "まだこいつはぼくの手元には届いてないから、どのくらい手をかけなきゃなんないかもわかんないや。"}
+{"en": "Also many other utilities exists.", "ja": "それ以外にもたくさんユーティリティがある。"}
+{"en": "A MAKE exists, LS, there's a YACC replacement called BISON which is being distributed.", "ja": "MAKE はあるし、LS も、あとBISON っていう YACC にかわるものもあって、配布されてる。"}
+{"en": "Something pretty close to a LEX exits, but it's not totally compatible, it needs some work.", "ja": "LEX にかなり近いものもできてるんだけど、完全に互換性はないので、ちょっと作業が必要。"}
+{"en": "And, in general what remains to be done is much less that what's been done, but we still need lots of people to help out.", "ja": "そして全体として、これからやんなきゃならないことは、もう済んだことよりはずっと少ないんだけれど、でもまだまだたくさん手伝いがいるんだ。"}
+{"en": "People always ask me ``When is it going to be finished?''", "ja": "みんながしょっちゅうきくのが「いつになったら完成するの」ってこと。"}
+{"en": "Of course I can't know when it's going to be finished, but that's the wrong question to ask me.", "ja": "もちろんぼくだって、いつできんのかなんてわかりゃしないけど、これはぼくにすべき正しい質問じゃない。"}
+{"en": "If you were planning to pay for it, it would make sense for you to want to know exactly what are you going to get and when.", "ja": "もしその人がそれにお金を払う気なら、そりゃずばりどんなものをいつ手に入れられるか知りたがるのは当然だ。"}
+{"en": "But since you're not going to pay for it, the right question for you to ask is ``how can you help make it get finished sooner?''", "ja": "でも、お金を払うことにはならないんだから、きみたちがきくべき正しい質問は「もっとはやく完成させるために、どんな手伝いをしたらいいですか」なんだ。"}
+{"en": "I have a list of projects, it is on a file at MIT, and people who are interested in helping could send me mail at this Internet address, and I will send back a list of projects.", "ja": "プロジェクトのリストがあって、MIT のファイルにおいてあるんだけど、手伝いたい人はこのインターネットアドレスにメールをくれれば、プロジェクトのリストを送ってあげる。"}
+{"en": "(I wonder if this is will work (looking at the chalk)).", "ja": "（こいつ、うまく動くかな（とチョークを見つめて言う）。"}
+{"en": "Is this readable?", "ja": "これ、読める？"}
+{"en": "This is ``RMS@GNU.ORG''", "ja": "RMS@GNU.ORG だよ"}
+{"en": "(just follow the bouncing ball.)", "ja": "（カラオケ風に色が変わる通り）。"}
+{"en": "And now let's take a break,", "ja": "で、ここでちょっと休憩といこうか。"}
+{"en": "and after the break, I will say some really controversial things.", "ja": "そして休憩が終わったら、ぼくはすごい問題発言をいろいろするからね。"}
+{"en": "So don't leave now.", "ja": "いま帰っちゃだめだよ。"}
+{"en": "If you leave now, you're going to miss the real experience.", "ja": "いま帰ったら、ホントの山場をみのがすからね。"}
+{"en": "[Here we had a 15 min. break]", "ja": "[ここで15分休憩]"}
+{"en": "I've been asked to announce how you can get copies of GNU software.", "ja": "GNU ソフトの入手法を言っとくようにと言われた。"}
+{"en": "Well, one way of course is if you know a friend who has a copy, you can copy it, but if you don't know a friend who has a copy, and you're not on the Internet, you can't FTP it, then you can always order a distribution tape, and send some money to the Free Software Foundation.", "ja": "で、一つの方法はもちろん、もしそれを持ってる友だちがいたら、それをコピーすればいいけど、でもそういう友だちがいなかったら、そしてインターネットにもつながってなかくて、だからFTP も使えないなら、配布テープを注文してフリーソフトウェア財団（FSF）にお金を送ってくれればいい。"}
+{"en": "Of course free programs is not the same thing as free distribution.", "ja": "もちろん、フリーソフトは無料配布ってのとは別物なんだよ。"}
+{"en": "I'll explain this in detail later.", "ja": "この話はまたあとで詳しくやる。"}
+{"en": "Here I have an EMACS manual, of the nicely printed variety.", "ja": "ここに取り出しましたるは EMACS のマニュアルだけど、きれいに印刷製本したやつ。"}
+{"en": "It has been phototypeset and then offset printed.", "ja": "写真製版してオフセット印刷してある。"}
+{"en": "Although you can also print it yourself from the sources that come in the EMACS distribution, you can get these copies from the Free Software Foundation.", "ja": "EMACS の配布パッケージに入ってるソースから自分で印刷してもいいし、こっちのやつを FSF から買ってくれてもいい。"}
+{"en": "You can come afterwards and look at this and also this contains an order for you might copy some information from, and this [front] picture has also sometimes been enjoyed.", "ja": "あとでここにきて、こいつを見てみて、それとこれには注文書もあってあとでそれを写したりとか、あとこの（表紙の）絵もおもしろがってもらえたりする。"}
+{"en": "This [pointing at a figure being chased by RMS riding a gnu] is a scared software hoarder,", "ja": "こいつ（と、絵の中でヌーにまたがったRMSに追いかけられてる人物を指さす）は、びびってるソフト隠匿者。"}
+{"en": "I'll be talking about him in a moment.", "ja": "あとでこいつの話もしよう。"}
+{"en": "Software is a relatively new phenomenon.", "ja": "ソフトウェアってのは比較的新しい現象だ。"}
+{"en": "People started distributing software perhaps thirty years ago.", "ja": "人がソフトを配布し出したのは、せいぜい 30 年前かな。"}
+{"en": "It was only about twenty years ago that someone had the idea of making a business about it.", "ja": "だれかがそれを商売にしようと思いついたのは、たった 20年ほど昔だ。"}
+{"en": "It was an area with no tradition about how people did things, or what rights anybody had.", "ja": "人がどうするかについて、なんの前例もないし、だれが何の権利を持ってるかもわからない世界だった。"}
+{"en": "And there were several ideas for what other areas of life you might bring traditions from by analogy.", "ja": "そして、アナロジーでほかの分野の伝統を持ち込めたんだけど、その際のアイデアがいくつかあった。"}
+{"en": "One analogy that is liked by a lot of professors in Europe, is that between programs and mathematics.", "ja": "ヨーロッパの教授たちがお気に入りのアナロジーは、プログラムと数学とのアナロジー。"}
+{"en": "A program is sort of a large formula.", "ja": "プログラムってのは一種の大きな数式みたいなもんだ。"}
+{"en": "Now, traditionally nobody can own a mathematical formula.", "ja": "さて伝統的には、だれも数式を所有したりはできない。"}
+{"en": "Anybody can copy them and use them.", "ja": "だれでもそれを写して使える。"}
+{"en": "The analogy that's most meaningful to ordinary people is with recipes.", "ja": "一般の人にいちばん意味があるアナロジーは、料理のレシピだろう。"}
+{"en": "If you think about it, the thing that you have in ordinary life that's most like program is a recipe, it's instructions for doing something.", "ja": "考えてみれば、日常生活でプログラムにいちばん近いものっていえばレシピなんだよ。"}
+{"en": "The differences come because a recipe is followed by a person, not by a machine automatically.", "ja": "ちがいといえば、レシピは人が従うもので、機械が自動的にやることじゃないってこと。"}
+{"en": "It's true there's no difference between source code and object code for a recipe, but it's still the closest thing.", "ja": "確かにレシピにはソースコードとオブジェクトコードの差はないけれど、でもいちばん近いのは事実。"}
+{"en": "And no-one is allowed to own a recipe.", "ja": "そしてだれもレシピを所有することは認められていない。"}
+{"en": "But the analogy that was chosen was the analogy with books, which have copyright.", "ja": "でも選ばれたアナロジーは、本とのアナロジーで、本には著作権がある。"}
+{"en": "And why was this choice made?", "ja": "そして、なぜそれが選ばれたのか？"}
+{"en": "Because the people that had the most to gain from making that particular choice were allowed to make the decision.", "ja": "それは、この選択をすることでいちばん利益を被る人が選択権を与えられたからだ。"}
+{"en": "The people who wrote the programs, not the people who used the programs, were allowed to decide, and they decided in a completely selfish fashion, and as a result they've turned the field of programming into an ugly one.", "ja": "プログラムを使う人じゃなくて、書く人が決定を認められて、そしてみんなはまったくの利己的な決断をくだして、おかげでプログラミングの世界は醜いところに変わってしまった。"}
+{"en": "When I entered the field, when I started working at MIT in 1971, the idea that programs we developed might not be shared was not even discussed.", "ja": "ぼくがこの世界に入ってきたとき、1971 年に MIT で働きだしたとき、ぼくたちの開発したプログラムが共有されないかもなんて考えは、議論すらされなかった。"}
+{"en": "And the same was Stanford and CMU, and everyone, and even DIGITAL.", "ja": "そしてスタンフォードも CMU もみんな、DIGITAL でさえそうだった。"}
+{"en": "The operating system from DIGITAL at that time was free.", "ja": "当時のDIGITAL からの OS は無料だった。"}
+{"en": "And every so often I got pieces of program from DIGITAL system such as a PDP-11 cross assembler, and I ported it to run on ITS, and added lots of features.", "ja": "それにぼくも、PDP-11 クロスアセンブラとかあれこれプログラムをもらうことがよくあって、それをポートして ITS で動くようにして、いろんな機能も加えた。"}
+{"en": "It was no copyright on that program.", "ja": "そのプログラムには版権はなかったんだ。"}
+{"en": "It was only in the late seventies that this began to change.", "ja": "こいつが変わりはじめたのは、やっと 1970 年代後半に入ってからのことなんだよ。"}
+{"en": "I was extremely impressed by the sharing spirit that we had.", "ja": "ぼくはぼくらの共有精神にはすごく感激した。"}
+{"en": "We were doing something that we hoped was useful and were happy if people could use it.", "ja": "ぼくたちは、願わくば役に立つことをやっていて、人々がそれを使えれば幸せだった。"}
+{"en": "So when I developed the first EMACS, and people wanted to start use it outside of MIT, I said that it belongs to the EMACS ``Commune'', that in order to use EMACS you had to be a member of the commune, and that meant that you had the responsibility to contribute all the improvements that you made.", "ja": "だから最初の EMACS を開発したとき、MIT の外の人がそれを使いたいな、と言い出したとき、ぼくはそれがEMACS「コミューン」のものだ、だから EMACS を使うにはそのコミューンの一員じゃなきゃだめで、それはつまり、自分が改良を加えたらそれを貢献する責任があるんだという意味だよ、と言った。"}
+{"en": "All the improvements to the original EMACS had to be sent back to me", "ja": "オリジナルの EMACS への改良はすべてぼくに送らなきゃならなかったんだ。"}
+{"en": "so that I could incorporate them into newer versions of EMACS, so that everyone in the community could benefit from them.", "ja": "そうすれば新しいバージョンの EMACS にそれを入れて、コミュニティの全員がメリットを得られる。"}
+{"en": "But this started to be destroyed when SCRIBE was developed at CMU, and then was sold to a company.", "ja": "でも CMU で SCRIBE が開発されて、それが会社に売られたときに、これが破壊されはじめた。"}
+{"en": "This was very disturbing to a lot of us at many universities,", "ja": "これはいろんな大学のぼくたちみんなにとって大問題だった。"}
+{"en": "because we saw that this was a temptation placed in front of everyone, that it was so profitable to be uncooperative and those of us who still believed in cooperation had no weapon to try to compel people to cooperate with us.", "ja": "みんなの目の前に大きな誘惑がおかれて、協力をやめるのがすごく儲かるようになって、協力を信じているぼくたちは、協力するように説得する材料がなにもなかった。"}
+{"en": "Clearly, one after another, people would defect and stop cooperating with the rest of society, until only those of us with very strong consciences would still cooperate.", "ja": "はっきりと、一人また一人と、寝返って社会との協力をやめて、ぼくたちの中ですごく良心の強い人だけが協力を続けるだけになるだろう。"}
+{"en": "And that's what happened.", "ja": "そしてまさにそうなったわけ。"}
+{"en": "The field of programming has now become an ugly one,", "ja": "プログラミングの世界は醜いところになっちゃったよね。"}
+{"en": "where everyone cynically thinks about how much money he is going to get by not being nice to the other people in the field, and to the users.", "ja": "みんなシニカルで、同じ分野の人たちやユーザに意地悪にしたらいくら儲かるかな、と考えてる。"}
+{"en": "I want to establish that the practice of owning software is both materially wasteful, spiritually harmful to society and evil.", "ja": "ぼくは、ソフトを所有するという慣行は物質的にも無駄が多く、精神面でも社会的に有害で邪悪なものだと断言したい。"}
+{"en": "All these three things being interrelated.", "ja": "この 3 つはすべて相互に関係しあってる。"}
+{"en": "It's spiritually harmful because it involves every member of society who comes in contact with computers in a practice that is obviously materially wasteful to other people.", "ja": "なぜ精神的に有害かと言えば、それはコンピュータに触れるあらゆる社会人にかかわるからで、その接触を明らかに他人に対して無駄の多い形でやらせる慣行だからだ。"}
+{"en": "And every time you do something for your own good, which you know is hurting other people more that it helps you, you have to become cynical in order to support such a thing in your mind.", "ja": "そして自分だけの利益のために何かをして、しかもそれが自分の助かるよりも他人に害を与えるほうが大きいことを知ってやるたびに、心の中でそんなことを正当化するために、きみはシニカルになるしかない。"}
+{"en": "And it's evil because it is deliberately wasting the work done in society and causing social decay.", "ja": "そしてそれは、意図的に社会で行われた作業を無駄にするものであり、社会の退廃を招いているがゆえに邪悪なんだ。"}
+{"en": "First I want to explain the kinds of harm that are done by attempts to own software and other information that's generally useful,", "ja": "まず、ソフトウェアとか、その他一般的に役に立つ情報を所有しようとすることで、どんな害が生じるかを説明しよう。"}
+{"en": "then I'll go on to rebut the arguments made to support that practice, and then I want to talk about how to fight that phenomenon, and how I'm fighting it.", "ja": "それからその慣行を弁護するような議論に反論して、この現象とどうやって闘えばいいか、そしてぼくがどうやって闘ってるかを話そう。"}
+{"en": "The idea of owning information is harmful in three different levels.", "ja": "情報の所有という考え方は、3つの異なるレベルで有害だ。"}
+{"en": "Materially harmful on three different levels, and each kind of material harm has a corresponding spiritual harm.", "ja": "3 つのレベルで物質的に有害だし、それぞれの物質的な害は、対応する精神的な害を伴う。"}
+{"en": "The first level is just that it discourages the use of the program, it causes fewer people to use the program, but in fact it takes no less work to make a program for fewer people to use.", "ja": "最初のレベルでは、それは単に、利用者がそのソフトを使うのをじゃまするんだけど、実は使う人が少なくてもプログラミングの作業が減るわけじゃない。"}
+{"en": "When you have a price on the use of a program this an incentive, that's the word these software hoarders love to use, the price is an incentive for people not to use the program, and this is a waste.", "ja": "プログラムの利用にお値段がついたらこれはみんながプログラムを使わないインセンティブ、というのはこの手のソフト隠匿者どもが大好きなことばなんだけど、使わないインセンティブになって、これは無駄だ。"}
+{"en": "If for example only half as many people use the program because it has a price on it, the program has been half wasted.", "ja": "たとえばあるプログラムにお値段がついて、だから使う人間の数が半減しちゃったら、プログラムの半分は無駄になったことになる。"}
+{"en": "The same amount of work has produced only half as much wealth.", "ja": "同じだけの作業が、半分の富しかつくりださなかったんだから。"}
+{"en": "Now in fact, you don't have to do anything special to cause a program to get around to all the people who want to use it,", "ja": "さて実は、プログラムが使いたい人みんなに出回るようにするには、特別なことは何もしなくていい。"}
+{"en": "because they can copy it themselves perfectly well, and it will get to everyone.", "ja": "みんなコピーくらい自分でちゃんとできるし、だからいずれはみんなの手に入る。"}
+{"en": "All you have to do after you've written the program is to sit back and let people do what they want to do.", "ja": "プログラムを書いたら、あとはすわってて、みんなのしたいようにさせればいいの。"}
+{"en": "But that's not what happens;", "ja": "でも、そうはならない。"}
+{"en": "instead somebody deliberately tries to obstruct the sharing of the program,", "ja": "かわりにだれかが意図的にプログラムの共有を妨害しようとする。"}
+{"en": "and in fact, he doesn't just try to obstruct it, he tries to pressure other people into helping.", "ja": "そしてそれどころか、そいつが妨害しようとするだけじゃなくて、ほかの人を手伝わせるよう圧力かける。"}
+{"en": "Whenever a user signs a nondisclosure agreement he has essentially sold out his fellow users.", "ja": "ユーザが守秘契約にサインしたら、その人は要するにほかの仲間のユーザたちを売り渡したってことだ。"}
+{"en": "Instead of following the golden rule and saying,", "ja": "黄金律にしたがって"}
+{"en": "``I like this program, my neighbor would like the program, I want us both to have it'',", "ja": "「ぼくはこのソフトが好きだ、ぼくの隣人もこのソフトが気に入るだろう、だから二人ともそれが持てるようにしよう」"}
+{"en": "instead he said,", "ja": "というかわりに、そいつはこう言ってるんだ。"}
+{"en": "``Yeah, give it to me.", "ja": "「いいよ、おれにくれよ。"}
+{"en": "To hell with my neighbor!", "ja": "隣人なんか地獄に堕ちろ！"}
+{"en": "I'll help you keep it away from my neighbor, just give it to me!'',", "ja": "おれもそいつを隣人の手に入らないようにするのに手を貸すからさ、とにかくおれにくれ！」"}
+{"en": "and that spirit is what does the spiritual harm.", "ja": "そしてこの精神が、精神的に有害なんだ。"}
+{"en": "That attitude of saying, ``To hell with my neighbors, give ME a copy''.", "ja": "この「隣人なんか地獄に堕ちろ、このおれにコピーをよこせ」という態度が。"}
+{"en": "After I ran into people saying they wouldn't let me have copies of something, because they had signed some secrecy agreement, then when somebody asked me to sign a thing like that I knew it was wrong.", "ja": "守秘契約とかなんとかにサインしたからってんでぼくに何かのコピーをくれないような人に出くわしてから、ほかのだれかがぼくにその手のものにサインしろって言ったときには、そんなのがまちがってるのはわかった。"}
+{"en": "I couldn't do to somebody else the thing that had made me so angry when it was done to me.", "ja": "自分がやられてあんなに腹がたったことを、このぼくが人にやれるわけないでしょ。"}
+{"en": "But this is just one of the levels of harm.", "ja": "でもこれは、害の中で最初のレベルにすぎない。"}
+{"en": "The second level of harm comes when people want to change the program,", "ja": "第二のレベルは、人がプログラムを変えたいときに生じる。"}
+{"en": "because no program is really right for all the people who would like to use it.", "ja": "だって、使いたい人みんなに完全にあったプログラムなんてないもの。"}
+{"en": "Just as people like to vary recipes,", "ja": "人は料理に手を加えるでしょ。"}
+{"en": "putting in less salt say, or maybe they like to add some green peppers, so people also need to change programs in order to get the effects that they need.", "ja": "塩を減らすとか、ちょっとピーマンを入れるとかさ、同じように、プログラムだって自分のほしい効果を得るには手直しがいるんだ。"}
+{"en": "Now, the software owners don't really care whether people can change the program or not, but it's useful for their ends to prevent people.", "ja": "さて、ソフト所有者たちは、人がプログラムを変えようがどうしようが、実はぜんぜん気にしてないんだけれど、ただ連中の目的のためには、人にそんなことをさせないほうが都合がいい。"}
+{"en": "Generally when software is proprietary you can't get the sources, you can't change it, and this causes a lot of wasted work by programmers, as well as a lot of frustration by users.", "ja": "ソフトが独占ソフトだと、ソースは手に入らないし、変えられないし、おかげでプログラマにとってはすごく無駄な作業が増えて、ユーザもいらいらがつのる。"}
+{"en": "For example: I had a friend who told me how she worked for many months at a bank where she was a programmer, writing a new program.", "ja": "たとえば、何ヶ月も銀行でプログラマやって、新しいプログラムを書いてた友だちの話なんだけど、"}
+{"en": "Now, there was a commercially available program that was almost right, but it was just not quite the thing they needed, and in fact as it was it was useless for them.", "ja": "それにはほとんど大丈夫な市販ソフトがあったんだけれど、でもかれらの求めるものそのものってわけじゃなくて、その差があるおかげで、その市販ソフトは使いものにならなかったんだ。"}
+{"en": "The amount of change it would have taken to make it do what they needed was probably small,", "ja": "そこの部分だけ変える労力はほんのわずかですんだだろうね。"}
+{"en": "but because the sources of that program were not available, that was impossible.", "ja": "でもそのプログラムのソースがなかったから、それは不可能だった。"}
+{"en": "She had to start over from scratch and waste a lot of work.", "ja": "彼女はゼロからはじめるしかなくて、だからたくさん仕事を無駄にした。"}
+{"en": "And we can only speculate about what fraction of all the programmers in the world are wasting their time in this fashion.", "ja": "世界でこんな風に時間を無駄にしているプログラマが、どのくらいいるのかは神のみぞ知る、だよね。"}
+{"en": "And then there is also the situation where a program is adequate make do, but it's uncomfortable.", "ja": "それと、あるソフトがその場しのぎには使えるけれど、でもしっくりこないことがある。"}
+{"en": "For example: The first time we had a graphics printer at MIT, we wrote the software ourselves, and we put in lots of nice features,", "ja": "たとえば MIT にはじめてグラフィックプリンタがきたとき、ソフトは自分で書いて、いろいろすてきな機能をつけたんだ。"}
+{"en": "for example it would send you a message when your job had finished printing, and it would send you a message if the printer ran out of paper and you had a job in the queue, and lots of other things that were what we wanted.", "ja": "たとえば自分のジョブが印刷し終わったらメッセージを送ってくれるとか、自分のジョブがキューに入ってる時に紙切れになったら教えてくれるとか、ほかにもいろいろほしいような機能を入れた。"}
+{"en": "We then got a much nicer graphic printer, one of the first laser printers, but then the software was supplied by Xerox, and we couldn't change it.", "ja": "その後、もっとずっといいグラフックプリンタが入って、最初のレーザプリンタだったんだけど、でもそのソフトは Xerox のもので、それは変えられなかった。"}
+{"en": "They wouldn't put in these features, and we couldn't, so we had to make do with things that ``half worked''.", "ja": "で、そういう機能とかも入れてくれないし、ぼくたちが足すこともできなかったし、だから「その場しのぎ」の代物で我慢しなきゃならなかった。"}
+{"en": "And it was very frustrating to know that we were ready, willing and able to fix it, but weren't permitted.", "ja": "自分たちには、それをなおす意志もやる気も能力も十分にあることがわかってるのに、それが許されてないってのは、すごくいらだたしかったね。"}
+{"en": "We were sabotaged.", "ja": "これって妨害工作だよ。"}
+{"en": "And then there are all the people who use computers and say that the computers are a mystery to them, they don't know they work.", "ja": "それと、コンピュータを使ってるのに、コンピュータはわけわからん、仕組みがわからんと言う人がたくさんいる。"}
+{"en": "Well how can they possibly know?", "ja": "うん、そりゃわかりっこないよね。"}
+{"en": "They can't read the programs they're using.", "ja": "自分の使ってるソフトが読めないんだもん。"}
+{"en": "The only way people learn how programs should be written, or how programs do what they do, is by reading the source code.", "ja": "プログラムの正しい書き方を学ぶ唯一の方法、そしてプログラムがどう動いてるのかを知る唯一の方法は、ソースコードを読むことなんだもん。"}
+{"en": "So I could only wonder whether the idea of the user who just thinks of the computer as a tool is not actually a self-fulfilling prophecy, a result of the practice of keeping source code secret.", "ja": "だから思うんだけど、コンピュータをただの道具としてしか考えない利用者ってのは、実はソースコードを秘密にしとく習慣のせいで生まれた、ニワトリか卵か式の悪循環なのかもしれないよ。"}
+{"en": "Now the spiritual harm that goes with this kind of material harm, is in the spirit of self-sufficiency.", "ja": "さてこの種の物質的害に伴う精神的な害は、自分さえよければという精神だ。"}
+{"en": "When a person spends a lot of time using a computer system, the configuration of that computer system becomes the city that he lives in.", "ja": "人が長時間コンピュータシステムを使ってると、そのコンピュータシステムの設定はその人が住まう都市になる。"}
+{"en": "Just as the way our houses and furniture are laid out, determines what it's like for us to live among them, so that the computer system that we use, and if we can't change the computer system that we use to suit us, then our lives are really under the control of others.", "ja": "ちょうど自分の家や家具の配置が、その中ですむぼくたちの生活を規定するように、ぼくたちの使うコンピュータシステムもそうで、自分たちにあうようにコンピュータシステムを変えられなければ、ぼくたちの生活は実は他人に支配されてることになる。"}
+{"en": "And a person who sees this becomes in a certain way demoralized:", "ja": "そしてこれに気がついた人は、ある意味でモラルが低下するんだ。"}
+{"en": "``It's no use trying to change those things, they're always going to be bad.", "ja": "「こういうのを変えようとしても無駄だよ、ずっとこうやってひどいままなんだから。"}
+{"en": "No point even hassling it.", "ja": "不満をいうのさえ無駄だ。"}
+{"en": "I'll just put in my time and ..... when it's over I'LL go away and try not to think about it any more''.", "ja": "とにかく時間をつぎ込んで……これがすんだらぼくがどっかへ行こう、そしてもうこのことは考えないようにしよう」"}
+{"en": "That kind of spirit, that unenthusiasm is what results from not being permitted to make things better when you have feelings of public spirit.", "ja": "公徳心ってのもがあるのに物事の改善が許されないと、結果としてこの手の精神、この手のやる気のなさが生じるんだ。"}
+{"en": "The third level of harm is in the interaction between software developers themselves.", "ja": "第三のレベルの害は、ソフトウェア開発者自身の間のやりとり。"}
+{"en": "Because any field of knowledge advance most when people can build on the work of others, but ownership of information is explicitly designed to prevent anyone else to doing that.", "ja": "あらゆる知識分野は、人が他人の成果の上に積み上げられるときにいちばんはやく進歩する、でも情報の所有権は、まさに他人がそうしないようにするためにつくられてる。"}
+{"en": "If people could build on other people's work, then the ownership would become unclear, so they make sure each new entry to the field has to start from the beginning, and thus they greatly slow down the advance of the field.", "ja": "もし人が他人の成果に積み上げられたら、その所有権ははっきりしなくなって、だからみんな、その分野への新規参入がゼロからはじめるしかないように手を打って、おかげでその分野の進歩が大幅に後れる。"}
+{"en": "So we can see:", "ja": "だからわかるでしょ。"}
+{"en": "How many spreadsheet systems were made all by different companies, all without any benefit of understanding how it was done before?", "ja": "表計算ソフトが別々の会社からたくさん出てるけど、みんなそれがそれまでどうやってきたのか見てみるという恩恵なしにやってる。"}
+{"en": "Yes it's true, the first spreadsheet written wasn't perfect.", "ja": "そりゃ確かに、最初に書かれた表計算ソフトは完璧じゃなかった。"}
+{"en": "It probably only ran on certain kinds of computers, and it didn't do some things in the best possible way.", "ja": "たぶん、一部のコンピュータでしか動かなくて、なにかをするときにもいちばんいい方法ではやらなかった。"}
+{"en": "So there were various reasons why certain people would want to rewrite parts of it.", "ja": "だから、それを部分的に書き換えたい人が出てくる理由はいろいろあったろう。"}
+{"en": "But if they had only to rewrite the parts that they really wanted to improve, that would have made for a lot less work.", "ja": "でも、自分の改善したいところだけを書き直せばいいんだったら、作業量はずっと少なくて済んだよね。"}
+{"en": "You may see how to make one aspect of a system better, you may not see how to make another aspect of the same system any better,", "ja": "システムのある部分をよくする方法は見えるかもしれないけれど、同じシステムの別の部分なんかぜんぜんマシにできないかもしれない。"}
+{"en": "in fact you might have a great deal of trouble doing it as well.", "ja": "いや、同じくらいのレベルに達するのだって、えらく苦労するかもしれない。"}
+{"en": "Now if you could take the part that you like and redo only the part that you have an inspiration for, you could have a system that's better in all ways, with much less work than it now takes to write a completely new system.", "ja": "自分の好きなところをとって、自分がひらめいた部分だけをやりなおせたら、あらゆる面で前より優れたシステムが手に入って、まったく新しいシステムを書くよりもずっと作業は減る。"}
+{"en": "And we all know that system can often benefit from being completely rewritten,", "ja": "そりゃシステムをゼロから書き直すといいこともあるのはみんな知ってる。"}
+{"en": "but that's only if you can read the old one first.", "ja": "でもそれは、古いのをまず読んでからの話だ。"}
+{"en": "Thus, the people in the programming field have evolved a way of wasting a lot of their time and thus making apparently a need for more programmers than we really need.", "ja": "だからプログラミング業界の人たちは、時間をたくさん無駄にする方法を編み出したわけで、おかげで表面上は、本当に必要なのよりもずっとたくさんのプログラマが必要になったように見える。"}
+{"en": "Why is there a programmer shortage?", "ja": "なぜプログラマ不足なんてことが言われるのか？"}
+{"en": "Because with intellectual property programmers have arranged to waste half the work they do, so we seem to need twice as many programmers.", "ja": "知的所有権のおかげで、プログラマたちは自分のやる仕事の半分を無駄にするような仕組みにしちゃったからだよ。"}
+{"en": "And so, when people point to the system of intellectual property and say ``look at the large employment statistics, look at how big this industry is''", "ja": "だからみんなが知的所有権システムを指さして「ほら、こんなに雇用を生み出してる、産業がこんなにでかくなってるじゃないか」なんて言うけど、"}
+{"en": "what that really proves is that people are wasting a lot of money and time.", "ja": "それが証明してるのは、実はみんながお金と時間をたくさん無駄にしてるってことなんだ。"}
+{"en": "If they talk about looking for ways to improve programmer productivity, they're happy to do this if it involves superior tools, but to improve programmer productivity by getting rid of the explicit things that is done to reduce programmer productivity, that they're against.", "ja": "プログラマの生産性を上げる話をするときでも、高度なツールがどうのこうのといえば、連中は喜ぶけど、でもプログラマのやってるよけいなことを削ることで生産性をあげるって話になると、とたんに反対する。"}
+{"en": "Because that would reduce the number of programmers employed.", "ja": "そうなったら雇われてるプログラマの数が減るからって。"}
+{"en": "There's something a little bit schizophrenic there.", "ja": "これってちょっと、分裂症じみた議論だと思わない？"}
+{"en": "And the spiritual harm that corresponds to this level of material harm is to the spirit of scientific cooperation,", "ja": "そしてこのレベルの物質的害に対応する精神的な害は、科学的な協力精神に及ぼす害だ。"}
+{"en": "which used to be so strong that scientists even in countries that were at war would continue cooperating, because they knew that what they were doing had nothing to do with the war, it was just for the long term benefit of humanity.", "ja": "これは昔はすごく強くて、戦争してる国同士の科学者ですら協力を続けてた、自分たちがやってるのが戦争とは何にも関係なくて、人類の長期的なメリットのためなんだってのがわかってたから。"}
+{"en": "Nowadays, people don't care about the long term benefit of humanity any more.", "ja": "最近じゃみんな、もう人類の長期的なメリットのことなんか気にもしない。"}
+{"en": "To get an idea of what it's like to obstruct the use of a program, let's imagine that we had a sandwich, that you could eat, and it wouldn't be consumed.", "ja": "プログラムの利用をじゃまするのがどんなことか理解するには、仮にここにサンドイッチがあって、食べられるけれど、食べてもなくならないとしよう。"}
+{"en": "You could eat it, and another person could eat it, the same sandwich, any number of times, and it would always remain just as nourishing as originally.", "ja": "あなたが食べて、別の人がその同じサンドイッチを食べて、何度でも食べて、それでも毎回もとのと同じだけ栄養がある。"}
+{"en": "The best thing to do, the thing that we ought to do with this sandwich is carry it around to the places where there are hungry people;", "ja": "それでやるべきいちばんいいこと、このサンドイッチを使って何をすべきかといえば、おなかのすいた人たちがいるところにそれを持ってくことだ。"}
+{"en": "bringing it to as many mouths as possible, so that it feeds as many people as possible.", "ja": "なるべく多くの口にそれを与えて、なるべく多くの人の腹を満たすようにすることだ。"}
+{"en": "By all means, we should not have a price to eat from this sandwich,", "ja": "このサンドイッチを食べることに、値段なんか絶対つけちゃいけない。"}
+{"en": "because then people would not afford to eat it, and it would be wasted.", "ja": "値段をつけたら金がなくて食べられない人が出てくるからで、そうしたらそれは無駄になる。"}
+{"en": "The program is like this sandwich, but even more so because it can be in many different places at once being eaten, used by different people one after the other.", "ja": "プログラムってのはこのサンドイッチみたいなものなんだけれど、でももっといいもので、なぜかといえば同時にいろんなところにあって同時に食べられて、どんどん別の人に使ってもらえるから。"}
+{"en": "It is as if this sandwich was enough to feed everyone, everywhere, forever, and that were not allowed to happen, because someone believed he should own it.", "ja": "このサンドイッチがみんなをあらゆる場所で永遠に食べてもらえるのに、だれかがそれを自分の所有物だと決めたせいで、それが実現できないでいるんだ。"}
+{"en": "Now, the people who believe that they can own programs, generally put forward two lines of argument for this.", "ja": "さて、プログラムを所有できると信じてる人たちは、ふつうはそれを正当化するのに 2 つの議論を持ち出す。"}
+{"en": "The first one is", "ja": "最初の議論は、"}
+{"en": "``I wrote it, it is a child of my spirit, my heart, my soul is in this.", "ja": "「おれが書いたんだ、おれの魂の申し子だ、わが心、わが魂がここにはこもってる。"}
+{"en": "How can anyone take it away from me?", "ja": "それを他人が奪い取るなんて？"}
+{"en": "Wherever it goes it's mine, mine, MINE!!''.", "ja": "どこまでいってもこいつはおれのもんだ、おれのおれのおれのぉっ！」というやつ。"}
+{"en": "Well, it's sort of strange that most of them signs agreements saying it belongs to the company they work for.", "ja": "でも不思議なことに、こういうこと言う人のほとんどは、そのソフトは勤め先の会社のものだっていう合意書にサインしてるんだよね。"}
+{"en": "So I believe this is one of the things you can easily talk yourself into believing is important,", "ja": "だからこれって、簡単に自分をごまかして何かが重要だと思いこんでしまえることの一つだと思う。"}
+{"en": "but you can just as easily convince yourself it doesn't matter at all.", "ja": "同じくらい簡単に、そんなのぜんぜん大事じゃないと自分を説得することもできるんだ。"}
+{"en": "Usually, these people use this argument to demand the right to control even how people can change a program.", "ja": "こういう人はこの論法を使って、人がこのプログラムを変えるやりかたまでコントロールする権利を要求するんだ。"}
+{"en": "They say: ``Nobody should be able to mess up my work of art''.", "ja": "「だれにもわたしの芸術作品をめちゃくちゃにさせてなるものか」って。"}
+{"en": "Well, imagine that the person who invented a dish that you plan to cook had the right to control how you can cook it, because it's his work of art.", "ja": "じゃあ、これからつくろうと思ってる料理を発明した人が、それはその人の芸術作品だからってきみの料理の仕方をどうこうする権利があったらどうなると思う？"}
+{"en": "You want to leave out the salt, but he says", "ja": "塩を使わないようにしようと思っても、そいつは"}
+{"en": "``Oh, no.", "ja": "「ダメダメ、"}
+{"en": "I designed this dish, and it has to have this much salt!''", "ja": "わたしがこの料理を設計したんだから、これはこんだけ塩をいれなきゃダメ！」"}
+{"en": "``But my doctor says it's not safe for me to eat salt.", "ja": "「でも、ぼくは医者に塩をとめられてるんですよ、"}
+{"en": "What can I do?''.", "ja": "どうしましょう？」"}
+{"en": "Clearly, the person who is using the program is much closer to the event.", "ja": "明らかに、プログラムを使ってる人のほうが、その現場に近いんだ。"}
+{"en": "The use of the program affects him very directly, whereas it only has a sort of abstract relation to the person who wrote the program.", "ja": "プログラムの利用はその人に直接はねかえってくるけど、それを書いた人には、一種のごく抽象的な関係しかない。"}
+{"en": "And therefore, for the sake of giving people as much control as possible over their own lives, it has to be the user who decides those things.", "ja": "したがって、人々に自分自身のくらしをできる限り好きなようにさせるという趣旨からして、そういうことを決めるのはそのユーザであるべきなんだ。"}
+{"en": "The second line of argument they make is the economic one.", "ja": "連中の二番目の議論は、経済的なものだ。"}
+{"en": "``How will people get payed to program?''", "ja": "「プログラムを書いても報酬が得られないじゃないか」"}
+{"en": "they say, and there's a little bit of real issue in this.", "ja": "と言うわけで、ここには確かにホントの問題がちょっとはある。"}
+{"en": "But a lot of what they say is confusion.", "ja": "でも連中のいうことのかなりの部分は混乱してる。"}
+{"en": "And the confusion is, it's not at all the same to say", "ja": "そしてどこが混乱してるかっていうと、"}
+{"en": "``if we want to have a lot of people programming we must arrange for them not to need to make a living in any other fashion''", "ja": "「たくさんの人がプログラミングするようにしたいなら、ほかの手段で生計をたてなくてもいいような仕組みをつくらなきゃ」"}
+{"en": "on the one hand, and to say", "ja": "というのと、その一方では"}
+{"en": "``We need to have the current system, you need to get rich by programming''", "ja": "「いまのシステムじゃなきゃダメだ、プログラミングで金持ちにならなきゃ」"}
+{"en": "on the other hand.", "ja": "というのとでは、話がまるっきしちがうってこと。"}
+{"en": "There's a big difference between just making a living wage and making the kind of money programmers, at least in the US make nowadays.", "ja": "生きてけるだけの賃金を得るのと、少なくとも最近のアメリカのプログラマがもらってるような給料をもらうってのとでは、話がぜんぜんちがう。"}
+{"en": "They always say:", "ja": "みんながいつも言うのは"}
+{"en": "``How will I eat?'',", "ja": "「じゃあおれはどうやって喰ってけばいいんだ？」"}
+{"en": "but the problem is not really how", "ja": "ってことだけれど、実際には"}
+{"en": "``Will he eat?'',", "ja": "「こいつは食えるか」"}
+{"en": "but ``How will he eat sushi?''.", "ja": "ってことじゃなくて「こいつは寿司（訳注：高くて高級なぜいたくな飯という意味）が食えるか」"}
+{"en": "``How will I have a roof over my head?'',", "ja": "ってことで、「雨つゆがしのげるか」"}
+{"en": "but the real problem is", "ja": "ってことじゃなくてホントに言いたいのは"}
+{"en": "``How can he afford a condo?''.", "ja": "「高級マンションが買えるか」ってことなんだ。"}
+{"en": "The current system were chosen by the people who invest in software development, because it gives them the possibility of making the most possible money,", "ja": "いまの方式は、最大限の儲けを得るためにソフト開発に投資しようと思った人の選んだシステム。"}
+{"en": "not because it's the only way anyone can ever come up with money to support a system development effort.", "ja": "システム開発をサポートするための唯一の方法だからこうなってるわけじゃないんだ。"}
+{"en": "In fact, even as recently as ten and fifteen years ago it was common to support software development in other ways.", "ja": "実は、ほんの 10 年とか 15 年とか前のごく最近までは、ソフト開発をほかの方法でサポートするのがあたりまえだったんだ。"}
+{"en": "For example, those DIGITAL operating systems that were free, even in the early seventies, were developed by people who were paid for their work.", "ja": "たとえばDIGITAL の OS は 1970 年代初期までフリーだったけれど、フリーの OS ってのは、70 年代初期ですら、ちゃんと給料もらってる人が開発してたんだよ。"}
+{"en": "Many useful programs has been developed at universities.", "ja": "役に立つプログラムの多くは大学で開発されてる。"}
+{"en": "Nowadays those programs are often sold, but fifteen years ago they were usually free, yet the people were paid for their work.", "ja": "最近だとこういうプログラムは売られることが多いけど、15 年前ならふつうはフリーで、それでもみんな給料がもらえてたんだ。"}
+{"en": "When you have something like a program, like an infinite sandwich, like a road, which has to be built once, but once it is built it pretty much doesn't matter how much you use it, there's no cost in using it, generally it's better if we don't put any price on using it.", "ja": "プログラムみたいなものだと、これは無限サンドイッチとか、道とかみたいなもので、一回はつくらなきゃダメだけど、一度つくったらもうそれを何回使おうが関係なくて、使うのにコストもかかんないなら、使うのに値段なんかつけないほうが一般的にいい。"}
+{"en": "And there are plenty of those things that we develop now, and pay people to build.", "ja": "そして、いまでもぼくたちがつくって、作った人に金を払うようなそういうものってのはたくさんある。"}
+{"en": "For example, all the streets out there.", "ja": "たとえばそこらの道がそうだよね。"}
+{"en": "It's very easy to find people who will program without being paid; it really is impossible to find people who will build streets without being paid.", "ja": "お金を払わずに道を造ってくれる人を見つけるのは無理だ。"}
+{"en": "Building streets is not creative and fun like programming.", "ja": "道をつくるのはプログラミングとちがってクリエイティブじゃないし、楽しくもない。"}
+{"en": "But we have plenty of streets out there, we do come up with the money to pay them,", "ja": "でも、世の中にはたくさん道があって、それに支払うだけの金も捻出されてる。"}
+{"en": "and it's much better the way we do it", "ja": "そしてそのほうが、ずっといいよね。"}
+{"en": "than if if we said:", "ja": "でもこういうことだってできる。"}
+{"en": "``Let's have companies go and build streets and put toll booths up, and then every time you turn another street corner, you pay another toll.", "ja": "「企業に道をつくらせて勝手に料金所をつけさせて、街角を曲がるたびに通行料を支払うようにしよう。"}
+{"en": "And then the companies that picked the good places to put their streets, they will be profitable, and the others will go bankrupt.''", "ja": "そしていい場所に道を敷いた企業は儲かって、そうでないのは倒産するようにしよう」"}
+{"en": "There's a funny thing that happens whenever someone comes up with a way of making lots of money by hoarding something.", "ja": "だれかが、何かを隠匿することで大金を儲ける方法を編み出すと、変なことが起きる。"}
+{"en": "Until that time you've probably had lots and lots of people who were really enthusiastic and eager to workin that field,", "ja": "それまでは、たぶんその分野にすごく情熱をもっていて、熱心に働く人たちがたくさんいたんだ。"}
+{"en": "the only sort of question is how can they get any sort of livelihood at all.", "ja": "唯一の問題は、その人たちはそもそも喰っていけるのか、ということだけ。"}
+{"en": "If we think of mathematicians for example, there are a lot more people who want to be pure mathematicians than there is funding for anybody to be pure mathematicians.", "ja": "たとえば数学者を考えてみると、純粋数学者に支給されるお金よりも、純粋数学者志望者のほうがずっと多い。"}
+{"en": "And even when you do get funding, you don't get very much, they don't live well.", "ja": "そして支払われたとしても、大した額じゃないし、あまりいい暮らしもできない。"}
+{"en": "And for musicians it's even worse.", "ja": "ミュージシャンとなるともっとひどい。"}
+{"en": "I saw a statistics for how much the average musician, the average person devoting most of his time trying to be a musician, in Massachusetts made;", "ja": "時間の大半を費やしてミュージシャンになろうとしてる人が、平均的なミュージシャンでどのくらい稼いでるかっていう統計を見たことがある。"}
+{"en": "it was something like half the median income or less.", "ja": "マサチューセッツでは、確か州平均所得の半分以下だったんだよ。"}
+{"en": "It is barely enough to live on, it's difficult.", "ja": "かつかつで暮らしてけるくらいで、つらいよね。"}
+{"en": "But there are lots of them trying to do that.", "ja": "でも、そうしたがる人はたくさんいる。"}
+{"en": "And then, somehow when it gets generally possible to get very well paid to do something,", "ja": "そこへ、何かをすることですごくたくさん稼げるようになったとしよう。"}
+{"en": "all those people disappear, and people start saying", "ja": "するとそういう人たちは消えて、みんなこう言うんだ。"}
+{"en": "``nobody will do it unless they get paid that well''.", "ja": "「そのくらい儲からなきゃ、だれもやりゃしないよ」"}
+{"en": "And I saw this happen in the field of programming.", "ja": "そしてぼくは、これがプログラミングの分野でおこるのを見てきた。"}
+{"en": "The very same people who used to work at the AI lab and get payed very little and love it, now wouldn't dream of working for less than fifty thousand dollars a year.", "ja": "AI 研で働いてて、大した給料もなかったのに仕事が大好きだった人たちが、いまでは年に 5 万ドルはもらわなきゃとても働けないよ、なんて言う。"}
+{"en": "What happened?", "ja": "どうしちゃったわけ？"}
+{"en": "When you dangle before people the possibility of making lots of money, when they see that other people doing similar work are getting paid that much money, they feel that they should get the same, and thus no-one is willing to continue the old way.", "ja": "人の前に大金を儲ける可能性をぶら下げてやると、似たようなことをしてるほかの人たちが、そんだけの金を稼いでるのを見ると、みんな自分たちも同じくらい稼ぐべきだという気になって、だから昔ながらのやりかたを続けようという人はだれもいない。"}
+{"en": "And it's easy after this has happened to think that paying people a lot of money is the only way it could be, but that's not so.", "ja": "そしてこれが起きちゃったら、人に大金を払うしか手がないんだと思いこむのは簡単なんだけれど、でもそりゃちがう。"}
+{"en": "If the possibility of making a lots of money did not exist, you would have people who would accept doing it for a little money,", "ja": "もし大金を儲ける可能性がなかったら、ちょっとのお金でもそれをやろうって人が出てくるだろう。"}
+{"en": "specially when it's something that is creative and fun.", "ja": "特にそれがクリエイティブでおもしろいことなら。"}
+{"en": "Now I saw the unique world of the AI lab destroyed, and I saw that selling software was an intrinsic part of what had destroyed it, and I saw also, as I explained before, how you need to have free software in order to have a community like that.", "ja": "AI 研のユニークな世界が破壊されるのを見てきて、ソフトを売るのがその核心なんだってことも見てきたし、さらにはさっき説明したように、ああいう社会を手に入れるにはフリーソフトが必要なんだってことも見てきた。"}
+{"en": "But then thinking about it more, I realized all these ways in which hoarding software hurts all of society,", "ja": "でもそれからいろいろ考えてみて、ソフト隠匿がいろんな形で社会全てを傷つけることに思い当たったんだ。"}
+{"en": "most specially by pressuring people to sell out their neighbors and causing social decay.", "ja": "特に、人々に隣人を売り渡すよう圧力をかけて、それが社会の退廃を招いてるってことに。"}
+{"en": "The same spirit that leads people to watch while somebody in the street is getting stabbed and not tell anyone.", "ja": "道で人が刺されてるのを見ても、黙ってようとするのと同じ精神だよ。"}
+{"en": "The spirit that we can see so many companies all around us displaying all the time.", "ja": "そこらじゅうの企業がしょっちゅう示してるのがわかる、あの精神だよね。"}
+{"en": "And it was clear to me I had a choice,", "ja": "そして、ぼくは自分が道を選べるのがはっきりしてた。"}
+{"en": "I could become part of that world and feel unhappy about what I was doing with my life, or I could decide to fight it.", "ja": "その世界の一部となって、自分の送ってる人生について不幸に感じ続けるか、それともそれと闘うか。"}
+{"en": "So I decided to fight it.", "ja": "だからぼくは闘うことにした。"}
+{"en": "I've dedicated my career to try to rebuild the software sharing community, to trying to put an end to the phenomenon of hoarding generally useful information.", "ja": "ぼくはキャリアを捧げて、ソフト共有コミュニティの再建に努めてきたし、一般にとって有用な情報を員臆するという現象を終わらせようと努力してきた。"}
+{"en": "And the GNU system is a means to this end.", "ja": "そして GNU システムは、この目的達成のための手段なんだ。"}
+{"en": "It is a technical means to a social end.", "ja": "社会的な目的のための、技術的な手段だ。"}
+{"en": "With the GNU system, I hope to vacinate the users against the threat of the software hoarders.", "ja": "GNU システムによって、ぼくはソフト隠匿者どもの脅しに対してユーザたちにワクチンをあげたいんだ。"}
+{"en": "Right now the hoarders essentially claims the power to render a person's computer useless.", "ja": "いま現在、この隠匿者どもは基本的に、人のコンピュータを粗大ゴミにしてしまう力を持ってる。"}
+{"en": "There used to be people in the US, most commonly about fifty years ago, they were in the Mafia,", "ja": "アメリカでは、だいたい 50 年くらい前に、マフィアとかでそういう連中がいた。"}
+{"en": "they would go up to stores and bars, especially bars when bars were illegal of course.", "ja": "店やバーに行って、特にもちろん違法なバーだよね。"}
+{"en": "They would go up and say:", "ja": "それでこう言う。"}
+{"en": "``A lot of places around here have been burning down lately.", "ja": "「ここらへんじゃあ、最近火事が多いですなあ。"}
+{"en": "You wouldn't want your place to burn down, would you?", "ja": "あんたんとこも、火事なんかになったらいやだよねえ。"}
+{"en": "Well we can protect you from fires, you just have to pay us a thousand dollars a month, and we'll make sure you don't have a fire here''.", "ja": "おれたちなら、あんたを火事から守ってやれるんだよ、月に 1,000 ドル払ってくれるだけで、ここで火事が起きないようにしてやるよ」"}
+{"en": "And this was called ``the protection racket''.", "ja": "これがいわゆる「保護恐喝」ってやつ。"}
+{"en": "Now we have something where a person says", "ja": "さていまはだれかがこう言う。"}
+{"en": "``You got a nice computer there, and you've got some programs there that you're using.", "ja": "「なかなかいいコンピュータをお持ちですな、それでいろいろソフトも使ってらっしゃる。"}
+{"en": "Well, if you don't want those programs to disappear, if you don't want the police to come after you, you better pay me a thousand dollars,", "ja": "さて、そのソフトに消えてほしくなければ、警察に追われる身になりたくなければ、わたしに 1,000 ドル払いなさい。"}
+{"en": "and I'll give you a copy of this program with a license'',", "ja": "そしたらこのプログラムをライセンス付きで売ってあげよう」"}
+{"en": "and this is called ``the software protection racket''.", "ja": "これが人呼んで「ソフト保護恐喝」。"}
+{"en": "Really all they're doing is interfering with everybody else doing what needs to be done,", "ja": "ホント、連中がなにやってるかといえば、ほかの人がやるべきことをしようとすんのをじゃましてるだけじゃん。"}
+{"en": "but they're pretending as much to them selves as to the rest of us, that they are providing a useful function.", "ja": "なのに、連中はわれわれに対しても自分自身に対しても、自分たちがなにか有益な機能を果たしてるようなふりをしてみせてる。"}
+{"en": "Well, what I hope is that when that software Mafia guy comes up and says,", "ja": "で、ぼくの願いは、ソフトウェア・マフィアの連中がやってきて"}
+{"en": "``You want those programs to disappear on your computer?'',", "ja": "「そのプログラムがコンピュータから消えてもいいのか？」"}
+{"en": "the user can say", "ja": "と言ったら、利用者たちが"}
+{"en": "``I'm not afraid of you any more.", "ja": "「おまえなんかもうこわくないぞ、"}
+{"en": "I have this free GNU software,", "ja": "ぼくにはこのフリーの GNU ソフトがあるんだ。"}
+{"en": "and there's nothing you can do to me now.''", "ja": "もうおまえたちは手も足も出ないんだぞ」と言えることなんだ。"}
+{"en": "Now, one of the justifications people sometimes offer for owning software, is the idea of giving people an incentive to produce things.", "ja": "さて、ソフト所有を正当化する議論として出てくるのが、みんなにものをつくるインセンティブを与えるってやつだ。"}
+{"en": "I support the idea of private enterprise in general, and the idea of hope to make money by producing things that other people like to use, but it's going haywire in the field of software now.", "ja": "ぼくは私企業の考え方には一般的に賛成だし、ほかの人が喜んで使ってくれるものをつくってお金を得たいな、と思うのにも賛成だけれど、ソフトの分野ではこれが収拾つかない状態になってきてる。"}
+{"en": "Producing a proprietary program is not the same contribution to society as producing the same program and letting it be free. Because writing the program is just a potential contribution to society.", "ja": "独占ソフトをつくるのは、同じプログラムをつくってそれをフリーにするのとでは、社会への貢献度がぜんぜんちがう。"}
+{"en": "The real contribution to the wealth of society happens only when the program is used.", "ja": "社会の富への貢献が起こるのは、そのプログラムが使われたときだけなんだ。"}
+{"en": "And if you prevent the program from being used, the contribution doesn't actually happen.", "ja": "プログラムが使われるのを妨害したら、その貢献は起きないんだ。"}
+{"en": "So, the contribution that society needs is not these proprietary programs that everyone has such an incentive to make, the contribution we really want is free software, so our society is going haywire because it gives people an incentive to do what is not very useful, and no incentive to do what is useful.", "ja": "だから社会が必要としている貢献は、みんながえらくインセンティブをもってつくってる独占ソフトではなくて、ぼくたちが本当に求めてる貢献はフリーソフトで、ぼくたちの社会が収拾つかなくなっているのは、それがあまり役にたたないことをするインセンティブを人に与えて、役に立つことをするインセンティブをぜんぜん与えてないからだ。"}
+{"en": "Thus the basic idea of private enterprise is not being followed, and you could even say that the society is neurotic.", "ja": "だから私企業の基本的な考え方がここではおかしくなっていて、だから社会自体が神経症気味とさえ言えるかもね。"}
+{"en": "After all when an individual encourages in others behavior that is not good for that individual we call this a neurosis.", "ja": "だってさ、個人が他人に対して、その個人自身にとってよくない行動を推奨するとき、その人は神経症なんだから。"}
+{"en": "Here society is behaving in that fashion,", "ja": "ここでは社会がそういうふうに行動してる。"}
+{"en": "encouraging programmers to do things that is not good for society.", "ja": "プログラマに、社会にとってよくないことをするように奨励してるんだから。"}
+{"en": "I'm unusual.", "ja": "ぼくは変わり者なんだ。"}
+{"en": "I'd rather believe that I'm a good member of society and that I'm contributing something, than feel that I'm ripping society off successfully,", "ja": "自分が社会のよき一員で、何かを社会に貢献していると感じていたいんだよ、うまいこと社会をカモにしてるなんて感じるよりはね。"}
+{"en": "and that's why I've decided to do what I have done", "ja": "だからぼくは、いまの自分の道を選んだ。"}
+{"en": "But every one is at least a little bit bothered by the feeling that they are getting paid to do what's not really useful.", "ja": "でもだれでも、自分が実は役にたってないことでお金をもらってるという気分は、多少なりともすっきりしないものを感じてるんだ。"}
+{"en": "So let's stop defending this idea of incentives to do the wrong thing and let's at least try to come up with arrangements to encourage people to do the right thing,", "ja": "だから、こんなまちがったことをするためのインセンティブなんて考え方を擁護するのはやめて、みんなに正しいことを奨励するような仕組みを考えつく努力くらいはしようではないの。"}
+{"en": "which is to make free software.", "ja": "その正しいことってのは、フリーソフトをつくることなんだ。"}
+{"en": "Thank you.", "ja": "ご静聴どうも。"}
+{"en": "[After this RMS answered questions for about an hour.", "ja": "[このあと、RMS は一時間ばかり質問に答えた。"}
+{"en": "I have only included a very few of the questions and answers in this version.", "ja": "ここには質疑応答のほんの一部しか入れていない。"}
+{"en": "The tape was bad, and I didn't have the time to do a proper job on all of it]", "ja": "テープが悪かったし、そのすべてをまともに書き出す暇がなかったので、悪しからず]"}
+{"en": "Q: Has anyone tried to make problems for you?", "ja": "Q：だれかあなたを訴えたりとか、面倒を起こそうとしたことはありますか"}
+{"en": "A: The only time anyone has tried to make a problem for me was those owners, so called, self-styled owners of Gosling Emacs.", "ja": "A：そういうもめごとを唯一起こそうとしたのは、ゴスリング EMACS の持ち主、というか自称持ち主、詐称持ち主どもだけだな。"}
+{"en": "Aside from that they have no grounds to do so, so there is not much they can do.", "ja": "それをのぞけば、あやをつける手がかりがないから、大して何もしようがないよね。"}
+{"en": "By the way, I'd like to call everyone's attention to the way in which people use language to try to encourage people to think certain thoughts and not think of others.", "ja": "ところで、あることを考えさせて、あることを考えなくさせるためにことばが使われてることに、みんなもっと注意してほしいなと思うんだ。"}
+{"en": "Much of the terminology current in the field was chosen by the self-styled software owners to try to encourage you to try to make you see software as similar to material objects that are property, and overlook the differences.", "ja": "いまこの分野での用語は、自称詐称ソフトウェア所有者たちが選んだもので、なるべくソフトウェアを、所有物になる物質的ものと同じ物だと思わせて、そのちがいを見過ごすようにしてあるんだ。"}
+{"en": "The most flagrant example of this is the term ``pirate''.", "ja": "これのいちばん明白な例が「海賊」ってことば。"}
+{"en": "Please refuse to use to use the term ``pirate'' to describe somebody who wishes to share software with his neighbor like a good citizen.", "ja": "よき市民として隣人とソフトを共有しようとする人間を表現するのに、「海賊」ということばを使うのは拒否してほしいんだ。"}
+{"en": "I forgot to tell you this:", "ja": "話しそこねてたけど、"}
+{"en": "The idea of copyright was invented after the printing press.", "ja": "著作権の考え方は印刷術の後に発明された。"}
+{"en": "In ancient times authors copied from each other freely, and this was not considered wrong, and it was even very useful:", "ja": "古代には、著者はおたがい自由にコピーしあってたし、それがまちがってるとも思われなかったし、すごい役にたったりもした。"}
+{"en": "The only way certain authors works have survived, even in fragments, is because some of them were quoted at length in other works which have survived.", "ja": "一部の著者が後世に伝えられたのは、断片的ではあっても、その一部がほかの著作の中でまとまって引用されてたおかげなんだ。"}
+{"en": "This was because books were copied one copy at the time.", "ja": "これは、本というものが一部ずつ筆写するものだったからそうなった。"}
+{"en": "It was ten times as hard to make ten copies as it was to make one copy.", "ja": "10 部つくるのは、1 部つくるのの 10 倍手間がかかった。"}
+{"en": "Then the printing press was invented, and this didn't prevent people from copying books by hand, but by comparison with printing them, copying by hand was so unpleasant that it might as well have been impossible.", "ja": "そこへ印刷術が発明されて、だからといって人は本の筆写ができなくなったわけではないけれど、でも印刷するのに比べたら、筆写はえらく面倒で、実質的に不可能といってよくなったわけね。"}
+{"en": "When books could only be made by mass production, copyright then started to make sense and it also did not take away the freedom of the reading public.", "ja": "本が大量生産でしかつくれなくなったら、著作権が意味を持つようになってきて、そしてそれは読書大衆の自由を奪ったりもしなかった。"}
+{"en": "As a member of the public who didn't own a printing press, you couldn't copy a book anyway.", "ja": "印刷術を持っていない一般大衆の一員である人は、どのみち本をコピーできなかったから、"}
+{"en": "So you weren't loosing any freedom just because there were copyrights.", "ja": "著作権ができたって、別に自由を失うわけじゃなかった。"}
+{"en": "Thus copyright was invented, and made sense morally because of a technological change.", "ja": "だから技術的な変化のために著作権が発明されて、道徳的にも筋が通ってたわけ。"}
+{"en": "Now the reverse change is happening.", "ja": "いまはその反対の変化が起きてる。"}
+{"en": "Individual copying of information is becoming better and better, and we can see that the ultimate progress of technology is to make it possible to copy any kind of information.", "ja": "情報の個別コピーがどんどんよくなってきてて、やがて技術が究極にまで進歩すれば、どんな情報でもコピーできるようになるというのが見えてきた。"}
+{"en": "[break due to turning of tape]", "ja": "[テープを裏返すので中断]"}
+{"en": "Thus we are back in the same situation as in the ancient world where copyright did not make sense.", "ja": "だからぼくたちは、著作権なんか無意味だった古代世界と同じ状況に戻ってるんだ。"}
+{"en": "If we consider our idea of property, they come from material objects.", "ja": "ぼくたちの所有物の概念を考えてみると、それは物質的なものからきている。"}
+{"en": "Material objects satisfy a conservation law, pretty much.", "ja": "物質的なものは、ほぼ保存則にしたがう。"}
+{"en": "Yes it's true I can break a chalk in half, that's not it, and it gets worn down, it gets consumed.", "ja": "うん、確かにチョークは半分に折れるから、正確にはちがうし、すりへるし、消費もされる。"}
+{"en": "But basically this is one chair [pointing at a chair].", "ja": "でも基本的にこれは（と椅子を指さす）、椅子一脚だ。"}
+{"en": "I can't just sort of snap my finger and have two chairs.", "ja": "指をパチンとならしてこれを二つにするわけにはいかない。"}
+{"en": "The only way to get another one is to build it just the way the first one was build.", "ja": "これをもう一つ手に入れるには、最初のやつをつくったのと同じようにつくるしかない"}
+{"en": "It takes more raw materials, it takes more work of production, and our ideas of property were evolved to make moral sense to fit these facts.", "ja": "原材料がもっといるし、もっと労働もいるし、だからぼくたちの所有物の考え方は、そういう事実にあてはまるよう、道徳的に納得がいくかたちで発展してきたんだ。"}
+{"en": "For a piece of information that anyone can copy, the facts are different.", "ja": "だれでもコピーできる情報なら、話はちがってくる。"}
+{"en": "And therefor the moral attitudes that fit are different.", "ja": "だからそれにあてはまる道徳的な態度もちがう。"}
+{"en": "Our moral attitudes comes from thinking how much it will help people and how much it will hurt people to do certain things.", "ja": "ぼくたちの道徳的な態度というのは、何かをしたら人がどれだけ助かるか、人がどれだけ害を被るか考えることで決まってくる。"}
+{"en": "With a material object, you can come and take away this chair, but you couldn't come and copy it.", "ja": "ものだと、この椅子をとってくことはできるけど、これをコピーすることはできない。"}
+{"en": "And if you took away the chair, it wouldn't be producing anything, so there's no excuse.", "ja": "そしてきみがこの椅子をもっていったら、それで何かが生まれるわけじゃないから、これはまったく正当化できない。"}
+{"en": "I somebody says: ``I did the work to make this one chair, and only one person can have this chair, it might as well me'',", "ja": "だれかが「おれはこの椅子一脚をつくる作業をしたんだし、こいつを持てるやつが一人しかいないんなら、それはおれだろう」と言ったとしたら、"}
+{"en": "we might as well say: ``Yeah, that makes sense''.", "ja": "確かにみんな「うん、そりゃ筋が通ってる」と言うだろう。"}
+{"en": "When a person says: ``I carved the bits on this disk, only one person can have this disk, so don't you dare take it away from me'',", "ja": "だれかが「おれはこのディスクにビットを刻んだんだ、だからこいつおれから奪ったら承知しないぞ」と言ったら、"}
+{"en": "well that also make sense.", "ja": "うん、これも確かに筋が通ってる。"}
+{"en": "If only one person is going to have the disk, it might as well be the guy who owns that disk.", "ja": "そのディスクを一人しか持てないんなら、じゃあそれはそのディスクの所有者でいいよ。"}
+{"en": "But when somebody else comes up and says:", "ja": "でもだれかがやってきてこう言ったとする。"}
+{"en": "``I'm not going to hurt your disk, I'm just gonna magically make another one just like it and then I'll take it away and then you can go on using this disk just the same as before'',", "ja": "「あんたのディスクはこわさないよ、ただまったく同じものを魔法で作り出して、それを持ってくから、あんたはいままでどおりディスクを使えばいいんだよ」"}
+{"en": "well it's the same as if somebody said: ``I've got a magic chair copier. You can keep on enjoying your chair, sitting in it, having it always there when you want it, but I'll have a chair too''.", "ja": "そしたらこれは「ぼくは魔法の椅子コピー機を持ってて、きみはいままで通り椅子を楽しんですわったりできて、いつでも手元においとけて、でもぼくもその椅子が使えるんだ」というのとおなじで、"}
+{"en": "That's good.", "ja": "これはいいことだ。"}
+{"en": "If people don't have to build, they can just snap their fingers and duplicate them, that's wonderful.", "ja": "つくんなくていいんなら、指をパチンと鳴らせば複製できるんなら、すばらしいことだ。"}
+{"en": "But this change in technology doesn't suit the people who wants to be able to own individual copies and can get money for individual copies.", "ja": "でもこの技術の変化は、個別コピーを所有して個別コピーで金を儲けようとする人にはお気に召さない。"}
+{"en": "That's an idea that only fits conserved objects.", "ja": "連中の考えは、保存する物体にしか通用しない。"}
+{"en": "So they do their best to render programs like material objects.", "ja": "だからなんとかプログラムを実体のある物質みたいにしようとする。"}
+{"en": "Have you wondered why, when you go to the software store and buy a copy of a program it comes in something that looks like a book?", "ja": "ソフト屋にいってプログラムを買うと、なんか本みたいなものについてくるでしょう。不思議じゃない？"}
+{"en": "They want people to think as if they were getting a material object, not to realize what they have really got in the form of digital copyable data.", "ja": "あれはみんなに、自分が買ってるのが物体なんだと思ってほしくて、本当はデジタルのコピー可能なデータを手に入れたんだと気がつかないでほしいからなの。"}
+{"en": "What is a computer after all but a universal machine?", "ja": "コンピュータって結局のところ、万能マシンでしょ。"}
+{"en": "You've probably studied universal Turing machines,", "ja": "たぶんみんな、ユニバーサルチューリングマシンについては勉強してるよね。"}
+{"en": "the machines that can imitate any other machine.", "ja": "ほかのどんなマシンでも模倣できるマシンね。"}
+{"en": "The reason a universal machine is so good is because you can make it imitate any other machine and the directions can be copied and changed,", "ja": "万能マシンがすばらしいのは、ほかのマシンを模倣できるだけじゃなくて、その指示をコピーして変えられるってことだ。"}
+{"en": "exactly the things you can't do with a material object.", "ja": "これってまさに、物質ではできないことだ。"}
+{"en": "And those are is exactly what the software hoarders want to stop the public from doing.", "ja": "そしてこれがまさに、ソフトウェア隠匿者どもがみんなにやらせるまいとしてることなんだ。"}
+{"en": "They want to have the benefit of the change in technology, to universal machines, but they don't want the public to get that benefit.", "ja": "万能マシンという技術変化のメリットは享受したがってるくせに、一般社会にはそのメリットを手に入れさせたくないんだよ。"}
+{"en": "Essentially they are trying to preserve the ``material object age'', but it's gone,", "ja": "基本的に連中は「物の時代」を温存しようとしてるんだけれど、でもそんな時代はもう終わってる。"}
+{"en": "and we should get our ideas of right and wrong in sync with the actual facts of the world we live in.", "ja": "だからぼくたちも、正しいとか間違ってるとかの考え方を、ぼくたちが住む世界の実状にあわせてシンクロさせるべきなんだ。"}
+{"en": "Q: So it boils down to ownership of information.", "ja": "Q：つまり結局のところ、情報の所有権の問題なんですね。"}
+{"en": "Do you think there are any instances where, you opinion, it's right to own information?", "ja": "情報を所有することが正しいような場合というのは、あるんでしょうか。どう思います？"}
+{"en": "A: With information that's not generally useful, or is of a personal nature, I would say it's OK.", "ja": "A： 一般的な利用価値のない情報なら、あるいは個人的な情報なら、所有オッケーだと思う。"}
+{"en": "In other words not information about how to do things, but information about what you intend to do.", "ja": "言い換えると、なにかのやりかたじゃなくて、それでどうするつもりかという情報。"}
+{"en": "Information whose only value to others is speculative, that is they can take some money away from you, but they can't actually create anything with it.", "ja": "他人にとっての価値が疑わしいもの、あなたからお金をむしり取るには使えても、それで何かを作り出したりはできないような情報。"}
+{"en": "It's perfectly reasonable I'd say to keep that sort of thing secret and controlled.", "ja": "ぼくに言わせれば、そういうものを秘密にして統制するのはまったく問題ない。"}
+{"en": "But in terms of creative information, information that people can use or enjoy, and that will be used and enjoyed more the more people who have it, always we should encourage the copying.", "ja": "でも創造に係わる情報、人が使って楽しめる情報、そしてそれを持ってる人が多ければ多いほど、もっと利用されて楽しまれるような情報、そういうのは必ずコピーを推奨すべきなんだ。"}

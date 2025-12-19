@@ -1,0 +1,750 @@
+{"en": "THE ADVENTURE OF THE DANCING MEN", "ja": "暗号舞踏人の謎"}
+{"en": "Holmes had been seated for some hours in silence with his long, thin back curved over a chemical vessel", "ja": "ホームズは全く黙りこんだまま、その脊の高い痩せた身体を猫脊にして、何時間も化学実験室に向っていた。"}
+{"en": "in which he was brewing a particularly malodorous product.", "ja": "そこからは頻りに、いやな悪臭がただよって来る、"}
+{"en": "His head was sunk upon his breast, and he looked from my point of view like a strange, lank bird, with dull gray plumage and a black top-knot.", "ja": "――彼の頭は胸に深くちぢこめられて、その恰好は、鈍い灰色の羽毛の、黒い鳥冠（とさか）の奇妙な鳥のようにも見えた。"}
+{"en": "\"So, Watson,\"", "ja": "「そこで、ワトソン君、――」"}
+{"en": "said he, suddenly,", "ja": "彼は突然に口を開いた。"}
+{"en": "\"you do not propose to invest in South African securities?\"", "ja": "「君は南アフリカのある投資事業に、投資することは、思い止まってしまったのだね」"}
+{"en": "I gave a start of astonishment.", "ja": "私はサッと驚かされてしまった。"}
+{"en": "Accustomed as I was to Holmes's curious faculties, this sudden intrusion into my most intimate thoughts was utterly inexplicable.", "ja": "私は彼の不思議な直覚力と云ったようなものには、毎度のことでよく慣れていたが、しかしこの私の胸中の、秘中の秘事にずばりっと図星を指されたのには、全くあきれ返ってしまった。"}
+{"en": "\"How on earth do you know that?\"", "ja": "「一たい君は、どうしてその事を知っていたのだね？」"}
+{"en": "I asked.", "ja": "私は訊き返した。"}
+{"en": "\"Now, Watson, confess yourself utterly taken aback,\"", "ja": "「さあワトソン君、ぐうの音が出まいがね」"}
+{"en": "\"I am.\"", "ja": "「いや、全くその通りだ」"}
+{"en": "\"I ought to make you sign a paper to that effect.\"", "ja": "「それではね君、とにかくきれいに参ったと云う一札（いっさつ）を入れたまえ」"}
+{"en": "\"Why?\"", "ja": "「それはまたどうしてさ？」"}
+{"en": "\"Because in five minutes you will say that it is all so absurdly simple.\"", "ja": "「いや、実はもう五分の後には、君はきっと、それは馬鹿馬鹿しくわかり切ったことだと云うに相違ないからだよ」"}
+{"en": "\"I am sure that I shall say nothing of the kind.\"", "ja": "「いやいや、僕は決して、そんなことは云わないよ」"}
+{"en": "\"You see, my dear Watson\"--", "ja": "「ワトソン君、それでは御説明に及ぶとしようかね」"}
+{"en": "he propped his test-tube in the rack, and began to lecture with the air of a professor addressing his class--", "ja": "ホームズは試験管を架にかけて、教授が講堂で、学生たちに講義でもする時のような恰好で話し出した。"}
+{"en": "\"it is not really difficult to construct a series of inferences, each dependent upon its predecessor and each simple in itself.", "ja": "「先人の研究材料を基本として、それを単純化して、推論の系統を立てると云うことは、決してそう難しいことでもないのだ。"}
+{"en": "If, after doing so, one simply knocks out all the central inferences and presents one's audience with the starting-point and the conclusion, one may produce a startling, though possibly a meretricious, effect.", "ja": "そしてもしこう云う試（こころみ）をして、誰かが中心思潮となっている論説を覆して、更にその聴衆に、新（あらた）な出発点と結論とを与えたら、それはたしかに、キザたっぷりなことではあるが、しかし一つの驚歎すべき結果をもたらしたと云ってよかろう。"}
+{"en": "Now, it was not really difficult, by an inspection of the groove between your left forefinger and thumb, to feel sure that you did NOT propose to invest your small capital in the gold fields.\"", "ja": "さて、君の左の人差し指と拇指（おやゆび）の間の皮膚の筋を見て、君が採金地の株を買わなかったと云うことが、あまり首をひねりまわさない中（うち）に解ったと云うわけさ」"}
+{"en": "\"I see no connection.\"", "ja": "「どうも僕には何の事か解らないね」"}
+{"en": "\"Very likely not;", "ja": "「いや誠に御もっとも至極"}
+{"en": "but I can quickly show you a close connection.", "ja": "――しかしこれはごく手短に説明することが出来るんだ。"}
+{"en": "Here are the missing links of the very simple chain:", "ja": "ここにそれぞれ取り外れていた、鎖の輪があるからね。"}
+{"en": "1. You had chalk between your left finger and thumb when you returned from the club last night.", "ja": "第一には、君が昨夜倶楽部（くらぶ）から帰って来た時は、君の左の手の指のあたりに、白いチョークがついていたこと。"}
+{"en": "2. You put chalk there when you play billiards, to steady the cue.", "ja": "第二には、君が玉を突く時は棒（キュー）の辷（すべ）りをよくするために、チョークをつける習慣のあること。"}
+{"en": "3. You never play billiards except with Thurston.", "ja": "第三には、君はサーストン氏との外（ほか）には、決して玉を突かないこと、"}
+{"en": "4. You told me, four weeks ago, that Thurston had an option on some South African property which would expire in a month, and which he desired you to share with him.", "ja": "――第四には君が四週間前に、サーストン氏は、南アフリカの採金地の株式募集をやっているが、その締切りまでは一ヶ月あるので、君にも加入してくれと云って来たと話したことのあったこと、"}
+{"en": "5. Your check book is locked in my drawer, and you have not asked for the key.", "ja": "――第五には、君の小切手帳は、僕の抽斗（ひきだし）に入って錠が下りているが、しかし君はその鍵を決して僕に請求しなかったこと、"}
+{"en": "6. You do not propose to invest your money in this manner.\"", "ja": "――第六には、君がこのようにして、この株式に申込をしなかったと云うこと、――」"}
+{"en": "\"How absurdly simple!\"", "ja": "「ははははははは、何と云う馬鹿馬鹿しく解り切ったことだ！」"}
+{"en": "I cried.", "ja": "私は叫んだ。"}
+{"en": "\"Quite so!\"", "ja": "「全くその通りさ」"}
+{"en": "said he, a little nettled.", "ja": "彼はちょっと不気嫌になって云った。"}
+{"en": "\"Every problem becomes very childish when once it is explained to you.", "ja": "「どんな問題でも、一通りわかってしまうと君には皆小供だましのように解り切ったものになってしまうのだ。"}
+{"en": "Here is an unexplained one.", "ja": "ではここに未解決の問題があるが、"}
+{"en": "See what you can make of that, friend Watson.\"", "ja": "ワトソン君、これには君はどう云う解釈を与えるね？」"}
+{"en": "He tossed a sheet of paper upon the table, and turned once more to his chemical analysis.", "ja": "彼は一枚の紙を机の上に放り出して、また化学の分析の方に向き直った。"}
+{"en": "I looked with amazement", "ja": "私はそれを見て驚いてしまった。"}
+{"en": "at the absurd hieroglyphics upon the paper.", "ja": "それは、何かの符牒の文字のようなものであった。"}
+{"en": "\"Why, Holmes, it is a child's drawing,\"", "ja": "「何んだ、――これは小供の絵ではないか――ホームズ君！」"}
+{"en": "I cried.", "ja": "私は叫んだ。"}
+{"en": "\"Oh, that's your idea!\"", "ja": "「ははははははは、そんなものに見えるのかね！」"}
+{"en": "\"What else should it be?\"", "ja": "「じゃ何なんだね？」"}
+{"en": "\"That is what Mr. Hilton Cubitt, of Riding Thorpe Manor, Norfolk, is very anxious to know.", "ja": "「これは、ノーフォークのリドリング公領［＃「リドリング公領」は底本では「リドリユグ公領」］のヒルトン・キューピット氏が、しきりに知りたがっていることなんだがね。"}
+{"en": "This little conundrum came by the first post, and he was to follow by the next train.", "ja": "この謎のような問題は、第一回の郵便配達で来て、その人は二番列車でその後から来ることになっているのだ。"}
+{"en": "There's a ring at the bell, Watson.", "ja": "ああワトソン君。"}
+{"en": "I should not be very much surprised if this were he.\"", "ja": "ベルが鳴っているが、あるいはその人かもしれない――」"}
+{"en": "A heavy step was heard upon the stairs, and an instant later there entered a tall, ruddy, clean-shaven gentleman, whose clear eyes and florid cheeks told of a life led far from the fogs of Baker Street.", "ja": "重々しい足取りが、階段にきこえたと思う中（うち）に、一人の紳士が入って来た。"}
+{"en": "He seemed to bring a whiff of his strong, fresh, bracing, east-coast air with him as he entered.", "ja": "彼が室（へや）の中に入って来た時に、どこか強健なきびきびしたような、東海岸独特の香（におい）が、ただよって来るようであった。"}
+{"en": "Having shaken hands with each of us, he was about to sit down, when his eye rested upon the paper with the curious markings, which I had just examined and left upon the table.", "ja": "彼は我々二人と握手を交わして、さて腰かけようとした時に、私が見て机の上に置いてあった、不思議な記号のようなものに目を止めた。"}
+{"en": "\"Well, Mr. Holmes,", "ja": "「ああホームズさん、"}
+{"en": "what do you make of these?\"", "ja": "――これをどう云う風にお考えになりましたか？」"}
+{"en": "he cried.", "ja": "彼は叫んだ。"}
+{"en": "\"They told me that you were fond of queer mysteries, and I don't think you can find a queerer one than that.", "ja": "「あなたは大変、奇妙な神秘的なことをお好きでいらっしゃるそうですが、しかしこれはまた一段と、奇妙不可思議なものでしょう。"}
+{"en": "I sent the paper on ahead, so that you might have time to study it before I came.\"", "ja": "私はあなたが、私が来る前に研究しておかれるようにと思って、前もってお送りしたわけです」"}
+{"en": "\"It is certainly rather a curious production,\"", "ja": "「これはたしかに奇妙なものですな」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "\"At first sight it would appear to be some childish prank.", "ja": "「ちょっと見れば、子供の悪戯画（いたずらがき）のようにも思われるし、"}
+{"en": "It consists of a number of absurd little figures dancing across the paper upon which they are drawn.", "ja": "また、紙の上を踊りながらゆく、でたらめな小さな姿の、絵のようでもありますね。"}
+{"en": "Why should you attribute any importance to so grotesque an object?\"", "ja": "一たいこんな変な、得体の知れないものに、どうしてそんな勿体振った意味をつけようと仰有るのですか？」"}
+{"en": "\"I never should, Mr. Holmes.", "ja": "「いや、私は決してそう云うつもりではないのですが、"}
+{"en": "But my wife does.", "ja": "ただ私の妻が大変なのです。"}
+{"en": "It is frightening her to death.", "ja": "実は妻が全く気絶するほど、これに驚かされたのです。"}
+{"en": "She says nothing, but I can see terror in her eyes.", "ja": "彼の女は何にも云いませんが、しかし私はその目の中に、非常な驚怖（きょうふ）を見て取りました。"}
+{"en": "That's why I want to sift the matter to the bottom.\"", "ja": "それでそれを穿鑿（せんさく）してみたいと思ったわけです」"}
+{"en": "Holmes held up the paper so that the sunlight shone full upon it.", "ja": "ホームズは紙片を取り上げて、太陽の光線をその上に直射せしめた。"}
+{"en": "It was a page torn from a notebook.", "ja": "その紙片は、ノートブックから離し取ったもので、"}
+{"en": "The markings were done in pencil, and ran in this way:", "ja": "鉛筆で次のような象形（かたち）が画かれてあった。"}
+{"en": "Holmes examined it for some time, and then, folding it carefully up, he placed it in his pocketbook.", "ja": "ホームズはしばらくの間、それを検（しら）べていたが、やがて、叮嚀（ていねい）に折りたたんで、自分の手帳の間にはさんだ。"}
+{"en": "\"This promises to be a most interesting and unusual case,\"", "ja": "「これはとても面白い、稀有の事件かもしれない」"}
+{"en": "said he.", "ja": "彼は云った。"}
+{"en": "\"You gave me a few particulars in your letter, Mr. Hilton Cubitt, but I should be very much obliged if you would kindly go over it all again for the benefit of my friend, Dr. Watson.\"", "ja": "「ヒルトン・キューピットさん、あなたはお手紙の中（うち）では、二三具体的なことを書かれてありましたが、しかしこの友人のワトソン博士のために、もう一度一通りお話し下さいませんか」"}
+{"en": "\"I'm not much of a story-teller,\"", "ja": "「どうも私は説明は拙劣（まず）いのですが、――」"}
+{"en": "said our visitor, nervously clasping and unclasping his great, strong hands.", "ja": "我等の訪客は、その大きな強い手を、組んだり放したり、もじもじさせながら、神経質に語り出した。"}
+{"en": "\"You'll just ask me anything that I don't make clear.", "ja": "「いずれお解りにならないところは、そちらの方からお訊ね下さい、"}
+{"en": "I'll begin at the time of my marriage last year, but I want to say first of all that, though I'm not a rich man, my people have been at Riding Thorpe for a matter of five centuries, and there is no better known family in the County of Norfolk.", "ja": "――私は去年、結婚した時のことから申しますが、まずその前にお耳に入れておきたいことは、私の家は、決して金持ではありませんが、ここ約五世紀の間は、現在のリドリング村に住んでいて、ノーフォーク地方では、第一の旧家だと云うことです。"}
+{"en": "Last year I came up to London for the Jubilee, and I stopped at a boarding-house in Russell Square,", "ja": "去年の五十年祭には私はロンドンに来て、ランセル街の宿泊所に滞在しました。"}
+{"en": "because Parker, the vicar of our parish, was staying in it.", "ja": "それは私の教区の牧師の、パーカーさんが滞在していた関係から、そこを選んだのでした。"}
+{"en": "There was an American young lady there--", "ja": "そうするとそこに、亜米利加（アメリカ）の若い婦人が居たのでした。"}
+{"en": "Patrick was the name--", "ja": "パートリックと云う名前で"}
+{"en": "Elsie Patrick.", "ja": "――すなわちエルシー・パートリックと云う女でしたが、"}
+{"en": "In some way we became friends, until before my month was up I was as much in love as man could be.", "ja": "――ふとした機会から、私共は友人になってしまいましたが、その滞在中に私は、遂に男性並々に、その女と恋愛関係に陥ってしまったのでした。"}
+{"en": "We were quietly married at a registry office, and we returned to Norfolk a wedded couple.", "ja": "それで私共は早速結婚の手続をすまし、夫婦としてノーフォークに帰って来ました。"}
+{"en": "You'll think it very mad, Mr. Holmes, that a man of a good old family should marry a wife in this fashion, knowing nothing of her past or of her people, but if you saw her and knew her, it would help you to understand.", "ja": "とにかく少しは知られている旧家の人間が、こんな風にして、全くその身元調査もろくろくしないで、結婚してしまうなどということは、とても乱暴なことと思われるでしょうが、しかしそのことは、私の妻を御覧下されて、彼の女を知って下されば、お解りになると思われますが、"}
+{"en": "\"She was very straight about it, was Elsie.", "ja": "――とにかく彼の女は、――エルシーは卒直でした。"}
+{"en": "I can't say that she did not give me every chance of getting out of it if I wished to do so.", "ja": "もし私が訊ねさえしたら、何もかも隠さずに云ってくれたと思っています。"}
+{"en": "`I have had some very disagreeable associations in my life,'", "ja": "「わたしにはとても厭な思い出がありますのよ」"}
+{"en": "said she,", "ja": "こう云って彼の女は語るのでした。"}
+{"en": "`I wish to forget all about them.", "ja": "「わたしはそれをどうにかして忘れてしまいたいと思いますわ。"}
+{"en": "I would rather never allude to the past, for it is very painful to me.", "ja": "わたしはもう一切それには触れたくはありませんの。"}
+{"en": "If you take me, Hilton, you will take a woman who has nothing that she need be personally ashamed of, but you will have to be content with my word for it, and to allow me to be silent as to all that passed up to the time when I became yours.", "ja": "ヒルトンさん、あなたがもしわたしを求めて下さるなら、そりゃ過去において一点の曇もない女性を得ることになると申しますが、しかしいずれあなたは、わたしの言葉を全部信じて下さって、わたしの過去については、何にも訊ねないと云うことを約束して下さい。"}
+{"en": "If these conditions are too hard, then go back to Norfolk, and leave me to the lonely life in which you found me.'", "ja": "それでこのお約束が無理だと仰有るのでしたら、どうぞわたしをこのままのこしてノーフォークにお帰り下さい」"}
+{"en": "It was only the day before our wedding that she said those very words to me.", "ja": "と、これは私達の結婚の前日に、彼の女が私に云った言葉でした。"}
+{"en": "I told her that I was content to take her on her own terms, and I have been as good as my word.", "ja": "それで私は彼の女の言葉をそのまま容れて、その後もこの約束をかたく守って来たのでした。"}
+{"en": "\"Well we have been married now for a year, and very happy we have been.", "ja": "そしてその後私共は、この一年の間、結婚生活をつづけて来ましたが、私共は実に幸福でした。"}
+{"en": "But about a month ago, at the end of June, I saw for the first time signs of trouble.", "ja": "しかしほぼ一ヶ月前、――六月の末頃に、私は始めて煩累（わざわい）の兆を見たのでした。"}
+{"en": "One day my wife received a letter from America. I saw the American stamp.", "ja": "その頃妻は亜米利加（アメリカ）の消印のある手紙を受け取ったのでしたが、"}
+{"en": "She turned deadly white, read the letter, and threw it into the fire.", "ja": "その時彼の女の顔は気絶しないばかりに蒼白になり、手紙を読んでから、それを火の中に投げこんでしまったのでした。"}
+{"en": "She made no allusion to it afterwards, and I made none, for a promise is a promise, but she has never known an easy hour from that moment.", "ja": "その後は別に彼の女はそれについて何も云いませんでしたし、私もまた約束にしたがって、そのことについては一言も触れませんでした。"}
+{"en": "There is always a look of fear upon her face--a look as if she were waiting and expecting.", "ja": "しかし彼の女は、それ以来はずっと、一つの不安にとざされていて、とかく顔色が浮かなくなり、何ごとかにビクビクしているようでした。"}
+{"en": "She would do better to trust me.", "ja": "まあ俺を信ずるがよい。"}
+{"en": "She would find that I was her best friend.", "ja": "俺こそは彼の女の、最もよい伴侶なのだ。"}
+{"en": "But until she speaks, I can say nothing.", "ja": "しかし彼の女が云い出すまでは、私は切り出すことは出来ません。"}
+{"en": "Mind you, she is a truthful woman, Mr. Holmes, and whatever trouble there may have been in her past life it has been no fault of hers.", "ja": "しかしホームズさん、くれぐれもお含みを願いたいのですが、彼の女はたしかに真実な女性で、もし彼の女の過去に、何か難題のようなものがあるとしても、それは彼の女の欠点ではないと思うのです。"}
+{"en": "I am only a simple Norfolk squire, but there is not a man in England who ranks his family honour more highly than I do.", "ja": "私はただノーフォークの田舎者にすぎないのですが、しかしそれでも、英国では第一流の旧家であると云うことは、"}
+{"en": "She knows it well, and she knew it well before she married me.", "ja": "彼の女はよく知っており、また結婚前からも認めていましたから、"}
+{"en": "She would never bring any stain upon it--of that I am sure.", "ja": "まさか彼の女は、その私の家名を汚すようなことは、万々（ばんばん）無いと私は確信するのです。"}
+{"en": "\"Well, now I come to the queer part of my story.", "ja": "さていよいよこれから、私の話は、奇怪な部分に進みますが、"}
+{"en": "About a week ago--", "ja": "一週間ばかり前、――"}
+{"en": "it was the Tuesday of last week--", "ja": "そうです先週の火曜日でした。"}
+{"en": "I found on one of the window-sills a number of absurd little dancing figures like these upon the paper.", "ja": "私は窓硝子の上に、この紙に画いてあるような、出鱈目（でたらめ）な小さな、踊っているような姿が、画かれてあるのを発見したのでした。"}
+{"en": "They were scrawled with chalk.", "ja": "それは白墨でいたずら画きしたものでしたが、"}
+{"en": "I thought that it was the stable-boy who had drawn them, but the lad swore he knew nothing about it.", "ja": "私は厩（うまや）番の少年がかいたのだろうと思いました、その若者は、全く知らないと云いはるのでした。"}
+{"en": "Anyhow, they had come there during the night.", "ja": "とにかくそれは夜かかれたものでしたが、"}
+{"en": "I had them washed out, and I only mentioned the matter to my wife afterwards.", "ja": "私はそれを洗い落してから、このことを妻に話しました。"}
+{"en": "To my surprise, she took it very seriously, and begged me if any more came to let her see them.", "ja": "ところが驚いたことには、妻はそんなものを大変重大視して、もしまた画かれたら、ぜひ見たいと云うのでした。"}
+{"en": "None did come for a week, and then yesterday morning I found this paper lying on the sundial in the garden.", "ja": "それから、一週間の間は、そんなものは画かれませんでしたが、ちょうど昨日の朝、またまた私は、庭園の日時計の上に、この紙片がおかれてあるのを見つけたのでした。"}
+{"en": "I showed it to Elsie, and down she dropped in a dead faint.", "ja": "私はそれをエルシーに見せましたら、彼の女は気絶して倒れてしまったのでした。"}
+{"en": "Since then she has looked like a woman in a dream, half dazed, and with terror always lurking in her eyes.", "ja": "それ以来彼の女は、全く茫然としてしまって、いつも恐怖にとりつかれた目色をしているのです。"}
+{"en": "It was then that I wrote and sent the paper to you, Mr. Holmes.", "ja": "それでその時に私は、この紙片をあなたにお送りして、手紙をさし上げた次第でした。"}
+{"en": "It was not a thing that I could take to the police, for they would have laughed at me, but you will tell me what to do.", "ja": "これはまさか警察に訴えても、ただ笑いものにされて、取りあってくれますまいし、あなたでしたら何とか方法を教えて下さるだろうと考えたのでした。"}
+{"en": "I am not a rich man, but if there is any danger threatening my little woman, I would spend my last copper to shield her.\"", "ja": "私は決して金持ではありませんが、しかし何か私の妻を悩ましているものがあるとしたら、私は彼女を全財産を賭しても、保護してやりたいと思うのですが――」"}
+{"en": "He was a fine creature, this man of the old English soil--simple, straight, and gentle, with his great, earnest blue eyes and broad, comely face.", "ja": "古いイギリスっ児のこの人間は、単純で卒直で、目は大きく熱意のこもった、堂々たる風貌の紳士であった。"}
+{"en": "His love for his wife and his trust in her shone in his features.", "ja": "彼がその妻に対する愛情と信実は、外部にまで溢れ出ていた。"}
+{"en": "Holmes had listened to his story with the utmost attention, and now he sat for some time in silent thought.", "ja": "ホームズは全注意を集めて、この話を聞いていたが、この話が終ると、しばしの間は、静（じ）っと沈黙したまま思案に沈んだ。"}
+{"en": "\"Don't you think, Mr. Cubitt,\"", "ja": "「いや、キューピットさん、――」"}
+{"en": "said he, at last,", "ja": "彼はようやく口を開いた。"}
+{"en": "\"that your best plan would be to make a direct appeal to your wife, and to ask her to share her secret with you?\"", "ja": "「これはやはり、あなたが直接に奥さんにお訊ねになって、あなたに対して秘（かく）されていたことを、話してもらうのが一番早道ではないかと思われますがね」"}
+{"en": "Hilton Cubitt shook his massive head.", "ja": "ヒルトン・キューピットはしかし、その大きな頭を振った。"}
+{"en": "\"A promise is a promise, Mr. Holmes.", "ja": "「ホームズさん、約束はどこまでも約束ですからね。"}
+{"en": "If Elsie wished to tell me she would.", "ja": "もしエルシーが、話していいと思うくらいでしたら、彼から話してくれるでしょう。"}
+{"en": "If not, it is not for me to force her confidence.", "ja": "そしてまたもし話したくないことでしたら、私は彼の女に対して強要はしたくはありません。"}
+{"en": "But I am justified in taking my own line--", "ja": "しかしそれと離れても、私には私で取るべき道はあるはずです。"}
+{"en": "and I will.\"", "ja": "そしてそれを私は大（おおい）にやろうと思うのです」"}
+{"en": "\"Then I will help you with all my heart.", "ja": "「いや、そう云うのでしたら、私も全力をつくして御相談に与（あずか）りましょう。"}
+{"en": "In the first place, have you heard of any strangers being seen in your neighbourhood?\"", "ja": "まずお訊ねしますが、この頃からあなたの御近所に、新に来た者があるようなことはお聞きになりませんか？」"}
+{"en": "\"No.\"", "ja": "「いえ」"}
+{"en": "\"I presume that it is a very quiet place.", "ja": "「大変閑静なところだろうと思われますが、"}
+{"en": "Any fresh face would cause comment?\"", "ja": "新顔などが現われて、人々の噂に上るようなことがありますか？」"}
+{"en": "\"In the immediate neighbourhood, yes.", "ja": "「えい、そうそうごく近所にありました。"}
+{"en": "But we have several small watering-places not very far away.", "ja": "しかし私共の近所には、湯治場（とうじば）があるので、"}
+{"en": "And the farmers take in lodgers.\"", "ja": "よく田舎者共が宿をとります」"}
+{"en": "\"These hieroglyphics have evidently a meaning.", "ja": "「この象形文字は、たしかに意味がありましょう。"}
+{"en": "If it is a purely arbitrary one, it may be impossible for us to solve it.", "ja": "もし全く出鱈目なものだとすれば、それはもうとても解釈が出来ませんが、"}
+{"en": "If, on the other hand, it is systematic, I have no doubt that we shall get to the bottom of it.", "ja": "しかしこれが組織的なものだとすれば、きっとどうにかして解くことが出来ますよ。"}
+{"en": "But this particular sample is so short that I can do nothing, and the facts which you have brought me are so indefinite that we have no basis for an investigation.", "ja": "しかし何しろこれはひどく短いもので、どうにも仕様が無いし、またあなたが持って来られた事柄も、はなはだ漠然としたことで、考査の基本にはなりませんからね。"}
+{"en": "I would suggest that you return to Norfolk, that you keep a keen lookout, and that you take an exact copy of any fresh dancing men which may appear.", "ja": "やはりこれはあなたが、一度ノーフォークにお帰りになって、注意深く監視をして、もう一度この踊り人の姿が現われた時に、正しく写し取った方がいいと思いますがね。"}
+{"en": "It is a thousand pities that we have not a reproduction of those which were done in chalk upon the window-sill.", "ja": "先に窓硝子に画かれたものの写しを、見ることの出来ないのははなはだ遺憾ですが、"}
+{"en": "Make a discreet inquiry also as to any strangers in the neighbourhood.", "ja": "いずれ近所に最近に現われた者に対しても、慎重の注意を向けなさい。"}
+{"en": "When you have collected some fresh evidence, come to me again.", "ja": "そして新な証拠が得られたら、またお出で下さい。"}
+{"en": "That is the best advice which I can give you, Mr. Hilton Cubitt.", "ja": "これがもうあなたに対しての、僕の最善のお答えです。"}
+{"en": "If there are any pressing fresh developments, I shall be always ready to run down and see you in your Norfolk home.\"", "ja": "それでヒルトン・キューピットさん、もし何か新な展開がありましたら、その時は私はいつでも早速出発して、ノーフォークのお宅でお目にかかりましょう」"}
+{"en": "The interview left Sherlock Holmes very thoughtful,", "ja": "この会見の後、シャーロック・ホームズは、しっかり考えこんでしまった。"}
+{"en": "and several times in the next few days I saw him take his slip of paper from his notebook and look long and earnestly at the curious figures inscribed upon it.", "ja": "そしてこの後二三日の間、彼はたびたび手帳から、例の記号の画かれてある紙片を取り出しては、長いこと熱心に見つめているのであった。"}
+{"en": "He made no allusion to the affair, however, until one afternoon a fortnight or so later.", "ja": "その後二週間ばかりの間、彼はそのことを、（おくび）にも出さなかったが、"}
+{"en": "I was going out when he called me back.", "ja": "ふとある日の午後、私が外出しようとしているところを呼び止めた。"}
+{"en": "\"You had better stay here, Watson.\"", "ja": "「ワトソン君、出ないでいる方がよかろうと思われるんだがね」"}
+{"en": "\"Why?\"", "ja": "「なぜ？」"}
+{"en": "\"Because I had a wire from Hilton Cubitt this morning.", "ja": "「今朝ヒルトン・キューピットから電報が来たのだ。"}
+{"en": "You remember Hilton Cubitt, of the dancing men?", "ja": "そらあの舞踏人形のヒルトン・キューピットを知っているだろう。"}
+{"en": "He was to reach Liverpool Street at one-twenty.", "ja": "彼は一時二十分にリバプール街に着くと云っているのだ。"}
+{"en": "He may be here at any moment.", "ja": "で、もうやがてここに見えるだろうと思うのさ。"}
+{"en": "I gather from his wire that there have been some new incidents of importance.\"", "ja": "その電報を綜合すると、どうも何か重大な新らしい出来事があったように思われるのだ」"}
+{"en": "We had not long to wait, for our Norfolk squire came straight from the station as fast as a hansom could bring him.", "ja": "やがてまもなく、二輪馬車が全速力で、停車場から我等のノーフォークの紳士を乗せて、来たのであった。"}
+{"en": "He was looking worried and depressed, with tired eyes and a lined forehead.", "ja": "大変悩み衰えているらしく、目は疲れており、額には皺を寄せていた。"}
+{"en": "\"It's getting on my nerves, this business, Mr. Holmes,\"", "ja": "「これには全く、すっかり弱らされてしまいました、ホームズさん、――」"}
+{"en": "said he, as he sank, like a wearied man, into an armchair.", "ja": "彼は半病人のように、腕椅子にもたれ寄りながら云った。"}
+{"en": "\"It's bad enough to feel that you are surrounded by unseen, unknown folk, who have some kind of design upon you, but when, in addition to that, you know that it is just killing your wife by inches,", "ja": "「どうでしょう、――自分の周囲に未知の未見の人間が、何か策動していて、しかもその上に妻がもう一寸刻みに、殺されてゆくと考えては、とても我慢が出来ませんでしょう？"}
+{"en": "then it becomes as much as flesh and blood can endure.", "ja": "いやこれこそ全く生きた気持はありませんよ。"}
+{"en": "She's wearing away under it--", "ja": "いや私の妻は刻々に、弱っていきます。"}
+{"en": "just wearing away before my eyes.\"", "ja": "もう刻々に弱って私の前から消えてしまいそうなんです」"}
+{"en": "\"Has she said anything yet?\"", "ja": "「奥さんは何も仰有いませんか？」"}
+{"en": "\"No, Mr. Holmes, she has not.", "ja": "「いえ、何も云いません。"}
+{"en": "And yet there have been times when the poor girl has wanted to speak, and yet could not quite bring herself to take the plunge.", "ja": "しかし彼の女は、云おうとしたこともあったようでしたが、やはり遂に云い出し得ませんでした。"}
+{"en": "I have tried to help her,", "ja": "私は妻を助けようとしました。"}
+{"en": "but I daresay I did it clumsily, and scared her from it.", "ja": "しかし私はまずかったので結局彼の女を怖れすくませてしまうだけでした。"}
+{"en": "She has spoken about my old family, and our reputation in the county, and our pride in our unsullied honour, and I always felt it was leading to the point, but somehow it turned off before we got there.\"", "ja": "彼の女は私の古い家庭のこと、私の家庭の地方においての名聞、またその汚れない名誉と云ったようなものについて、言葉を触れさせることもありましたが、その時は私は、いよいよ大切な要点にゆくのだと思うと、もうその中（うち）に、話は外（よそ）に外（そ）れてしまうのでした」"}
+{"en": "\"But you have found out something for yourself?\"", "ja": "「しかしあなた御自分で、気のついたものはありませんでしたか？」"}
+{"en": "\"A good deal, Mr. Holmes.", "ja": "「いやホームズさん、"}
+{"en": "I have several fresh dancing-men pictures for you to examine,", "ja": "それはたくさんあります、私はぜひあなたにお目にかけたい、新な舞踏人の絵を持って来ました。"}
+{"en": "and, what is more important, I have seen the fellow.\"", "ja": "そして更に重大なことは、私はある者を見たのです」"}
+{"en": "\"What, the man who draws them?\"", "ja": "「ある者を、――それはその絵を画いた当人ですか？」"}
+{"en": "\"Yes,", "ja": "「そうです。"}
+{"en": "I saw him at his work.", "ja": "私はその者が画いているところを見ました。"}
+{"en": "But I will tell you everything in order.", "ja": "いやとにかく、最初こう順序を立てて申しましょう。"}
+{"en": "When I got back after my visit to you, the very first thing I saw next morning was a fresh crop of dancing men.", "ja": "私がこの前にお訪ねして帰ってからまず、次の朝に新な舞踏人の絵を見たのでした。"}
+{"en": "They had been drawn in chalk upon the black wooden door of the tool-house, which stands beside the lawn in full view of the front windows.", "ja": "それは芝生の横にある、物置の真黒い扉の上に、白墨で画かれたものでしたが、私のところの正面の窓から目に止まったのでした。"}
+{"en": "I took an exact copy, and here it is.\"", "ja": "私はそれを正確に写し取って来ましたが、これがそれです」"}
+{"en": "He unfolded a paper and laid it upon the table.", "ja": "彼は一枚の紙をひろげて、テーブルの上に置いた。"}
+{"en": "Here is a copy of the hieroglyphics:", "ja": "それは次の図のような、象形記号と云ったようなものであった。"}
+{"en": "\"Excellent!\"", "ja": "「素敵！"}
+{"en": "said Holmes.", "ja": "素敵！"}
+{"en": "\"Excellent!", "ja": "さあその先を、――」"}
+{"en": "Pray continue.\"", "ja": "ホームズは云った。"}
+{"en": "\"When I had taken the copy, I rubbed out the marks, but, two mornings later, a fresh inscription had appeared.", "ja": "「私がそれを写し取ってしまってから、その絵を消してしまいましたが、その次の次の朝に、また別のが画かれてありました。"}
+{"en": "I have a copy of it here\":", "ja": "それがこの方です」"}
+{"en": "Holmes rubbed his hands and chuckled with delight.", "ja": "ホームズは、手をもじゃもじゃさせ、歓喜の微笑をもらした。"}
+{"en": "\"Our material is rapidly accumulating,\"", "ja": "「材料は着々と集まって来るぞ！」"}
+{"en": "said he.", "ja": "彼は云った。"}
+{"en": "\"Three days later a message was left scrawled upon paper, and placed under a pebble upon the sundial.", "ja": "「それから三日の後、紙の上に走りがきされた、一枚の通牒（メッセージ）が日時計の上の、小石の下に置かれてありました。"}
+{"en": "Here it is.", "ja": "それはこれです。"}
+{"en": "The characters are, as you see, exactly the same as the last one.", "ja": "御覧の通り、これはすべて同一人のものですがね。"}
+{"en": "After that I determined to lie in wait, so I got out my revolver and I sat up in my study, which overlooks the lawn and garden.", "ja": "それでこの後は私は、一つ待ち伏せしてやろうと思い立って、拳銃（ピストル）を持って、私の書斎に位置を取り、芝生や庭を見張りました。"}
+{"en": "About two in the morning I was seated by the window, all being dark save for the moonlight outside,", "ja": "午前二時頃、――私が窓際に腰かけていましたが、外は月夜で仄（ほの）あかるかったがしかし、その外はもちろん暗闇でした。"}
+{"en": "when I heard steps behind me, and there was my wife in her dressing-gown.", "ja": "その時私はふと後に、人の気配を感じたと思うと、それは寝巻姿の妻でした。"}
+{"en": "She implored me to come to bed.", "ja": "彼の女は私に、寝室に帰るようにと云いましたが、"}
+{"en": "I told her frankly that I wished to see who it was who played such absurd tricks upon us.", "ja": "私は卒直に、私たちに馬鹿気たいたずらをする者を突き止めようと思うのだと告げました。"}
+{"en": "She answered that it was some senseless practical joke, and that I should not take any notice of it.", "ja": "そうすると妻は、それはつまらない悪戯に相違ないのだから、私に深く気に止めないようにと云うのでした。"}
+{"en": "\"`If it really annoys you, Hilton, we might go and travel, you and I, and so avoid this nuisance.'", "ja": "そして"}
+{"en": "\"`What, be driven out of our own house by a practical joker?'", "ja": "「だってそんな馬鹿気た悪戯に、自分の家（うち）を追い出されたりして、世間の笑い物になったりしてはいられないではないか、――」"}
+{"en": "said I.", "ja": "私はこう答えました。"}
+{"en": "\"`Well, come to bed,'", "ja": "「えい、それもそうですね。"}
+{"en": "`and we can discuss it in the morning.'", "ja": "朝になってからよくお話が出来るじゃありませんか」"}
+{"en": "\"Suddenly, as she spoke, I saw her white face grow whiter yet in the moonlight, and her hand tightened upon my shoulder.", "ja": "しかし彼の女はこう云うと共に、彼の女の白い顔は、それは月光の中としても、あまりに白いと思われるように、蒼白になって来て、手を私の肩にしっかりとかけました。"}
+{"en": "Something was moving in the shadow of the tool-house.", "ja": "その時に物置小屋の蔭の中に、何か動いているのに目が止まりました。"}
+{"en": "I saw a dark, creeping figure which crawled round the corner and squatted in front of the door.", "ja": "何かいっそう黒い影が、その蔭の角（すみ）のところを這いまわって、戸口の前に跼（うずく）まったのでした。"}
+{"en": "Seizing my pistol, I was rushing out, when my wife threw her arms round me and held me with convulsive strength.", "ja": "私はやにわに、ピストルを持って飛び出そうとすると、妻は両腕でしっかりと私を抱き止めて、顫（ふる）えるような力で押えるのでした。"}
+{"en": "I tried to throw her off, but she clung to me most desperately.", "ja": "私は妻を振り放そうとしましたが、彼の女は全く必死でした。"}
+{"en": "At last I got clear, but by the time I had opened the door and reached the house the creature was gone.", "ja": "私はやっと振り払って、外に出てその物置へ行った時は、もうその姿は見えませんでした。"}
+{"en": "He had left a trace of his presence, however, for there on the door was the very same arrangement of dancing men", "ja": "しかしたしかにその者は来た形跡はあって、扉（と）の上には例の舞踏人姿の画（え）がかかれてありました。"}
+{"en": "which had already twice appeared, and which I have copied on that paper.", "ja": "それは以前に二度かかれたものと同じものですが、その写しはこれです。"}
+{"en": "There was no other sign of the fellow anywhere, though I ran all over the grounds.", "ja": "それから私は周囲を残る隈なく探しましたが、もうその他には何の痕跡もありませんでした。"}
+{"en": "And yet the amazing thing is that he must have been there all the time, for when I examined the door again in the morning, he had scrawled some more of his pictures under the line which I had already seen.\"", "ja": "しかしそれから更に驚いたことには、その者はその後も現われたらしく、翌朝になって私は、例の扉（と）の上を見ましたら、私が前夜見ておいたものの下に、更に新らしいのが画かれてありました」"}
+{"en": "\"Have you that fresh drawing?\"", "ja": "「その新らしいのも写し取りましたか？」"}
+{"en": "\"Yes, it is very short, but I made a copy of it, and here it is.\"", "ja": "「えい、とても短いものですが、これです」"}
+{"en": "Again he produced a paper.", "ja": "彼は更に新らしい紙片を取り出した。"}
+{"en": "The new dance was in this form:", "ja": "その新らしい舞踏人姿は次のようなものであった。"}
+{"en": "\"Tell me,\"", "ja": "「いや、ちょっと――」"}
+{"en": "said Holmes--", "ja": "ホームズは云った。"}
+{"en": "and I could see by his eyes that he was much excited--", "ja": "彼は非常に気乗りがして来たらしかった。"}
+{"en": "\"was this a mere addition to the first or did it appear to be entirely separate?\"", "ja": "「これは最初ののに、ただ附けたしに画かれてありましたか、それとも全く別のものに離して画かれてありましたか？」"}
+{"en": "\"It was on a different panel of the door.\"", "ja": "「これは扉（と）の別の鏡板（かがみいた）にかかれてありました」"}
+{"en": "\"Excellent!", "ja": "「素敵だ！"}
+{"en": "This is far the most important of all for our purpose.", "ja": "これは我々にとっては、最も重要なものだ。"}
+{"en": "It fills me with hopes.", "ja": "これではなはだ有望になった。"}
+{"en": "Now, Mr. Hilton Cubitt, please continue your most interesting statement.\"", "ja": "さてヒルトン・キューピットさん、とても面白いですが、その先を云って下さい」"}
+{"en": "\"I have nothing more to say, Mr. Holmes,", "ja": "「ホームズさん、もう何も云うことはないのですが、"}
+{"en": "except that I was angry with my wife that night for having held me back when I might have caught the skulking rascal.", "ja": "――ただ私は、その夜妻が、私が悪漢をつかまえるために、飛び出るのを引き止めたことについて怒りました。"}
+{"en": "She said that she feared that I might come to harm.", "ja": "そうすると妻は、私が怪我をしてはいけないと思ったからと云いわけするのでした。"}
+{"en": "For an instant it had crossed my mind that perhaps what she really feared was that HE might come to harm, for I could not doubt that she knew who this man was, and what he meant by these strange signals.", "ja": "しばしの間は私に、妻はその者の何者であるかを知っていて、またその変な相図もわかっていて、彼の女の案じているのは、私ではなく、向うの者の怪我であると云うことが、閃きましたが、"}
+{"en": "But there is a tone in my wife's voice, Mr. Holmes, and a look in her eyes which forbid doubt,", "ja": "しかしまたよく考え直してみると、ホームズさん、彼の女の声の調子にも、また目の色にも、この疑念をかき消させるものがありました。"}
+{"en": "and I am sure that it was indeed my own safety that was in her mind.", "ja": "それで私はやはり、彼の女が本当に心配したのは、私自身の身であったのだと考えるのです。"}
+{"en": "There's the whole case, and now I want your advice as to what I ought to do.", "ja": "これでもう話は終りました、が、さてどうすればよろしいのか、これに対する方法を教えていただきたいのですが。"}
+{"en": "My own inclination is to put half a dozen of my farm lads in the shrubbery, and when this fellow comes again to give him such a hiding that he will leave us in peace for the future.\"", "ja": "――まあ私の考えとしては、百姓の若者共を五六人も待ち伏せさせておいて、その者が出て来た時に、したたか打ちのめして、以後私共に近寄れないようにしようかとも思っていますが、――」"}
+{"en": "\"I fear it is too deep a case for such simple remedies,\"", "ja": "「いや、そんな簡単なことで、収（おさま）りのつくことではないでしょう」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "\"How long can you stay in London?\"", "ja": "「一たいあなたはどのくらい、ロンドンに滞在することが出来ますか？」"}
+{"en": "\"I must go back to-day.", "ja": "「私は今日中には、帰宅しなければなりません。"}
+{"en": "I would not leave my wife alone all night for anything.", "ja": "私はどんなことがあっても、妻を一人で夜を暮させることは出来ません。"}
+{"en": "She is very nervous, and begged me to come back.\"", "ja": "彼の女はもう非常に神経質になっていて、どうしても僕に帰宅するようにと云うのです」"}
+{"en": "\"I daresay you are right.", "ja": "「いや、それは御もっともです。"}
+{"en": "But if you could have stopped, I might possibly have been able to return with you in a day or two.", "ja": "しかしもしあなたが、滞在しておられるなら、一両日中にはあなたと一緒に出かけることが出来ると思いますが、"}
+{"en": "Meanwhile you will leave me these papers,", "ja": "――とにかく、この紙は置いて行って下さい。"}
+{"en": "and I think that it is very likely that I shall be able to pay you a visit shortly and to throw some light upon your case.\"", "ja": "私はごく最近にお訪ねして、この事件に対しては、多少の吉報を齎（もたら）すことが出来ると思いますから、――」"}
+{"en": "Sherlock Holmes preserved his calm professional manner until our visitor had left us, although it was easy for me, who knew him so well, to see that he was profoundly excited.", "ja": "シャーロック・ホームズは、この訪客が立ち去るまでは、いかにもその職業的な、冷静を保っていたが、しかし彼の容子を見なれている私には、彼は内面では、ひどく昂奮（こうふん）しているに相違なかった。"}
+{"en": "The moment that Hilton Cubitt's broad back had disappeared through the door my comrade rushed to the table, laid out all the slips of paper containing dancing men in front of him, and threw himself into an intricate and elaborate calculation.", "ja": "ヒルトン・キューピットの広い脊中が、扉（ドア）の外に見えなくなるや否や、彼は机の上に走り寄って例の舞踏人画の紙を取り出して並べて、とても大変なこみ入った計算を始めた。"}
+{"en": "For two hours I watched him as he covered sheet after sheet of paper with figures and letters,", "ja": "二時間ばかりの間、――彼は何枚も何枚も、数字と文字を書いては、その仕事に没頭した。"}
+{"en": "so completely absorbed in his task that he had evidently forgotten my presence.", "ja": "全く私がその室（へや）にいるのさえも忘れて、一生懸命に続けた。"}
+{"en": "Sometimes he was making progress and whistled and sang at his work;", "ja": "ある時は多少に仕事が進むもののように、口笛を吹いたり歌ったりし、"}
+{"en": "sometimes he was puzzled, and would sit for long spells with a furrowed brow and a vacant eye.", "ja": "またやがては、全くその長い謎に閉口してしまったように、額をすくめ目を茫然とさせていた。"}
+{"en": "Finally he sprang from his chair with a cry of satisfaction, and walked up and down the room rubbing his hands together.", "ja": "それから遂に彼は思わずも歓喜の声を上げながら起ち上って、盛んに手をもじもじさせながら室（へや）の中をぶらぶらと歩き出した。"}
+{"en": "Then he wrote a long telegram upon a cable form.", "ja": "それから海底電信機式に、長い電報をかいた。"}
+{"en": "\"If my answer to this is as I hope, you will have a very pretty case to add to your collection, Watson,\"", "ja": "「もしこの返事が、僕の注文通りのものだったらワトソン君、――君の蒐集（しゅうしゅう）の中に、また実に素晴らしいものを加えることが出来るんだがね」"}
+{"en": "said he.", "ja": "彼は云った。"}
+{"en": "\"I expect that we shall be able to go down to Norfolk tomorrow, and to take our friend some very definite news as to the secret of his annoyance.\"", "ja": "「明日は我々はノーフォークに行って、あの人間が苦しんでいる秘密事に、決定的な新な展開を与えることが出来そうだ」"}
+{"en": "I confess that I was filled with curiosity, but I was aware that Holmes liked to make his disclosures at his own time and in his own way, so I waited until it should suit him to take me into his confidence.", "ja": "私はとても好奇心をそそられてしまった、しかしまた私は、彼はいつも自分の方から、いい時を見計らって話してくれることはよく知っているので、私の方から訊ねることはしなかった。"}
+{"en": "But there was a delay in that answering telegram,", "ja": "しかしその返電はなかなか来なかった。"}
+{"en": "and two days of impatience followed, during which Holmes pricked up his ears at every ring of the bell.", "ja": "ホームズはその間を、呼鈴に注意しながら、ヤキモキして待った。"}
+{"en": "On the evening of the second there came a letter from Hilton Cubitt.", "ja": "しかしその二日目の夕方、やっとヒルトン・キューピットから、一通の手紙が来た。"}
+{"en": "All was quiet with him, save that a long inscription had appeared that morning upon the pedestal of the sundial.", "ja": "その手紙によれば、ヒルトン・キューピットの身辺は、その後は静穏であったが、しかしその朝、またまた、日時計の上に、長いものを画いたものが乗っていたので、"}
+{"en": "He inclosed a copy of it,", "ja": "その写しをとって送ってよこしたのであった。"}
+{"en": "which is here reproduced:", "ja": "それは次のようなものであった。"}
+{"en": "Holmes bent over this grotesque frieze for some minutes, and then suddenly sprang to his feet with an exclamation of surprise and dismay.", "ja": "ホームズは数分間の間、――この奇怪な帯模様の絵に見入っていたが、突然、驚愕と困迷の声を上げて起ち上った。"}
+{"en": "His face was haggard with anxiety.", "ja": "その顔は不安のために全く色を失っていた。"}
+{"en": "\"We have let this affair go far enough,\"", "ja": "「これはうっかりしてしまったかもしれない！」"}
+{"en": "said he.", "ja": "彼は云った。"}
+{"en": "\"Is there a train to North Walsham to-night?\"", "ja": "「今夜これから、北ワルシャムに行く汽車があるかね？」"}
+{"en": "I turned up the time-table.", "ja": "私は時間表をくってみた。"}
+{"en": "The last had just gone.", "ja": "ちょうど最終列車が出たばかりのところであった。"}
+{"en": "\"Then", "ja": "「じゃ仕方がない。"}
+{"en": "we shall breakfast early and take the very first in the morning,\"", "ja": "――あしたの朝早く朝食をすまして、一番列車に乗ろう」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "\"Our presence is most urgently needed.", "ja": "「俺たちは出来るだけ早くゆかなければならない。"}
+{"en": "Ah! here is our expected cablegram.", "ja": "これがすなわち待ち設けた海底電信なのだ。"}
+{"en": "One moment, Mrs. Hudson, there may be an answer.", "ja": "ちょっとハドソン夫人、また返事がいるかもしれませんが、"}
+{"en": "No, that is quite as I expected.", "ja": "――いやこれでよい、これでよい。"}
+{"en": "This message makes it even more essential that we should not lose an hour", "ja": "この通信が手に入った以上は、いよいよ遅れてはならない。"}
+{"en": "in letting Hilton Cubitt know how matters stand,", "ja": "一時も早く、ヒルトン・キューピットに、この事を知らせてやらなければならない。"}
+{"en": "for it is a singular and a dangerous web in which our simple Norfolk squire is entangled.\"", "ja": "これがすなわちあのノーフォークの先生を悩ましている、蜘蛛の網だからね」"}
+{"en": "So, indeed, it proved,", "ja": "たしかに着々とその通りに進んだ。"}
+{"en": "and as I come to the dark conclusion of a story which had seemed to me to be only childish and bizarre, I experience once again the dismay and horror with which I was filled.", "ja": "私はその話を一時は子供威しと思ったのであったが、しかしその暗澹（あんたん）たる真相を知るにつれて、私はその後感じさせられた気味悪さを、今更にまた深く感じさせられた。"}
+{"en": "Would that I had some brighter ending to communicate to my readers, but these are the chronicles of fact,", "ja": "私は読者諸君には、どうにかしていい話をきかせたいと思うのであるが、しかし事実はこうであったのだ。"}
+{"en": "and I must follow to their dark crisis the strange chain of events which for some days made Riding Thorpe Manor a household word through the length and breadth of England.", "ja": "私はこのリドリング地方と云う名前が、僕が数日の間に、全英国の人口に膾炙（かいしゃ）した言葉となってしまった物語を、そのままここに述べてみることとする。"}
+{"en": "We had hardly alighted at North Walsham, and mentioned the name of our destination, when the station-master hurried towards us.", "ja": "私たちが北ワルシャムに着いて下車して、我々の行先を云うや否や、駅長が我々の前に走って来た。"}
+{"en": "\"I suppose that you are the detectives from London?\"", "ja": "彼はそしてこう云った。"}
+{"en": "said he.", "ja": "「あなた方はロンドンからお出でになった、探偵の方々でいらっしゃいますか？」"}
+{"en": "A look of annoyance passed over Holmes's face.", "ja": "ホームズの面上には、当惑の色が現われ出た。"}
+{"en": "\"What makes you think such a thing?\"", "ja": "「どうしてそう思うのです？」"}
+{"en": "\"Because Inspector Martin from Norwich has just passed through.", "ja": "「いえ実はじき今し方、検察官のマーチンさんが、ノーアウィッチから来て、ここを通過して行ったばかりなのです。"}
+{"en": "But maybe you are the surgeons.", "ja": "しかしあるいはあなた方は、外科医でいらっしゃるかもしれない。"}
+{"en": "She's not dead--", "ja": "――彼の女はまだ死にませんよ。"}
+{"en": "or wasn't by last accounts.", "ja": "いやさっききいた容子では、たしかにまだ死なないとのことでしたがね。"}
+{"en": "You may be in time to save her yet", "ja": "あなた方は間に合うでしょう。"}
+{"en": "--though it be for the gallows.\"", "ja": "――もっともどうせ絞首台にゆくことですがね」"}
+{"en": "Holmes's brow was dark with anxiety.", "ja": "ホームズの顔はすっかり不安に蔽（おお）われてしまった。"}
+{"en": "\"We are going to Riding Thorpe Manor,\"", "ja": "「我々は、リドリング村に行く途中ですが、しかし実は、全くどんなことが起ったのか、きいてはいないのです」"}
+{"en": "said he,", "ja": "彼は云った。"}
+{"en": "\"It's a terrible business,\"", "ja": "「それはなかなか大変なことですな」"}
+{"en": "said the stationmaster.", "ja": "駅長は云った。"}
+{"en": "\"They are shot, both Mr. Hilton Cubitt and his wife.", "ja": "「ヒルトン・キューピット夫妻は、どちらも撃たれたのだそうです。"}
+{"en": "She shot him and then herself--so the servants say.", "ja": "召使の者の云うには、まず夫人が檀那（だんな）さんを撃って、それから自分も撃ったのだそうですがね。"}
+{"en": "He's dead and her life is despaired of.", "ja": "それで檀那さんの方はもう事切れてしまい、夫人の方は虫の息ですって、――"}
+{"en": "Dear, dear, one of the oldest families in the county of Norfolk, and one of the most honoured.\"", "ja": "どうも全く、あたら名門の末を本当に、――」"}
+{"en": "Without a word Holmes hurried to a carriage, and during the long seven miles' drive he never opened his mouth.", "ja": "ホームズは一語も発せず、馬車に大急ぎで乗り、それから七哩（まいる）以上の道のりを、全く黙し切ったままであった。"}
+{"en": "Seldom have I seen him so utterly despondent.", "ja": "私は実際この時ほど、ホームズが落胆している様子を、そうたびたび見たことはない。"}
+{"en": "He had been uneasy during all our journey from town, and I had observed that he had turned over the morning papers with anxious attention,", "ja": "彼は町から以来と云うものは、全く不安に塞（とざ）されたままで、ただ凝（じっ）と朝刊に、不安な目を向けているだけであった。"}
+{"en": "but now this sudden realization of his worst fears left him in a blank melancholy.", "ja": "そして結局、最も悪い結果の予想が、俄然はっきりしてしまってからは、彼はもう救うべからざる憂欝に陥ってしまったのであった。"}
+{"en": "He leaned back in his seat, lost in gloomy speculation.", "ja": "彼は坐席に凭（もた）れて、沈思のために全く茫然自失の容子であった。"}
+{"en": "Yet there was much around to interest us,", "ja": "しかしもちろん我々の馬車の両側には、とても興味ある眺望があったのであった。"}
+{"en": "for we were passing through as singular a countryside as any in England, where a few scattered cottages represented the population of to-day, while on every hand enormous square-towered churches bristled up from the flat green landscape and told of the glory and prosperity of old East Anglia.", "ja": "すなわち我々の馬車の両側には、英国の特有の田園が展開し、方々に散在している田舎家は、今日の殷盛な人口を思わせ、またあっちにもこっちにも、大きな四角な塔の教会が、平原の地平線の上に屹立（きつりつ）し、緑の濃い風景、――と、昔の東部アングリアの、光栄と殷盛を想わしめるものであった。"}
+{"en": "At last the violet rim of the German Ocean appeared over the green edge of the Norfolk coast,", "ja": "その中（うち）に遂に、菫色（すみれいろ）の独逸（ドイツ）海の海面が、ノーフォークの海岸の緑の縁を越して現われた。"}
+{"en": "and the driver pointed with his whip to two old brick and timber gables which projected from a grove of trees.", "ja": "それから馭者（ぎょしゃ）は、茂った樹木の間からそびえ立っている煉瓦と木材の破風を、鞭で指しながら"}
+{"en": "\"That's Riding Thorpe Manor,\"", "ja": "「あれがリドリング村です」"}
+{"en": "said he.", "ja": "と云った。"}
+{"en": "As we drove up to the porticoed front door, I observed in front of it, beside the tennis lawn, the black tool-house and the pedestalled sundial", "ja": "私たちが玄関の戸口に乗りつけると、その前面は、テニスコートの横であったが、黒い戸の建物と、台の上に乗っている日時計が目に止まった。"}
+{"en": "with which we had such strange associations.", "ja": "これ等については私たちは、もちろん不思議な連想を持っているのである。"}
+{"en": "A dapper little man, with a quick, alert manner and a waxed moustache, had just descended from a high dog-cart.", "ja": "一人の気のきいたような小さな男が、蝋（ろう）を塗ったような髭をしていたが、二輪馬車から敏捷な容子で下り立った。"}
+{"en": "He introduced himself as Inspector Martin, of the Norfolk Constabulary, and he was considerably astonished when he heard the name of my companion.", "ja": "その男は、自分自身で、ノーフォーク警察の、検察官マーティンであると云って紹介して来たが、私の友人の名前を聞いた時は、かなり驚いた様子であった。"}
+{"en": "\"Why, Mr. Holmes,", "ja": "「これはまた、ホームズ先生、"}
+{"en": "the crime was only committed at three this morning.", "ja": "――犯罪は今朝の三時に行われたばかりなのですが、"}
+{"en": "How could you hear of it in London", "ja": "ロンドンで、どうしてこんなに早くお聞きになったのですか？"}
+{"en": "and get to the spot as soon as I?\"", "ja": "私と同時にこの現場にお出でになると云うことには全く驚きました」"}
+{"en": "\"I anticipated it.", "ja": "「私はこのことを予想したのでした。"}
+{"en": "I came in the hope of preventing it.\"", "ja": "実はそれを防止するためにやって来たのでしたが」"}
+{"en": "\"Then you must have important evidence, of which we are ignorant,", "ja": "「それではあなたは、われわれの知らない、重大な証拠をお持ちになっていられるでしょう、"}
+{"en": "for they were said to be a most united couple.\"", "ja": "――彼らは大変琴瑟相和（きんひつあいわ）した夫婦だったと云うことですがね、――」"}
+{"en": "\"I have only the evidence of the dancing men,\"", "ja": "「私はただあの舞踏人の話を知っているだけなんですが、――」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "\"I will explain the matter to you later.", "ja": "「いずれ後刻、そのことはお話しましょう。"}
+{"en": "Meanwhile, since it is too late to prevent this tragedy, I am very anxious that I should use the knowledge which I possess in order to insure that justice be done.", "ja": "いずれにしても、もう手遅れしてしまいましたが、しかし僕は、多少持ち合せている智識を、この事件の解決のために、出来るだけ提供し、利用したい希望なのですが、"}
+{"en": "Will you associate me in your investigation, or will you prefer that I should act independently?\"", "ja": "あなたはこの事件の調査については、私と協同して下さいますか、、またそれとも別々に行動しましょうか？」"}
+{"en": "\"I should be proud to feel that we were acting together, Mr. Holmes,\"", "ja": "「いえホームズ先生、協力してやらせて下されば光栄の至りですが、――」"}
+{"en": "said the inspector, earnestly.", "ja": "その検察官は熱意をこめて云った。"}
+{"en": "\"In that case I should be glad to hear the evidence and to examine the premises without an instant of unnecessary delay.\"", "ja": "「では早速証拠を持ち寄り合って、時を移さずこの邸内の調査を始めようではないですか、――」"}
+{"en": "Inspector Martin had the good sense to allow my friend to do things in his own fashion, and contented himself with carefully noting the results.", "ja": "検察官のマーティンは私の友人に大変好意を持っていて、私の友人を自由に活動させて、ただその結果を注意深く見ているだけであった。"}
+{"en": "The local surgeon, an old, white-haired man, had just come down from Mrs. Hilton Cubitt's room, and he reported that her injuries were serious, but not necessarily fatal.", "ja": "白髪の老田舎外科医が、ヒルトン・キューピット夫人の診察に来ていたが、その話に因れば、彼の女の傷は重傷ではあったが、しかし命には差支えがなかろうと云うことであった。"}
+{"en": "The bullet had passed through the front of her brain, and it would probably be some time before she could regain consciousness.", "ja": "弾丸（たま）は彼の女の前額を貫通していたが、たぶん彼の女はしばらくの間は、意識を失ったに相違なかった。"}
+{"en": "On the question of whether she had been shot or had shot herself, he would not venture to express any decided opinion.", "ja": "彼の女が撃たれたのであるのか、それとも自分から自分を撃ったのであるかと云うことについては、彼の女は決して口を開かなかった。"}
+{"en": "Certainly the bullet had been discharged at very close quarters.", "ja": "そしてそれは疑もなく、ごく近距離から発射されたものに相違なかった。"}
+{"en": "There was only the one pistol found in the room, two barrels of which had been emptied.", "ja": "室の中に一挺（ちょう）のピストルっきり見出されなかったが、しかし薬莢（やくきょう）は、二つ空になっていた。"}
+{"en": "Mr. Hilton Cubitt had been shot through the heart.", "ja": "ヒルトン・キューピット氏は、心臓を打ちぬかれていた。"}
+{"en": "It was equally conceivable that he had shot her and then himself, or that she had been the criminal, for the revolver lay upon the floor midway between them.", "ja": "そのただ一挺のピストルは、二人のちょうど中間の床の上に落ちてあったが、したがってこれは、ヒルトン・キューピットがその妻を撃ってから、自分自身を撃ったのか、それとも妻の方が先に夫を撃って自分を撃ったのか、いずれとも考え迷われることであった。"}
+{"en": "\"Has he been moved?\"", "ja": "「ヒルトン・キューピットさんは動かされましたか？」"}
+{"en": "asked Holmes.", "ja": "ホームズは訊ねた。"}
+{"en": "\"We have moved nothing except the lady.", "ja": "「いいえ、奥さんの外（ほか）は、何も動かしません。"}
+{"en": "We could not leave her lying wounded upon the floor.\"", "ja": "怪我をしている者だけは、そのまま床の上に放っておくわけにはゆきませんからな」"}
+{"en": "\"How long have you been here, Doctor?\"", "ja": "「あなたはいつ頃ここに来られました？」"}
+{"en": "\"Since four o'clock.\"", "ja": "「四時でした」"}
+{"en": "\"Anyone else?\"", "ja": "「外に誰かいましたか？」"}
+{"en": "\"Yes, the constable here.\"", "ja": "「巡査が来ています」"}
+{"en": "\"And you have touched nothing?\"", "ja": "「では何にも手を触れないわけですな？」"}
+{"en": "\"Nothing.\"", "ja": "「えい、決して、――」"}
+{"en": "\"You have acted with great discretion.", "ja": "「なかなか慎重におやりになりましたな。"}
+{"en": "Who sent for you?\"", "ja": "誰があなたをお迎えにゆきました？」"}
+{"en": "\"The housemaid, Saunders.\"", "ja": "「女中のサウンダーでした」"}
+{"en": "\"Was it she who gave the alarm?\"", "ja": "「最初に見つけたのはその女だったのですか？」"}
+{"en": "\"She and Mrs. King, the cook.\"", "ja": "「その女とそれから、料理女（コック）のキングさんと云うのと二人だそうです」"}
+{"en": "\"Where are they now?\"", "ja": "「その人たちはどこにいますか？」"}
+{"en": "\"In the kitchen, I believe.\"", "ja": "「たぶん台所にいるでしょう」"}
+{"en": "\"Then I think we had better hear their story at once.\"", "ja": "「そう、それでは早速、その人たちからきいてみよう」"}
+{"en": "The old hall, oak-panelled and high-windowed, had been turned into a court of investigation.", "ja": "樫の腰板の、高い窓のついた古い広間が、審理所にあてられた。"}
+{"en": "Holmes sat in a great, old-fashioned chair, his inexorable eyes gleaming out of his haggard face.", "ja": "ホームズは大きな古い型の椅子に腰かけて、古色蒼然とした顔から烱々（けいけい）とした眼光を輝かしていた。"}
+{"en": "I could read in them a set purpose to devote his life to this quest until the client whom he had failed to save should at last be avenged.", "ja": "その目の中には、彼が依頼されながら、みすみす助ける機会を失ってしまった依頼者のために、見事に復讐してやるまでは、この事件に心身を賭してやるという決心の色が窺われた。"}
+{"en": "The trim Inspector Martin, the old, gray-headed country doctor, myself, and a stolid village policeman made up the rest of that strange company.", "ja": "小ざっぱりとした検察官のマーティン、灰色髭の老田舎医師、私自身、のろまなような田舎巡査とが、変な恰好のつかない一坐をつくった。"}
+{"en": "The two women told their story clearly enough.", "ja": "その二人の女は、よく明瞭に話してくれた。"}
+{"en": "They had been aroused from their sleep by the sound of an explosion, which had been followed a minute later by a second one.", "ja": "その話に因ると、彼の女たちは爆音に目をさまさせられたのであったが、その時この爆音は、ものの一分も間があったろうか、すぐにきえたそうである。"}
+{"en": "They slept in adjoining rooms, and Mrs. King had rushed in to Saunders.", "ja": "彼の女たちは室をとなり合せて、寝ていたのであったがキング女の方がサウンダー女の方に、驚いて飛びこんで行った。"}
+{"en": "Together they had descended the stairs.", "ja": "そして二人は一緒に階段を下りた。"}
+{"en": "The door of the study was open, and a candle was burning upon the table.", "ja": "書斎の扉（ドア）は開いていて、テーブルの上には、ローソクがともっていた。"}
+{"en": "Their master lay upon his face in the centre of the room.", "ja": "そして彼の女たちの主人は、うつ伏せになって室の中央に斃（たお）れて、"}
+{"en": "He was quite dead.", "ja": "もう全く息は絶えており、"}
+{"en": "Near the window his wife was crouching, her head leaning against the wall.", "ja": "夫人の方は窓近くに這い寄って、壁に頭を寄せかけていたが"}
+{"en": "She was horribly wounded, and the side of her face was red with blood.", "ja": "大変な負傷で、顔の半面は血まみれになっていて、"}
+{"en": "She breathed heavily, but was incapable of saying anything.", "ja": "もう何も云うことが出来ず、ただ呻吟（うめい）ていたそうである。"}
+{"en": "The passage, as well as the room, was full of smoke and the smell of powder.", "ja": "室の中はもちろん、廊下も何も、火薬の煙と臭（におい）で一ぱいで、"}
+{"en": "The window was certainly shut and fastened upon the inside.", "ja": "室の窓はたしかに閉められて、内側からは掛け金もかけられてあったと。"}
+{"en": "Both women were positive upon the point.", "ja": "二人の女どもはこの点については、とてもよくはっきりしていた。"}
+{"en": "They had at once sent for the doctor and for the constable.", "ja": "彼の女たちは早速、医者と駐在所に知らせた。"}
+{"en": "Then, with the aid of the groom and the stable-boy, they had conveyed their injured mistress to her room.", "ja": "それから馬丁と厩番の少年の手を藉（か）りて、夫人をその室に移したのであった。"}
+{"en": "Both she and her husband had occupied the bed.", "ja": "主人夫婦はたしかにその夜は寝室に入ったに相違なかった。"}
+{"en": "She was clad in her dress--he in his dressing-gown, over his night-clothes.", "ja": "婦人のほうは日常の着物を着ていたが、しかし主人の方は、寝衣（ドレッシングガウン）に、寛服（ナイトガウン）を重ねていたのであった。"}
+{"en": "Nothing had been moved in the study.", "ja": "書斎の中は全く一物も動かされた形跡はなかった。"}
+{"en": "So far as they knew, there had never been any quarrel between husband and wife.", "ja": "その女たちの見て知っているところでは、その夫妻の間に、喧嘩と云ったようなもののあったためしも無いようであったと。"}
+{"en": "They had always looked upon them as a very united couple.", "ja": "とても仲のよい夫婦と見られていたのであった。"}
+{"en": "These were the main points of the servants' evidence.", "ja": "以上のことは女中たちの陳述の大要であるが、"}
+{"en": "In answer to Inspector Martin, they were clear that every door was fastened upon the inside, and that no one could have escaped from the house.", "ja": "検察官マーティンに答えた言葉では、扉（ドア）と云う扉（ドア）は全部、内部からしっかりと締め下されてあって、誰も家の中から遁げ出したはずはないと云うことであった。"}
+{"en": "In answer to Holmes, they both remembered that they were conscious of the smell of powder from the moment that they ran out of their rooms upon the top floor.", "ja": "それからホームズの問いに対しては、彼の女たちは、一番上の自分たちの室を飛び出した時に、火薬の臭をかいだと云うのであった。"}
+{"en": "\"I commend that fact very carefully to your attention,\"", "ja": "「これはなかなか慎重にかからなければならない大問題ですな」"}
+{"en": "said Holmes to his professional colleague.", "ja": "ホームズは仕事仲間に云った。"}
+{"en": "\"And now I think that we are in a position to undertake a thorough examination of the room.\"", "ja": "「さあ、それでは、一つ室の中を徹底的に調べてみようじゃないですか」"}
+{"en": "The study proved to be a small chamber,", "ja": "書斎は小さな室であった。"}
+{"en": "lined on three sides with books, and with a writing-table facing an ordinary window, which looked out upon the garden.", "ja": "三方は書物を立て並べられ、書机（しょづくえ）は普通の窓に向って置かれ、そこから庭園は見渡されるのであった。"}
+{"en": "Our first attention was given to the body of the unfortunate squire,", "ja": "まず我々は第一に、この不幸な田園紳士の死体を検べた。"}
+{"en": "whose huge frame lay stretched across the room.", "ja": "彼のがっかりした躯幹（くかん）は、室にさし渡しになって横たわっていた。"}
+{"en": "His disordered dress showed that he had been hastily aroused from sleep.", "ja": "着衣は大変乱れていたが、それはあるいは彼が眠ってるところから、飛び起きたのだろうと思われた。"}
+{"en": "The bullet had been fired at him from the front, and had remained in his body, after penetrating the heart.", "ja": "弾丸は前面から撃たれて、彼の心臓をやっつけたまま、体内に止まっていた。"}
+{"en": "His death had certainly been instantaneous and painless.", "ja": "彼の死はたしかに即死で、しかももう苦痛さえも無いものであったろう。"}
+{"en": "There was no powder-marking either upon his dressing-gown or on his hands.", "ja": "火薬の痕跡は、寝衣（ドレッシングガウン）にもまた手にもついてはいなかった。"}
+{"en": "According to the country surgeon, the lady had stains upon her face, but none upon her hand.", "ja": "また田舎医師の言葉では、妻の方は顔には血がまみれていたが、しかし手には何にもついてはいなかったと云うことであった。"}
+{"en": "\"The absence of the latter means nothing,", "ja": "「手に何にもついていなくっては、何にもならない、――"}
+{"en": "though its presence may mean everything,\"", "ja": "もっとももしついていたとすれば、もうそれで何もかも一目瞭然だけれど、――」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "\"Unless the powder from a badly fitting cartridge happens to spurt backward, one may fire many shots without leaving a sign.", "ja": "「しかしもっとも実弾がうまく装填されておれば、何発でも何の痕跡ものこさずに、撃つことも出来ることは出来るのだが、――"}
+{"en": "I would suggest that Mr. Cubitt's body may now be removed.", "ja": "さてもう、キューピット氏の死体は、動かしてもよろしいでしょう。"}
+{"en": "I suppose, Doctor, you have not recovered the bullet which wounded the lady?\"", "ja": "それから先生（ドクトル）、夫人を撃った弾丸は、見つかりましょうか？」"}
+{"en": "\"A serious operation will be necessary before that can be done.", "ja": "「何しろ非常な大手術をしなければなりませんな。"}
+{"en": "But there are still four cartridges in the revolver.", "ja": "しかし実弾は四発ありますから、"}
+{"en": "Two have been fired and two wounds inflicted, so that each bullet can be accounted for\".", "ja": "二発で二人が撃たれ、弾丸の勘定はよく合いますがな」"}
+{"en": "\"So it would seem,\"", "ja": "「そう思いますか？」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "\"Perhaps you can account also for the bullet which has so obviously struck the edge of the window?\"", "ja": "「あなたはあのたしかに、窓の縁を射た弾丸も勘定に入れておられるでしょうな？」"}
+{"en": "He had turned suddenly, and his long, thin finger was pointing to a hole", "ja": "彼は突然振り返って、痩せた長い指で一点を指さした。"}
+{"en": "which had been drilled right through the lower window-sash, about an inch above the bottom.", "ja": "なるほど、窓の下際から一吋（インチ）ばかり上の処を、見事に貫通した穴があった。"}
+{"en": "\"By George!\"", "ja": "「ああ！」"}
+{"en": "cried the inspector.", "ja": "検察官は歎声を上げた。"}
+{"en": "\"How ever did you see that?\"", "ja": "「どうしてあんなものに目が止まったのですか？」"}
+{"en": "\"Because I looked for it.\"", "ja": "「いや私は探していたのです」"}
+{"en": "\"Wonderful!\"", "ja": "「これは怖ろしい！」"}
+{"en": "said the country doctor.", "ja": "田舎医者は云った。"}
+{"en": "\"You are certainly right, sir.", "ja": "「いや確に仰せの通りに相違ありません。"}
+{"en": "Then a third shot has been fired, and therefore a third person must have been present.", "ja": "それでは、第三弾が発射されてるわけですから、第三者がいなければならないわけですな。"}
+{"en": "But who could that have been, and how could he have got away?\"", "ja": "しかしそうしたら、どんな者がここに現われて、そしてどうして遁げ出したのでしょう？」"}
+{"en": "\"That is the problem which we are now about to solve,\"", "ja": "「そのことがすなわち、これからの我々の問題ですがね」"}
+{"en": "said Sherlock Holmes.", "ja": "シャーロック・ホームズが云った。"}
+{"en": "\"You remember,", "ja": "「ね――"}
+{"en": "Inspector Martin, when the servants said that on leaving their room they were at once conscious of a smell of powder, I remarked that the point was an extremely important one?\"", "ja": "検察官のマーティンさん、女中たちは室を出るや否や、火薬の臭がしたと云った時に私はそれはとても重要なことだと云ったでしょう？」"}
+{"en": "\"Yes, sir;", "ja": "「えい、たしかに仰有いました。"}
+{"en": "but I confess I did not quite follow you.\"", "ja": "しかし私は正直のところ、あまりそれに同感も感じていませんでした」"}
+{"en": "\"It suggested that at the time of the firing, the window as well as the door of the room had been open.", "ja": "「このことはつまり、発射された時には、室のドアも窓も開いていたのだと云うことを暗示しているのです。"}
+{"en": "Otherwise the fumes of powder could not have been blown so rapidly through the house.", "ja": "もしそうでないとしたら、そんなに早く、火薬の臭が家中に、ただよい渡るはずはないからね。"}
+{"en": "A draught in the room was necessary for that.", "ja": "それにはどうしても一陣の隙間風を必要とする。"}
+{"en": "Both door and window were only open for a very short time, however.\"", "ja": "ドアも窓も、ほんのちょっとの間開かれたのだ」"}
+{"en": "\"How do you prove that?\"", "ja": "「それはどうして証明なさいますか？」"}
+{"en": "\"Because the candle was not guttered.\"", "ja": "「ローソクが傾いてへっていなかったから、――」"}
+{"en": "\"Capital!\"", "ja": "「ああこれは敵（かな）わない！」"}
+{"en": "cried the inspector.", "ja": "検察官は叫んだ。"}
+{"en": "\"Capital!", "ja": "「ああ、大したものだ！」"}
+{"en": "\"Feeling sure that the window had been open at the time of the tragedy, I conceived that there might have been a third person in the affair, who stood outside this opening and fired through it.", "ja": "「この悲劇の時は、窓は開いていたと云うことを認めてみると、この事件には第三者があって、その開いていた窓を通して、窓の外から射撃したに相違ないと云うことが考えられる。"}
+{"en": "Any shot directed at this person might hit the sash.", "ja": "それからその者を撃った弾丸のどれかは窓縁に当ったに相違ない。"}
+{"en": "I looked, and there, sure enough, was the bullet mark!\"", "ja": "私は見渡したら果して、弾痕があった！」"}
+{"en": "\"But how came the window to be shut and fastened?\"", "ja": "「しかしそうしたとしたら、窓が閉められて、しかも内側からしっかりと締めつけられたのはどう云うわけでしょう？」"}
+{"en": "\"The woman's first instinct would be to shut and fasten the window.", "ja": "「女と云うものは、本能的に窓を閉めて、しかも締めつけるものではないですかね。"}
+{"en": "But, halloa!", "ja": "ああ、おやおや、"}
+{"en": "What is this?\"", "ja": "――これは何だろう？」"}
+{"en": "It was a lady's hand-bag which stood upon the study table--", "ja": "机の上に婦人の手提袋（ハンドバック）があった。"}
+{"en": "a trim little handbag of crocodile-skin and silver.", "ja": "気のきいた小さな、鰐皮のものであった。"}
+{"en": "Holmes opened it and turned the contents out.", "ja": "ホームズは中のものを取り出した。"}
+{"en": "There were twenty fifty-pound notes of the Bank of England, held together by an india-rubber band--nothing else.", "ja": "その中には、英蘭銀行の五十磅（ポンド）紙幣二十枚が、印度ゴムのバンドでしばられて入っていた外（ほか）、あとは何にもなかった。"}
+{"en": "\"This must be preserved, for it will figure in the trial\"", "ja": "「これは法廷で必要だろうから、よく注意して保管しておくように」"}
+{"en": "said Holmes, as he handed the bag with its contents to the inspector.", "ja": "ホームズは中味をしっかりと入れて、その手提袋を、検察官に渡しながら云った。"}
+{"en": "\"It is now necessary that we should try to throw some light upon this third bullet,", "ja": "「さて今度はこの第三弾の正体をつき止めなければならないことになった、"}
+{"en": "which has clearly, from the splintering of the wood, been fired from inside the room.", "ja": "――もっともこれは木の裂け具合から見て、明かに内側から発射されたものだが、"}
+{"en": "I should like to see Mrs. King, the cook, again.", "ja": "――さて料理女（コック）のキングさんにちょっとききたいが、"}
+{"en": "You said, Mrs. King, that you were awakened by a LOUD explosion.", "ja": "あのキングさんあんたは、とても高い爆音に目をさまされたと云ったが、"}
+{"en": "When you said that, did you mean that it seemed to you to be louder than the second one?\"", "ja": "これは最初の一弾が、次の爆音よりも大きかったと云うことかね？」"}
+{"en": "\"Well, sir,", "ja": "「はあ、左様でございます。"}
+{"en": "it wakened me from my sleep, so it is hard to judge.", "ja": "わたしはその音で、目を醒ましたのでございましたが、どうもはっきりとはいたしませんが、"}
+{"en": "But it did seem very loud.\"", "ja": "とにかく大変大きな音でございました」"}
+{"en": "\"You don't think that it might have been two shots fired almost at the same instant?\"", "ja": "「君は一度に二発うたれたのだと云うようには感ぜられなかったかね？」"}
+{"en": "\"I am sure I couldn't say, sir.\"", "ja": "「さあ、それははっきりとは申し上げられないんでございますが――」"}
+{"en": "\"I believe that it was undoubtedly so.", "ja": "「しかしそれはきっとそうだったろう。"}
+{"en": "I rather think, Inspector Martin, that we have now exhausted all that this room can teach us.", "ja": "さて検察官のマーティンさん、もうこの室で調査することは、全く尽きてしまったと思われるが、"}
+{"en": "If you will kindly step round with me, we shall see what fresh evidence the garden has to offer.\"", "ja": "何でしたら今度は庭の方を歩きまわって、新たな証拠をさがそうじゃないかね」"}
+{"en": "A flower-bed extended up to the study window, and we all broke into an exclamation as we approached it.", "ja": "書斎の窓の下からずっと、花壇になっていたが、我々はそこに近づいてみて、あっと驚かされてしまった。"}
+{"en": "The flowers were trampled down, and the soft soil was imprinted all over with footmarks.", "ja": "花は踏みにじられ、柔かな土の上には、足跡が一ぱいについていた。"}
+{"en": "Large, masculine feet they were, with peculiarly long, sharp toes.", "ja": "それは男性の大きな足跡で、特に足先が鋭く長い足のものであった。"}
+{"en": "Holmes hunted about among the grass and leaves like a retriever after a wounded bird.", "ja": "ホームズは草や木のあいだを、レトリーバー犬が傷ついた鳥を探すように、探しまわったが、"}
+{"en": "Then, with a cry of satisfaction, he bent forward and picked up a little brazen cylinder.", "ja": "遂に彼はひどく喜んだ叫びを上げて、身をこごめて、小さな真鍮（しんちゅう）の円筒を拾い上げた。"}
+{"en": "\"I thought so,\"", "ja": "「僕はたしかに、ピストル又は、薬莢の自動排除装置があって、きっと第三弾があるに相違ないと睨んでいた、――」"}
+{"en": "said he,", "ja": "彼は云った。"}
+{"en": "I really think, Inspector Martin, that our case is almost complete.\"", "ja": "「さあ検察官マーティンさん、これでもうほとんど、この事件も調査が出来上ったですな」"}
+{"en": "The country inspector's face had shown his intense amazement at the rapid and masterful progress of Holmes's investigation.", "ja": "この田舎検察官はしかし、ホームズのあまりに急速な、あまりにも鮮かな探査振りに、ただ驚歎の色を現わしているのであった。"}
+{"en": "At first he had shown some disposition to assert his own position, but now he was overcome with admiration, and ready to follow without question wherever Holmes led.", "ja": "最初の中（うち）は多少は、自分自身の立場も、発揮したいような傾向も見えたが、しかし今はもうとても歯がたたないと観念して、ただホームズの為すままに、唯々諾々として、後からついて来るだけのことになってしまった。"}
+{"en": "\"Whom do you suspect?\"", "ja": "「犯人は誰でしょう？」"}
+{"en": "he asked.", "ja": "彼は訊ねた。"}
+{"en": "\"I'll go into that later.", "ja": "「いやその事はいずれ後にしましょう。"}
+{"en": "There are several points in this problem which I have not been able to explain to you yet.", "ja": "実はこの問題には、まだあなたにはっきりと説明しかねることが二三点あるんですがね。"}
+{"en": "Now that I have got so far, I had best proceed on my own lines,", "ja": "とにかくここまで来たのですから、僕はこの上もひた押しに押し切った方がいいと思われるのです。"}
+{"en": "and then clear the whole matter up once and for all.\"", "ja": "それから全部を明瞭に発表しましょう」"}
+{"en": "\"Just as you wish, Mr. Holmes, so long as we get our man.\"", "ja": "「犯人があがるまでは、ホームズ先生、あなたの御自由におやり下さい」"}
+{"en": "\"I have no desire to make mysteries, but it is impossible at the moment of action to enter into long and complex explanations.", "ja": "「いや別に秘密主義でゆこうと云う意味でもないのですが、いずれ事件の進行中に、長い込み入った説明をすることは難かしいことですからね。"}
+{"en": "I have the threads of this affair all in my hand.", "ja": "まあ僕はこの事件のすべての鍵は持っています。"}
+{"en": "Even if this lady should never recover consciousness, we can still reconstruct the events of last night and insure that justice be done.", "ja": "もし夫人が遂に意識を回復しなくっても、この事件は明瞭にすることが出来ますよ。"}
+{"en": "First of all, I wish to know whether there is any inn in this neighbourhood known as `Elrige's'?\"", "ja": "まず第一に、この近所に、エルライジと云う名前で通っている旅館があるかどうか、確かめたいものだがね」"}
+{"en": "The servants were cross-questioned, but none of them had heard of such a place.", "ja": "下僕の者共をよく審問してみたが、しかし誰もそんな旅館を知っているものはなかった。"}
+{"en": "The stable-boy threw a light upon the matter", "ja": "その中（うち）に厩番の少年が、この事に対して一条の光明を与えてくれた。"}
+{"en": "by remembering that a farmer of that name lived some miles off, in the direction of East Ruston.", "ja": "それはここから東ラストンの方に、ちょっと離れているところに、こう云う名前の農夫のあることを思い出してくれたのであった。"}
+{"en": "\"Is it a lonely farm?\"", "ja": "「そこはとても人里離れた農場かね？」"}
+{"en": "\"Very lonely, sir.\"", "ja": "「えい、とても寂しいところです」"}
+{"en": "\"Perhaps", "ja": "「どうだろう、"}
+{"en": "they have not heard yet of all that happened here during the night?\"", "ja": "――そこの人達は、まだここの事件について知らないだろうか？」"}
+{"en": "\"Maybe not, sir.\"", "ja": "「さあ、たぶんまだきこえてはいないだろうと思いますが、――」"}
+{"en": "Holmes thought for a little,", "ja": "ホームズはしばらくの間、"}
+{"en": "and then a curious smile played over his face.", "ja": "――静（じ）っと思案していたが、やがて小気味の悪い微笑をうかべた。"}
+{"en": "\"Saddle a horse, my lad,\"", "ja": "「おい若者君、――馬の用意をしてくれたまえ。"}
+{"en": "\"I shall wish you to take a note to Elrige's Farm.\"", "ja": "御苦労だがこの書付を、エルライジと云う人の農場に持って行ってもらいたいんだ」"}
+{"en": "He took from his pocket the various slips of the dancing men.", "ja": "彼はポケットから、舞踏人のいろいろの紙片（かみきれ）を取り出した。"}
+{"en": "With these in front of him, he worked for some time at the study-table.", "ja": "そしてこれを前に並べて、机に向って何かやっていた。"}
+{"en": "Finally he handed a note to the boy, with directions to put it into the hands of the person to whom it was addressed, and especially to answer no questions of any sort which might be put to him.", "ja": "そして一枚の書付を少年に渡して、その書付をきっとこの宛名の人に手渡し、またどんな質問をされても、決して答えないようにと云うことを、くれぐれも云い含めた。"}
+{"en": "I saw the outside of the note, addressed in straggling, irregular characters, very unlike Holmes's usual precise hand.", "ja": "その封筒の上の文字は、私の目に止まったが、ホームズの簡明な文字とは似も似つかず、苦心して手跡をかえたものであった。"}
+{"en": "It was consigned to Mr. Abe Slaney, Elriges Farm, East Ruston, Norfolk.", "ja": "その宛名は、ノーフォーク、東ラストン・エルライジ農場、アベー・スラネー氏と云うのであった。"}
+{"en": "\"I think, Inspector,\"", "ja": "「検察官――」"}
+{"en": "Holmes remarked,", "ja": "ホームズは叫んだ。"}
+{"en": "\"that you would do well to telegraph for an escort,", "ja": "「護衛の者を派遣してもらうよう、打電した方がいいと思いますがね。"}
+{"en": "as, if my calculations prove to be correct, you may have a particularly dangerous prisoner to convey to the county jail.", "ja": "もし僕の胸算用に誤りがないとすれば、あなたはとても危険な犯人を護送しなければならないことになるかもしれないと思われますよ。"}
+{"en": "The boy who takes this note could no doubt forward your telegram.", "ja": "いやこの書付を持ってゆく子供は、きっとあなたに電報を打たせることになりますよ。"}
+{"en": "If there is an afternoon train to town, Watson, I think we should do well to take it,", "ja": "さてワトソン君、もし午後の汽車があるなら、我々はそれに乗った方がよかろう。"}
+{"en": "as I have a chemical analysis of some interest to finish, and this investigation draws rapidly to a close.\"", "ja": "やってしまいたい、面白い化学の分析の仕事もあったし、またこの事件の方はもう、さっさと片づいてしまいそうだから――」"}
+{"en": "When the youth had been dispatched with the note, Sherlock Holmes gave his instructions to the servants.", "ja": "その若者が出発してしまってからは、ホームズは今度は、下僕たちに指図した。"}
+{"en": "If any visitor were to call asking for Mrs. Hilton Cubitt, no information should be given as to her condition, but he was to be shown at once into the drawing-room.", "ja": "もし夫人を訪ねて来た者があっても、決してその状態を知らせてはならないこと、――そしてその者を早速、応接間に通すこと"}
+{"en": "He impressed these points upon them with the utmost earnestness.", "ja": "――こう云うことを彼は、熱心に云い含めた。"}
+{"en": "Finally he led the way into the drawing-room, with the remark that the business was now out of our hands, and that we must while away the time as best we might until we could see what was in store for us.", "ja": "それから最後に彼は、もう仕事もなくなったから、いずれまた何か出てくるまで、ブラブラしていようじゃないかね、と云いながら、応接間の方に引き上げて行った。"}
+{"en": "The doctor had departed to his patients, and only the inspector and myself remained.", "ja": "田舎医者は、患者のところに出かけたので、もう私と検察官と三人だけになってしまった。"}
+{"en": "\"I think that I can help you to pass an hour in an interesting and profitable manner,\"", "ja": "「さあそれでは、この一時間の間を、最も愉快に、最も有益に過そう」"}
+{"en": "said Holmes, drawing his chair up to the table, and spreading out in front of him the various papers upon which were recorded the antics of the dancing men.", "ja": "ホームズはこう云って、テーブルに椅子を引き寄せ、変なおどけたような、舞踏人を書いた紙片（かみきれ）を、その前に拡げた。"}
+{"en": "\"As to you, friend Watson, I owe you every atonement for having allowed your natural curiosity to remain so long unsatisfied.", "ja": "「いや、わが友人のワトソン君、君には君の持前の好奇心を満足させずに、今まで待たせておいたことの、埋め合せをしなければならないし、"}
+{"en": "To you, Inspector, the whole incident may appeal as a remarkable professional study.", "ja": "それから検察官、あなたにはこの事件の一切は、最も刮目（かつもく）すべき職業上の研究問題として現われるでしょう。"}
+{"en": "I must tell you, first of all, the interesting circumstances connected with the previous consultations which Mr. Hilton Cubitt has had with me in Baker Street.\"", "ja": "それでまず第一にあなたにヒルトン・キューピット氏が、ベーカー街で私に相談に来られた事情についてお話しなければならない」"}
+{"en": "He then shortly recapitulated the facts which have already been recorded.", "ja": "彼は簡単に要領よく、前に述べたようなことを概略して話すのであった。"}
+{"en": "\"I have here in front of me these singular productions,", "ja": "「ここにこう云う全く奇妙なものがありますがね。"}
+{"en": "at which one might smile, had they not proved themselves to be the forerunners of so terrible a tragedy.", "ja": "まあ誰が見たって、これがあんな恐ろしい悲劇の、先駆であったと云ったら、まず一笑に附してしまいたくなりますがね。"}
+{"en": "I am fairly familiar with all forms of secret writings, and am myself the author of a trifling monograph upon the subject, in which I analyze one hundred and sixty separate ciphers, but I confess that this is entirely new to me.", "ja": "私は元来、暗号記号については、いささか自信があって、それについてはつまらない論文もありますが、その中で私は、百六十種の暗号を解析してみましたが、しかしこれはまた、私にとっても全く最初のものでした。"}
+{"en": "The object of those who invented the system has apparently been to conceal that these characters convey a message, and to give the idea that they are the mere random sketches of children.", "ja": "この暗号を案出したものの考えでは、これに意味があるなどと云うことは巧みに隠して、ただ子供たちを、気まぐれにスケッチしたものだと思わせるつもりなのだがね。"}
+{"en": "\"Having once recognized, however, that the symbols stood for letters, and having applied the rules which guide us in all forms of secret writings, the solution was easy enough.", "ja": "しかし、これも結局文字の代用であるとわかって、それからあらゆる暗号文字の解釈に適用する法則をあてはめたところ、この解釈も容易でした。"}
+{"en": "The first message submitted to me was so short that it was impossible for me to do more than to say, with some confidence, that the symbol XXX stood for E.", "ja": "最初に私の手に入ったものは、ごく短いものだったので、この記号はアルファベットのＥを表わすものだと云うことを、云い切られただけでした。"}
+{"en": "As you are aware, E is the most common letter in the English alphabet, and it predominates to so marked an extent that even in a short sentence one would expect to find it most often.", "ja": "御存じの通り英語のアルファベットの中では、Ｅは最も普通の文字で、どんな短い文章のなかでも、一番出て来る文字ですからな。"}
+{"en": "Out of fifteen symbols in the first message, four were the same, so it was reasonable to set this down as E.", "ja": "この最初手に入った文章の中では、十五の記号の中で、これは四つだけあって、一番多かったので、これをＥと帰納したわけです。"}
+{"en": "It is true that in some cases the figure was bearing a flag, and in some cases not, but it was probable, from the way in which the flags were distributed, that they were used to break the sentence up into words.", "ja": "それから記号もある時は旗を持ち、ある場合は持っていないが、段々考えたらこの旗は、文章を言葉に区切るためのものでした。"}
+{"en": "I accepted this as a hypothesis, and noted that E was represented by XXX.", "ja": "私はこれを仮説として立ててをＥと置いたのです。"}
+{"en": "\"But now came the real difficulty of the inquiry.", "ja": "しかしここまではいいとして、これから先がなかなか大変なのです。"}
+{"en": "The order of the English letters after E is by no means well marked,", "ja": "英語の文字では、Ｅの後に来るものは、決してそう決定的ではない。"}
+{"en": "and any preponderance which may be shown in an average of a printed sheet may be reversed in a single short sentence.", "ja": "ちょっとした文章などで平均を取ってみたら、あるいは反対の現象を現わしているかもしれない。"}
+{"en": "Speaking roughly, T, A, O, I, N, S, H, R, D, and L are the numerical order in which letters occur, but T, A, O, and I are very nearly abreast of each other,", "ja": "まあ大ざっぱに云ってみて、Ｔ、Ａ、Ｏ、Ｉ、Ｎ、Ｓ、Ｈ、Ｒ、Ｄ、Ｌ、――と云うのは、その頻出数の順序であるが、しかし、Ｔ、Ａ、Ｏ、Ｉなどは、実に伯仲しているからね。"}
+{"en": "and it would be an endless task to try each combination until a meaning was arrived at.", "ja": "これ等の結合を考えて、意味を見出そうと云うことは、それは全く際限の無い仕事になる。"}
+{"en": "I therefore waited for fresh material.", "ja": "それで私は、新たな材料の来るのを待った。"}
+{"en": "In my second interview with Mr. Hilton Cubitt he was able to give me two other short sentences and one message, which appeared--since there was no flag--to be a single word.", "ja": "第二回のヒルトン・キューピット氏との会見では、私は二つの短い文章と、一つの牒号（メッセージ）を提供されたが、この牒号（メッセージ）には旗が無いので、単語に相違ないと思った。"}
+{"en": "Here are the symbols.", "ja": "これがそれですがね。"}
+{"en": "Now, in the single word I have already got the two E's coming second and fourth in a word of five letters.", "ja": "さて単語としてみると、これは五文字から成る単語で、しかも私が先に推定したＥが、第二と第四にあるもの。"}
+{"en": "It might be `sever,' or `lever,' or `never.'", "ja": "――それは SEVER（切り放す）か、LEVER（梃子（てこ））か、NEVER（けっして、―打ち消しの）などとなる。"}
+{"en": "There can be no question that the latter as a reply to an appeal is far the most probable,", "ja": "哀願に対する返事としては、この最後のものはもう異論なく、最も適当である。"}
+{"en": "and the circumstances pointed to its being a reply written by the lady.", "ja": "そしておそらくはこれは、夫人の書いた返事であろうと思われる点も大いにあるのだ。"}
+{"en": "Accepting it as correct, we are now able to say that the symbols stand respectively for N, V, and R.", "ja": "これだけのことを認容してみると、もう記号のはそれぞれ、Ｎ、Ｖ、Ｒ、と云うことになる。"}
+{"en": "\"Even now I was in considerable difficulty, but a happy thought put me in possession of several other letters.", "ja": "しかしまだまだ私には、難関があるのであったが、幸いに他の文字の解釈に、都合のよい思いつきが浮んだ。"}
+{"en": "It occurred to me that if these appeals came, as I expected, from someone who had been intimate with the lady in her early life, a combination which contained two E's with three letters between might very well stand for the name `ELSIE.'", "ja": "つまりもし私の予想が違わないとすれば、この哀訴が夫人の以前の腹心の者から来たものとすれば、両端にＥがあって、真中に他の三文字のあるものは、結局、ELSIE と云う名前に、ぴったりと吻合（ふんごう）して来る。"}
+{"en": "On examination I found that such a combination formed the termination of the message which was three times repeated.", "ja": "それで更によく調べてみると、三度とも文章の末尾が、この組合せで終っているのを発見した。"}
+{"en": "It was certainly some appeal to `Elsie.'", "ja": "それでこれは ELSIE に、何か訴えて来たものに相違ない。"}
+{"en": "In this way I had got my L, S, and I.", "ja": "こうして私はＬと、Ｓと、Ｉを得た。"}
+{"en": "But what appeal could it be?", "ja": "しからば一たい何を訴えて来ているのであろう？"}
+{"en": "There were only four letters in the word which preceded `Elsie,' and it ended in E.", "ja": "この ELSIE の前には、四文字あって、しかも終りはＥである。"}
+{"en": "Surely the word must be `COME.'", "ja": "これは確に COME であろうか、"}
+{"en": "I tried all other four letters ending in E, but could find none to fit the case.", "ja": "――私は外（ほか）にも、Ｅで終っている、四文字の単語を考えたが、しかしどうもこの場合に適当と思われるものは見当らなかった。"}
+{"en": "So now I was in possession of C, O, and M, and I was in a position to attack the first message once more, dividing it into words and putting dots for each symbol which was still unknown.", "ja": "それで私はこうして、Ｃ、Ｏ、Ｍ、を得たので、今度は再び最初の文章にもどって、これを言葉に分けて、未発見の記号と共に、書き並べるまでになった。"}
+{"en": "So treated, it worked out in this fashion:", "ja": "そうしたら、次のようなものとなった。"}
+{"en": "\"Now the first letter CAN only be A, which is a most useful discovery,", "ja": "そこで、この中で最初の文字はＡに相違ない、と云うことを推定した。"}
+{"en": "since it occurs no fewer than three times in this short sentence,", "ja": "と云うのは、この短い文章の中で、三度も出ているから、このよく出て来る文字はＡに相違ないと考えた。"}
+{"en": "and the H is also apparent in the second word.", "ja": "そこで、第二の場所は、Ｈであろうと想定してみた。"}
+{"en": "Now it becomes:", "ja": "そうしてまたあてはめてみると、"}
+{"en": "AM HERE A.E SLANE.", "ja": "AM HERE A. ESLANE.となり、"}
+{"en": "Or, filling in the obvious vacancies in the name:", "ja": "また、名前の解りきった空所を満たしてみると、"}
+{"en": "I had so many letters now that I could proceed with considerable confidence to the second message,", "ja": "私はもうかなりの文字を得たので、今度は相当の自信を持って、第二の文章に進むことが出来ることとなった。"}
+{"en": "which worked out in this fashion:", "ja": "それをやってみると今度はこんなものになった。"}
+{"en": "Here I could only make sense by putting T and G for the missing letters,", "ja": "さてこうなると、私は、Ｔと、Ｇを空所に入れると、やっと意味をなして来ることに気がついた"}
+{"en": "and supposing that the name was that of some house or inn at which the writer was staying.\"", "ja": "――そしてこれはこの筆者のいる家か、旅館の名であろうと推定したわけだ」"}
+{"en": "Inspector Martin and I had listened with the utmost interest to the full and clear account of how my friend had produced results which had led to so complete a command over our difficulties.", "ja": "検察官マーティンと私は、この我々の面前の難事業を、快刀で乱麻を断つように、明快に解決を与えた、私の友人の説明に、全く魅了されて傾聴した。"}
+{"en": "\"What did you do then, sir?\"", "ja": "「先生、それからどうなされたのですか？」"}
+{"en": "asked the inspector.", "ja": "検察官は訊ねた。"}
+{"en": "\"I had every reason to suppose that this Abe Slaney was an American,", "ja": "「私は種々の理由から、この Abe Slaney. と云うのは、亜米利加（アメリカ）人であろうと推定したのです。"}
+{"en": "since Abe is an American contraction, and since a letter from America had been the starting-point of all the trouble.", "ja": "この Abe と云うのは元来、亜米利加（アメリカ）式の綴（つづり）にあるし、それに亜米利加（アメリカ）から来た、一通の手紙と云うのが、今回の大事件の端緒でしたからな。"}
+{"en": "I had also every cause to think that there was some criminal secret in the matter.", "ja": "それに更に私は、この事件には、更にその中に伏在した、隠れたる犯罪があるに相違ないと睨む理由があったのです。"}
+{"en": "The lady's allusions to her past, and her refusal to take her husband into her confidence, both pointed in that direction.", "ja": "つまり夫人が過去について、ちょっと仄めかしたあと、夫に対して絶対にそれを追求させなかったなどと云うことは、明かにそうした理由を暗示しているものだからね。"}
+{"en": "I therefore cabled to my friend, Wilson Hargreave, of the New York Police Bureau,", "ja": "それで私は、私の友人でニューヨークの警務局の、ウィルソン・ハーグレーブに、海底電信を打ってやったのです。"}
+{"en": "who has more than once made use of my knowledge of London crime.", "ja": "この男はたびたび、私からお蔭を蒙（こうむ）っているものですがね、"}
+{"en": "I asked him whether the name of Abe Slaney was known to him.", "ja": "で私はこの男に、Abe Slaney と云う者を知っているかどうかと云ってやったのだが、"}
+{"en": "Here is his reply:", "ja": "その返電はこうだったのです。"}
+{"en": "`The most dangerous crook in Chicago.'", "ja": "「市俄古（シカゴ）での最も恐るべき悪漢」"}
+{"en": "On the very evening upon which I had his answer, Hilton Cubitt sent me the last message from Slaney.", "ja": "するとちょうど私が、この返電を得た夜、ヒルトン・キューピットは、スラネーからの最後の牒号（メッセージ）を送ってよこしたのです。"}
+{"en": "Working with known letters, it took this form:", "ja": "それにまた、先の文字をあてはめてみると、"}
+{"en": "The addition of a P and a D completed a message", "ja": "それでこれにＰとＤを加えてみると、もうこの牒号（メッセージ）の意味は完全なものとなる。"}
+{"en": "（ELSIE PREPARE TO MEET THY GOD.", "ja": "エルシーよ、汝の神に逢う用意をしろ）"}
+{"en": "which showed me that the rascal was proceeding from persuasion to threats, and my knowledge of the crooks of Chicago prepared me to find that he might very rapidly put his words into action.", "ja": "これによると、悪漢は説得から威嚇に進んだことがわかり、更に私はこの者の市俄古（シカゴ）での兇悪振りを知っているだけに、もうすぐに実行するだろうと直覚した。"}
+{"en": "I at once came to Norfolk with my friend and colleague, Dr. Watson, but, unhappily, only in time to find that the worst had already occurred.\"", "ja": "それで取るものも取りあえず、友人であり相棒である、ワトソン博士と共に、ノーフォークに駈けつけたのだが、もう時既に遅かった」"}
+{"en": "\"It is a privilege to be associated with you in the handling of a case,\"", "ja": "「事件を扱うに際して、あなたと協力することが出来るなどと云うことは全く、望外の特権ですね」"}
+{"en": "said the inspector, warmly.", "ja": "検察官は静かに云い出した。"}
+{"en": "\"You will excuse me, however, if I speak frankly to you.", "ja": "「失礼して卒直に申しますが、あなたはあなた御自身が御満足なさればおよろしいのですが、"}
+{"en": "You are only answerable to yourself, but I have to answer to my superiors.", "ja": "私は上官に対して、私の職責を全うしなければなりません。"}
+{"en": "If this Abe Slaney, living at Elrige's, is indeed the murderer, and if he has made his escape while I am seated here, I should certainly get into serious trouble.\"", "ja": "それでもしそのエルライジにいる、アベイ・スラネーなる者が、本当に下手人であるとすれば、私がこうしている中に、逃亡でもしてしまうと、とても大問題になりますが、――」"}
+{"en": "\"You need not be uneasy.", "ja": "「いや御心配はいらない、――"}
+{"en": "He will not try to escape.\"", "ja": "彼は逃亡などはおそらくしないから、――」"}
+{"en": "\"How do you know?\"", "ja": "「どうしてそう仰有います？」"}
+{"en": "\"To fly would be a confession of guilt.\"", "ja": "「逃亡することはもう、犯罪を自白していることだからね」"}
+{"en": "\"Then let us go arrest him.\"", "ja": "「それでは逮捕に向おうではございませんか？」"}
+{"en": "\"I expect him here every instant.\"", "ja": "「いや、もうじきにここに来る」"}
+{"en": "\"But why should he come.\"", "ja": "「ではどうしてここになぞ来るのでしょう？」"}
+{"en": "\"Because I have written and asked him.\"", "ja": "「さっき手紙を書いて、招んでやったから、――」"}
+{"en": "\"But this is incredible, Mr. Holmes!", "ja": "「いやホームズ先生、それはちょっと当（あて）にはなりますまい。"}
+{"en": "Why should he come because you have asked him?", "ja": "あなたがお招びになったって、その者は来ると云うわけはございますまい。"}
+{"en": "Would not such a request rather rouse his suspicions and cause him to fly?\"", "ja": "それどころかかえって、感づいて逃亡することになりはしませんでしょうか？」"}
+{"en": "\"I think I have known how to frame the letter,\"", "ja": "「いや私も、その手紙のこしらえ方は知っているつもりだがね」"}
+{"en": "said Sherlock Holmes.", "ja": "シャーロック・ホームズは云った。"}
+{"en": "\"In fact,", "ja": "「論より証拠"}
+{"en": "if I am not very much mistaken,", "ja": "――大体間違いはなさそうですよ。"}
+{"en": "here is the gentleman himself coming up the drive.\"", "ja": "ほら、その紳士御自身で、御出張になったよ」"}
+{"en": "A man was striding up the path which led to the door.", "ja": "一人の男が玄関の方に、大股に歩いて来るのであった。"}
+{"en": "He was a tall, handsome, swarthy fellow, clad in a suit of gray flannel, with a Panama hat, a bristling black beard, and a great, aggressive hooked nose, and flourishing a cane as he walked.", "ja": "その男は、背の高い、男振りのよい、色の浅黒い顔で、灰色のフランネルの着物を着てパナマの帽子を冠り、剛（こわ）い黒い髭をはやし、高い圧倒的な鼻をうごめかして、籐の杖をふりまわしながらやって来た。"}
+{"en": "He swaggered up a path as if as if the place belonged to him, and we heard his loud, confident peal at the bell.", "ja": "彼は全く意気揚々として、小径をはばむようにして歩き、堂々と呼鈴（ベル）を押すのであった。"}
+{"en": "\"I think, gentlemen,\"", "ja": "「諸君、――」"}
+{"en": "said Holmes, quietly,", "ja": "ホームズは静かに云った。"}
+{"en": "\"that we had best take up our position behind the door.", "ja": "「これは我々はドアの蔭にかくれた方がいいようだよ。"}
+{"en": "Every precaution is necessary when dealing with such a fellow.", "ja": "あんな奴の相手になるには、うっかりしたことは出来ないからね。"}
+{"en": "You will need your handcuffs, Inspector.", "ja": "それから検察官、手錠が入りますよ。"}
+{"en": "You can leave the talking to me.\"", "ja": "さあ黙って、――」"}
+{"en": "We waited in silence for a minute", "ja": "一分間ほどの間"}
+{"en": "--one of those minutes which one can never forget.", "ja": "――我々は息を殺して待った。"}
+{"en": "Then the door opened and the man stepped in.", "ja": "忘れようとしても、決して忘れることの出来ない一分間であった。"}
+{"en": "In an instant Holmes clapped a pistol to his head,", "ja": "やがてドアは開いて、その男は中に入って来た。"}
+{"en": "and Martin slipped the handcuffs over his wrists.", "ja": "と、――思う中（うち）に、ホームズはピストルをその男の頭に狙いつけ、マーティンは素早く、手錠をはめてしまった。"}
+{"en": "It was all done so swiftly and deftly that the fellow was helpless before he knew that he was attacked.", "ja": "こうしたことが、全く疾風迅雷的にやられたので、流石の悪漢もただ茫然として、何もかもすんでからやっと、自分が待ち伏せをくったのだとわかった。"}
+{"en": "He glared from one to the other of us with a pair of blazing black eyes.", "ja": "その男は私達を、次から次と、その黒い鋭い目で睨みつけた。"}
+{"en": "Then he burst into a bitter laugh.", "ja": "そして最後に、ゲラゲラと苦しい笑い声を上げた。"}
+{"en": "\"Well, gentlemen, you have the drop on me this time.", "ja": "「いや各々方、なかなかうまく、仕組んだと云うわけですか、"}
+{"en": "I seem to have knocked up against something hard.", "ja": "――これはとんだ災難に遭ったものだ。"}
+{"en": "But I came here in answer to a letter from Mrs. Hilton Cubitt.", "ja": "しかし僕はヒルトン・キューピット夫人の手紙に答えるために来たのです。"}
+{"en": "Don't tell me that she is in this?", "ja": "夫人はここに居るかどうか、教えてくれないですか？"}
+{"en": "Don't tell me that she helped to set a trap for me?\"", "ja": "夫人は僕を陥れることに与（あず）ったのですか？」"}
+{"en": "\"Mrs. Hilton Cubitt was seriously injured, and is at death's door.\"", "ja": "「ヒルトン・キューピット夫人は、瀕死の重傷を負うているのだよ」"}
+{"en": "The man gave a hoarse cry of grief, which rang through the house.", "ja": "その男は嗄（しわが）れた声で、家中に響き渡るように、悲叫（ひきょう）を上げた。"}
+{"en": "\"You're crazy!\"", "ja": "「あなた方は気が違っているのだ！」"}
+{"en": "he cried, fiercely.", "ja": "その男は激しく叫んだ。"}
+{"en": "\"It was he that was hurt, not she.", "ja": "「負傷したのはヒルトン・キューピットで、彼の女のはずはない。"}
+{"en": "Who would have hurt little Elsie?", "ja": "誰があの可愛いエルシーなどを傷つけるものか！"}
+{"en": "I may have threatened her--God forgive me!", "ja": "私は彼の女を威かしはしたかもしれないが、それは神様もお許し下さろう。"}
+{"en": "--but I would not have touched a hair of her pretty head.", "ja": "――しかし私は彼の女の美しい頭の、髪の毛一本にさえも触れはしないのだ。"}
+{"en": "Take it back--you!", "ja": "さあそれを取り消しなさい。"}
+{"en": "Say that she is not hurt!\"", "ja": "彼の女は決して負傷しないと云って下さい！」"}
+{"en": "\"She was found badly wounded, by the side of her dead husband.\"", "ja": "「彼の女は死んだ夫の側（そば）に、ひどく怪我をしているのを発見されたのだ」"}
+{"en": "He sank with a deep groan on the settee and buried his face in his manacled hands.", "ja": "彼は深い呻吟声（うめきごえ）を上げながら、腕椅子に崩れるように腰かけて、手錠のかかった両手で顔を蔽うた。"}
+{"en": "For five minutes he was silent.", "ja": "五分くらいの間は、全く黙りこんでいたが、"}
+{"en": "Then he raised his face once more, and spoke with the cold composure of despair.", "ja": "それからまた顔を起して、今度はもう捨鉢の度胸で、冷静に語り出した。"}
+{"en": "\"I have nothing to hide from you, gentlemen,\"", "ja": "「いや、皆さん、決して何も隠し立てはしません」"}
+{"en": "said he.", "ja": "彼は言葉をつづけた。"}
+{"en": "\"If I shot the man he had his shot at me,", "ja": "「もし私が彼を撃ったと云うなら、彼もまた私を撃っているのです。"}
+{"en": "and there's no murder in that.", "ja": "ここに殺人罪はありません。"}
+{"en": "But if you think I could have hurt that woman, then you don't know either me or her.", "ja": "またもしあなた方が、私があの女を撃ったのだとお思いになるなら、それはあなた方が、私とあの女とをよく知らないからです。"}
+{"en": "I tell you, there was never a man in this world loved a woman more than I loved her.", "ja": "私は断言して憚（はばか）りませんが、私はいかなる男性の愛情よりも、彼の女を深く愛していました。"}
+{"en": "I had a right to her.", "ja": "私は彼の女に対しては、権利を持っています。"}
+{"en": "She was pledged to me years ago.", "ja": "私達は数年前に、それぞれ誓った間柄です。"}
+{"en": "Who was this Englishman that he should come between us?", "ja": "それだのに我々の間に入って来た英国人などは、全くどこの馬の骨でしょう？"}
+{"en": "I tell you that I had the first right to her, and that I was only claiming my own.", "ja": "私は断言しますが、私こそは彼の女に対して、第一の優先権を持っている者で、ただ私はその正統の権利を要求しただけです」"}
+{"en": "\"She broke away from your influence when she found the man that you are,\"", "ja": "「夫人は君のそう云う人となりを知ったので、君の把握から遁げ出したのだ」"}
+{"en": "said Holmes, sternly.", "ja": "ホームズは厳しく云った。"}
+{"en": "\"She fled from America to avoid you, and she married an honourable gentleman in England.", "ja": "「夫人は君を避けるために亜米利加（アメリカ）から遁げ出して、英国の立派な紳士と結婚したのだ。"}
+{"en": "You dogged her and followed her and made her life a misery to her, in order to induce her to abandon the husband whom she loved and respected in order to fly with you, whom she feared and hated.", "ja": "それに君は未練がましくも追かけて来て、彼の女にその敬愛する夫を捨てて、憎悪し恐怖している君と、遁げ出すことを強迫したので、彼の女は、不幸極まるものになってしまったのだ。"}
+{"en": "You have ended by bringing about the death of a noble man and driving his wife to suicide.", "ja": "君も一人の貴人を殺し、しかしてその妻を自殺させて、もうそれで万事休矣（ばんじきゅうす）というものさ。"}
+{"en": "That is your record in this business, Mr. Abe Slaney, and you will answer for it to the law.\"", "ja": "君のお手柄の一切はこれだけだが、さてアベー・スラネー君、この上はただ法の適用を受けるだけさ」"}
+{"en": "\"If Elsie dies, I care nothing what becomes of me,\"", "ja": "「もしエルシーが死ぬなら、そりゃもうこの身体などは、どうなったっておかまいなしだ」"}
+{"en": "said the American.", "ja": "その亜米利加（アメリカ）人は云った。"}
+{"en": "He opened one of his hands, and looked at a note crumpled up in his palm.", "ja": "そして彼は片方の掌（てのひら）に、皺くしゃになっていた書ものに見入った。"}
+{"en": "\"See here, mister!", "ja": "「これを御覧下さい」"}
+{"en": "he cried, with a gleam of suspicion in his eyes,", "ja": "彼は目を疑い深く閃かせながら叫ぶのであった。"}
+{"en": "\"you're not trying to scare me over this, are you?", "ja": "「あなた方は私をおどかしているのではないでしょうね？"}
+{"en": "If the lady is hurt as bad as you say, who was it that wrote this note?\"", "ja": "もし彼の女があなた方の仰せのように非常に重態であるとしたら、一たい誰がこの手紙をかいたのでしょう？」"}
+{"en": "He tossed it forward on to the table.", "ja": "彼はその紙片をテーブルの上に投げてよこした。"}
+{"en": "\"I wrote it, to bring you here.\"", "ja": "「君をここに来させるために、僕が書いたのだ」"}
+{"en": "\"You wrote it?", "ja": "「あなたが書きましたって？"}
+{"en": "There was no one on earth outside the Joint who knew the secret of the dancing men.", "ja": "この世界中でわれわれの仲間の外（ほか）は、誰もこの舞踏人の秘密を解るものが無いのですよ。"}
+{"en": "How came you to write it?\"", "ja": "どうしてあなたなどが書けるものですか？」"}
+{"en": "\"What one man can invent another can discover,\"", "ja": "「君、誰かが案出したものとすれば、また誰かがそれを解くことが出来るさ」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "There is a cab coming to convey you to Norwich, Mr. Slaney.", "ja": "「さてスラネー君、君をノーアウッドに、連れてゆく馬車が来た。"}
+{"en": "But meanwhile, you have time to make some small reparation for the injury you have wrought.", "ja": "しかしまだ、君の悪業に対して、多少の罪滅しをする時間はある。"}
+{"en": "Are you aware", "ja": "君は気がついているかどうか、"}
+{"en": "that Mrs. Hilton Cubitt has herself lain under grave suspicion of the murder of her husband, and that it was only my presence here, and the knowledge which I happened to possess, which has saved her from the accusation?", "ja": "――実はヒルトン・キューピット夫人は、夫君（ふくん）の殺害に対して、非常に重大な嫌疑を受けていたのだが、幸いに僕が現われて、たまたま持ち合せていた智識で、夫人は告発されることを免れることとなったのだ。"}
+{"en": "The least that you owe her is to make it clear to the whole world that she was in no way, directly or indirectly, responsible for his tragic end.\"", "ja": "それで君の夫人に対する、最後の償（つぐない）として、夫人はこの大悲惨事に対しては、直接にも間接にも、全然責任はないものであると云うことを、全世界に明瞭にしたまえ」"}
+{"en": "\"I ask nothing better,\"", "ja": "「もうどうにでもなるがよい」"}
+{"en": "said the American.", "ja": "亜米利加（アメリカ）人は云った。"}
+{"en": "\"I guess the very best case I can make for myself is the absolute naked truth.\"", "ja": "「えい一そのこと、何もかも有りのままにさらけ出してしまいましょう」"}
+{"en": "\"It is my duty to warn you that it will be used against you,\"", "ja": "「そうだ。"}
+{"en": "cried the inspector, with the magnificent fair play of the British criminal law.", "ja": "検察官はあたかも英国刑法の、厳粛な公明を示すものの如く云った。"}
+{"en": "Slaney shrugged his shoulders.", "ja": "スラネーは肩をすくめた。"}
+{"en": "\"I'll chance that,\"", "ja": "「早速申し上げましょう」"}
+{"en": "said he.", "ja": "彼は語り出した。"}
+{"en": "\"First of all, I want you gentlemen to understand that I have known this lady since she was a child.", "ja": "「まず第一に皆さんの御了解を得たいことは、私はあの夫人とは、ごく小供の時からの知り合いであると云うことです。"}
+{"en": "There were seven of us in a gang in Chicago, and Elsie's father was the boss of the Joint.", "ja": "私共も七人の仲間で市俄古（シカゴ）で徒党を組んでいたのですが、あのエルシーの父はその首領でした。"}
+{"en": "He was a clever man, was old Patrick.", "ja": "悧※［＃「りっしんべん＋巧」、126-1］な人で、パトリック老人と云ったものです。"}
+{"en": "It was he who invented that writing, which would pass as a child's scrawl unless you just happened to have the key to it.", "ja": "この暗号を案出したのも彼ですが、これはもうあなたがこれを解く鍵を持っていなかったら、ただ小供のいたずら書としか思われないものですからね。"}
+{"en": "Well, Elsie learned some of our ways, but she couldn't stand the business, and she had a bit of honest money of her own,", "ja": "さて、あのエルシーは私共のすることを多少気がついたのですが、しかし彼の女は、こうした仕事を見ることはもう堪えられなかったのですな。"}
+{"en": "so she gave us all the slip and got away to London.", "ja": "そして彼の女は自分の、これは公明正大な金を多少持っていたので、私達の中から抜け出して、ロンドンに遁げて来てしまったのです。"}
+{"en": "She had been engaged to me, and she would have married me, I believe, if I had taken over another profession,", "ja": "私は彼の女とは婚約の仲でしたが、これは私は今でもそう思っているのですが、もし私が商売替えをしたら、彼の女はきっと私と結婚してくれたに相違ありませんでした。"}
+{"en": "but she would have nothing to do with anything on the cross.", "ja": "彼の女はかりそめにも不正なことに対しては、掛り合いを持ちたくなかったのでしょう。"}
+{"en": "It was only after her marriage to this Englishman that I was able to find out where she was.", "ja": "そして私がやっと彼の女の居所をつきとめた時は、彼の女はもうこの英国人と結婚していました。"}
+{"en": "I wrote to her, but got no answer.", "ja": "それで私は手紙を出しましたが、しかし返事はくれませんでした。"}
+{"en": "After that I came over, and, as letters were no use, I put my messages where she could read them.", "ja": "私はそれでこっちに海を越えて来たのですが、手紙はもう何の役にも立たないので私は、あの通牒を彼の女の目の止まるところに置いたのでした。"}
+{"en": "\"Well, I have been here a month now.", "ja": "そしてとにかく私がここに来てから一ヶ月になります。"}
+{"en": "wI lived in that farm, where I had a room down below, and could get in and out every night,", "ja": "あの農場に住んで、地下の一室を持って、夜間は毎夜のように、自由に出入が出来ました。"}
+{"en": "and no one the wiser.", "ja": "しかし誰もそのことは知りませんでした。"}
+{"en": "I tried all I could to coax Elsie away.", "ja": "私はあらゆる手段をつくして、エルシーを誘い出そうとしました。"}
+{"en": "I knew that she read the messages, for once she wrote an answer under one of them.", "ja": "彼の女はたしかに、通牒は読んだに相違なく、遂に一度だけは返事をくれました。"}
+{"en": "Then my temper got the better of me, and I began to threaten her.", "ja": "それに私は少し気をよくして、彼の女の脅迫を始めたのです。"}
+{"en": "She sent me a letter then, imploring me to go away,", "ja": "それから彼の女は一本の手紙をよこして、私に立ち去ってくれるようにと、懇願して来ました。"}
+{"en": "and saying that it would break her heart if any scandal should come upon her husband.", "ja": "そしてもし夫の身辺に、その名誉を汚すようなことでも起ったら、もう彼の女は立っても寝てもいられないからと云うのでした。"}
+{"en": "She said that she would come down when her husband was asleep at three in the morning, and speak with me through the end window, if I would go away afterwards and leave her in peace.", "ja": "そして、もし私が素直にここを立ち去って、彼の女を安穏にのこして行ってくれるなら、夫の眠っているのを見計らって、"}
+{"en": "She came down and brought money with her, trying to bribe me to go.", "ja": "暁（あ）け方の三時に起きて来て、私に立ち退くように説得するために、金を持って来ました。"}
+{"en": "This made me mad, and I caught her arm and tried to pull her through the window.", "ja": "私はこれを見て、嚇（かっ）としてしまって、彼の女の腕を取って、窓から引ずり落そうとしたのです。"}
+{"en": "At that moment in rushed the husband with his revolver in his hand.", "ja": "と、――その瞬間に、彼の女の夫は、ピストルを手にして、飛び出して来ました。"}
+{"en": "Elsie had sunk down upon the floor, and we were face to face.", "ja": "エルシーは床の上に跼まってしまったので、私たちは顔と顔とを向き合せていました。"}
+{"en": "I was heeled also,", "ja": "私も身体をこごめました。"}
+{"en": "and I held up my gun to scare him off and let me get away.", "ja": "そして鉄砲を取り出して、彼を脅かして自分も遁げようとしました。"}
+{"en": "He fired and missed me.", "ja": "しかし彼は発射し、しかも弾丸は外れました。"}
+{"en": "I pulled off almost at the same instant,", "ja": "それで私もほとんどおくれずに引き金を引きました。"}
+{"en": "and down he dropped.", "ja": "彼は斃れたのです。"}
+{"en": "I made away across the garden, and as I went I heard the window shut behind me.", "ja": "私はそれから庭を横切って遁げましたが、私の後から窓を閉める音がきこえたのでした。"}
+{"en": "That's God's truth, gentlemen, every word of it,", "ja": "皆さんこれは、すべて有りのままで、神明に誓って偽りはありません。"}
+{"en": "and I heard no more about it until that lad came riding up with a note which made me walk in here, like a jay, and give myself into your hands.\"", "ja": "そして私は、その後は、あの若者がこの手紙を持って来て、私が、まるでむくどりのように、あなた方の網にかかってしまうまでは、何にも知りませんでした」"}
+{"en": "A cab had driven up whilst the American had been talking.", "ja": "亜米利加（アメリカ）人が話している中に、馬車は着いていた。"}
+{"en": "Two uniformed policemen sat inside.", "ja": "その中には制服の巡査が二人いた。"}
+{"en": "Inspector Martin rose and touched his prisoner on the shoulder.", "ja": "検察官マーテンは起ち上って、犯人の肩に手をかけた。"}
+{"en": "\"It is time for us to go.\"", "ja": "「さあ行こう、――」"}
+{"en": "\"Can I see her first?\"", "ja": "「ちょっと彼の女に逢わせて下さいませんでしょうか？」"}
+{"en": "\"No, she is not conscious.", "ja": "「いや、夫人はまだ意識が回復しないのだ。"}
+{"en": "Mr. Sherlock Holmes,", "ja": "シャーロック・ホームズ先生、"}
+{"en": "I only hope that if ever again I have an important case, I shall have the good fortune to have you by my side.\"", "ja": "――何卒この後も重大事件が突発した時は、よろしく御助力下さいますよう、幾重にもお願い申します」"}
+{"en": "We stood at the window and watched the cab drive away.", "ja": "私たちは窓際に立って、馬車の遠ざかってゆくのを眺めた。"}
+{"en": "As I turned back, my eye caught the pellet of paper which the prisoner had tossed upon the table.", "ja": "それから私は振り返った途端に犯人がテーブルの上に投げて行った、紙片を丸めたものを見つけた。"}
+{"en": "It was the note with which Holmes had decoyed him.", "ja": "それはホームズが彼をおびき寄せた手紙であった。"}
+{"en": "\"See if you can read it,", "ja": "「さあ、君、これを読めるかね？"}
+{"en": "Watson,\"", "ja": "ワトソン君、――」"}
+{"en": "said he, with a smile.", "ja": "ホームズは笑いながら云った。"}
+{"en": "It contained no word, but this little line of dancing men:", "ja": "それは一語もなく、ただ次のような舞踏人の短い一行であった。"}
+{"en": "\"If you use the code which I have explained,\"", "ja": "「いや、僕が使った、暗号表を用いれば、これはもうごく簡単なものだとわかるよ」"}
+{"en": "said Holmes,", "ja": "ホームズは云った。"}
+{"en": "I was convinced that it was an invitation which he would not refuse,", "ja": "「これは、\"COME HERE AT ONCE\"（すぐに来い）と云うだけのことだよ、いくら何でもこの招待状では、彼は万障を繰合せても来ると思ったのさ。"}
+{"en": "since he could never imagine that it could come from anyone but the lady.", "ja": "何しろこうしたものを書ける者は、夫人以外には無いのだと彼は信じているのだからね。"}
+{"en": "And so, my dear Watson, we have ended by turning the dancing men to good when they have so often been the agents of evil, and I think that I have fulfilled my promise of giving you something unusual for your notebook.", "ja": "さてこうして、親愛なワトソン君、我々もこの悪業の手先に使われていた舞踏人を、今度は善い意味のものに転化してしまったし、また僕も君の覚書の中に、一つはなはだ特異な件をお土産にしようと云う約束も、これでともかく果したわけだ。"}
+{"en": "Three-forty is our train, and I fancy we should be back in Baker Street for dinner.\"", "ja": "三時四十分の汽車があるが、我々はベーカー街に行って、夕食でも食べるとしようか、――」"}
+{"en": "Only one word of epilogue.", "ja": "簡単に結末だけを。"}
+{"en": "The American, Abe Slaney, was condemned to death at the winter assizes at Norwich, but his penalty was changed to penal servitude in consideration of mitigating circumstances, and the certainty that Hilton Cubitt had fired the first shot.", "ja": "この亜米利加（アメリカ）人のアベー・スラネーは、ノーアウィッチの冬期巡回裁判で、死刑を宣告されたのであったが、しかしヒルトン・キューピット氏が、最初に発射したと云うことが明瞭になったので情状酌量して、死刑を改めて懲役刑とされた。"}
+{"en": "Of Mrs. Hilton Cubitt I only know that I have heard she recovered entirely, and that she still remains a widow, devoting her whole life to the care of the poor and to the administration of her husband's estate.", "ja": "それからヒルトン・キューピット夫人については、その後負傷はすっかり癒り、寡婦として一貫し、その生涯を救貧事業と、亡夫の遺産管理に専念していると云うことをきいただけである。"}

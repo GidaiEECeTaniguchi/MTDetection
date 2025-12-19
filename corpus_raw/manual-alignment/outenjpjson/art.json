@@ -1,0 +1,544 @@
+{"en": "The Work of Art in the Age of Mechanical Reproduction", "ja": "複製技術の時代におけるアート作品"}
+{"en": "Walter Benjamin", "ja": "ヴァルター・ベンヤミン　著"}
+{"en": "\"Our fine arts were developed, their types and uses were established, in times very different from the present, by men whose power of action upon things was insignificant in comparison with ours.", "ja": "「遠い昔から現在に至るまで、今のわたしたちと比べればそれほど、ものごとに対する力のなかった人々によって、わたしたちのファインアートは培われ、いろいろなタイプや、適用の仕方があみだされてきた。"}
+{"en": "But the amazing growth of our techniques, the adaptability and precision they have attained, the ideas and habits they are creating, make it a certainty that profound changes are impending in the ancient craft of the Beautiful.", "ja": "しかし、驚くべき技術の発展、到達された適応性、その精密さ、そして考え方と、創造された習慣は、古代の工芸の美において、ものすごい変化が差し迫っていることを確かなものにする。"}
+{"en": "For the last twenty years neither matter nor space nor time has been what it was from time immemorial.", "ja": "過去二十年のあいだ、物質も空間も、時間も大昔からのそれと同じであったことはなかった。"}
+{"en": "We must expect great innovations to transform the entire technique of the arts, thereby affecting artistic invention itself and perhaps even bringing about an amazing change in our very notion of art.\" *", "ja": "わたしたちは、アートの技術をまったく変えてしまうすごい発明によって、感動的なアートの試みそれ自身と、おそらく、アートに対する概念ですら、とんでもなく変化するであろうことをあらかじめ知っておかなければならない。」"}
+{"en": "--Paul Valery, PIECES SUR L 'ART, \"La Conquete de l'ubiquite,\" Paris.", "ja": "----ポール・ヴァレリー「芸術論集」の「偏在性の獲得」から"}
+{"en": "PREFACE", "ja": "はじめに"}
+{"en": "When Marx undertook his critique of the capitalistic mode of production, this mode was in its infancy.", "ja": "マルクスが資本主義の生産のありさまの批評を始めたとき、生産のあり方は、まだヨチヨチ歩きの状態であった。"}
+{"en": "Marx directed his efforts in such a way as to give them prognostic value.", "ja": "マルクスは先回りするような方向で取り組んでいた。"}
+{"en": "He went back to the basic conditions underlying capitalistic production and through his presentation showed what could be expected of capitalism in the future.", "ja": "彼は、資本主義の生産の基本に立ちかえり、将来において、どのようなことが資本主義に求められているのかを示した。"}
+{"en": "The result was that one could expect it not only to exploit the proletariat with increasing intensity, but ultimately to create conditions which would make it possible to abolish capitalism itself.", "ja": "その結果は、ひどく労働者を搾取するということだけでなく、そもそも資本主義そのものをダメにするかもしれないというものだった。"}
+{"en": "The transformation of the superstructure, which takes place far more slowly than that of the substructure, has taken more than half a century to manifest in all areas of culture the change in the conditions of production.", "ja": "上部構造の移り変わりは、下部構造より、もっとゆっくりとしたものだったが、すべての分野の文化で、その生産のしかたの変化が明らかになるのには、半世紀以上もかかった。"}
+{"en": "Only today can it be indicated what form this has taken.", "ja": "やっと、今になってどんな形をしたものだったか、語ることができるのだ。"}
+{"en": "Certain prognostic requirements should be met by these statements.", "ja": "そして、確かな予測がこれらの条件によって可能にするのだ。"}
+{"en": "However, theses about the art of the proletariat after its assumption of power or about the art of a classless society would have less bearing on these demands than theses about the developmental tendencies of art under present conditions of production.", "ja": "しかしながら、権力を持ったあとの労働者アートについてとか、階級のない社会のアートについてなど、現在の生産の条件における、アートの発展傾向についてより、その予測との関係が薄いようだ。"}
+{"en": "Their dialectic is no less noticeable in the superstructure than in the economy.", "ja": "それらの弁証法は経済においてより、上部構造との関係が薄いというわけではないようである。"}
+{"en": "It would therefore be wrong to underestimate the value of such theses as a weapon.", "ja": "だから、その武器としての価値をみくびるのは誤りだといえるだろう。"}
+{"en": "They brush aside a number of outmoded concepts, such as creativity and genius, eternal value and mystery--concepts whose uncontrolled (and at present almost uncontrollable) application would lead to a processing of data in the Fascist sense.", "ja": "それら弁証法は、時代がかったコンセプト、すなわち、創造とか、天才とか、永遠の価値とか、神秘などといった、コントロールできない（少なくとも今はほとんどコントロールできないであろう）ものを軽くあしらうものである。"}
+{"en": "The concepts which are introduced into the theory of art in what follows differ from the more familiar terms in that they are completely useless for the purposes of Fascism.", "ja": "これらのコンセプトの応用はファシスト的な、情報のねじ曲げを引き起こす場合もあるにはある。"}
+{"en": "They are, on the other hand, useful for the formulation of revolutionary demands in the politics of art.", "ja": "その一方で、アートの政治性において革命的な要求を成り立たせるのに役に立っているのだ。"}
+{"en": "In principle a work of art has always been reproducible.", "ja": "原理的に、アート作品はいつの時代でも複製できるものだった。"}
+{"en": "Manmade artifacts could always be imitated by men.", "ja": "人間が作った人工のものは、別の人間によって模造されてきた。"}
+{"en": "Replicas were made by pupils in practice of their craft, by masters for diffusing their works, and, finally, by third parties in the pursuit of gain.", "ja": "レプリカは弟子たちの練習台として、師匠の普及品として、そして、第三者の金儲けのために作られてきた。"}
+{"en": "Mechanical reproduction of a work of art, however, represents something new.", "ja": "それに対して、アート作品の機械的な複製は、新しいものだといえる。"}
+{"en": "Historically, it advanced intermittently and in leaps at long intervals,", "ja": "その技術は、歴史的に、途切れ途切れに長い間をおきながらも飛躍的に発展した。"}
+{"en": "but with accelerated intensity.", "ja": "それも爆発的な勢いで。"}
+{"en": "The Greeks knew only two procedures of technically reproducing works of art:", "ja": "古代ギリシャ人はアート作品の技術的な複製において二つの方法しか知らなかった。"}
+{"en": "founding and stamping.", "ja": "型取りと、型押しだ。"}
+{"en": "Bronzes, terra cottas, and coins were the only art works which they could produce in quantity.", "ja": "すなわち、青銅やテラコッタやコインのみが、彼らが量産できるアート作品だったのだ。"}
+{"en": "All others were unique and could not be mechanically reproduced.", "ja": "その他のものは唯一無比のもので、機械的に複製できなかった。"}
+{"en": "With the woodcut graphic art became mechanically reproducible for the first time,", "ja": "木版画によって、グラフィックアートは初めて機械的に複製できるようになる。"}
+{"en": "long before script became reproducible by print.", "ja": "印刷によって文章が複製できるようになる、かなり前のことだ。"}
+{"en": "The enormous changes which printing, the mechanical reproduction of writing, has brought about in literature are a familiar story.", "ja": "ものすごい変化が、活字、すなわち文章の機械的な複製によって、文学に起こったということは、あちこちで聞く話だろう。"}
+{"en": "However, within the phenomenon which we are here examining from the perspective of world history, print is merely a special, though particularly important, case.", "ja": "活字は、世界史的な見かたを通して考えてみると、非常に特別で重要な事がらだったのだ。"}
+{"en": "During the Middle Ages engraving and etching were added to the woodcut;", "ja": "中世の間に木版画とエッチングが、そして、19世紀のはじめには、リトグラフが現われた。"}
+{"en": "With lithography the technique of reproduction reached an essentially new stage.", "ja": "リトグラフによって、複製の技術は、決定的に新しい段階をむかえた。"}
+{"en": "This much more direct process was distinguished by the tracing of the design on a stone rather than its incision on a block of wood or its etching on a copperplate", "ja": "リトグラフの制作方法は、木の板を彫ったり、銅板を酸で傷つけたりするやり方とちがって、単に石の上のデッサンをなぞるだけで、より直接的で簡単だった。"}
+{"en": "and permitted graphic art for the first time to put its products on the market,", "ja": "そして、グラフィックアートをはじめて市場に送り出すことになったのだ。"}
+{"en": "not only in large numbers as hitherto, but also in daily changing forms.", "ja": "その流通した数は従来と比べ物にならないだけでなく、日常のあり方まで変えてしまったのだ。"}
+{"en": "Lithography enabled graphic art to illustrate everyday life, and it began to keep pace with printing.", "ja": "そしてリトグラフはグラフィックアートによって日常を描くことができるようにし、活字と足並みをそろえるようになった。"}
+{"en": "But only a few decades after its invention, lithography was surpassed by photography.", "ja": "が、しかし、その発明のたった数十年後に、リトグラフは写真に置き換えられてしまったのだ。"}
+{"en": "For the first time in the process of pictorial reproduction, photography freed the hand of the most important artistic functions", "ja": "画像を制作するプロセスにおいて、はじめて、写真は手の働きをアートの一番重要な役割から解き放った。"}
+{"en": "which henceforth devolved only upon the eye looking into a lens.", "ja": "今度はレンズを通した目の働きが重要になったのだ。"}
+{"en": "Since the eye perceives more swiftly than the hand can draw, the process of pictorial reproduction was accelerated so enormously", "ja": "目は手で描くよりすばやく物をとらえることができるので、画像の制作のプロセスは、とんでもなく早くできるようになる。"}
+{"en": "that it could keep pace with speech.", "ja": "それは話す動作と並ぶくらいだ。"}
+{"en": "A film operator shooting a scene in the studio captures the images at the speed of an actor's speech.", "ja": "スタジオで撮影するカメラマンは俳優と話すスピードでイメージをとらえる。"}
+{"en": "Just as lithography virtually implied the illustrated newspaper, so did photography foreshadow the sound film.", "ja": "ちょうどリトグラフが絵つき新聞の可能性を事実上、ほのめかしたように、写真もトーキー映画の前身だったのだ。"}
+{"en": "The technical reproduction of sound was tackled at the end of the last century.", "ja": "音の技術的な複製は前の世紀の終わりごろから取り組まれた。"}
+{"en": "These convergent endeavors made predictable a situation which Paul Valery pointed up in this sentence:", "ja": "集中的な努力によってもたらせうる物は、ポール・ヴァレリーが以下の文でふれたようなものだった。"}
+{"en": "\"Just as water, gas, and electricity are brought into our houses from far off to satisfy our need in response to a minimal effort, so we shall be supplied with visual or auditory images, which will appear and disappear at a simple movement of the hand, hardly more than a sign\"", "ja": "「水、ガスや、電気が安全で、必要に応じて、簡単に遠くから私たちの家にくるように、イメージや音も、ちょっとした合図みたいなシンプルな手のしぐさによって、現われたり消えたりするようになるだろう。」"}
+{"en": "Around 1900 technical reproduction had reached a standard that not only permitted it to reproduce all transmitted works of art and thus to cause the most profound change in their impact upon the public;", "ja": "1900年ごろ技術による複製は、そのときのアート作品すべてを複製することができるレベルに達し、世の中にすごいインパクトを引き起こす事になった。"}
+{"en": "it also had captured a place of its own among the artistic processes.", "ja": "それだけでなく、アートの制作プロセスにおいても、ある一定の地位を築き上げることになったのだ。"}
+{"en": "that these two different manifestations--the reproduction of works of art and the art of the film--have had on art in its traditional form.", "ja": "このことから、二つの異なった現象が−−−複製アートと映画が−−−アートの形式に仲間入りすることになる。"}
+{"en": "Even the most perfect reproduction of a work of art is lacking in one element:", "ja": "もっとも完璧なアート作品の複製といえども、一つの点においては、不完全といえる。"}
+{"en": "its presence in time and space, its unique existence at the place where it happens to be.", "ja": "それは、時間と空間における、ありかただ。"}
+{"en": "This unique existence of the work of art determined the history to which it was subject throughout the time of its existence.", "ja": "このアート作品が、ただひとつしかないという状態は、その時間と空間におけるありかたにおいて決められる。"}
+{"en": "This includes the changes which it may have suffered in physical condition over the years as well as the various changes in its ownership.", "ja": "このことは、持ち主が何度も変わることと同時に、何年もの間、物理的なコンディションに耐える事によって生まれる変化も含まれる。"}
+{"en": "The traces of the first can be revealed only by chemical or physical analyses which it is impossible to perform on a reproduction;", "ja": "一番の手がかりは、複製が真似ることのできない、化学的、物理的な調査によって明らかになるものだ。"}
+{"en": "changes of ownership are subject to a tradition which must be traced from the situation of the original.", "ja": "持ち主の移り変わりは、伝統についてのことであり、伝統についてのことは、オリジナルな状態からさかのぼるということだ。"}
+{"en": "The presence of the original is the prerequisite to the concept of authenticity.", "ja": "オリジナルな存在というのは、ホンモノというコンセプトに基づいている。"}
+{"en": "Chemical analyses of the patina of a bronze can help to establish this,", "ja": "ブロンズの錆びを化学的に調べることは、ホンモノかウソモノかを明らかにするのに役立つ。"}
+{"en": "as does the proof that a given manuscript of the Middle Ages stems from an archive of the fifteenth century.", "ja": "ちょうど、十五世紀の書庫から出てきた本が中世のものだという証明書が証明するように。"}
+{"en": "The whole sphere of authenticity is outside technical", "ja": "すべてのホンモノらしさは技術的なものによるものではない。"}
+{"en": "-- and, of course, not only technical-- reproducibility.<2>", "ja": "もちろん、技術的じゃないというだけではなく、もう一度作ることができるということでもない。"}
+{"en": "Confronted with its manual reproduction, which was usually branded as a forgery, the original preserved all its authority;", "ja": "手作業による複製は、いつもニセモノの汚名を着せられるわけだが、オリジナルはその「ホンモノらしさ」保っている。"}
+{"en": "not so vis a vis technical reproduction.", "ja": "しかし、技術による複製に向き合うと、そうは行かなくなる。"}
+{"en": "The reason is twofold.", "ja": "理由は二つある。"}
+{"en": "First, process reproduction is more independent of the original than manual reproduction.", "ja": "第一に、機械的な複製は手作業による複製よりも、独立しているということだ。"}
+{"en": "For example, in photography, process reproduction can bring out those aspects of the original that are unattainable to the naked eye yet accessible to the lens,", "ja": "たとえば、写真において、機械的な複製は、裸眼がとうていたどり着くことができないオリジナルさをひきだす。"}
+{"en": "which is adjustable and chooses its angle at will.", "ja": "つまり、好みによって、見え方を調節したり、選んだりできるということだ。"}
+{"en": "And photographic reproduction, with the aid of certain processes, such as enlargement or slow motion, can capture images which escape natural vision.", "ja": "そして写真による複製はしっかりしたプロセスを経ることによって、裸眼で見るのとは違った、望遠やスローモーションのイメージなどを得る事ができる。"}
+{"en": "Secondly, technical reproduction can put the copy of the original into situations which would be out of reach for the original itself.", "ja": "第二に、機械的な複製は、オリジナルのコピーを、オリジナルそのものでも届かないような状態にしてしまうということだ。"}
+{"en": "Above all, it enables the original to meet the beholder halfway, be it in the form of a photograph or a phonograph record.", "ja": "そのうえ、機械的な複製は写真やレコードのように見るものを身近にしてしまうものだ。"}
+{"en": "The cathedral leaves its locale to be received in the studio of a lover of art;", "ja": "伽藍は、アート大好きな人のスタジオの中に移され、"}
+{"en": "the choral production, performed in an auditorium or in the open air, resounds in the drawing room.", "ja": "また、講堂や外で演奏される合唱隊の音楽は居間でも聴くことができるのだ。"}
+{"en": "The situations into which the product of mechanical reproduction can be brought may not touch the actual work of art,", "ja": "機械的な複製が作られることによってもたらされる状況は、現在のアート作品とは関係のないことかもしれない。"}
+{"en": "yet the quality of its presence is always depreciated.", "ja": "というのは、今のところ複製作品の見かけ上の質は悪くなるからだ。"}
+{"en": "This holds not only for the art work but also, for instance, for a landscape which passes in review before the spectator in a movie.", "ja": "このことは、アート作品にだけでなく、たとえば、映画で観る、目の前を過ぎていく風景にも当てはまる。"}
+{"en": "In the case of the art object, a most sensitive nucleus--namely, its authenticity--is interfered with whereas no natural object is vulnerable on that score.", "ja": "アート作品の場合、もっとも微妙な核心は--すなわち、そのホンモノらしさは--自然の物がそれほど、もろくない一方で、干渉されやすいものなのだ。"}
+{"en": "The authenticity of a thing is the essence of all that is transmissible from its beginning, ranging from its substantive duration to its testimony to the history which it has experienced.", "ja": "物のホンモノらしさというのは、作品が生み出されたときから伝わることができるものであって、実質的な耐久年数から、経験された歴史による証明にいたるまでのすべてによるものなのだ。"}
+{"en": "Since the historical testimony rests on the authenticity, the former, too, is jeopardized by reproduction when substantive duration ceases to matter.", "ja": "歴史的な証明はホンモノらしさに基づくものなので、そのホンモノらしさも、実質的な古さが意味を成さなくなってしまう複製によって、台無しになってしまうのだ。"}
+{"en": "And what is really jeopardized when the historical testimony is affected is the authority of the object.", "ja": "そして、その証明が明らかになると、実際に台無しにされるものというのは、その物のホンモノらしさそのものなのだ。"}
+{"en": "One might subsume the eliminated element in the term \"aura\" and go on to say:", "ja": "ここで、消え去っていく要素を「アウラ」という言葉でひっくるめると、"}
+{"en": "that which withers in the age of mechanical reproduction is the aura of the work of art.", "ja": "機械的な複製の時代に色あせるのは、アート作品の「アウラ」だと言えるだろう。"}
+{"en": "This is a symptomatic process whose significance points beyond the realm of art.", "ja": "このプロセスは、アートだけの話よりもっと先の重要なポイントを示している。"}
+{"en": "One might generalize by saying:", "ja": "一般的な言い方をすると、"}
+{"en": "the technique of reproduction detaches the reproduced object from the domain of tradition.", "ja": "複製技術は伝統的に複製されたものを大きく引き離すということかもしれない。"}
+{"en": "By making many reproductions it substitutes a plurality of copies for a unique existence.", "ja": "多くの複製を作ることによって、ただひとつしかない存在は複数のコピーにとってかわるだろう。"}
+{"en": "And in permitting the reproduction to meet the beholder or listener in his own particular situation, it reactivates the object reproduced.", "ja": "そして、複製を認めることによって、観るものや聴くものに特別な状況に近づけることで、それは複製を再び活発なものにする。"}
+{"en": "These two processes lead to a tremendous shattering of tradition which is the obverse of the contemporary crisis and renewal of mankind.", "ja": "これらの2つのプロセスは、人類の危機と同時に革新を一緒にし、伝統の激しい破壊を引き起こすのだ。"}
+{"en": "Both processes are intimately connected with the contemporary mass movements.", "ja": "両方のプロセスは、現代の大衆運動とも密接に関係している。"}
+{"en": "Their most powerful agent is the film.", "ja": "そしてそのもっとも端的な例は映画だ。"}
+{"en": "Its social significance, particularly in its most positive form, is inconceivable w1thout its destructive, cathartic aspect, that is, the liquidation of the traditional value of the cultural heritage.", "ja": "映画の社会的な重要性は、最も肯定的な形での特異性はそれを破壊やカタルシスをまねくことなく、想像もできないもので、文化の遺産の伝統的な価値を一掃してしまうものだ。"}
+{"en": "This phenomenon is most palpable in the great historical films.", "ja": "その現象は歴史的な映画において、もっとも明らかだ。"}
+{"en": "It extends to ever new positions.", "ja": "かつてない新しいポジションへ拡大するものだ。"}
+{"en": "In 1927 Abel Gance exclaimed enthusiastically:", "ja": "1927年にアベル・ガンスは熱意的にこう語った。"}
+{"en": "'Shakespeare, Rembrandt, Beethoven will make films . . . all legends, all mythologies and all myths, all founders of religion, and the very religions . . . await their exposed resurrection,", "ja": "「シェークスピも、レンブラントも、ベートーベンも映画になるだろう・・・すべての伝説や、神話や、おとぎ話や、すべての宗教の創始者も、すべての宗教ですらも、復活があらわになるのを待ち受けるだろう。"}
+{"en": "and the heroes crowd each other at the gate.\"", "ja": "そして、ヒーローが門のところで一同を介すだろう。」"}
+{"en": "Presumably without intending it, he issued an invitation to a far-reaching liquidation.", "ja": "おそらく、彼は考えてなかっただろうが、彼が取り上げたものは、すべてをひっくりかえすものだった。"}
+{"en": "During long periods of history, the mode of human sense perception changes with humanity's entire mode of existence.", "ja": "長い歴史の中では、人間のあり方が変わることによって、その感じ方も変わっていく。"}
+{"en": "The manner in which human sense perception is organized, the medium in which it is accomplished, is determined not only by nature but by historical circumstances as well.", "ja": "人間の感じ方を取りまとめた様式--そこで成し遂げられたメディア--は自然だけでなく、歴史の流れによっても決定される。"}
+{"en": "The fifth century, with its great shifts of population, saw the birth of the late Roman art industry and the Vienna Genesis, and there developed not only an art different from that of antiquity but also a new kind of perception.", "ja": "五世紀に、人口の大きな移動とともに、ローマ後期様式の工芸産業と、ウィーン・ジェネシスが生まれ、古代と単純に違うだけでなく、新しい知覚のあり方のアートが誕生した。"}
+{"en": "The scholars of the Viennese school, Riegl and Wickhoff, who resisted the weight of classical tradition under which these later art forms had been buried, were the first to draw conclusions from them concerning the organization of perception at the time.", "ja": "ウィーン学派で、古臭い伝統に逆らった、リーグルとヴィックホフは、知覚のまとまり方を考えることから、古い伝統がそれ以降のアートの様式を埋もれさせてしまうという結論に至った。"}
+{"en": "However far-reaching their insight, these scholars limited themselves to showing the significant, formal hallmark which characterized perception in late Roman times.", "ja": "彼らの洞察はなかなかあっぱれなものであったが、ローマ時代の特徴としての表面的な形式を重要視するというのは彼らの限界でもあった。"}
+{"en": "They did not attempt--and, perhaps, saw no way--to show the social transformations expressed by these changes of perception.", "ja": "彼らは、思ってもみなかっただろうし、たぶんそういう見方すらしなかっただろうが、知覚の変化によって明らかになるのは、社会の様子も変わるということなのだ。"}
+{"en": "The conditions for an analogous insight are more favorable in the present.", "ja": "そういった考え方のための条件は現在においては、なじみ深いものではある。"}
+{"en": "And if changes in the medium of contemporary perception can be comprehended as decay of the aura, it is possible to show its social causes.", "ja": "そして、もし現代の知覚の変化が「アウラ」の衰えによって理解されるのなら、それには社会的な原因があげられるだろう。"}
+{"en": "The concept of aura which was proposed above with reference to historical objects may usefully be illustrated with reference to the aura of natural ones.", "ja": "歴史的な対象としてあげられた「アウラ」のコンセプトは、自然における「アウラ」を引き合いに出すことで分かりやすくなる。"}
+{"en": "We define the aura of the latter as the unique phenomenon of a distance, however close it may be.", "ja": "後者の「アウラ」は非常に近い距離であっても、独自の現象としてとらえることできる。"}
+{"en": "If, while resting on a summer afternoon, you follow with your eyes a mountain range on the horizon or a branch which casts its shadow over you, you experience the aura of those mountains, of that branch.", "ja": "夏の午後にちょっと一息ついている間、あなたは、水平に広がる山や、あなたに影を投げかけている木の枝を眺めているとすると、あなたは、山の「アウラ」や木の枝の「アウラ」を体験しているということが言える。"}
+{"en": "This image makes it easy to comprehend the social bases of the contemporary decay of the aura.", "ja": "この例えは、簡単に現代の「アウラ」が衰えている社会にも、あてはめることができるだろう。"}
+{"en": "It rests on two circumstances, both of which are related to the increasing significance of the masses in contemporary life.", "ja": "これは、現代の生活の大衆にますます重要さが増すということに関係した、二つの事柄に関係している。"}
+{"en": "Namely, the desire of contemporary masses to bring things \"closer\" spatially and humanly, which is just as ardent as their bent toward overcoming the uniqueness of every reality by accepting its reproduction.", "ja": "すなわち、一つは、空間的にも人間的にも「近く」に引き寄せようという思いをもった現代の大衆の欲求で、もう一つはそれと同じくらい熱心に、複製を認めることによって、すべての現実の独自性を乗り越えようとする性質である。"}
+{"en": "Every day the urge grows stronger to get hold of an object at very close range by way of its likeness, its reproduction.", "ja": "日ごとに、複製をホンモノに似せて、手元に置きたいという欲求はどんどん強くなっているようだ。"}
+{"en": "Unmistakably, reproduction as offered by picture magazines and newsreels differs from the image seen by the unarmed eye.", "ja": "間違いなく、写真雑誌やニュース番組の写真は裸眼でみる画像とは違ったものだ。"}
+{"en": "Uniqueness and permanence are as closely linked in the latter as are transitoriness and reproducibility in the former.", "ja": "他にないということや、ずっとそこにあるということは、後者の、裸眼で見ることと関係が深く、一時的で複製可能ということは、前者に関係が深い。"}
+{"en": "To pry an object from its shell, to destroy its aura, is the mark of a perception whose \"sense of the universal equality of things\" has increased to such a degree that it extracts it even from a unique object by means of reproduction.", "ja": "モノを包み込む殻をこじあけ、「アウラ」を破壊することは、「物の平等さに対する感覚」を感じ取っているということで、複製によって、ただ一つしかないものからでさえ、「アウラ」を抜き出そうという段階まできている。"}
+{"en": "Thus is manifested in the field of perception what in the theoretical sphere is noticeable in the increasing importance of statistics.", "ja": "したがって、知覚の分野で明らかになるのは、理論の分野が、統計の重要さが増すなかで明らかにするものと同じものであると言える。"}
+{"en": "The adjustment of reality to the masses and of the masses to reality is a process of unlimited scope, as much for thinking as for perception.", "ja": "大衆を現実にあてはめたり、現実を大衆にあてはめたりして、考えることは、知覚を考えることと同じくらい、限りのない射程を持ったプロセスである。"}
+{"en": "The uniqueness of a work of art is inseparable from its being imbedded in the fabric of tradition.", "ja": "アート作品がただ一つしかないということは、伝統に組み込まれていることと、分けて考えることはできない。"}
+{"en": "This tradition itself is thoroughly alive and extremely changeable.", "ja": "この伝統は変わることなく、いまでも脈々と受け継がれている。"}
+{"en": "An ancient statue of Venus, for example, stood in a different traditional context with the Greeks, who made it an object of veneration, than with the clerics of the Middle Ages, who viewed it as an ominous idol.", "ja": "例えば、古代のビーナス像は、古代ギリシャ人には崇拝の対象に、中世の聖職者には、不吉な偶像としてみられていた。"}
+{"en": "Both of them, however, were equally confronted with its uniqueness, that is, its aura.", "ja": "しかしながら、両方とも等しく、「アウラ」という、ただひとつしかない、という事実に直面している。"}
+{"en": "Originally the contextual integration of art in tradition found its expression in the cult.", "ja": "もともとは、伝統におけるアートの文脈の一本化は宗教におけるアートのなかに見出されたものである。"}
+{"en": "We know that the earliest art works originated in the service of a ritual", "ja": "最も初期のアートは、儀式などに用いられたものだというのはよく知られている。"}
+{"en": "--first the magical, then the religious kind.", "ja": "---最初は魔術的な用途で、だんだん儀式的なものに移り変わってきたのだ。"}
+{"en": "It is significant that the existence of the work of art with reference to its aura is never entirely separated from its ritual function.", "ja": "重要なのは「アウラ」を持ったアート作品が儀式的な役割と切っても切り離せないところだ。"}
+{"en": "In other words, the unique value of the \"authentic\" work of art has its basis in ritual, the location of its original use value.", "ja": "言い換えれば、「ホンモノの」アート作品の、ただひとつしかないという意味での価値は、儀式的なものに基づき、オリジナルだという価値もそこにあるのだ。"}
+{"en": "This ritualistic basis, however remote, is still recognizable as secularized ritual even in the most profane forms of the cult of beauty.", "ja": "この儀式的な基礎は、間接的であるにせよ、美の信仰対象のありかたにおいて世俗化した儀式として認識できる。"}
+{"en": "The secular cult of beauty, developed during the Renaissance and prevailing for three centuries,", "ja": "世俗的な信仰対象の美は、ルネッサンスの時代に発展し、三百年もの間、主流になった。"}
+{"en": "clearly showed that ritualistic basis in its decline and the first deep crisis which befell it.", "ja": "これは、儀式的なものの衰退と危機をはじめてはっきりと示したものだ。"}
+{"en": "With the advent of the first truly revolutionary means of reproduction, photography, simultaneously with the rise of socialism, art sensed the approaching crisis which has become evident a century later.", "ja": "複製の本当の意味での革新の到来とともに、写真や社会主義の台頭とともに生まれたアートは、100年ほどのちに現実となる、すぐそこにある危機を意味していた。"}
+{"en": "At the time, art reacted with the doctrine of l'art pour l'art, that is, with a theology of art.", "ja": "そのとき、時代のアートは理論とともに「アートのためのアート」という考え方を掲げていた。"}
+{"en": "This gave rise to what might be called a negative theology in the form of the idea of \"pure\" art,", "ja": "これは、「アートのための」考え方としては、ネガティブな理論である。"}
+{"en": "which not only denied any social function of art but also any categorizing by subject matter.", "ja": "社会におけるアートの、どんな役割をも否定し、その主題によって分類することをも否定した。"}
+{"en": "(In poetry, Mallarm* was the first to take this position.)", "ja": "（文学においては詩人のマラルメが最初にこの立場をとった。）"}
+{"en": "An analysis of art in the age of mechanical reproduction must do justice to these relationships,", "ja": "機械的な複製時代のアートの分析はこれらの関係をもとに判断を行っていく必要がある。"}
+{"en": "for they lead us to an all-important insight:", "ja": "その分析が、すべて重要な洞察を導いていく。"}
+{"en": "for the first time in world history, mechanical reproduction emancipates the work of art from its parasitical dependence on ritual.", "ja": "歴史上、初めて機械的な複製はアート作品を儀式的なものに寄生して頼らなければならないということから解き放ったのだ。"}
+{"en": "To an ever greater degree the work of art reproduced becomes the work of art designed for reproducibility.", "ja": "アート作品がかつてないほどに複製されるということは、アート作品自身を複製に適しているように、姿を変えさせた。"}
+{"en": "From a photographic negative, for example, one can make any number of prints;", "ja": "写真のネガフィルムから、いくらでも写真を焼き増しできるのは、そのよい例だ。"}
+{"en": "to ask for the \"authentic\" print makes no sense.", "ja": "写真の場合において「ホンモノの」プリントというのは意味のないことだ。"}
+{"en": "But the instant the criterion of authenticity ceases to be applicable to artistic production, the total function of art is reversed.", "ja": "そして、「ホンモノらしさ」の基準が、アート作品を制作することにおいて問題ではなくなったとたんに、アートのすべての役割はひっくり返されてしまうのだ。"}
+{"en": "Instead of being based on ritual, it begins to be based on another practice", "ja": "儀式的なものに基づく代わりに、別のものに基づくようになる"}
+{"en": "--politics.", "ja": "---そう、政治だ。"}
+{"en": "Works of art are received and valued on different planes.", "ja": "アート作品は異なる水準で受け取られ評価される。"}
+{"en": "Two polar types stand out::", "ja": "すなわち、二つの見方による。"}
+{"en": "with one, the accent is on the cult value;", "ja": "ひとつは、昔ながらのもので、宗教的な価値だ。"}
+{"en": "with the other, on the exhibition value of the work.", "ja": "もう一つは、作品を展示する時の価値だ。"}
+{"en": "Artistic production begins with ceremonial objects destined to serve in a cult.", "ja": "アートの制作は宗教的な用途のための儀式的なものとして始まった。"}
+{"en": "The elk portrayed by the man of the Stone Age on the walls of his cave was an instrument of magic.", "ja": "石器時代の人に洞窟の壁に描かれた大鹿は魔法の道具みたいだった。"}
+{"en": "He did expose it to his fellow men, but in the main it was meant for the spirits.", "ja": "石器時代の人は、仲間にその絵を見せびらかしていただろうが、おもに、こころの充足のためのものだったのだ。"}
+{"en": "Today the cult value would seem to demand that the work of art remain hidden.", "ja": "最近では、宗教的な価値はアート作品に秘められた、役割といえるだろう。"}
+{"en": "Certain statues of gods are accessible only to the priest in the cella;", "ja": "特定の神々の彫像は貯蔵室に置かれ、聖職者のみ観ることが許されていた。"}
+{"en": "certain Madonnas remain covered nearly all year round;", "ja": "聖母像によっては、ほぼ一年中覆いに包まれていて、"}
+{"en": "certain sculptures on medieval cathedrals are invisible to the spectator on ground level.", "ja": "いくつかの中世の伽藍にある彫刻にしても地上に出てきて一般人の目に触れられることはなかった。"}
+{"en": "With the emancipation of the various art practices from ritual go increasing opportunities for the exhibition of their products.", "ja": "儀式的なものからのアートの解放によって、アート作品は人の目に触れる機会が増えた。"}
+{"en": "It is easier to exhibit a portrait bust that can be sent here and there than to exhibit the statue of a divinity that has its fixed place in the interior of a temple.", "ja": "寺院の中の決められた場所にしか展示できない神々しい彫刻を、どこか決まったところに展示するより、あちこちに送られる胸像はもっと展示しやすいといえる。"}
+{"en": "The same holds for the painting as against the mosaic or fresco that preceded it.", "ja": "モザイクやフレスコに対してのタブロー絵画もこれと同じことがいえる。"}
+{"en": "And even though the public presentability of a mass originally may have been just as great as that of a symphony, the latter originated at the moment when its public presentability promised to surpass that of the mass.", "ja": "そして、ミサ儀式の展示のしやすさは、もともと交響曲と同じようなものだったが、交響曲はミサ儀式のそれを上回る大衆へのプレゼンテーションのしやすさということに由来するものだった。"}
+{"en": "With the different methods of technical reproduction of a work of art, its fitness for exhibition increased to such an extent", "ja": "いろいろなアート作品の複製技術の方法によって、展示へ向いているということが、より一層、いちじるしくなった。"}
+{"en": "that the quantitative shift between its two poles turned into a qualitative transformation of its nature.", "ja": "それは、二つの極の間で、量的な変化がその性質の質的変化にシフトしていくものだった。"}
+{"en": "This is comparable to the situation of the work of art in prehistoric times when, by the absolute emphasis on its cult value, it was, first and foremost, an instrument of magic.", "ja": "このことは、宗教的な価値の絶対的な強調によって、何をおいても、魔法の道具がまず大事であった時代、すなわち有史以前のアート作品の状況と比較できる。"}
+{"en": "Only later did it come to be recognized as a work of art.", "ja": "あとになってやっと、アート作品とみなされたわけだが。"}
+{"en": "In the same way today, by the absolute emphasis on its exhibition value the work of art becomes a creation with entirely new functions, among which the one we are conscious of, the artistic function,", "ja": "今日と同じやり方で、展示の価値に絶対的な重きを置くことによって、アート作品は、われわれが意識的になる何かと似た、まったく新しい役割を担うようになった。"}
+{"en": "later may be recognized as incidental.", "ja": "後にそれは、偶然だったと見られるかもしれないだろうが。"}
+{"en": "This much is certain:", "ja": "ここで、いくらかのことがいえる。"}
+{"en": "today photography and the film are the most serviceable exemplifications of this new function.", "ja": "つまり、今日の写真や映画はこの新しいアートの役割のもっとも、わかりやすい例であろう。"}
+{"en": "In photography, exhibition value begins to displace cult value all along the line.", "ja": "写真の展示における価値は、宗教的な価値を、ことごとく置き換えはじめた。"}
+{"en": "But cult value does not give way without resistance.", "ja": "しかし、宗教的な価値は打つ手もなく、そのポジションを明け渡したわけではない。"}
+{"en": "It retires into an ultimate retrenchment:", "ja": "宗教的な価値は究極の一手を打ったのだ。"}
+{"en": "the human countenance.", "ja": "そう、それは、人間の顔だ。"}
+{"en": "It is no accident that the portrait was the focal point of early photography.", "ja": "ポートレイトが初期の写真のいて重要な点だったのは偶然ではない。"}
+{"en": "The cult of remembrance of loved ones, absent or dead, offers a last refuge for the cult value of the picture.", "ja": "どこかいなくなってしまったり、死んでしまったりした、愛するもの面影を思うことは写真の宗教的な価値のみ重きを置くことに反するものである。"}
+{"en": "For the last time the aura emanates from the early photographs in the fleeting expression of a human face.", "ja": "つかの間の人間の表情を撮った初期の写真からは最後の「アウラ」があふれ出ているのだ。"}
+{"en": "This is what constitutes their melancholy, incomparable beauty.", "ja": "このことは彼らのメランコリーを思わせ、比べようもなく美しいのだ。"}
+{"en": "But as man withdraws from the photographic image, the exhibition value for the first time shows its superiority to the ritual value.", "ja": "しかし、人間が写真のイメージから離れることによって、はじめて、展示における価値は儀式的なものに勝るということをあらわにする。"}
+{"en": "To have pinpointed this new stage constitutes the incomparable significance of Atget, who, around 1900, took photographs of deserted Paris streets.", "ja": "この新しい段階を指し示したのは、1900年頃、閑散としたパリの街並みを撮影したアジェによる素晴らしく、他と比べようもない功績だ。"}
+{"en": "It has quite justly been said of him that he photographed them like scenes of crime.", "ja": "彼は、犯罪現場のように写真を撮ったと言われていることは、まったく正しいことである。"}
+{"en": "With Atget, photographs become standard evidence for historical occurrences, and acquire a hidden political significance.", "ja": "アジェによって、写真は歴史的な事実のスタンダードになったのだ。"}
+{"en": "They demand a specific kind of approach;", "ja": "それら写真は特別なアプローチ、"}
+{"en": "free-floating contemplation is not appropriate to them.", "ja": "すなわち、漠然とした曖昧な瞑想を抱くのはその犯罪という事実には不適切であると示していた。"}
+{"en": "They stir the viewer;", "ja": "それらの写真はみるものを混乱させていた。"}
+{"en": "he feels challenged by them in a new way.", "ja": "それは、アジェに新しいことを挑戦していると自覚させるものでもあったのだが。"}
+{"en": "At the same time picture magazines begin to put up signposts for him, right ones or wrong ones, no matter.", "ja": "それと同時に、写真雑誌は正しいか間違いか、それとも、まったく問題にならないものかを、示すものになる。"}
+{"en": "For the first time, captions have become obligatory.", "ja": "そこではじめて、キャプションが必須のものになるのであった。"}
+{"en": "And it is clear that they have an altogether different character than the title of a painting.", "ja": "そして、そのキャプションは絵画の題とは明らかに違ったものだと言えるだろう。"}
+{"en": "The directives which the captions give to those looking at pictures in illustrated magazines soon become even more explicit and more imperative in the film where the meaning of each single picture appears to be prescribed by the sequence of all preceding ones.", "ja": "写真雑誌の中で、その写真にキャプションが与える内容は、一つ一つの画像の意味が、一コマに先立つ全体の流れの中ではっきりするという、映画において、より明白で必然のあることになっていった。"}
+{"en": "The nineteenth-century dispute as to the artistic value of painting versus photography today seems devious and confused.", "ja": "十九世紀に言い争われた、「絵画の価値」対「写真の価値」という話題は今日では、捻じ曲がってしまい、混乱の極みだ。"}
+{"en": "This does not diminish its importance, however;", "ja": "しかし、この問題は重要さをそこなうものではく、"}
+{"en": "if anything, it underlines it.", "ja": "むしろ、強調するものだ。"}
+{"en": "The dispute was in fact the symptom of a historical transformation the universal impact of which was not realized by either of the rivals.", "ja": "その論争は実際、絵画派、写真派のおたがいに気づかれることないながらも、世の中にインパクトを与える歴史的な変化のきざしだったのだ。"}
+{"en": "When the age of mechanical reproduction separated art from its basis in cult, the semblance of its autonomy disappeared forever.", "ja": "機械的な複製の時代が宗教的な基盤からアートを離したとき、うわべだけであったアートの自立性をも永遠に引き離してしまったのだ。"}
+{"en": "The resulting change in the function of art transcended the perspective of the century;", "ja": "アートの役割の変化による結果は、百年のパースペクティブをも超えてしまった。"}
+{"en": "for a long time it even escaped that of the twentieth century, which experienced the development of the film.", "ja": "長い期間においては、映画の発達を経験した二十世紀ですら飛び越してしまったのだ。"}
+{"en": "Earlier much futile thought had been devoted to the question of whether photography is an art.", "ja": "言いはじめの頃はほとんど役に立たなかった、この考えは、写真はアートかどうかという問題に費やされた。"}
+{"en": "The primary question-- whether the very invention of photography had not transformed the entire nature of art--was not raised.", "ja": "第一の疑問---偉大な発明である写真は、アートの性質をまったく変えてしまったかどうかという疑問---はあげられなかった。"}
+{"en": "Soon the film theoreticians asked the same ill-considered question with regard to the film.", "ja": "すぐに、映画の理論家が映画をアートとみなすことによって似たような不適切な疑問をなげかけた。"}
+{"en": "But the difficulties which photography caused traditional aesthetics were mere child's play as compared to those raised by the film.", "ja": "しかし、写真が伝統的な美学を扱うことは難しく、映画のやりかたは、まるで、ただの子供のお遊びにしか見えなかった。"}
+{"en": "Whence the insensitive and forced character of early theories of the film.", "ja": "なぜなら、その映画の理論は鈍感で強引だったからだ。"}
+{"en": "Abel Gance, for instance, compares the film with hieroglyphs:", "ja": "例えば、アベル・ガンスは映画と絵文字を比べたりしていた。"}
+{"en": "\"Here, by a remarkable regression, we have come back to the level of expression of the Egyptians", "ja": "「ここで、注目すべき回帰によって、古代エジプト時代の表現のレベルまでさかのぼる事になった"}
+{"en": ".... Pictorial language has not yet matured because our eyes have not yet adjusted to it.", "ja": "・・・・絵文字はわれわれの眼が慣れていないので、まだ熟していない。"}
+{"en": "There is as yet insufficient respect for, insufficient cult of, what it expresses.\"", "ja": "いまだ十分な敬意を持たれおらず、また、それが表現することで十分な畏怖の念を受けていない。」"}
+{"en": "Or, in the words of S*verin-Mars:", "ja": "また、セヴラン＝マルスは、"}
+{"en": "\"What art has been granted a dream more poetical and more real at the same time!", "ja": "「詩的なものと現実的なものを同時に夢見ることができるアートとはなんたることか！"}
+{"en": "Approached in this fashion the film might represent an incomparable means of expression.", "ja": "この点において、映画は他と変えがたい表現の意味を指し示すかもしれない。"}
+{"en": "Only the most high-minded persons, in the most perfect and mysterious moments of their lives, should be allowed to enter its ambiance.\"", "ja": "意識の高い人物のみが、もっとも完璧で、もっとも神秘的な人生の瞬間に、全体的な雰囲気を体験するであろう。」"}
+{"en": "Alexandre Arnoux concludes his fantasy about the silent film with the question:", "ja": "アレクサンドラ・アルヌーも無声映画にたいして幻想を抱きながら、こう疑問を抱いている。"}
+{"en": "\"Do not all the bold descriptions we have given amount to the definition of prayer?\"", "ja": "「すべての大胆な表現は、祈りの定義を与えるものではないだろうか？」"}
+{"en": "It is instructive to note how their desire to class the film among the \"arts\" forces these theoreticians to read ritual elements into it--with a striking lack of discretion.", "ja": "「アート」のあいだに映画を位置づけたいがために、これらの理論家が慎重さを欠いて、宗教的な価値を映画のなかに見出そうとしているは示唆的だ。"}
+{"en": "Yet when these speculations were published, films like L'Opinion publique and The Gold Rush had already appeared.", "ja": "こうした考えが発表されたとき、すでに「輿論の声」「黄金への道」といった映画が公表されていた。"}
+{"en": "This, however, did not keep Abel Gance from adducing hieroglyphs for purposes of comparison, nor S*verin-Mars from speaking of the film as one might speak of paintings by Fra Angelico.", "ja": "しかしながら、このことは、アベル・ガンスが絵文字を比較の対象として引用することをとめることはなく、また、セヴラン＝マルスがフラ・アンジェリコの絵画を話すように、映画について話すのを止めさせなかった。"}
+{"en": "Characteristically, even today ultrareactionary authors give the film a similar contextual significance", "ja": "特徴的に、今日においてすら、超反動主義者の作者は似たような文脈で映画を取り上げている。"}
+{"en": "--if not an outright sacred one, then at least a supernatural one.", "ja": "--あからさまに宗教的でないとしても、少なくとも超自然的なものとして。"}
+{"en": "Commenting on Max Reinhardt's film version of *A Midsummer Night's Dream*, Werfel states that undoubtedly it was the sterile copying of the exterior world with its streets, interiors, railroad stations, restaurants, motorcars, and beaches which until now had obstructed the elevation of the film to the realm of art.", "ja": "マックス・ラインハルトの「真夏の夜の夢」という映画へのコメントで、ヴェルフェルは、疑いなく街並みや、イテリアや、駅や、レストランや、車や、ビーチなどの、外の世界の不毛なコピーはアートの分野における映画の地位の向上に対して障害になると言っている。"}
+{"en": "\"The film has not yet realized its true meaning,", "ja": "「映画は、本当の意味にいまだ気づいていない。"}
+{"en": "its real possibilities", "ja": "本当の可能性は"}
+{"en": ". . . these consist in its unique faculty to express by natural means and with incomparable persuasiveness all that is fairylike, marvelous, supernatural.\"", "ja": "・・・これらが、他と代えがたい説得力とともに、自然をとらえ、妖精のようで、不思議で、超自然的なものを表現することのできる、ユニークな能力が含まれていると言うことだ。」"}
+{"en": "The artistic performance of a stage actor is definitely presented to the public by the actor in person;", "ja": "舞台俳優のアーティスティックな演技は、一人の人間である俳優によって観客に表現される。"}
+{"en": "that of the screen actor, however, is presented by a camera, with a twofold consequence.", "ja": "しかしながら、映画俳優は、二つの影響とともに、カメラによって観客に表現される。"}
+{"en": "The camera that presents the performance of the film actor to the public need not respect the performance as an integral whole.", "ja": "映画俳優の演技を映すカメラは、全体としての演技に重きを置かない。"}
+{"en": "Guided by the cameraman, the camera continually changes its position with respect to the performance.", "ja": "カメラマンに導かれ、カメラはパフォーマンスを第一に考えて、連続的にカメラの位置を移動する。"}
+{"en": "The sequence of positional views which the editor composes from the material supplied him constitutes the completed film.", "ja": "編集者が撮影されたフィルムを素材として構成したシーンによって映画が完成する。"}
+{"en": "It comprises certain factors of movement which are in reality those of the camera, not to mention special camera angles, close-ups, etc.", "ja": "それは、特別なカメラのアングル、クローズアップとかそういったものはさておき、実際には、カメラによる、運動の結果によって成り立つ。"}
+{"en": "Hence, the performance of the actor is subjected to a series of optical tests.", "ja": "したがって、俳優の演技は一連の光学的な題材とされる。"}
+{"en": "This is the first consequence of the fact that the actor's performance is presented by means of a camera.", "ja": "このことは、俳優の演技がカメラによる手段によって示される初めての結果だ。"}
+{"en": "Also, the film actor lacks the opportunity of the stage actor to adjust to the audience during his performance,", "ja": "また、映画俳優は彼が演技する間、観客にあわせて演技する舞台俳優のような機会を失う。"}
+{"en": "since he does not present his performance to the audience in person.", "ja": "なぜなら、彼は、人間の前で演技をしているわけではないからだ。"}
+{"en": "This permits the audience to take the position of a critic, without experiencing any personal contact with the actor.", "ja": "このことは、俳優と、どんな個人的な接触をすることなく、観客に批評家のような立場を取らさせる。"}
+{"en": "The audience's identification with the actor is really an identification with the camera.", "ja": "観客が俳優と一体となることは、実際、カメラと一体となることなのだ。"}
+{"en": "Consequently the audience takes the position of the camera; its approach is that of testing.", "ja": "結果的に、観客は、アプローチがテストであるカメラの立場を取ることになる。"}
+{"en": "This is not the approach to which cult values may be exposed.", "ja": "このことは、宗教的な価値が明らかにするアプローチではないと言える。"}
+{"en": "For the film, what matters primarily is that the actor represents himself to the public before the camera, rather than representing someone else.", "ja": "映画にとって、まず問題になるのは、俳優が誰かに向かって演技するかということではなく、カメラに向かって演技するということなのである。"}
+{"en": "One of the first to sense the actor's metamorphosis by this form of testing was Pirandello.", "ja": "このことを初めて言った人に、ピランデロがいる。"}
+{"en": "Though his remarks on the subject in his novel *Si Gira* were limited to the negative aspects of the question and to the silent film only, this hardly impairs their validity.", "ja": "彼の小説の「ある映画技師の手記」のテーマは、そういった疑問のネガティブな部分をうちだし、無声映画に限られているということにもかかわらず、まったく正当性を失うことはない。"}
+{"en": "For in this respect, the sound film did not change anything essential.", "ja": "彼が述べている点において、トーキー映画でも、その重要さを失うことはないのだ。"}
+{"en": "What matters is that the part is acted not for an audience but for a mechanical contrivance-- in the case of the sound film, for two of them.", "ja": "このことは、観客のみに言えることではなく、機械的な装置にも言えることで、トーキー映画かどうかということは問題ではないのだ。"}
+{"en": "\"The film actor,\" wrote Pirandello, \"feels as if in exile--exiled not only from the stage but also from himself.", "ja": "「映画俳優は舞台から追い出されているだけでなく、彼自身からをも追い出されている。"}
+{"en": "With a vague sense of discomfort he feels inexplicable emptiness:", "ja": "俳優が感じる、言いようのない空しさや、"}
+{"en": "his body loses its corporeality, it evaporates, it is deprived of reality, life, voice, and the noises caused by his moving about, in order to be changed into a mute image, flickering an instant on the screen, then vanishing into silence....", "ja": "居心地の悪い感覚とともに、音のないイメージのなかで変化するため、彼のからだは具体性を失い、蒸発し、現実感や、生命感や、声や、彼が動くことによって生じるノイズを奪う・・・・"}
+{"en": "The projector will play with his shadow before the public, and he himself must be content to play before the camera\"", "ja": "公衆の前でプロジェクターが彼の影を映し出し、彼自身はカメラの前で演じるコンテンツになってしまう。」"}
+{"en": "This situation might also be characterized as follows:", "ja": "この状態は以下のようなものによって特徴づけられるものかもしれない。"}
+{"en": "for the first time--and this is the effect of the film--man has to operate with his whole living person, yet forgoing its aura.", "ja": "すなわち、はじめて、---そしてこのことは、映画的な効果であるが、---人間は、「アウラ」なしで、からだ全体で、働きかけなければならないということだ。"}
+{"en": "For aura is tied to his presence;", "ja": "「アウラ」が俳優の姿かたちにとらわれているということは、"}
+{"en": "there can be no replica of it.", "ja": "俳優のレプリカなどまったく無いということだ。"}
+{"en": "The aura which, on the stage, emanates from Macbeth, cannot be separated for the spectators from that of the actor.", "ja": "舞台の上の「アウラ」はマクベスから発せられ、観客は俳優の「アウラ」から離して考えることができないのだ。"}
+{"en": "However, the singularity of the shot in the studio is that the camera is substituted for the public.", "ja": "しかしながら、スタジオにおける、撮影の一回性は、カメラが、観客の代わりであるということをも意味する。"}
+{"en": "Consequently, the aura that envelops the actor vanishes, and with it the aura of the figure he portrays.", "ja": "結果的に、俳優を包み込む「アウラ」は消えさり、俳優が演じている人物の「アウラ」も一緒に消えるのだ。"}
+{"en": "It is not surprising that it should be a dramatist such as Pirandello who, in characterizing the film, inadvertently touches on the very crisis", "ja": "映画を特徴付けるにあたって、何の気なしに、でも鋭く批判をしたのが、劇作家であるピランデロだったということは、驚くことではない。"}
+{"en": "in which we see the theater.", "ja": "演劇でも似たようなことが言えるからだ。"}
+{"en": "Any thorough study proves that there is indeed no greater contrast than that of the stage play to a work of art that is completely subject to or, like the film, founded in, mechanical reproduction.", "ja": "徹底した、研究はどれも、中心的な存在であり、映画のように機械的な複製に基づくアート作品と、舞台の演劇とは大きく違っていないということを証明している。"}
+{"en": "Experts have long recognized that in the film", "ja": "識者たちは映画において長いあいだ、"}
+{"en": "\"the greatest effects are almost always obtained by 'acting' as little as possible....\"", "ja": "「もっとも重大な効果は可能な限り微妙な「演技」によってもたらされる。」"}
+{"en": "In 1932 Rudolf Arnheim saw", "ja": "1932年にルドルフ・アルハイムは"}
+{"en": "\"the latest trend . . . in treating the actor as a stage prop chosen for its characteristics and . . . inserted at the proper place.", "ja": "「最近のトレンドは…俳優を、その特性を吟味し、適切な場所に設置する舞台の小道具として扱うことだ。」"}
+{"en": "With this idea something else is closely connected.", "ja": "この考え方によって、なにかが非常に密接につながったのだ。"}
+{"en": "The stage actor identifies himself with the character of his role.", "ja": "舞台俳優は役の性格と自分を同一化するが、"}
+{"en": "The film actor very often is denied this opportunity.", "ja": "映画俳優はしばし、この特性を無視する。"}
+{"en": "His creation is by no means all of a piece;", "ja": "俳優の創造性は作品のすべてを意味しない。"}
+{"en": "it is composed of many separate performances.", "ja": "いくつかに分かれた演技によって組み立てられるからだ。"}
+{"en": "Besides certain fortuitous considerations, such as cost of studio, availability of fellow players, decor, etc., there are elementary necessities of equipment that split the actor's work into a series of mountable episodes.", "ja": "ふとした、その俳優の思いつきに加え、スタジオ使用料や、俳優仲間の能力や、舞台装置などなど、俳優の仕事を、一つの部品として組み込む、その他の設備も基本的に重要なのだ。"}
+{"en": "In particular, lighting and its installation require the presentation of an event that, on the screen, unfolds as a rapid and unified scene, in a sequence of separate shootings which may take hours at the studio;", "ja": "特に、照明や大道具は、スタジオで何時間もかけられてバラバラに撮影された一つのシーンに対して、すばやく、そして、統一の取れたシーンをスクリーン上で展開することを要求される。"}
+{"en": "not to mention more obvious montage.", "ja": "もっとあからさまなモンタージュの手法を持ち出すまでもないだろう。"}
+{"en": "Thus a jump from the window can be shot in the studio as a jump from a scaffold, and the ensuing flight, if need be, can be shot weeks later when outdoor scenes are taken.", "ja": "したがって、なにかの台から飛び降りるシーンをスタジオで撮影して、窓から飛び降りたということにもでき、続いて飛んでいるシーンも、屋外のシーンとして、何週間もあとに撮影することもできる。"}
+{"en": "Far more paradoxical cases can easily be construed.", "ja": "さらに矛盾した事態をも、いとも簡単に作り上げることができる。"}
+{"en": "Let us assume that an actor is supposed to be startled by a knock at the door.", "ja": "俳優がドアをノックするのに驚いたとして、"}
+{"en": "If his reaction is not satisfactory, the director can resort to an expedient: when the actor happens to be at the studio again he has a shot fired behind him without his being forewarned of it.", "ja": "もし彼のリアクションが満足のいくものでなかったとしたら、俳優がスタジオで演技するときに、俳優に黙って銃を撃つことによって驚かして撮影したりしてた都合のよいテイクに、監督は置き換えることだってできる。"}
+{"en": "The frightened reaction can be shot now and be cut into the screen version.", "ja": "その驚いたリアクションをカットして実際のシーンに組み込むことができるのだ。"}
+{"en": "Nothing more strikingly shows that art has left the realm of the \"beautiful semblance\" which, so far, had been taken to be the only sphere where art could thrive.", "ja": "長いあいだ、アートの独断場であった、「美しい見せかけ」の分野で、これ以上衝撃的な見せ方はのこされていないだろう。"}
+{"en": "The feeling of strangeness that overcomes the actor before the camera, as Pirandello describes it, is basically of the same kind as the estrangement felt before one's own image in the mirror.", "ja": "カメラの前の俳優が感じる妙な気分は、ピランデロが言ったとおり、基本的に、普通の人が鏡の前で感じる、疎外感と同じものだ。"}
+{"en": "But now the reflected image has become separable, transportable.", "ja": "しかし、その映ったイメージは切り離して、移動することができる。"}
+{"en": "And where is it transported?", "ja": "さて、どこにそのイメージは移動するのだろうか？"}
+{"en": "Before the public.", "ja": "・・・そう、観客の前だ。"}
+{"en": "Never for a moment does the screen actor cease to be conscious of this fact.", "ja": "この実感を俳優が感じない瞬間は決してない。"}
+{"en": "While facing the camera he knows that ultimately he will face the public,", "ja": "カメラに向かっているあいだ、俳優は観客に向かっているのだ。"}
+{"en": "the consumers who constitute the market.", "ja": "そして、その観客によって市場が形作られるのだ。"}
+{"en": "This market, where he offers not only his labor but also his whole self, his heart and soul, is beyond his reach.", "ja": "この市場は、俳優が労働力を提供するだけでなく、俳優自身、すなわち、身も心もささげている市場は、俳優が把握している範囲を超えているのだ。"}
+{"en": "During the shooting he has as little contact with it as any article made in a factory.", "ja": "撮影のあいだ、俳優はスタジオでおこることを、なるべく無視するようにする。"}
+{"en": "This may contribute to that oppression, that new anxiety which, according to Pirandello, grips the nactor before the camera.", "ja": "このことは、ピランデロによれば、俳優が抱くあたらしい不安感を強要しているということらしい。"}
+{"en": "The film responds to the shriveling of the aura with an artificial build-up of the \"personality\" outside the studio.", "ja": "映画は、スタジオの外で人工的に形作られる「性格」とともに、「アウラ」を弱々しいものにする。"}
+{"en": "The cult of the movie star, fostered by the money of the film industry, preserves not the unique aura of the person but the \"spell of the personality,\" the phony spell of a commodity.", "ja": "映画業界のお金の力で強化される映画のスターをあがめたてまつることは、俳優個人ただ一人だけである「アウラ」の意味をなくし、インチキな商品的な価値だけを意味する「人格の魔術」を温存するのだ。"}
+{"en": "So long as the movie-makers' capital sets the fashion, as a rule no other revolutionary merit can be accredited to today's film than the promotion of a revolutionary criticism of traditional concepts of art.", "ja": "伝統的なアートのコンセプトへの革新的な批評を推進せず、映画産業の資本が流行を単に仕掛けているうちは、革新的な功績を、今日の映画に認めることはできない。"}
+{"en": "We do not deny that in some cases today's films can also promote revolutionary criticism of social conditions, even of the distribution of property.", "ja": "わたしたちは、今日の映画が社会に対してや、財産の再分配において、革新的な批判を推進するということを否定はしない。"}
+{"en": "However, our present study is no more specifically concerned with this than is the film production of Western Europe.", "ja": "しかしながら、わたしたちの最近の研究では、西ヨーロッパの映画制作では、このことをさして特別に取り上げることでもないと、結論づけるのだ。"}
+{"en": "It is inherent in the technique of the film as well as that of sports that everybody who witnesses its accomplishments is somewhat of an expert.", "ja": "だれもが、すごい人の業績の証人になれるということは、スポーツと同じく、映画の本来的なものだ。"}
+{"en": "This is obvious to anyone listening to a group of newspaper boys leaning on their bicycles and discussing the outcome of a bicycle race.", "ja": "新聞少年たちが彼らの自転車に寄りかかって、自転車レースの結果について話し合っているのを聞いたことのある人にとっては、とても明白なことだろう。"}
+{"en": "It is not for nothing that newspaper publishers arrange races for their delivery boys.", "ja": "新聞社が新聞少年のために自転車レースをアレンジしないというわけではない。"}
+{"en": "These arouse great interest among the participants, for the victor has an opportunity to rise from delivery boy to professional racer.", "ja": "新聞少年からプロ競輪選手がでて、その勝者になれるという、チャンスを与えることは、参加者の興味をひくだろう。"}
+{"en": "Similarly, the newsreel offers everyone the opportunity to rise from passer- by to movie extra.", "ja": "それとおなじく、ニュース番組は一般の人に、映画のエキストラとして、出演できるかもしれないという、チャンスを与えているのだ。"}
+{"en": "In this way any man might even find himself part of a work of art, as witness Vertoff's *Three Songs About Lenin* or Ivens' *Borinage*.", "ja": "このようにして、人は、ヴェルトフの「レーニンの三つの歌」や、イーヴェンの「ボリナージュ」を見た人として、アート作品の一部になれるかもしれないと思うわけだ。"}
+{"en": "Any man today can lay claim to being filmed.", "ja": "今日では、どんな人も、映画に出たいと思うことができる。"}
+{"en": "This claim can best be elucidated by a comparative look at the historical situation of contemporary literature.", "ja": "この思いは、現代の文学の状況と比べてみると、非常にはっきりしている。"}
+{"en": "For centuries a small number of writers were confronted by many thousands of readers.", "ja": "何百年ものあいだ、数少ないライターが、何千もの読者の相手をしていた。"}
+{"en": "This changed toward the end of the last century.", "ja": "が、前世紀の終わりごろにむけて、変化が起きてきた。"}
+{"en": "With the increasing extension of the press, which kept placing new political, religious, scientific, professional, and local organs before the readers, an increasing number of readers became writers--at first, occasional ones.", "ja": "出版社の数が増えることによって、新しい政治的、宗教的、学術的、プロフェッショナル的、地域的な読者の組織がまとまるにつれ、多くの読者が、（はじめは、一時的なものであったが）ライターに転身した。"}
+{"en": "It began with the daily press opening to its readers space for \"letters to the editor.\"", "ja": "新聞も「読者欄」をもうけはじめた。"}
+{"en": "And today there is hardly a gainfully employed European who could not, in principle, find an opportunity to publish somewhere or other comments on his work, grievances, documentary reports, or that sort of thing.", "ja": "そして、今日では、原理的に、給料をもらって、どこかで書き物を出版し、だれかが彼の文学作品や苦情や、ドキュメンタリーとか、にコメントされるチャンスがまったくないヨーロッパ人はめったにいない。"}
+{"en": "Thus, the distinction between author and public is about to lose its basic character.", "ja": "したがって、作者と読者の境はなくなりつつあるといえる。"}
+{"en": "The difference becomes merely functional;", "ja": "その違いは単に、役割のみで、"}
+{"en": "it may vary from case to case.", "ja": "それも、ケース・バイ・ケースの違いだけだろう。"}
+{"en": "As expert, which he had to become willy-nilly in an extremely specialized work process, even if only in some minor respect, the reader gains access to authorship.", "ja": "非常に特殊で他との関係が分かりにくい労働のプロセスにおいては、専門家として、たとえ少数派の尊敬しか受けないとしても、読者は作家業にのりだすことができるのだ。"}
+{"en": "In the Soviet Union work itself is given a voice.", "ja": "ソ連では、仕事そのものに「声」が与えられている。"}
+{"en": "To present it verbally is part of a man's ability to perform the work.", "ja": "口頭で言いあらわすことは人間の仕事をする能力の一部なのだ。"}
+{"en": "Literary license is now founded on polytechnic rather than specialized training and thus becomes common property.", "ja": "文学者の資格は特別な訓練によるというより、単に学校に行くことによって得られ、したがって、誰でもが、えられるものになっているのだ。"}
+{"en": "All this can easily be applied to the film,", "ja": "このことは、すべて、映画にも当てはめて考えることができる。"}
+{"en": "where transitions that in literature took centuries have come about in a decade.", "ja": "映画は文学が何百年もかかったことを、たった数十年で成し遂げてしまった。"}
+{"en": "In cinematic practice, particularly in Russia, this change-over has partially become established reality.", "ja": "映画のやってきたことにおいて、特にロシアでは、この転換は現実になってきているのである。"}
+{"en": "Some of the players whom we meet in Russian films are not actors in our sense but people who portray *themselves*--and primarily in their own work process.", "ja": "わたしたちがロシア映画でみた俳優の何人かは、わたしたちにしヨーロッパ人の意味する上での俳優ではなく、はじめに労働者として自分自身を位置づけているのだ。"}
+{"en": "In Western Europe the capitalistic exploitation of the film denies consideration to modern man's legitimate claim to being reproduced.", "ja": "西ヨーロッパでは、映画の資本主義的な営利目的は現代の一般人の映画に出たいという思いを打ち消す。"}
+{"en": "Under these circumstances the film industry is trying hard to spur the interest of the masses through illusion-promoting spectacles and dubious speculations.", "ja": "この状況下で、映画産業は観客をふやし、妙な思惑をいだかせ、大衆の幻想を通した妄想に弾みをつける。"}
+{"en": "The shooting of a film, especially of a sound film, affords a spectacle unimaginable anywhere at any time before this.", "ja": "映画の撮影現場は、とくにトーキー映画は、それまで、考えもよらなかったような場所になってきている。"}
+{"en": "It presents a process in which it is impossible to assign to a spectator a viewpoint which would exclude from the actual scene such extraneous accessories as camera equipment, lighting machinery, staff assistants, etc.", "ja": "見たこともない付属品のようなカメラ機材や、照明機器や、アシスタントのスタッフなどなど、実際の撮影シーンを観ている人の視線からしめだすことは不可能だ。"}
+{"en": "--unless his eye were on a line parallel with the lens.", "ja": "ただ、彼の目がカメラのレンズを覗いているときはちがうだろうけど。"}
+{"en": "This circumstance, more than any other, renders superficial and insignificant any possible similarity between a scene in the studio and one on the stage.", "ja": "この光景をみて、ほかのなにより、スタジオと舞台のあいだで似ている部分をあげることは、軽はずみであまり重要とはいえない。"}
+{"en": "In the theater one is well aware of the place from which the play cannot immediately be detected as illusionary.", "ja": "劇場では、演劇がただのイリュージョンでしかないと人々は気づいかないようにしている。"}
+{"en": "There is no such place for the movie scene that is being shot.", "ja": "撮影された映画のシーンにそういった部分はない。"}
+{"en": "Its illusionary nature is that of the second degree, the result of cutting.", "ja": "イリュージョンの性質は二次的なもので、編集の結果によるものだ。"}
+{"en": "That is to say, in the studio the mechanical equipment has penetrated so deeply into reality that its pure aspect freed from the foreign substance of equipment is the result of a special procedure, namely, the shooting by the specially adjusted camera and the mounting of the shot together with other similar ones.", "ja": "つまり、機材が、観客を純粋にヘンテコな機材から解放するというリアリティーに非常に深く埋め込まれていているスタジオでは、機材の物質性は、特殊なやり方、すなわち、特定の場所に置かれたカメラによって撮影されたシーンと、その他似たような場所に置かれたカメラと一緒に撮影されたシーンを合成することの結果なのだ。"}
+{"en": "The equipment-free aspect of rea1ity here has become the height of artifice;", "ja": "機材を無視するというこの側面は、人工の極みになった。"}
+{"en": "the sight of immediate reality has become an orchid in the land of technology.", "ja": "つまり、直接的な現実の風景は、テクノロジーの荒野に咲く蘭の花になったのだ。"}
+{"en": "Even more revealing is the comparison of these circumstances, which differ so much from those of the theater, with the situation in painting.", "ja": "劇場の状態とまったく異なるこの状況と、絵画の状態を比べることは、ものごとをもっとわかりやすくする。"}
+{"en": "Here the question is:", "ja": "さて、ここで問題だ。"}
+{"en": "How does the cameraman compare with the painter?", "ja": "カメラマンはどのようにして、画家とくらべれらうるか？"}
+{"en": "To answer this we take recourse to an analogy with a surgical operation.", "ja": "この問題に答えるために、手術と共通点を見出してみる。"}
+{"en": "The surgeon represents the polar opposite of the magician.", "ja": "外科医は祈祷師とまったくことなるものだ。"}
+{"en": "The magician heals a sick person by the laying on of hands;", "ja": "祈祷師は病気の人に手をかざすことによって治療する。"}
+{"en": "the surgeon cuts into the patients body.", "ja": "一方で、外科医は病気の人のからだを切ることで治療する。"}
+{"en": "The magician maintains the natural distance between the patient and himself;", "ja": "祈祷師は病人と自身のあいだの距離を自然なものに保つ。"}
+{"en": "though he reduces it very slightly by the laying on of hands,", "ja": "しかしながら、祈祷師は手をかざすことによって、すこしその距離を縮めるわけだ。"}
+{"en": "he greatly increases it by virtue of his authority.", "ja": "そして、彼のパワーを増すのだ。"}
+{"en": "The surgeon does exactly the reverse;", "ja": "外科医はまったく反対のことを行う。"}
+{"en": "he greatly diminishes the distance between himself and the patient by penetrating into the patient's body,", "ja": "彼は、病人のからだの中に手を突っ込むことで、病人と自身の距離をものすごく縮める。"}
+{"en": "and increases it but little by the caution with which his hand moves among the organs.", "ja": "しかし、手で内臓を注意深く触ることは若干その距離を保つのだ。"}
+{"en": "In short, in contrast to the magician--who is still hidden in the medical practitioner--the surgeon at the decisive moment abstains from facing the patient man to man;", "ja": "端的に言って、祈祷師とくらべると、（医者のあいだにもそういう人はいまだ多少いるだろうが。）外科医は決定的な瞬間において、病人と一対一で向き合うことを避ける。"}
+{"en": "rather, it is through the operation that he penetrates into him.", "ja": "すなわち、これが患者の中に入るという手術なのだ。"}
+{"en": "Magician and surgeon compare to painter and cameraman.", "ja": "祈祷師と外科医は、画家とカメラマンと比べることができる。"}
+{"en": "The painter maintains in his work a natural distance from reality, the cameraman penetrates deeply into its web.", "ja": "画家は彼の作品において、現実から自然な距離をたもち、カメラマンは現実の網の目に深くもぐりこむ。"}
+{"en": "There is a tremendous difference between the pictures they obtain.", "ja": "ここで、おのおのが得られる画像のあいだには、とんでもない違いが生じる。"}
+{"en": "That of the painter is a total one, that of the cameraman consists of multiple fragments which are assembled under a new law.", "ja": "画家が得る画像は、トータルなもので、カメラマンの得る画像は、新しいきまりごとに基づいて集められた、たくさんの断片からできている。"}
+{"en": "Thus, for contemporary man the representation of reality by the film is incomparably more significant than that of the painter,", "ja": "したがって、現代の人にとって、映画によって表現される現実は、画家が作り出すそれとは、比べようもなく重要なのだ。"}
+{"en": "since it offers, precisely because of the thoroughgoing permeation of reality with mechanical equipment, an aspect of reality which is free of all equipment.", "ja": "なぜなら、その表現の正確さは、つまるところ、機械でできた機材によって、すべての機材を意識しなくなるという、事実からくるものであり、"}
+{"en": "And that is what one is entitled to ask from a work of art.", "ja": "そのこと自体は、徹底的なその事実の浸透によってもたらされるえるものだからだ。"}
+{"en": "Mechanical reproduction of art changes the reaction of the masses toward art.", "ja": "機械的な複製は大衆のアートへのリアクションを変える。"}
+{"en": "The reactionary attitude toward a Picasso painting changes into the progressive reaction toward a Chaplin movie.", "ja": "ピカソの絵画へは反感を抱くのに、チャップリンの映画には、進歩的な反応をする。"}
+{"en": "The progressive reaction is characterized by the direct, intimate fusion of visual and emotional enjoyment with the orientation of the expert.", "ja": "進歩的なリアクションは、批評家の導きによって、ビジュアルと感情的な喜びが親密に溶け合うことが直接的につながることによって特徴づけられる。"}
+{"en": "Such fusion is of great social significance.", "ja": "そういった、融合は社会的にも重要だ。"}
+{"en": "The greater the decrease in the social significance of an art form, the sharper the distinction between criticism and enjoyment by the public.", "ja": "社会的なアートの重要性が薄れれば薄れるほど、批評家と大衆の喜びの差がよりはっきりする。"}
+{"en": "The conventional is uncritically enjoyed, and the truly new is criticized with aversion.", "ja": "保守的なものは、批判することなく受け入れられ、ほんとうに新しいことは反感を持って批判される。"}
+{"en": "With regard to the screen the critical and the receptive attitudes of the public coincide.", "ja": "しかし、スクリーンを引き合いに出すと、大衆の批判的な態度と寛容な態度はぴったり一致するのだ。"}
+{"en": "The decisive reason for this is that individual reactions are predetermined by the mass audience response they are about to produce,", "ja": "このことに対する決定的な理由は、個人のリアクションは、制作されたすぐそばから、一般の観客の反応によってあらかじめ決まっているということである。"}
+{"en": "and this is nowhere more pronounced than in the film.", "ja": "このことは映画のほかに見られないことだ。"}
+{"en": "The moment these responses become manifest they control each other.", "ja": "このように反応する時は双方がコントロールしているということが明らかになる瞬間だ。"}
+{"en": "Again, the comparison with painting is fruitful.", "ja": "そしてふたたび、絵画と比べることが、役に立つだろう。"}
+{"en": "A painting has always had an excellent chance to be viewed by one person or by a few.", "ja": "絵画は、いつも一人から数人に観られるというある意味素晴らしい機会を得てきた。"}
+{"en": "The simultaneous contemplation of paintings by a large public, such as developed in the nineteenth century, is an early symptom of the crisis of painting,", "ja": "おもに十九世紀に発展した、大人数のひとが同時に絵画を鑑賞するということは、絵画危機の最初の兆候だった。"}
+{"en": "a crisis which was by no means occasioned exclusively by photography", "ja": "その危機は決して写真によるところではない。"}
+{"en": "but rather in a relatively independent manner by the appeal of art works to the masses.", "ja": "というより、そのこととは関係なくて、アート作品の大衆へのアピールによっるものであったのだ。"}
+{"en": "Painting simply is in no position to present an object for simultaneous collective experience, as it was possible for architecture at all times, for the epic poem in the past, and for the movie today.", "ja": "建築が、過去の叙事詩が、そして、今日の映画が、いつも可能してきたやり方では、集団によって、絵画は鑑賞されにくいということが単純に言える。"}
+{"en": "Although this circumstance in itself should not lead one to conclusions about the social role of painting, it does constitute a serious threat as soon as painting,", "ja": "この状況が絵画の社会的役割についての結論を導き出すべきものではないが、絵画に重大な脅威を引き起こすことにはなった。"}
+{"en": "under special conditions and, as it were, against its nature, is confronted directly by the masses.", "ja": "それは、絵画が、特別な状況で、そして、いままでの通り、あるいはその性質に反して、大衆に鑑賞されることになるとすぐのことであった。"}
+{"en": "In the churches and monasteries of the Middle Ages and at the princely courts up to the end of the eighteenth century, a collective reception of paintings did not occur simultaneously, but by graduated and hierarchized mediation.", "ja": "中世の教会や修道院や宮殿では、十八世紀の終わりごろまで、集団によって、絵画を、同時にではなく階層によって順序をつけて、ではあるが、鑑賞されていた。"}
+{"en": "The change that has come about is an expression of the particular conflict in which painting was implicated by the mechanical reproducibility of paintings.", "ja": "変化は、絵画が機械的に複製できるという矛盾によってによって引き起こされた。"}
+{"en": "Although paintings began to be publicly exhibited in galleries and salons, there was no way for the masses to organize and control themselves in their reception.", "ja": "絵画はギャラリーやサロンでおおやけに展示されるようになり始めたが、大衆をうまくまとめて、見せるやり方や、大衆をうまく受け入れてコントロールするやり方が見つからなかったのだ。"}
+{"en": "Thus the same public which responds in a progressive manner toward a grotesque film is bound to respond in a reactionary manner to surrealism.", "ja": "こういうことから、グロテスクな映画には進歩的な態度を示す大衆も、シュールレアリズムには反感をもつのである。"}
+{"en": "The characteristics of the film lie not only in the manner in which man presents himself to mechanical equipment but also in the manner in which, by means of this apparatus, man can represent his environment.", "ja": "映画の特徴は、人が機材に自分を見せるというあり方にあるだけでなく、その機材によって、彼の環境までを見せるということにある。"}
+{"en": "A glance at occupational psychology illustrates the testing capacity of the equipment.", "ja": "職業心理学的観点は、試験的な機材の能力を明らかにする。"}
+{"en": "Psychoanalysis illustrates it in a different perspective.", "ja": "精神分析は、それとは違った側面のことを明らかにする。"}
+{"en": "The film has enriched our field of perception with methods which can be illustrated by those of Freudian theory.", "ja": "映画は、われわれの感覚の領域をフロイトの理論によって示されるやり方によって豊かにする。"}
+{"en": "Fifty years ago, a slip of the tongue passed more or less unnoticed.", "ja": "五十年前に、舌を滑らせたようなことは、多かれ少なかれ、聞き過ごされてしまってきた。"}
+{"en": "Only exceptionally may such a slip have revealed dimensions of depth in a conversation which had seemed to be taking its course on the surface.", "ja": "例外的に、その失言が、表面的な方向性を決めているような場合はその会話の深さを明らかにした。"}
+{"en": "Since the *Psychopathology of Everyday Life* things have changed.", "ja": "「日常生活の心理学」によって、ものごとが変わったのだ。"}
+{"en": "This book isolated", "ja": "この本は、他の本とは一線を画している。"}
+{"en": "and made analyzable things which had heretofore floated along unnoticed in the broad stream of perception.", "ja": "そして、広い知覚の流れのなかで、いままで、適当に流されてきたものを分析できるようにさせた。"}
+{"en": "For the entire spectrum of optical, and now also acoustical, perception the film has brought about a similar deepening of apperception.", "ja": "視覚的、そしていまでは、聴覚的なすべての領域にとって、映画のもたらす知覚は、統覚心理学と似た知覚の深さと同様なものをもたらす。"}
+{"en": "It is only an obverse of this fact that behavior items shown in a movie can be analyzed much more precisely and from more points of view than those presented on paintings or on the stage.", "ja": "映画に写されたものがは、絵画や舞台で表現されるよりも、もっと細かくそして、もっと視点をついたかたちで分析されることができということは、たんに事実を指摘しているだけだ。"}
+{"en": "As compared with painting, filmed behavior lends itself more readily to analysis because of its incomparably more precise statements of the situation.", "ja": "絵画と比べると、映画の撮影が、分析することに長けているのは、他と比べようもなく、正確に状況を説明できるからだ。"}
+{"en": "In comparison with the stage scene, the filmed behavior item lends itself more readily to analysis because it can be isolated more easily.", "ja": "演劇と比べて、映画に出てくるものが、分析的なのは、より簡単に現実から切り離すことができるからだ。"}
+{"en": "This circumstance derives its chief importance from its tendency to promote the mutual penetration of art and science.", "ja": "この状況は、アートとサイエンスがお互いの分野を、はみ出すことをうながす傾向の重要さに由来する。"}
+{"en": "Actually, of a screened behavior item which is neatly brought out in a certain situation, like a muscle of a body, it is difficult to say which is more fascinating, its artistic value or its value for science.", "ja": "実際、からだの筋肉のように、丁寧に適切な状況に持ち込まれ、撮影されたものの、（以前は通常分けて考えられていた）科学的な写真の利用とアートの価値をあわせることは、映画の革命的な役割のひとつになるだろう。"}
+{"en": "By close-ups of the things around us, by focusing on hidden details of familiar objects, by exploring commonplace milieus under the ingenious guidance of the camera, the film, on the one hand, extends our comprehension of the necessities which rule our lives;", "ja": "われわれの周りのものをクローズアップすることで、また、見慣れたものの隠された部分にフォーカスすることで、あるいは、カメラの精巧な案内のもとで、ありふれた社会を探索することで、映画は、わたしたちの生活を決定付ける必然に対する理解をひろげ、"}
+{"en": "on the other hand, it manages to assure us of an immense and unexpected field of action.", "ja": "その一方で、莫大で思いもよらない行動の領域が存在すると、わたしたちに確信させる。"}
+{"en": "Our taverns and our metropolitan streets, our offices and furnished rooms, our railroad stations and our factories appeared to have us locked up hopelessly.", "ja": "居酒屋、都市のストリート、オフィス、家具付きの部屋、駅、工場などが、わたしたちを絶望的につなぎとめてしまう。"}
+{"en": "Then came the film and burst this prison-world asunder by the dynamite of the tenth of a second,", "ja": "そして、映画が現われて、このとらわれた世界観を十秒間のダイナマイトでばらばらに吹き飛ばしてしまった。"}
+{"en": "so that now, in the midst of its far-flung ruins and debris, we calmly and adventurously go traveling.", "ja": "そしていま、広範囲にちらばったガラクタの真ん中で、わたしたちは静かに、そして、大胆に探索に出かけるのだ。"}
+{"en": "With the close-up, space expands; with slow motion, movement is extended.", "ja": "クローズアップによって、空間の認識は広がり、スローモーションによって、動きの認識が広がる。"}
+{"en": "The enlargement of a snapshot does not simply render more precise what in any case was visible, though unclear:", "ja": "スナップショットの引き伸ばしは、単に目に見えるものの詳細を表しているのではなく、はっきりとしないものの、"}
+{"en": "it reveals entirely new structural formations of the subject.", "ja": "まったく新しい対象の構造を明らかにするのだ。"}
+{"en": "So, too, slow motion not only presents familiar qualities of movement but reveals in them entirely unknown ones", "ja": "したがって、スローモーションも動きの認識の質を高めるだけでなく、いままでまったく知られていなかった"}
+{"en": "\"which, far from looking like retarded rapid movements give the effect of singularly gliding, floating, supernatural motions.", "ja": "「なめらかで流れるようでいて、超自然に見える動きに単一の効果をあたえているような、ようなすばやい動きへの認識」"}
+{"en": "Evidently a different nature opens itself to the camera than opens to the naked eye", "ja": "あきらかに、今までと違う自然が裸眼によってではなく、カメラによって、明らかになる。"}
+{"en": "--if only because an unconsciously penetrated space is substituted for a space consciously explored by man.", "ja": "無意識に突き抜かれた空間が、いままで人間によって意識されていた空間に取って代わる。"}
+{"en": "Even if one has a general knowledge of the way people walk, one knows nothing of a person's posture during the fractional second of a stride.", "ja": "まるで、歩いている瞬間を意識せずに、ただ単に人が歩いているように。"}
+{"en": "The act of reaching for a lighter or a spoon is familiar routine, yet we hardly know what really goes on between hand and metal, not to mention how this fluctuates with our moods.", "ja": "ライターやスプーンへ手を伸ばす動きは見慣れたものだが、われわれは、実際に手とそのモノのあいだにどのようなことが起こっているのかは、いかに、われわれの気分によって移ろいやすいものかを述べるまでもなく、まったくわかっていない。"}
+{"en": "Here the camera intervenes with the resources of its lowerings and liftings, its interruptions and isolations, its extensions and accelerations, its enlargements and reductions.", "ja": "ここでカメラは、アングルを低くしたり、高くしたり、フラッシュバックしたり、スローモーションしたり、ロースピード撮影たり、クローズアップしたり、ひいて撮ったりして役割を果たす。"}
+{"en": "The camera introduces us to unconscious optics as does psychoanalysis to unconscious impulses.", "ja": "カメラは、精神分析が明らかにするように、意識していなかった視覚を無意識の視覚を明らかにする。"}
+{"en": "One of the foremost tasks of art has always been the creation of a demand which could be fully satisfied only later.", "ja": "アートの一番の役割はいつでも、後の世に満足されるような創造を試みることにある。"}
+{"en": "The history of every art form shows critical epochs", "ja": "アートの形式の歴史において、いつでも、危機的な時代があった。"}
+{"en": "in which a certain art form aspires to effects which could be fully obtained only with a changed technical standard, that is to say, in a new art form.", "ja": "そのような時代でも、いくらかのアートの形式は技術的な水準をまったく塗り替えるということを目指していた。"}
+{"en": "The extravagances and crudities of art which thus appear, particularly in the so-called decadent epochs, actually arise from the nucleus of its richest historical energies.", "ja": "アートの未成熟な行き過ぎは、特に、退廃の新時代と呼ばれたときのものは、結局、もっとも豊かな歴史的エネルギーの核心から、もちなおすものなのだ。"}
+{"en": "In recent years, such barbarisms were abundant in Dadaism.", "ja": "最近では、未開の文明がダダイズムの肥やしになったりもした。"}
+{"en": "It is only now that its impulse becomes discernible:", "ja": "今になってやっと認識できる激しさというわけだが、"}
+{"en": "Dadaism attempted to create by pictorial--and literary--means the effects which the public today seeks in the film.", "ja": "ダダイズムは、文字通り、今日の映画が大衆に与えようとしている、効果を絵画によって作り出そうという試みである。"}
+{"en": "Every fundamentally new, pioneering creation of demands will carry beyond its goal.", "ja": "創造の欲求の先鋒である、すべての基本的な新しさは、ゴールに向けられている。"}
+{"en": "Dadaism did so to the extent that it sacrificed the market values which are so characteristic of the film in favor of higher ambition", "ja": "ダダイズムは映画の最大の特徴である、市場的な価値をながしろにしながらも、その価値をのばした。"}
+{"en": "-- though of course it was not conscious of such intentions as here described.", "ja": "もちろん意識的ではないにしろ。"}
+{"en": "The Dadaists attached much less importance to the sales value of their work than to its uselessness for contemplative immersion.", "ja": "ダダイストは作品を売るということに重きを置かないで、その瞑想的な没頭による無用さに重きを置いた。"}
+{"en": "The studied degradation of their material was not the least of their means to achieve this uselessness.", "ja": "物質的な陳腐さは無用さにいたる手段としては、どうでもよいことである。"}
+{"en": "Their poems are \"word salad\" containing obscenities and every imaginable waste product of language.", "ja": "彼らの詩は猥雑で考えうる言葉のゴミを含む「言葉のサラダ」なのであった。"}
+{"en": "The same is true of their paintings, on which they mounted buttons and tickets.", "ja": "おなじことが釦や切符を貼り付けた絵画にも言える。"}
+{"en": "What they intended and achieved was a relentless destruction of the aura of their creations, which they branded as reproductions with the very means of production.", "ja": "彼らがめざしたものは、創造における「アウラ」のたゆまざる破壊にあり、制作することの意味において、複製品は重要な特徴であった。"}
+{"en": "Before a painting of Arp's or a poem by August Stramm it is impossible to take time for contemplation and evaluation as one would before a canvas of Derain's or a poem by Rilke.", "ja": "アープの絵画に対して、もしくはアウグスト・シュトラムの詩に対して冷静に何かを考えるのは難しく、ドランの絵画やリルケの詩の前で、何かを判断するのも難しい。"}
+{"en": "In the decline of middleclass society, contemplation became a school for asocial behavior;", "ja": "ミドルクラスが下り坂になる際に、じっと考え込むことは、社交的でないということになった。"}
+{"en": "it was countered by distraction as a variant of social conduct.", "ja": "つまり、社会的な振るまいの変化の一つとしての反動としてとらえられた。"}
+{"en": "Dadaistic activities actually assured a rather vehement distraction by making works of art the center of scandal.", "ja": "ダダイズム的な活動は実際のところ、スキャンダラスなアート作品を作ることによって、猛烈な破壊行為であるということを保証した。"}
+{"en": "One requirement was foremost:", "ja": "そして、ある一つのことを第一にもとめた。"}
+{"en": "to outrage the public.", "ja": "つまり、大衆を怒らせろ、ということだ。"}
+{"en": "From an alluring appearance or persuasive structure of sound the work of art of the Dadaists became an instrument of ballistics.", "ja": "魅力的な外観や、説得力のある音の構成により、ダダイズムのアート作品は衝撃的な楽器になった。"}
+{"en": "It hit the spectator like a bullet, it happened to him, thus acquiring a tactile quality.", "ja": "作品は観る人に、弾丸のように突き刺さり、具体的な質を手に入れた。"}
+{"en": "It promoted a demand for the film,", "ja": "それは、映画のに対する欲求を高めた。"}
+{"en": "the distracting element of which is also primarily tactile, being based on changes of place and focus which periodically assail the spectator.", "ja": "人の心をかき乱す部分（結局のところ具体性をもったもの）は、映す場所やフォーカスの変化に基づき、観るものを何度も激しく挑発する。"}
+{"en": "Let us compare the screen on which a film unfolds with the canvas of a painting.", "ja": "映画のスクリーンと絵画のカンバスを比べてみよう。"}
+{"en": "The painting invites the spectator to contemplation;", "ja": "絵画は観る人にじっと考えさせ、"}
+{"en": "before it the spectator can abandon himself to his associations.", "ja": "観る人はひとりになることができる。"}
+{"en": "Before the movie frame he cannot do so.", "ja": "映画を見ることによってはそうは行かない。"}
+{"en": "No sooner has his eye grasped a scene than it is already changed.", "ja": "眼がシーンをとらえるや否や、それはすでに変わっているのだ。"}
+{"en": "It cannot be arrested.", "ja": "結局とらえることはできない。"}
+{"en": "Duhamel, who detests the film and knows nothing of its significance, though something of its structure,", "ja": "映画を嫌い、その重要性をまったく認めなかった、デュアメルは、しかしながら映画のストラクチャーについてはよく考えていた。"}
+{"en": "notes this circumstance as follows:", "ja": "そのことをこのように記している。"}
+{"en": "\"I can no longer think what I want to think.", "ja": "「私は、考えたいと思っていることを考えることができない。"}
+{"en": "My thoughts have been replaced by moving images.\"", "ja": "私の考えは、動いているイメージに置き換えられてしまっているのだ。」"}
+{"en": "The spectator's process of association in view of these images is indeed interrupted by their constant, sudden change.", "ja": "これらのイメージを観ることを組織的にとらえるプロセスは、しかしながら、絶えることなく、そして突然にやってくる変化によって邪魔されるのだ。"}
+{"en": "This constitutes the shock effect of the film, which, like all shocks, should be cushioned by heightened presence of mind.", "ja": "このことは映画の衝撃的な効果を構成し、その他すべての衝撃のように、高められた意識のあり方によってやわらげられる。"}
+{"en": "By means of its technical structure, the film has taken the physical shock effect out of the wrappers in which Dadaism had, as it were, kept it inside the moral shock effect.", "ja": "技術的な構造の意味によって、映画は、ダダイズムが精神的なショックの効果のうちにとどめていたものを、肉体的なショックとして、むき出しにするのだ。"}
+{"en": "The mass is a matrix from which all traditional behavior toward works of art issues today in a new form.", "ja": "アート作品に対する、すべての伝統的なこころみが、今日的な新しい形式に生まれ変わることにおいて、大衆はその母体だといえる。"}
+{"en": "Quantity has been transmuted into quality.", "ja": "量的なものが質的なものに変化してきているのだ。"}
+{"en": "The greatly increased mass of participants has produced a change in the mode of participation.", "ja": "ものすごい量の大衆の参加は、その参加の仕方自体を変えてしまった。"}
+{"en": "The fact that the new mode of participation first appeared in a disreputable form must not confuse the spectator.", "ja": "大衆の参加がはじめは悪い形で現われたと、思うべきではないだろう。"}
+{"en": "Yet some people have launched spirited attacks against precisely this superficial aspect.", "ja": "重箱の隅をつつくような批判をする人はいたことはいたが。"}
+{"en": "Among these, Duhamel has expressed himself in the most radical manner.", "ja": "そのなかでも、デュアメルはもっとも極端なやり方で批判している。"}
+{"en": "What he objects to most is the kind of participation which the movie elicits from the masses.", "ja": "彼が向けた矛先はほとんど、大衆が参加するという部分だけである。"}
+{"en": "Duhamel calls the movie", "ja": "デュアメルは映画のことを"}
+{"en": "\"a pastime for helots, a diversion for uneducated, wretched, worn-out creatures who are consumed by their worries . . ., a spectacle which requires no concentration and presupposes no intelligence . . ., which kindles no light in the heart and awakens no hope other than the ridiculous one of someday becoming a 'star' in Los Angeles.\"", "ja": "「ただの奴隷の気晴らしで、教養がなく、あわれで、ボロボロで、しかもロサンジェルスの「スター」になるより希望の光のない、将来の展望に対する不安によってヨレヨレになった、人々のための逃避でしかない」"}
+{"en": "Clearly, this is at bottom the same ancient lament that the masses seek distraction whereas art demands concentration from the spectator.", "ja": "あきらかに、この見方は、アートが観るものに対して集中することを要求するところ、大衆はたんに気を紛らすものを探すという、昔ながらの悲観的なものの見方と相通ずるものがある。"}
+{"en": "That is a commonplace.", "ja": "よくある話だ。"}
+{"en": "The question remains whether it provides a platform for the analysis of the film.", "ja": "が、しかし、このことが映画のプラットフォームに対するちゃんとした分析になっているかどうかという疑問は残る。"}
+{"en": "A closer look is needed here.", "ja": "もっとよく考える必要があるのだ。"}
+{"en": "Distraction and concentration form polar opposites", "ja": "気をまぎらすことと、集中して鑑賞することはまったく異なるものだ。"}
+{"en": "which may be stated as follows:", "ja": "それは以下のように、説明できるだろう。"}
+{"en": "A man who concentrates before a work of art is absorbed by it.", "ja": "つまり、アート作品の前で、集中する人は、結局作品にのめりこんでいるのだ。"}
+{"en": "He enters into this work of art the way legend tells of the Chinese painter when he viewed his finished painting.", "ja": "その人、はむかしの中国人のペインターが絵を描きおえて自分の作品を眺めているようにして、作品にのめりこむ。"}
+{"en": "In contrast, the distracted mass absorbs the work of art.", "ja": "反対に、気もそぞろな大衆は作品を吸収する。"}
+{"en": "This is most obvious with regard to buildings.", "ja": "これは、建物を見るときにもっと明らかだ。"}
+{"en": "Architecture has always represented the prototype of a work of art", "ja": "建築はいつでも、アート作品のプロトタイプをあらわしている。"}
+{"en": "the reception of which is consummated by a collectivity in a state of distraction.", "ja": "なんとなしにやってきた人々の集まりによって成り立つ建物のレセプションがそのプロトタイプなのだ。"}
+{"en": "The laws of its reception are most instructive.", "ja": "レセプションのありかたが、最もそのことを言い表している。"}
+{"en": "Buildings have been man's companions since primeval times.", "ja": "建物は有史以来、ずっと人間のかたわらにあった。"}
+{"en": "Many art forms have developed and perished.", "ja": "たくさんのアートの形式があみだされ、すたれていった。"}
+{"en": "Tragedy begins with the Greeks, is extinguished with them, and after centuries its \"rules\" only are revived.", "ja": "ギリシャ悲劇は結局すたれたが、何百年もあとになって、その「きまりごと」だけがリバイバルされた。"}
+{"en": "The epic poem, which had its origin in the youth of nations, expires in Europe at the end of the Renaissance.", "ja": "いろいろな国の若者によって詠まれた叙事詩はルネッサンスの終わりごろのヨーロッパまで伝えられた。"}
+{"en": "Panel painting is a creation of the Middle Ages, and nothing guarantees its uninterrupted existence.", "ja": "パネルに描かれた絵画は中世の発明だけど、何にも存在を脅かされないというわけではない。"}
+{"en": "But the human need for shelter is lasting.", "ja": "しかし、人間には自らを覆う壁が必要だとことは変わりがないので、"}
+{"en": "Architecture has never been idle.", "ja": "建築がないがしろにされるということはなかったのだ。"}
+{"en": "Its history is more ancient than that of any other art, and its claim to being a living force has significance in every attempt to comprehend the relationship of the masses to art.", "ja": "その歴史は他のどのアートより古く、生活に必要だという事実は、大衆のアートへの関わり方を理解するうえでとても重要だった。"}
+{"en": "Buildings are appropriated in a twofold manner:", "ja": "建物は二つのやりかたで受け入れられてきた。"}
+{"en": "by use and by perception--", "ja": "つまり、利用することと鑑賞することだ。"}
+{"en": "or rather, by touch and sight.", "ja": "もっといえば、触れることと、みることだ。"}
+{"en": "Such appropriation cannot be understood in terms of the attentive concentration of a tourist before a famous building.", "ja": "そのような接し方は、有名な建物の前のツーリストが鑑賞するような意味では理解されないだろう。"}
+{"en": "On the tactile side there is no counterpart to contemplation on the optical side.", "ja": "触れるという側面は、観るという側面を深く考えることの延長線上にはない。"}
+{"en": "Tactile appropriation is accomplished not so much by attention as by habit.", "ja": "触れることによって接することは、意識的になるというより習慣的なところが大きい。"}
+{"en": "As regards architecture, habit determines to a large extent even optical reception.", "ja": "建築についていえば、習慣は目に見えていることですら、大きく影響を受ける。"}
+{"en": "The latter, too, occurs much less through rapt attention than by noticing the object in incidental fashion.", "ja": "観ることも、ありがちなファッションとしてモノをみるのでなく、いつも心を奪われるようなやりかたで注目しているとは、言いがたい。"}
+{"en": "This mode of appropriation, developed with reference to architecture, in certain circumstances acquires canonical value.", "ja": "建築への接し方は（建築を考えることによって明らかになったわけだが）、いくらかの状況のもとでは、正当な価値をみたすといえるだろう。"}
+{"en": "For the tasks which face the human apparatus of perception at the turning points of history cannot be solved by optical means,", "ja": "人間に向き合うために、歴史的ターニングポイントにある感覚器官は、目に見える意味によっては理解されないだろう。"}
+{"en": "that is, by contemplation, alone.", "ja": "すなわち、一人で深く考えることによっては理解されるのだ。"}
+{"en": "They are mastered gradually by habit, under the guidance of tactile appropriation.", "ja": "それらは、触れることで得られる導きのもと、習慣によって少しずつマスターされていくのだ。"}
+{"en": "The distracted person, too, can form habits.", "ja": "人は習慣によっても散漫になる。"}
+{"en": "More, the ability to master certain tasks in a state of distraction proves that their solution has become a matter of habit.", "ja": "そのうえ、散漫な状態で物事を解決することは、その解決が習慣的になるということでもある。"}
+{"en": "Distraction as provided by art presents a covert control of the extent", "ja": "アートによってもたらされた気晴らしは、今まで見えなかった範囲のコントロールを明らかにする。"}
+{"en": "to which new tasks have become soluble by apperception.", "ja": "新しい問題が知覚によって解決できるものになるのだ。"}
+{"en": "Since, moreover, individuals are tempted to avoid such tasks, art will tackle the most difficult and most important ones", "ja": "さらにそのうえ、個人がその問題を避けて通りがちなことがらから、アートは最も難しく重要なその問題に取り組む。"}
+{"en": "where it is able to mobilize the masses.", "ja": "その解決は、いずれその個人にも置き換えることができるのだ。"}
+{"en": "Today it does so in the film.", "ja": "最近は、映画がその役割を担っている。"}
+{"en": "Reception in a state of distraction, which is increasing noticeably in all fields of art and is symptomatic of profound changes in apperception, finds in the film its true means of exercise.", "ja": "気晴らし的に接することは、映画の分野では制作することの、ほんとうの意味をみつけるだろう。"}
+{"en": "The film with its shock effect meets this mode of reception halfway.", "ja": "衝撃的なエフェクトとともに映画はこの接し方を受け入れつつある。"}
+{"en": "The film makes the cult value recede into the background not only by putting the public in the position of the critic, but also by the fact that at the movies this position requires no attention.", "ja": "映画は、大衆を評論家として押し出すことによってだけでなく、映画を語ることにおいて、この評論家という地位が意味を成さないという事実によっても、その宗教的な価値を過去のもにする。"}
+{"en": "The public is an examiner, but an absent-minded one.", "ja": "大衆は評価者であるけど、からっぽでもあるのだ。"}
+{"en": "EPILOGUE", "ja": "おわりに"}
+{"en": "The growing proletarianization of modern man and the increasing formation of masses are two aspects of the same process.", "ja": "現代の人間の労働者階級化と、大衆層の増大は同じプロセスの二つの側面をもっている。"}
+{"en": "Fascism attempts to organize the newly created proletarian masses without affecting the property structure which the masses strive to eliminate.", "ja": "ファシズムは、大衆が消し去ろうとしていた、財産の社会構成に影響を与えないようにして、新しく生まれた労働者階級層を組織しようとしていた。"}
+{"en": "Fascism sees its salvation in giving these masses not their right, but instead a chance to express themselves.", "ja": "ファシズムは大衆に権利を与えるのではなく、彼ら自身を表現させることに、見せかけの救済があることをみいだした。"}
+{"en": "The masses have a right to change property relations;", "ja": "大衆は、財産の関係を変える権利を持つ。"}
+{"en": "Fascism seeks to give them an expression while preserving property.", "ja": "ファシズムは、彼らが財産を温存しているあいだに、大衆に自分自身を表現させる。"}
+{"en": "The logical result of Fascism is the introduction of aesthetics into political life.", "ja": "ファシズムの論理的な結果は、政治的生活に芸術的な趣味をもちこむことの走りだった。"}
+{"en": "The violation of the masses, whom Fascism, with its *Fuhrer* cult, forces to their knees, has its counterpart in the violation of an apparatus which is pressed into the production of ritual values.", "ja": "ファシズムがそのフューラー教とともに、ひざまずかせた、大衆による侵害は、宗教的な価値の生産を無理強いする組織による横暴に応対するものだった。"}
+{"en": "All efforts to render politics aesthetic culminate in one thing:", "ja": "すべての政治的美学への取り組みは、あるひとつのことに集約される。"}
+{"en": "war.", "ja": "戦争だ。"}
+{"en": "War and war only can set a goal for mass movements on the largest scale", "ja": "戦争、戦争だけが最も大きいスケールの大衆運動にゴールを設けることができる。"}
+{"en": "while respecting the traditional property system.", "ja": "古い財産体制をそのままにして。"}
+{"en": "This is the political formula for the situation.", "ja": "こういうのは、こうした状況の中での決まりきった政治的なやり方なのだ。"}
+{"en": "The technological formula may be stated as follows:", "ja": "技術的な常套手段としては、以下のようなものだろう。"}
+{"en": "Only war makes it possible to mobilize all of today's technical resources while maintaining the property system.", "ja": "戦争だけが、財産体制をそのままにして、今日の技術的なリソースを流動させることができる。"}
+{"en": "It goes without saying that the Fascist apotheosis of war does not employ such arguments.", "ja": "ファシストの戦争崇拝がそのような議論はさまないということを言わないで物事がすすむのだ。"}
+{"en": "Still, Marinetti says in his manifesto on the Ethiopian colonial war:", "ja": "マリネッティはエチオピア植民戦争における宣言の中でこのように言っている。"}
+{"en": "\"For twenty- seven years we Futurists have rebelled against the branding of war as antiaesthetic....", "ja": "「二十七年ものあいだ、われわれ未来派は美学に反するものとしての戦争を印象付けるものと戦ってきた・・・・"}
+{"en": "Accordingly we state:", "ja": "結果的にわれわれはこのように宣言する"}
+{"en": "... War is beautiful", "ja": "・・・戦争は美しい。"}
+{"en": "because it establishes man's dominion over the subjugated machinery by means of gas masks, terrifying megaphones, flame throwers, and small tanks.", "ja": "なぜなら、ガスマスクや、身のすくむような拡声器や、火炎放射器や、小さな戦車を用い機械を意のままに操ることで、人間の支配力を打ち立てるからだ。"}
+{"en": "War is beautiful", "ja": "戦争は美しい。"}
+{"en": "because it initiates the dreamt", "ja": "なぜなら、夢を立ち上げるからだ。"}
+{"en": "-of metalization of the human body.", "ja": "---人間のからだの物質化を。"}
+{"en": "War is beautiful", "ja": "戦争は美しい。"}
+{"en": "because it enriches a flowering meadow with the fiery orchids of machine guns.", "ja": "なぜなら、マシンガンによる炎の花を牧草地にいっぱいに咲かせるからだ。"}
+{"en": "War is beautiful", "ja": "戦争は美しい。"}
+{"en": "because it combines the gunfire, the cannonades, the cease-fire, the scents, and the stench of putrefaction into a symphony.", "ja": "なぜなら、交響曲のなかで、銃火や、連続砲撃や、休戦や、腐敗物の悪臭を一緒にするからだ。"}
+{"en": "War is beautiful", "ja": "戦争は美しい。"}
+{"en": "because it creates new architecture,", "ja": "なぜなら、戦争は新しい美学構造を築き上げる。"}
+{"en": "like that of the big tanks, the geometrical formation flights, the smoke spirals from burning villages, and many others", "ja": "巨大な戦車のように、幾何学的なフォーメーションを組んだ戦闘機のように、燃える村かららせん状に立ち上る、煙のように、そして、その他もろもろのものを。"}
+{"en": ".... Poets and artists of Futurism!", "ja": "・・・未来派の詩人やアーティストよ！"}
+{"en": "... remember these principles of an aesthetics of war", "ja": "・・・戦争美学の原理を忘れることなかれ。"}
+{"en": "so that your struggle for a new literature and a new graphic art . . . may be illumined by them!\"", "ja": "新しい文学や、新しいグラフィックアートへの取り組みはそれらによって明るく照らされるのだ！」"}
+{"en": "This manifesto has the virtue of clarity.", "ja": "この宣言は、明快だという長所を持っている。"}
+{"en": "Its formulations deserve to be accepted by dialecticians.", "ja": "その論旨は弁証家を納得させるに足るものではある。"}
+{"en": "To the latter, the aesthetics of today's war appears as follows:", "ja": "弁証家にとっては、今日の戦争の美学は以下のようなものだ。"}
+{"en": "If the natural utilization of productive forces is impeded by the property system, the increase in technical devices, in speed, and in the sources of energy will press for an unnatural utilization,", "ja": "自然に生産力の利用することが財産制度に邪魔されるなら、技術的な手段が増えることは、早さにおいて、エネルギーの資源において、不自然な利用法を押し付けるだろう。"}
+{"en": "and this is found in war.", "ja": "そして、このことは、戦争のなかに見つけることができる。"}
+{"en": "The destructiveness of war furnishes proof", "ja": "戦争の破壊性は以下のことを証明する。"}
+{"en": "that society has not been mature enough to incorporate technology as its organ,", "ja": "社会はテクノロジーを器官として取り入れるには、十分に成熟していないということ。"}
+{"en": "that technology has not been sufficiently developed to cope with the elemental forces of society.", "ja": "テクノロジーは、社会の基本的な力を扱うことにおいて十分に開発されていないということ。"}
+{"en": "The horrible features of imperialistic warfare are attributable to the discrepancy between the tremendous means of production and their inadequate utilization in the process of production", "ja": "帝国主義の戦争のとんでもない特徴は、生産の重大な意味と不適切な生産プロセスの利用法のあいだで矛盾を起こしているということから来る。"}
+{"en": "--in other words, to unemployment and the lack of markets.", "ja": "いいかえれば、失業と市場の欠如ということだ。"}
+{"en": "Imperialistic war is a rebellion of technology", "ja": "帝国主義の戦争は、技術の反乱なのだ。"}
+{"en": "which collects, in the form of \"human material,\" the claims to which society has denied its natural material.", "ja": "その技術は「資源としての人間」の形をとって、集められる社会が否定する自然資源に対しての要求なのだ。"}
+{"en": "Instead of draining rivers, society directs a human stream into a bed of trenches;", "ja": "川を枯れさせるかわりに、社会は塹壕のベッドに人を流れ込ませる。"}
+{"en": "instead of dropping seeds from airplanes, it drops incendiary bombs over cities;", "ja": "つまり、飛行機から種をまくかわりに、都市に焼夷弾を落とすのだ。"}
+{"en": "and through gas warfare the aura is abolished in a new way.", "ja": "そして、毒ガス戦を通して、「アウラ」はあたらしいやり方で消失するのだ。"}
+{"en": "\"*Fiat ars--pereat mundus*,\" says Fascism, and, as Marinetti admits, expects war to supply the artistic gratification of a sense perception that has been changed by technology.", "ja": "「Fiat ars -- pereat mundus」とファシズムはいい、そして、マリネッティが認めるように、戦争への期待はテクノロジーによって変更された知覚の意味をアーティスティックな部分で満足させる。"}
+{"en": "This is evidently the consummation of \"*I'art pour l'art*.\"", "ja": "このことは、疑いなく、「アートのためのアート」を達成させる。"}
+{"en": "Mankind, which in Homer's time was an object of contemplation for the Olympian gods,", "ja": "ホメロスの時代の人類はオリンピアの神のために考える物体だった。"}
+{"en": "now is one for itself.", "ja": "今は、自分自身のために考えるのだ。"}
+{"en": "Its self-alienation has reached such a degree that it can experience its own destruction as an aesthetic pleasure of the first order.", "ja": "その自己疎外は、一級の美学的な楽しみとして人間自身の破壊を経験することができるといった段階に達した。"}
+{"en": "This is the situation of politics which Fascism is rendering aesthetic.", "ja": "これが、ファシズムが示した政治的な状況なのだ。"}
+{"en": "Communism responds by politicizing art.", "ja": "コミュニズムは政治的なアートによってこれにこたえるのだ。"}

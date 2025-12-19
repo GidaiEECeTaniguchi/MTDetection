@@ -1,0 +1,706 @@
+{"en": "The Stock-Broker's Clerk", "ja": "株式仲買店々員"}
+{"en": "Conan Doyle", "ja": "コナンドイル"}
+{"en": "Shortly after my marriage I had bought a connection in the Paddington district.", "ja": "結婚してからほどなく、私はパッディングトン区にお得意づきの医院を買った。"}
+{"en": "Old Mr. Farquhar, from whom I purchased it, had at one time an excellent general practice;", "ja": "私はその医院を老ハルクハー氏から買ったのであるが、老ハルクハー氏は一時はかなり手広く患者をとっていたのであった。"}
+{"en": "but his age, and an affliction of the nature of St. Vitus's dance from which he suffered, had very much thinned it.", "ja": "しかし寄る年波とセント・ビタス・ダンスをする習慣があったためすっかりからだを悪くしたので、だんだんお客をなくして淋（さび）れてしまった。"}
+{"en": "The public not unnaturally goes on the principle that he who would heal others must himself be whole, and looks askance at the curative powers of the man whose own case is beyond the reach of his drugs.", "ja": "世間の人と云うものは、病人を治療する人間は、その人自身が健康でなくてはならない。"}
+{"en": "Thus as my predecessor weakened his practice declined, until when I purchased it from him it had sunk from twelve hundred to little more than three hundred a year.", "ja": "つまりそれと同じような理由で、ハルクハー氏は次第に医院をさびれさせていって、私がその医院を買うまでに一年に千二百人からあった患者が三百人ほどもないくらいにまで減ってしまった。"}
+{"en": "I had confidence, however, in my own youth and energy and was convinced that in a very few years the concern would be as flourishing as ever.", "ja": "けれども私は、私の若さと体力とに自信があったので、二三年の間には昔と同様に繁盛するだろうと確信していた。"}
+{"en": "For three months after taking over the practice I was kept very closely at work", "ja": "私は仕事を始め出してから三ヶ月の間、最も熱心に注意深く働いた。"}
+{"en": "and saw little of my friend Sherlock Holmes, for I was too busy to visit Baker Street,", "ja": "そのため、私はベーカー街に行くには余りにいそがしすぎて、ほとんどシャーロック・ホームズと会わなかった。"}
+{"en": "and he seldom went anywhere himself save upon professional business.", "ja": "そして彼自身も、自分の職業上の仕事以外には、どこへも出かけなかった。"}
+{"en": "I was surprised, therefore, when, one morning in June, as I sat reading the British Medical Journal after breakfast, I heard a ring at the bell, followed by the high, somewhat strident tones of my old companion's voice.", "ja": "それ故、六月のある朝、朝飯（あさはん）をすましてブリティッシ・メディカル・雑誌を読んでいると、玄関のベルが鳴り、つづいて私の親友の大きな甲高い調子の声がきこえて来たので、私はびっくりした。"}
+{"en": "``Ah, my dear Watson,''", "ja": "「やあ、ワトソン君」"}
+{"en": "said he, striding into the room,", "ja": "彼は部屋の中に這入（はい）って来ると云った。"}
+{"en": "``I am very delighted to see you!", "ja": "「君に会えて嬉しいよ。"}
+{"en": "I trust that Mrs. Watson has entirely recovered from all the little excitements connected with our adventure of the Sign of Four.''", "ja": "――君は例の『四つの暗号』事件以来、からだはすっかりいいんだろう？」"}
+{"en": "``Thank you,", "ja": "「有難う。"}
+{"en": "we are both very well,''", "ja": "――お蔭さまで二人とも丈夫だよ」"}
+{"en": "said I, shaking him warmly by the hand.", "ja": "私は彼と友情のこもった握手をしながら云った。"}
+{"en": "``And I hope, also,''", "ja": "「そう。"}
+{"en": "he continued, sitting down in the rocking-chair,", "ja": "と、彼は廻転椅子の上に腰をおろしながらつづけた。"}
+{"en": "``that the cares of medical practice have not entirely obliterated the interest which you used to take in our little deductive problems.''", "ja": "「医者の仕事に本気になりすぎて、僕たちの推理的探偵問題に持っていた君の興味が、全然なくなっちまわないとなお結構なんだけれどね……」"}
+{"en": "``On the contrary,''", "ja": "「ところがその反対なんだよ」"}
+{"en": "I answered,", "ja": "と、私は答えた。"}
+{"en": "``it was only last night that I was looking over my old notes, and classifying some of our past results.''", "ja": "「つい昨夜、僕は古いノートを引っぱり出して調べて、やって来た仕事を分類したばかりなんだよ」"}
+{"en": "``I trust that you don't consider your collection closed.''", "ja": "「今までを最後にして、君の蒐集を分類してもう仕事を止めちまおうと思ったわけじゃないんだろうね」"}
+{"en": "``Not at all.", "ja": "「全然そうじゃないさ。"}
+{"en": "I should wish nothing better than to have some more of such experiences.''", "ja": "それどころか、もっといろいろな経験を積みたいと思ってるくらいだもの。"}
+{"en": "``To-day, for example?''", "ja": "「じゃ、きょうからでも、すぐ仕事にかかってくれるかい？」"}
+{"en": "``Yes,", "ja": "「やるとも。"}
+{"en": "to-day, if you like.''", "ja": "きょうからでも、君が必要だと云うなら……」"}
+{"en": "``And as far off as Birmingham?''", "ja": "「遠くってもいいかい？"}
+{"en": "``Certainly,", "ja": "「いいとも。"}
+{"en": "if you wish it.''", "ja": "君がそこへ行けと云うなら」"}
+{"en": "``And the practice?''", "ja": "「けれども商売のほうはどうする？」"}
+{"en": "``I do my neighbour's when he goes.", "ja": "「隣の家に住んでる男がどこかへ出かける時はいつも僕が留守を預かってやっていたから、"}
+{"en": "He is always ready to work off the debt.''", "ja": "その代り僕が留守をする時は、その男が代りをしてくれることになってるんだ」"}
+{"en": "``Ha!", "ja": "「ハハア、"}
+{"en": "nothing could be better,''", "ja": "そりア至極好都合だ」"}
+{"en": "said Holmes, leaning back in his chair and looking keenly at me from under his half-closed lids.", "ja": "とホームズは椅子にかけたまま後ろにそり反（かえ）って、細めた目で私を鋭く見つめながら云った。"}
+{"en": "``I perceive that you have been unwell lately.", "ja": "「君は最近風邪をひいたらしいね。"}
+{"en": "Summer colds are always a little trying.''", "ja": "――夏の風邪って云う奴はどうもいかんね」"}
+{"en": "``I was confined to the house by a severe chill for three days last week.", "ja": "「先週三日ばかり、馬鹿に寒気がしてね、家に閉じこめられちまったよ。"}
+{"en": "I thought, however, that I had cast off every trace of it.''", "ja": "けれどもうすっかりいいつもりなんだ」"}
+{"en": "``So you have.", "ja": "「そうらしいね。"}
+{"en": "You look remarkably robust.''", "ja": "丈夫そうに見えるよ」"}
+{"en": "``How, then, did you know of it?''", "ja": "「けれど、どうして僕が最近風邪をひいたって云うことが分かったんだい？」"}
+{"en": "``My dear fellow, you know my methods.''", "ja": "「君は、いつもの僕のやり方を知ってるじゃないか」"}
+{"en": "``You deduced it, then?''", "ja": "「じゃ、やっぱり推定したんだね」"}
+{"en": "``Certainly.''", "ja": "「無論さ」"}
+{"en": "``And from what?''", "ja": "「じゃ、何から？」"}
+{"en": "``From your slippers.''", "ja": "「君のスリッパから……」"}
+{"en": "I glanced down at the new patent-leathers which I was wearing.", "ja": "私は自分の穿いている護謨革（ごむがわ）の新しいスリッパを見下ろした。"}
+{"en": "``How on earth -- ''", "ja": "「だが、一体どうして――？」"}
+{"en": "I began,", "ja": "私は云いかけた。"}
+{"en": "but Holmes answered my question before it was asked.", "ja": "がホームズは私が云い終らないうちに、私の質問に答えてくれた。"}
+{"en": "``Your slippers are new,''", "ja": "「君のスリッパは新しいんだろう」"}
+{"en": "he said.", "ja": "と彼は云った。"}
+{"en": "``You could not have had them more than a few weeks.", "ja": "「君はそれをまだ二三週間以上は穿いてないよ。"}
+{"en": "The soles which you are at this moment presenting to me are slightly scorched.", "ja": "それだのに、今、君が僕のほうにむけているそのスリッパの底は、どこか焦げたような色に変色しているんだ。"}
+{"en": "For a moment I thought", "ja": "そこで僕は考えたんだ。"}
+{"en": "they might have got wet", "ja": "このスリッパは湿ったに違いない。"}
+{"en": "and been burned in the drying.", "ja": "そして乾かす時に焦がされたんだ、とね。"}
+{"en": "But near the instep there is a small circular wafer of paper with the shopman's hieroglyphics upon it.", "ja": "――ところがそのかがとのほうに、何か商店のマークのようなものが書いてある丸い紙が貼られてるだろう。"}
+{"en": "Damp would of course have removed this.", "ja": "もし全体がぬらされたものだとすると、無論そんな紙ははがれてなくちゃならないさ。"}
+{"en": "You had, then, been sitting with your feet outstretched to the fire, which a man would hardly do even in so wet a June as this if he were in his full health.''", "ja": "そこで、君は腰かけていて、火に足をさし出していたんだと云うことになったんだけれど、この六月なんて云う暖い季候に、いかにスリッパが湿ったからと云って、普通の健康体の人間なら火に足をかざすなんてことはしっこないからね」"}
+{"en": "Like all Holmes's reasoning the thing seemed simplicity itself when it was once explained.", "ja": "ホームズの推理はすべて、いったん説明されると、いかにも単純そのもののように見えてしまう。"}
+{"en": "He read the thought upon my features, and his smile had a tinge of bitterness.", "ja": "彼は私の顔色をうかがってから、微苦笑した。"}
+{"en": "``I am afraid that I rather give myself away when I explain.''", "ja": "「僕はどうも思うように説明出来ないので困るんだよ」"}
+{"en": "said he.", "ja": "と彼は云った。"}
+{"en": "``Results without causes are much more impressive.", "ja": "「原因の分らない結果と云う奴のほうが、実際深く印象されるからね。"}
+{"en": "You are ready to come to Birmingham, then?''", "ja": "――それはそうと、君はバーミングハムへ来てくれられるんだね？」"}
+{"en": "``Certainly.", "ja": "「無論行くとも。"}
+{"en": "What is the case?''", "ja": "――どんな事件なんだい？」"}
+{"en": "``You shall hear it all in the train.", "ja": "「汽車の中で話すよ。"}
+{"en": "My client is outside in a four-wheeler.", "ja": "――この事件の依頼人が表の四輪馬車の中にいるから。"}
+{"en": "Can you come at once?''", "ja": "すぐいかれるかい？」"}
+{"en": "``In an instant.''", "ja": "「ああ、すぐ」"}
+{"en": "I scribbled a note to my neighbour,", "ja": "私はすぐ隣の住んでいる男に手紙を書いた。"}
+{"en": "rushed upstairs to explain the matter to my wife, and joined Holmes upon the doorstep.", "ja": "そして二階へ駈け上って、妻に理由を話し、入口の敷居の上に立っていたホームズと一しょになった。"}
+{"en": "``Your neighbour is a doctor.''", "ja": "「お隣さんって云うのは、お医者さんかい？」"}
+{"en": "said he, nodding at the brass plate.", "ja": "と、彼は隣の家の真鍮の門札をのぞき込みながら云った。"}
+{"en": "``Yes,", "ja": "「ああ、そうだ。"}
+{"en": "he bought a practice as I did.''", "ja": "僕と同じように、医院を買ったんだ」"}
+{"en": "``An old-established one?''", "ja": "「だいぶ古くからあった医院だったのかい？」"}
+{"en": "``Just the same as mine.", "ja": "「僕が買った医院と同時に開かれたものだ。"}
+{"en": "Both have been ever since the houses were built.''", "ja": "家が建てられて以来、ずっと二軒とも医院だったらしい」"}
+{"en": "``Ah!", "ja": "「ハハア、"}
+{"en": "then you got hold of the best of the two.''", "ja": "すると君はそのうちではやるほうを買ったんだね」"}
+{"en": "``I think I did.", "ja": "「ああ、そうしたつもりなんだ。"}
+{"en": "But how do you know?''", "ja": "けれどどうしてそれが分かる？」"}
+{"en": "``By the steps, my boy.", "ja": "「玄関の階段を見れば分かるさ、君。"}
+{"en": "Yours are worn three inches deeper than his.", "ja": "君の家のは隣ののよりは三インチも余計にへってるもの。"}
+{"en": "But this gentleman in the cab is my client, Mr. Hall Pycroft.", "ja": "――ところで馬車の中にいる男は、依頼人のホール・ピイクロフトと云う男だがね、"}
+{"en": "Allow me to introduce you to him.", "ja": "今、君を紹介するから。"}
+{"en": "Whip your horse up, cabby, for we have only just time to catch our train.''", "ja": "――オイ、馭者君、汽車にカチカチに間に合うくらいしか時間がないから、いそいで飛ばしてくれ」"}
+{"en": "The man whom I found myself facing was a well-built, fresh-complexioned young fellow, with a frank, honest face and a slight, crisp, yellow moustache.", "ja": "私が向き合って坐ったその依頼人と云う男は、あけっ放しな正直そうな顔つきをした、薄いちぢれた黄色い髭をはやした男で、体格のガッシリした活々とした様子の若者だった。"}
+{"en": "He wore a very shiny top-hat and a neat suit of sober black,", "ja": "彼はピカピカ光るシルクハットを冠（かぶ）って、手入れのとどいた地味な黒い服を着ていた。"}
+{"en": "which made him look what he was", "ja": "がそれは彼が、軽快な若い都会人、"}
+{"en": "-- a smart young City man, of the class who have been labelled cockneys, but who give us our crack volunteer regiments, and who turn out more fine athletes and sportsmen than any body of men in these islands.", "ja": "――それも代表的なロンドンっ児で、この国の他のどの階級よりもより多くの義勇兵と競争者と運動家とを出す階級に属している人間であることを、物語っていた。"}
+{"en": "His round, ruddy face was naturally full of cheeriness, but the corners of his mouth seemed to me to be pulled down in a half-comical distress.", "ja": "そして彼の丸々とした血色のいい顔は、自然に愉快さで満されていたが、しかしその口の端には、彼が半分はむしろ喜劇的な不幸のためにすっかり沈んでいるらしい所が見えた。"}
+{"en": "It was not, however, until we were in a first-class carriage and well started upon our journey to Birmingham that I was able to learn what the trouble was which had driven him to Sherlock Holmes.", "ja": "もっとも彼がどんな不幸に会って、シャーロック・ホームズの所へ飛び込んで来たかと云うことについては、私たちが一等車に乗り込んで、バーミングハムの旅に旅立ってからようやくきくことが出来たのではあったけれど……。"}
+{"en": "``We have a clear run here of seventy minutes,''", "ja": "「七十分間この汽車で走るんだが……」"}
+{"en": "Holmes remarked.", "ja": "とホームズは云った。"}
+{"en": "``I want you, Mr. Hall Pycroft, to tell my friend your very interesting experience", "ja": "「ねえ、ホール・ピイクロフト［＃「ピイクロフト」は底本では「ビイクロフト」］さん、あなたの出会った今度の興味深い事件を、私の友達にも話してやって下さいませんか。"}
+{"en": "exactly as you have told it to me, or with more detail if possible.", "ja": "私に話して下すったと同じように正確に、いや、もし願われるなら、それよりも精密に。"}
+{"en": "It will be of use to me to hear the succession of events again.", "ja": "――私ももう一度事件の関係をおききしたほうが、いろいろ参考にもなるんです。"}
+{"en": "It is a case, Watson, which may prove to have something in it, or may prove to have nothing,", "ja": "――ワトソン君、つまりこの事件の中に何事かがあるか、あるいは何もないかをしらべればいいんだ。"}
+{"en": "but which, at least, presents those unusual and outre features", "ja": "しかし少くも事件は、実に奇妙な常規を逸したものなんだ。"}
+{"en": "which are as dear to you as they are to me.", "ja": "そしてそれは私にも君にも非常に興味のある事件なんだよ。"}
+{"en": "Now, Mr. Pycroft.", "ja": "――どうぞピイクロフトさん、お話しになって下さい。"}
+{"en": "I shall not interrupt you again.''", "ja": "私はもうしゃべりませんから……」"}
+{"en": "Our young companion looked at me with a twinkle in his eye.", "ja": "私たちの若い同行者は、目の玉をクルリと廻して私を見た。"}
+{"en": "``The worst of the story is,'' said he, ``that I show myself up as such a confounded fool.", "ja": "「今度のことで一番に悪かったことは、私が私自身を、すっかり狼狽しちまって、まるで馬鹿のように振舞ったと云う所にあるんです。"}
+{"en": "Of course it may work out all right,", "ja": "――無論、それでも私は全力をつくしてやったんです。"}
+{"en": "and I don't see that I could have done otherwise;", "ja": "私にはそれより外に出来ることがあるとは思えなかったんです。"}
+{"en": "but if I have lost my crib and get nothing in exchange I shall feel what a soft Johnny I have been.", "ja": "けれども、もし私が切札をなくしてその代りに何もとらなかったら、私は自分を、何と云う馬鹿な英国人だろうと感じたでしょう。"}
+{"en": "I'm not very good at telling a story, Dr. Watson,", "ja": "――ワトソンさん、私はお話するのが、余り上手ではありません。"}
+{"en": "but it is like this with me:", "ja": "――けれどありのままを申上げましょう。"}
+{"en": "``I used to have a billet at Coxon & Woodhouse's, of Draper Gardens, but they were let in early in the spring through the Venezuelan loan, as no doubt you remember, and came a nasty cropper.", "ja": "私は呉服屋街のコクソンの店に務めていたんですが、この春大きな損をしまして、たぶん御存じかと思いますが、店がいけなくなっちまったんです。"}
+{"en": "I have been with them five years,", "ja": "私はそこに五年おりました。"}
+{"en": "and old Coxon gave me a ripping good testimonial when the smash came,", "ja": "だものですから、いよいよ店が破産する時に、私には実に立派な証明書をくれました。"}
+{"en": "but of course we clerks were all turned adrift, the twenty-seven of us.", "ja": "――無論、我々事務員は、みんなで二十七人もいたんですが、店が潰れると同時に、みんな散り散りばらばらになってしまいました。"}
+{"en": "I tried here and tried there, but there were lots of other chaps on the same lay as myself,", "ja": "――私はあっちへもこっちへも口を頼んでみたんですが、しかしそこにいる連中の運命もまた、私の経験した運命と同じような位置におかれている奴ばかりなんです。"}
+{"en": "and it was a perfect frost for a long time.", "ja": "そんなわけで、私は長い間、全く失業状態におちてしまいました。"}
+{"en": "I had been taking three pounds a week at Coxon's, and I had saved about seventy of them,", "ja": "私はコクソンの店にいる時は、一週に三ポンドもらっていましたので、それを貯金して七十磅（ポンド）持っていました。"}
+{"en": "but I soon worked my way through that and out at the other end.", "ja": "私はそのお金のあるうちに、何か仕事をさがし出さなくてはならないのです。"}
+{"en": "I was fairly at the end of my tether at last,", "ja": "けれどほどなくそのお金もなくなってしまいました。"}
+{"en": "and could hardly find the stamps to answer the advertisements or the envelopes to stick them to.", "ja": "そして求人広告に応募して手紙を出したくてもその切手もまた切手を貼る封筒もなくなってしまったんです。"}
+{"en": "I had worn out my boots", "ja": "私は歩き廻りました。"}
+{"en": "paddling up office stairs,", "ja": "靴の底がすり切れるまでほうぼうの事務所の階段を上ったり下ったりしました。"}
+{"en": "and I seemed just as far from getting a billet as ever.", "ja": "私はもう前のような職にありつくことは出来ないかと思いました。"}
+{"en": "``At last", "ja": "ところがとうとう見つけたんです。"}
+{"en": "I saw a vacancy at Mawson & Williams's, the great stock-broking firm in Lombard Street.", "ja": "ロンバルト街の大きな株式仲買店で、モーソン・ウィリアム商会と云う所に欠員を。"}
+{"en": "I dare say E. C. is not much in your line, but I can tell you that this is about the richest house in London.", "ja": "そりア、そんなロンドンの中央東部郵便区なんて云う場所は、あなたの趣味には合わないでしょうけれど、しかしその商会はロンドンでも最も金持ちのほうなんです。"}
+{"en": "The advertisement was to be answered by letter only.", "ja": "――それは前に、広告を見て手紙を出しといたんですけど、たったそこ一軒だけから返事が来たんです。"}
+{"en": "I sent in my testimonial and application,", "ja": "そこで私は証明書と願書とを送りました。"}
+{"en": "but without the least hope of getting it.", "ja": "でもその職業に有りつけようなどとは考えてもいなかったんです。"}
+{"en": "Back came an answer by return, saying that if I would appear next Monday I might take over my new duties at once, provided that my appearance was satisfactory.", "ja": "――ところが返事が来て、次の月曜日に間違いなく時間までに来てくれれば、その日からすぐに私に仕事につかしてくれると云って来ました。"}
+{"en": "No one knows how these things are worked.", "ja": "――どうしてそんな風にして、思いがけなく仕事にありつけたものか、誰にも分かりません。"}
+{"en": "Some people say that the manager just plunges his hand into the heap and takes the first that comes.", "ja": "ある人は、たぶんそこの支配人が、山と積まれている願書の中へ手を突っ込んで、最初に手に触れたものを引っ張り出したんだろうと申しています。"}
+{"en": "Anyhow it was my innings that time,", "ja": "が、とにかく私の所へ順番があたったんです。"}
+{"en": "and I don't ever wish to feel better pleased.", "ja": "私はこんなに嬉しかったことはありません。"}
+{"en": "The screw was a pound a week rise, and the duties just about the same as at Coxon's.", "ja": "――給料も一週に一磅（ポンド）のぼりましたし、それでいて仕事はコクソンの店とちょうど同じようなことなんです。"}
+{"en": "``And now I come to the queer part of the business.", "ja": "さあ、いよいよ話の本題にやって来ました。"}
+{"en": "I was in diggings out Hampstead way,", "ja": "――私はハムステッド町に間借をしてたんです。"}
+{"en": "17 Potter's Terrace.", "ja": "ポーター・テラス十七番地です。"}
+{"en": "Well, I was sitting doing a smoke that very evening after I had been promised the appointment,", "ja": "――ちょうど、私の勤めがきまった日の夕方、私は煙草を吸いながら腰かけておりました。"}
+{"en": "when up came my landlady with a card which had `Arthur Pinner, Financial Agent,' printed upon it.", "ja": "するとそこへ下宿のおかみさんが、『アーサー・ピナー会計代理店』と印刷してある名刺を持って昇って来ました。"}
+{"en": "I had never heard the name before and could not imagine what he wanted with me,", "ja": "私はそんな名前を耳にしたことがなかったので、その男が何の用でやって来たのか想像が出来ませんでした。"}
+{"en": "but of course I asked her to show him up.", "ja": "けれど無論私は、おかみさんに中へ通すように云いました。"}
+{"en": "In he walked,", "ja": "その男は這入って来ました。"}
+{"en": "a middle-sized dark-haired, dark-eyed, black-bearded man, with a touch of the sheeny about his nose.", "ja": "――中肉中脊で、髪の毛の濃い、目の黒い、そして黒い髭を生やして、鼻のそばに何か光る筋を持った男でした。"}
+{"en": "He had a brisk kind of way with him and spoke sharply, like a man who knew the value of time.", "ja": "彼は時間の尊さを知ってる男であるかのように、はきはきした男で、はっきりどんどん思うことをしゃべるのでした。"}
+{"en": "```Mr. Hall Pycroft,", "ja": "「ホール・ピイクロフトさん、"}
+{"en": "I believe?'", "ja": "――でいらっしゃいましたね」"}
+{"en": "said he.", "ja": "と彼は云いました。"}
+{"en": "'' `Yes, sir,'", "ja": "「ええ、そうです」"}
+{"en": "I answered, pushing a chair towards him.", "ja": "私はそう答えて、彼のほうに椅子を押しやりました。"}
+{"en": "```Lately engaged at Coxon & Woodhouse's?'", "ja": "「最近までコクソン・ウッドハウスの店にいらっしゃいましたか？」"}
+{"en": "'' `Yes, sir.'", "ja": "「ええ、おりました」"}
+{"en": "```And now on the staff of Mawson's.'", "ja": "「で、ただいまは、モウソンの所に？」"}
+{"en": "'' `Quite so.'", "ja": "「そうです」"}
+{"en": "```Well,'", "ja": "「ああそうですか」"}
+{"en": "said he,", "ja": "と彼は申しました。"}
+{"en": "`the fact is that I have heard some really extraordinary stories about your financial ability.", "ja": "「実はあなたの会計的才能につきまして、実に素晴らしいお噂をうかがいましたもので、"}
+{"en": "You remember Parker, who used to be Coxon's manager.", "ja": "あなたはコクソンの支配人だったパーカーを御存じですか？"}
+{"en": "He can never say enough about it.'", "ja": "――彼が別にあなたのことを云ったと云うわけじゃありませんけど……」"}
+{"en": "``Of course I was pleased to hear this.", "ja": "無論私はこの話をきいて喜びました。"}
+{"en": "I had always been pretty sharp in the office, but I had never dreamed that I was talked about in the City in this fashion.", "ja": "私は事務所では実際いつも如才なくキビキビと働いてはいましたけれど、しかし世間でこんな風に私の噂をしていようとは夢にも思っていませんでした。"}
+{"en": "```You have a good memory?'", "ja": "「あなたは大変記憶がおよろしいんですって？」"}
+{"en": "said he.", "ja": "と彼が云いました。"}
+{"en": "'' `Pretty fair,'", "ja": "「少しばかり」"}
+{"en": "I answered modestly.", "ja": "と、私は慎み深く答えました。"}
+{"en": "```Have you kept in touch with the market while you have been out of work?'", "ja": "「職にお離れになってた間も、株のことに関心をお持ちでしたか？」"}
+{"en": "he asked.", "ja": "彼はききました。"}
+{"en": "```Yes.", "ja": "「ええ、"}
+{"en": "I read the stock-exchange list every morning.'", "ja": "毎朝、株式取引の高低表は見ております」"}
+{"en": "```Now that shows real application!'", "ja": "「そうだ、それが本当の適不適を示してくれる」"}
+{"en": "he cried.", "ja": "と、彼は叫びました。"}
+{"en": "`That is the way to prosper!", "ja": "「これが一番いい方法だ。"}
+{"en": "You won't mind my testing you, will you?", "ja": "――あなたを試験するようなことをしても気にしないで、"}
+{"en": "Let me see.", "ja": "私にやらせて下さい、ね。"}
+{"en": "How are Ayrshires?'", "ja": "――アイルシャイアーの株はどのくらいですか？」"}
+{"en": "```A hundred and six and a quarter to a hundred and five and seven-eighths.'", "ja": "「百五磅（ポンド）から百五磅（ポンド）四分ノ一まで」"}
+{"en": "```And New Zealand consolidated?'", "ja": "「では、ニュウジーランド国庫公債は？」"}
+{"en": "'' `A hundred and four.'", "ja": "「百四磅（ポンド）」"}
+{"en": "```And British Broken Hills?'", "ja": "「ブリティッシ・ブローラン・ヒルは？」"}
+{"en": "'' `Seven to seven-and-six.'", "ja": "「七磅（ポンド）から七磅（ポンド）六まで」"}
+{"en": "```Wonderful!'", "ja": "「素適だ！」"}
+{"en": "he cried with his hands up.", "ja": "と、彼は両手を振り上げて叫びました。"}
+{"en": "`This quite fits in with all that I had heard.", "ja": "「私がきいたのと、すっかりみんな合ってる。"}
+{"en": "My boy, my boy,", "ja": "ねえ、ねえ、あなた。"}
+{"en": "you are very much too good to be a clerk at Mawson's!'", "ja": "――あなたはモーソンの店の事務員になるなんて勿体なさすぎますよ」"}
+{"en": "``This outburst rather astonished me,", "ja": "この叫びはむしろ私を驚かしたんです。"}
+{"en": "as you can think.", "ja": "あなたもそうお思いになるでしょう。"}
+{"en": "`Well,'", "ja": "「いや、どうも」"}
+{"en": "said I,", "ja": "と、私は申しました。"}
+{"en": "`other people don't think quite so much of me as you seem to do,", "ja": "「世間の人はあなたが考えるようには、私を買い被ってくれませんよ。"}
+{"en": "Mr. Pinner.", "ja": "ピナーさん。"}
+{"en": "I had a hard enough fight to get this berth, and I am very glad to have it.'", "ja": "――私はこの地位を得るのにずいぶん苦労したんですから、私はこの職にありつけたのを喜んでおりますよ」"}
+{"en": "```Pooh, man; you should soar above it.", "ja": "「馬鹿な、世間の人、こんなものからは超越すべきですね。"}
+{"en": "You are not in your true sphere.", "ja": "あなたはあなたの真価に応（ふさわ）しい位置にはいませんよ。"}
+{"en": "Now, I'll tell you how it stands with me.", "ja": "――そこで私はあなたに御相談があるんですが、私と一しょに仕事をしていただきたいと思って。"}
+{"en": "What I have to offer is little enough when measured by your ability, but when compared with Mawson's it's light to dark.", "ja": "――そりア私があなたについていただきたいと思ってる地位だって、あなたの才能に比しては不充分なものなんですけれど、でもモウソンの所の地位と較べたら、暗（やみ）と光ほどの相違です。"}
+{"en": "Let me see.", "ja": "まあ、お話しましょう。"}
+{"en": "When do you go to Mawson's?'", "ja": "――あなたはいつ［＃「いつ」は底本では「いつも」］モウソンの所へいらっしゃいますか［＃「いらっしゃいますか」は底本では「いらっやいますか」］？」"}
+{"en": "```On Monday.'", "ja": "「月曜日です」"}
+{"en": "'' `Ha, ha!", "ja": "「ハッハッ！"}
+{"en": "I think I would risk a little sporting flutter that you don't go there at all.'", "ja": "――あなたはあそこへは断じていらっしゃいませんよ。"}
+{"en": "```Not go to Mawson's'? `", "ja": "「モウソンの所へいかないって？」"}
+{"en": "''' No, sir.", "ja": "「そうですよ。"}
+{"en": "By that day you will be the business manager of the Franco-Midland Hardware Company, Limited,", "ja": "――その日までに、あなたはフランス中部鉄器株式会社の営業支配人におなりになるでしょう。"}
+{"en": "with a hundred and thirty-four branches in the towns and villages of France, not counting one in Brussels and one in San Remo. '", "ja": "その会社はフランスの町や村に百三十四の支店と、その他に、ブラッセルに一つとサン・レモに一つ支店を持っています」"}
+{"en": "``This took my breath away.", "ja": "この話は私を呼吸（いき）づまらせるほど驚かせました。"}
+{"en": "`I never heard of it.'", "ja": "「私はそんな会社の話はききませんよ」"}
+{"en": "said I.", "ja": "私は申しました。"}
+{"en": "```Very likely not.", "ja": "「そりア、話をきこうわけはありません。"}
+{"en": "It has been kept very quiet,", "ja": "それは非常に秘密にされたんです。"}
+{"en": "for the capital was all privately subscribed, and it's too good a thing to let the public into.", "ja": "なぜなら資本家がみんな匿名だったからですが、しかし公にしたほうがいいんです。"}
+{"en": "My brother, Harry Pinner, is promoter, and joins the board after allotment as managing director.", "ja": "――私の兄弟のハリー・ピナーは発企人（ほっきにん）なんですが、選挙の結果、専務取締として評議員に加わっています。"}
+{"en": "He knew I was in the swim down here and asked me", "ja": "彼は私がこちらへやって来ることを知ってたものですから、私に申しました。"}
+{"en": "to pick up a good man cheap.", "ja": "不遇な才能ある人間を抜擢して来てくれとね。"}
+{"en": "A young, pushing man with plenty of snap about him.", "ja": "――元気のいい前途有望な若い人をね。"}
+{"en": "Parker spoke of you,", "ja": "――あなたのことはパーカーが話してくれたんです。"}
+{"en": "and that brought me here to-night.", "ja": "そして今夜こちらへつれて来てくれた人です。"}
+{"en": "We can only offer you a beggarly five hundred to start with.'", "ja": "私たちは初任給として、あなたに五百磅（ポンド）さし上げることが出来るにすぎませんが――」"}
+{"en": "```Five hundred a year!'", "ja": "「五百磅（ポンド）、一年に！」"}
+{"en": "I shouted.", "ja": "と私は叫びました。"}
+{"en": "'' `Only that at the beginning;", "ja": "「それは最初だけの話です。"}
+{"en": "but you are to have an overriding commission of one per cent on all business done by your agents,", "ja": "しかしあなたの周旋でされた取引に対してはすべて、一パーセントの過勤割戻しをとることが出来るんです。"}
+{"en": "and you may take my word for it that this will come to more than your salary.'", "ja": "そして正直の所、これがあなたの俸給より多くなることは受合いです」"}
+{"en": "```But I know nothing about hardware.'", "ja": "「けれど私は鉄器類のことについては何も知りませんよ」"}
+{"en": "'' `Tut, my boy,", "ja": "「しようがないな、君は。"}
+{"en": "you know about figures.'", "ja": "――形は分かるでしょう」"}
+{"en": "``My head buzzed, and I could hardly sit still in my chair.", "ja": "私の頭の中は騒然として、私は静かに椅子に腰かけていられなくなりました。"}
+{"en": "But suddenly a little chill of doubt came upon me.", "ja": "けれど、ふとかすかな疑いが、私におこりました。"}
+{"en": "```I must be frank with you,'", "ja": "「ざっくばらんに申上げますが……」"}
+{"en": "said I.", "ja": "と私は云いました。"}
+{"en": "`Mawson only gives me two hundred,", "ja": "「モウソンは私に二百磅（ポンド）くれるだけです。"}
+{"en": "but Mawson is safe.", "ja": "けれどモウソンのほうは確かなんです。"}
+{"en": "Now, really, I know so little about your company that -- '", "ja": "が、真実の所、私はあなたの会社についてはほとんど知らないのですからね、――」"}
+{"en": "```Ah, smart, smart!'", "ja": "「ああ、あなたは実にきびきびしている！」"}
+{"en": "he cried in a kind of ecstasy of delight.", "ja": "と、彼は喜びで夢中になっているような調子で叫びました。"}
+{"en": "`You are the very man for us.", "ja": "「あなたは私たちがほしいと思ってた通りの方です。"}
+{"en": "You are not to be talked over, and quite right, too.", "ja": "それ以上おっしゃらなくても、ちゃんと分かっています。"}
+{"en": "Now, here's a note for a hundred pounds,", "ja": "さあ、ここに百磅（ポンド）の小切手があります。"}
+{"en": "and if you think that we can do business you may just slip it into your pocket as an advance upon your salary.'", "ja": "――もしあなたが私達の仕事をしようとお思いになったら、これを給料の前渡し分としてお納めになって下さい」"}
+{"en": "```That is very handsome,'", "ja": "「分かりました。"}
+{"en": "said I.", "ja": "私は申しました。"}
+{"en": "`When should I take over my new duties?'", "ja": "「で、いつから私は仕事にかかったらいいんでしょう？」"}
+{"en": "```Be in Birmingham to-morrow at one,'", "ja": "「すぐに明日、バーミングハムへいってもらいたいんです」"}
+{"en": "said he.", "ja": "と、彼は云いました。"}
+{"en": "`I have a note in my pocket here which you will take to my brother.", "ja": "「ポケットの中へ、私は手紙を持って来てますから、それを私の兄弟の所へ持って行って下さい。"}
+{"en": "You will find him at 126B Corporation Street,", "ja": "コーポレーション街一二六番地ですから、分かります。"}
+{"en": "where the temporary offices of the company are situated.", "ja": "そこに会社の仮事務所があるんです。"}
+{"en": "Of course he must confirm your engagement, but between ourselves it will be all right.'", "ja": "――もちろん、あなたとのお約束は彼が確実に取きめてくれるでしょうが、しかし私たちの間にはちゃんと話がしてあるんですから……」"}
+{"en": "```Really, I hardly know how to express my gratitude,", "ja": "「本当に、私は、あなたにどう云ってお礼を申上げたらいいか分かりません。"}
+{"en": "Mr. Pinner,'", "ja": "ピナーさん」"}
+{"en": "said I.", "ja": "私は申しました。"}
+{"en": "```Not at all,", "ja": "「そんなお礼なんかなさることはありませんよ。"}
+{"en": "You have only got your deserts.", "ja": "あなたはただあなたが当然受くべきものを受けたにすぎないんですもの。"}
+{"en": "There are one or two small things", "ja": "――だが、ちょっとしといていただかなければならない、"}
+{"en": "-- mere formalities", "ja": "――単なる形式なんですが、"}
+{"en": "-- which I must arrange with you.", "ja": "――つまらないことが一つ二つあるんです。"}
+{"en": "You have a bit of paper beside you there.", "ja": "そこへ紙を一枚お出しになって下さいませんか。"}
+{"en": "Kindly write upon it", "ja": "そしてすみませんが、"}
+{"en": "'' I am perfectly willing to act as business manager to the Franco-Midland Hardware Company, Limited, at a minimum salary of 500 pounds. ``'", "ja": "「最低俸給五百磅（ポンド）にて、フランス中部鉄器株式会社営業支配人として働くことに同意致し候」"}
+{"en": "``I did as he asked,", "ja": "私は彼の云う通りにしました。"}
+{"en": "and he put the paper in his pocket.", "ja": "そして彼はその紙をポケットの中へしまい込みました。"}
+{"en": "```There is one other detail,'", "ja": "「それからもう一つ精（くわ）しくおききしたいのは、あなたはモウソンのほうはどうなさるおつもりですか？」"}
+{"en": "said he.", "ja": "彼は云いました。"}
+{"en": "``I had forgotten all about Mawson's in my joy.", "ja": "――私はモウソンのことについては、余り喜んだので、すっかり忘れてしまっていたんです。"}
+{"en": "`I'll write and resign,'", "ja": "「手紙を書いて、辞職しましょう」"}
+{"en": "said I.", "ja": "私は答えました。"}
+{"en": "``' Precisely what I don't want you to do.", "ja": "「私がお願いしないことはなさらないように。"}
+{"en": "I had a row over you with Mawson's manager.", "ja": "――私はあなたをモウソンの店の支配人として知ったわけです。"}
+{"en": "I had gone up to ask him about you,", "ja": "そこで私はモウソンにあなたのことをきいてみました。"}
+{"en": "and he was very offensive;", "ja": "すると彼は大変機嫌を悪くして、"}
+{"en": "accused me of coaxing you away from the service of the firm, and that sort of thing.", "ja": "――あなたを私が誘惑してあそこの店からつれ出すか、何かそんなことをするのだと云って私を非難しました。"}
+{"en": "At last I fairly lost my temper.", "ja": "そんなわけで私はとうとう我慢がしきれなくなってしまったんです。"}
+{"en": "'' If you want good men you should pay them a good price, ``", "ja": "「もしあなたが有為な人がほしいなら、もっとたくさん報酬をお払いにならなくてはなりませんよ」"}
+{"en": "said I.", "ja": "と私は云っちまったんです。"}
+{"en": "``''' He would rather have our small price than your big one, ``", "ja": "すると彼は"}
+{"en": "said he.", "ja": "と云うんです。"}
+{"en": "``''' I'll lay you a fiver, ``", "ja": "そこで私は"}
+{"en": "said I,", "ja": "「あらかじめお断りしておきますが、あの男が私の店へ来るようになっても、あなたはお咎めになさらないでしょうな」"}
+{"en": "'' that when he has my offer you'll never so much as hear from him again. ``", "ja": "と云うと"}
+{"en": "``''' Done! `` said he. '' We picked him out of the gutter, and he won't leave us so easily. ``", "ja": "「僕はあの男をどぶの中から引き抜いてやったんだから、そんなに容易（たやす）くは僕の店から出て行きあしないよ」"}
+{"en": "Those were his very words. '", "ja": "と、こう云う彼の云い草なんですよ」"}
+{"en": "```The impudent scoundrel!'", "ja": "「失敬な奴だな」"}
+{"en": "I cried.", "ja": "私は叫びました。"}
+{"en": "`I've never so much as seen him in my life.", "ja": "「もう生涯あいつん所へは行くものか。"}
+{"en": "Why should I consider him in any way?", "ja": "どんな点から云ったって、何故（なにゆえ）私は彼に気兼ねをしなくちゃならないでしょう。"}
+{"en": "I shall certainly not write", "ja": "――私は何も云ってやりますまい。"}
+{"en": "if you would rather I didn't.'", "ja": "あなたがそうすることに賛成して下さるなら」"}
+{"en": "```Good!", "ja": "「賛成！"}
+{"en": "That's a promise,'", "ja": "じゃ、お約束しましたよ」"}
+{"en": "said he, rising from his chair.", "ja": "彼は椅子から立ち上りながら云いました。"}
+{"en": "`Well, I'm delighted to have got so good a man for my brother.", "ja": "「本当に、私は私の兄弟のためにあなたのような有為な人を得られて喜んでいます。"}
+{"en": "Here's your advance of a hundred pounds,", "ja": "――これは俸給の前払いの百磅（ポンド）です。"}
+{"en": "and here is the letter.", "ja": "それからこれは手紙です。"}
+{"en": "Make a note of the address,", "ja": "向うの所番地をお書とめになって下さい。"}
+{"en": "126B Corporation Street,", "ja": "コーポレーション街一二六番地。"}
+{"en": "and remember that one o'clock to-morrow is your appointment.", "ja": "それから明日の一時までにいらっして下さる［＃「下さる」は底本では「下る」］ことをお忘れにならないように――。"}
+{"en": "Good-night,", "ja": "じゃおいとまします。"}
+{"en": "and may you have all the fortune that you deserve!'", "ja": "万事うまくおやりになるように」"}
+{"en": "``That's just about all that passed between us,", "ja": "これがその時、私たちの間に起きたことの、ほとんどそのままなんです。"}
+{"en": "as near as I can remember.", "ja": "私はごく最近のことなんではっきり覚えているんです。"}
+{"en": "You can imagine, Dr. Watson, how pleased I was at such an extraordinary bit of good fortune.", "ja": "――ワトソンさん、私がその素敵な幸運に出会って、どんなに喜んだかは、想像していただけるでしょう。"}
+{"en": "I sat up half the night hugging myself over it,", "ja": "私はその夜嬉しく夜中すぎまで起きてました。"}
+{"en": "and next day I was off to Birmingham in a train that would take me in plenty time for my appointment.", "ja": "そしてその翌日、私は約束の時間に充分間に合うような汽車に乗ってバーミングハムへ出かけて行きました。"}
+{"en": "I took my things to a hotel in New Street, and then I made my way to the address which had been given me.", "ja": "私はひとまず新開通りにあるホテルに荷物を届けて、それから指定通りの所番地へ出かけました。"}
+{"en": "``It was a quarter of an hour before my time, but I thought that would make no difference,", "ja": "私はそこへ約束の時間より十五分前に着いたんですが、前の晩にきいたことに何の間違いもないと思いました。"}
+{"en": "126B was a passage between two large shops, which led to a winding stone stair, from which there were many flats, let as offices to companies or professional men.", "ja": "一二六番地と云うのは大きな二軒の商店の間にある出入口で、曲りくねって石の階段がありましたが、そこから何階もある各階の、会社や商人の事務所へ行けるらしいのでした。"}
+{"en": "The names of the occupants were painted at the bottom on the wall, but there was no such name as the Franco-Midland Hardware Company, Limited.", "ja": "――ところが、居住者の名前はそこの壁の下のほうに書いてありましたが、フランス中部鉄器株式会社なんて云うそんな名前はないのです。"}
+{"en": "I stood for a few minutes with my heart in my boots,", "ja": "――私はしばらくの間、何か不安に駈られながらそこに立っておりました。"}
+{"en": "wondering whether the whole thing was an elaborate hoax or not,", "ja": "これは何か念入りないたずらなんじゃなかろうかなどと考えながら。"}
+{"en": "when up came a man and addressed me.", "ja": "――するとそこへ一人の男がやって来て私に声をかけました。"}
+{"en": "He was very like the chap I had seen the night before, the same figure and voice,", "ja": "その男は前の晩私が会った奴とそっくりでして、顔形も声も同じなんです。"}
+{"en": "but he was clean-shaven and his hair was lighter.", "ja": "ただその男はきれいに頭髪を刈って髪の毛を光らせていました。"}
+{"en": "```Are you Mr. Hall Pycroft?'", "ja": "「あなたはホール・ピイクロフトさんですか？」"}
+{"en": "he asked.", "ja": "その男は訊ねました。"}
+{"en": "'' `Yes,'", "ja": "「ええ、そうです」"}
+{"en": "said I.", "ja": "私は答えました。"}
+{"en": "```Oh!", "ja": "「ああ、そうですか。"}
+{"en": "I was expecting you,", "ja": "私はあなたをお待ちしてたんです。"}
+{"en": "but you are a trifle before your time.", "ja": "けれどあなたのほうがお約束の時間より少し早くいらっしったんです。"}
+{"en": "I had a note from my brother this morning in which he sang your praises very loudly.'", "ja": "――けさは、私の兄弟から手紙を貰らいましてね、兄弟はその手紙の中で大変あなたのことをほめておりましたよ」"}
+{"en": "```I was just looking for the offices when you came.'", "ja": "「あなたがいらしった時、ちょうど、事務所をさがしてたんです」"}
+{"en": "```We have not got our name up yet,", "ja": "「まだ名前を出しとかないもので。"}
+{"en": "for we only secured these temporary premises last week.", "ja": "先週からここへ仮事務所をおくことにきめたばかりだものですからね。"}
+{"en": "Come up with me,", "ja": "――一しょにおいでになって下さい。"}
+{"en": "and we will talk the matter over.'", "ja": "お話致しましょう」"}
+{"en": "``I followed him to the top of a very lofty stair,", "ja": "私は彼について、ずいぶん急な階段の頂上までのぼりました。"}
+{"en": "and there, right under the slates, were a couple of empty, dusty little rooms, uncarpeted and uncurtained, into which he led me.", "ja": "と、その屋根裏に、空っぽの誰もいないほこりだらけな、敷物もしいてなければカーテンもかけてない小さいな二つの部屋があって、その中へ私は案内されました。"}
+{"en": "I had thought of a great office", "ja": "――正直な所、私は大きな事務所を予想して来たんです。"}
+{"en": "with shining tables and rows of clerks, such as I was used to,", "ja": "それまでと同じような、幾つものチャカチャカしたテエブルや大勢の事務員がズラリと並んでるようなそう云う大きな事務所を。"}
+{"en": "and I daresay I stared rather straight at the two deal chairs and one little table,", "ja": "――包まず申上げますが、私はその二つの安い椅子と一つの小さなテエブルとをしげしげと眺めました。"}
+{"en": "which with a ledger and a waste-paper basket, made up the whole furniture.", "ja": "その他に元帳が一冊と屑籠が一つと、それだけが全部の家具なんですからねえ。"}
+{"en": "```Don't be disheartened, Mr. Pycroft,'", "ja": "「がっかりなすっちゃいけませんよ、ピイクロフトさん」"}
+{"en": "said my new acquaintance, seeing the length of my face.", "ja": "と、私のこの新しい知り合いは、私の顔の上から下まで見下ろしながら云うのでした。"}
+{"en": "`Rome was not built in a day,", "ja": "「ローマは一日で築き上げられませんよ。"}
+{"en": "and we have lots of money at our backs, though we don't cut much dash yet in offices.", "ja": "――事務所は貧弱でも、私たちは背後にたくさんお金は持ってますから、"}
+{"en": "Pray sit down,", "ja": "――まあ、おかけなさい。"}
+{"en": "and let me have your letter.'", "ja": "そして持ってらした手紙を見せて下さい」"}
+{"en": "``I gave it to him,", "ja": "私は彼に手紙をやりました。"}
+{"en": "and he read it over very carefully.", "ja": "彼はそれを大変叮嚀（ていねい）に読みました。"}
+{"en": "```You seem to have made a vast impression upon my brother Arthur,'", "ja": "「あなたはよほど深く私の兄弟を感心させたと見えますな」"}
+{"en": "said he,", "ja": "彼は申しました。"}
+{"en": "`and I know that he is a pretty shrewd judge.", "ja": "「だが、私の兄弟は本当に鋭い批判家です。"}
+{"en": "He swears by London, you know;", "ja": "――私の兄弟はあなたとロンドンでお約束をしたんで、"}
+{"en": "and I by Birmingham;", "ja": "私はバーミングハムでするわけなんですが、"}
+{"en": "but this time I shall follow his advice.", "ja": "しかし今度は、彼の云う通りに従いましょう。"}
+{"en": "Pray consider yourself definitely engaged.'", "ja": "――では、どうぞそのおつもりで、お願いします」"}
+{"en": "```What are my duties?'", "ja": "「私の仕事はどんなことなんでしょう？」"}
+{"en": "I asked.", "ja": "私はききました。"}
+{"en": "'' `You will eventually manage the great depot in Paris, which will pour a flood of English crockery into the shops of a hundred and thirty-four agents in France.", "ja": "「つまり、フランスにある百三十四軒の代理店へ、英国製の器具を送り出す所のパリの本店を支配して下さればいいんですよ。"}
+{"en": "The purchase will be completed in a week, and meanwhile you will remain in Birmingham and make yourself useful.'", "ja": "取引きの約束は一週間のうちにきまりますから、その間あなたはバーミングハムにいて下すって、あなたの仕事をしていて下さればいいんです」"}
+{"en": "```How?'", "ja": "「と云いますと、どんなことをしたら？」"}
+{"en": "'' For answer, he took a big red book out of a drawer.", "ja": "彼は答えの代りに、曳出（ひきだ）しから大きな赤い本を出して来ました。"}
+{"en": "```This is a directory of Paris,'", "ja": "「これはパリの人名住所録ですが」"}
+{"en": "said he,", "ja": "と彼は云いました。"}
+{"en": "`with the trades after the names of the people.", "ja": "「名前の下に職業が書き込んであります。"}
+{"en": "I want you to take it home with you and to mark off all the hardware-sellers, with their addresses.", "ja": "これをお宅へお持ちになって、この中にある鉄器商を全部住所と共に書き抜いていただきたいんです。"}
+{"en": "It would be of the greatest use to me to have them.'", "ja": "そうして下されば、私たちに非常に役に立つんです」"}
+{"en": "```Surely,", "ja": "「かしこまりました。"}
+{"en": "there are classified lists?'", "ja": "この中に分類目録がありますね」"}
+{"en": "I suggested.", "ja": "私は念のためにきいてみました。"}
+{"en": "'' `Not reliable ones.", "ja": "「確実なものじゃないんです。"}
+{"en": "Their system is different from ours.", "ja": "――この編纂方法は私たちのとは違ってます。"}
+{"en": "Stick at it,", "ja": "――それをやっていただきたいんです。"}
+{"en": "and let me have the lists by Monday, at twelve.", "ja": "そして月曜日の十二時までに目録を私に下さいませんか。"}
+{"en": "Good-day, Mr. Pycroft.", "ja": "――ではさよなら、ピイクロフトさん。"}
+{"en": "If you continue to show zeal and intelligence you will find the company a good master.'", "ja": "あなたが熱心にお骨折り下すって、会社の有為な主脳部になっていただきたいんです」"}
+{"en": "``I went back to the hotel with the big book under my arm, and with very conflicting feelings in my breast.", "ja": "私はその大きな本を小側（こわき）に抱え、胸の中に矛盾した困惑した感情を持ちながらホテルに帰って来たのです。"}
+{"en": "On the one hand, I was definitely engaged and had a hundred pounds in my pocket;", "ja": "一方では確実に仕事をする約束をして、百磅（ポンド）をポケットの中に持っていながら、"}
+{"en": "on the other, the look of the offices, the absence of name on the wall, and other of the points which would strike a business man had left a bad impression as to the position of my employers.", "ja": "一方では、事務所の外見、壁の上に会社の名前が出ていなかったこと、それからその他事務家の注意しないではいられない部分などが、私のその雇主の位置に対して悪印象を残しているのでした。"}
+{"en": "However, come what might, I had my money,", "ja": "が、とは云え、よしどんなことが起きて来ようとも、私はお金を貰っているのです。"}
+{"en": "so I settled down to my task.", "ja": "そしてお見目得（みめえ）もすんでしまったのです。"}
+{"en": "All Sunday I was kept hard at work,", "ja": "――私は日曜一日一生懸命に仕事を致しました。"}
+{"en": "and yet by Monday I had only got as far as H.", "ja": "けれども月曜日までに、たったＨの部までやっただけでした。"}
+{"en": "I went round to my employer, found him in the same dismantled kind of room, and was told to keep at it until Wednesday, and then come again.", "ja": "で、私は雇主の所へいって、彼は同じ何の装飾もないガランとした例の部屋におりましたが、水曜日まで待ってもらうように話して帰って来ました。"}
+{"en": "On Wednesday it was still unfinished, so I hammered away until Friday", "ja": "ところが水曜日になってもまだ終らなかったので、金曜日までのばしてしまったのです。"}
+{"en": "-- that is, yesterday.", "ja": "――それが、昨日のことです。"}
+{"en": "Then I brought it round to Mr. Harry Pinner.", "ja": "そこで私はそれをハリー・ピナー氏の所へ持って行きました。"}
+{"en": "```Thank you very much,'", "ja": "「どうも本当に有難う」"}
+{"en": "said he,", "ja": "と彼は申しました。"}
+{"en": "`I fear that I underrated the difficulty of the task.", "ja": "「思ったより仕事がむずかしかったかと恐れてた所です。"}
+{"en": "This list will be of very material assistance to me.'", "ja": "この表は実によい私の助手になってくれますよ」"}
+{"en": "```It took some time,'", "ja": "「だいぶひまがかかって……」"}
+{"en": "said I.", "ja": "私は申しました。"}
+{"en": "'' `And now,'", "ja": "「では今度は……」"}
+{"en": "said he,", "ja": "彼は云いました。"}
+{"en": "`I want you to make a list of the furniture shops,", "ja": "「家具商の表をつくっていただきたいんです。"}
+{"en": "for they all sell crockery.'", "ja": "家具商もみんな鉄具類を売りますからね」"}
+{"en": "```Very good.'", "ja": "「よろしゅうございます」"}
+{"en": "'' `And you can come up to-morrow evening at seven", "ja": "「それから明日の夕方七時にいらしって下さい。"}
+{"en": "and let me know how you are getting on.", "ja": "そしてどのくらい仕事をなすったか私に見せていただきとうございます。"}
+{"en": "Don't overwork yourself.", "ja": "――労働過度にならないように。"}
+{"en": "A couple of hours at Day's Music Hall in the evening would do you no harm after your labours.'", "ja": "夕方二時間ばかりミュジック・ホールへいらっしゃるのは、一日働いたあとに害にはなりませんよ」"}
+{"en": "He laughed as he spoke,", "ja": "彼はそう云って笑いました。"}
+{"en": "and I saw with a thrill that his second tooth upon the left-hand side had been very badly stuffed with gold. ``", "ja": "その時私は、彼の左側のほうの、金で不体裁に詰めてある二番目の歯を見てギクッとしました」"}
+{"en": "Sherlock Holmes rubbed his hands with delight,", "ja": "シャーロック・ホームズは喜んで彼の手をこすった。"}
+{"en": "and I stared with astonishment at our client.", "ja": "私は喫驚（びっくり）して私達のお客を見詰めた。"}
+{"en": "``You may well look surprised, Dr. Watson, but it is this way,''", "ja": "「ワトソンさん、あなたは大変お驚きになったようですが、それはこう云うわけなんです」"}
+{"en": "said he:", "ja": "私たちのお客は話し続けた。"}
+{"en": "``When I was speaking to the other chap in London, at the time that he laughed at my not going to Mawson's, I happened to notice that his tooth was stuffed in this very identical fashion.", "ja": "「今、ロンドンで会ったもう一人の男のことを申上げましたが、その時、私がモウソンの店へ行くことはやめようと云いますと、その男は喜んで笑ったのですが、その笑った時に私はこれとそっくりのやり方で詰められている彼の歯を見たんです。"}
+{"en": "The glint of the gold in each case caught my eye, you see.", "ja": "あなたもお分かりになるように、その時も今度の時も、金の光りが私の眼を捕えたのです。"}
+{"en": "When I put that with the voice and figure being the same, and only those things altered which might be changed by a razor or a wig, I could not doubt that it was the same man.", "ja": "――そこで私は以上のことの上に、声と様子とが同じであると云うことと、そして剃刀（かみそり）と仮髪（かつら）とさえあれば人間の顔貌（がんぼう）は変えられると云うことを考え合せると、私はその二人が同じ人間であると疑わざるを得なかったのです。"}
+{"en": "Of course you expect two brothers to be alike,", "ja": "無論あなたは兄弟は似ているとおっしゃるでしょう。"}
+{"en": "but not that they should have the same tooth stuffed in the same way.", "ja": "しかし同じ歯を同じようなやり方でうめるわけがないではありませんか。"}
+{"en": "He bowed me out,", "ja": "――彼は私を送り出しました。"}
+{"en": "and I found myself in the street, hardly knowing whether I was on my head or my heels.", "ja": "そして私は通りへ出ましたが、無我夢中で、足で歩いてるのか頭で歩いてるのか分かりませんでした。"}
+{"en": "Back I went to my hotel, put my head in a basin of cold water, and tried to think it out.", "ja": "私はホテルへ帰りつくと、冷たい水で頭をひやして、そのことを考えてみました。"}
+{"en": "Why had he sent me from London to Birmingham?", "ja": "――なぜ彼はロンドンからバーミングハムへ私を寄越したんだろう"}
+{"en": "Why had he got there before me?", "ja": "……またなぜ彼は私に近寄って来たのだろう。"}
+{"en": "And why had he written a letter from himself to himself?", "ja": "そして何の必要があって彼は、自分自身から自分自身へあてた手紙などを私に持たせてよこしたのだろう？"}
+{"en": "It was altogether too much for me, and I could make no sense of it.", "ja": "――これらのことは私にはあまりに問題が多すぎて、判断が出来ないのです。"}
+{"en": "And then suddenly it struck me that what was dark to me might be very light to Mr. Sherlock Holmes.", "ja": "その時ふと私は、私には何が何だか分からないことも、シャーロック・ホームズさんには分かるだろうと云う事に考えついたんです。"}
+{"en": "I had just time to get up to town by the night train to see him this morning, and to bring you both back with me to Birmingham.''", "ja": "で、私はすぐさま夜中（やちゅう）に乗り込んで、今朝お目にかかって、そのままバーミングハムへ私と一しょに来ていただこうと思ってやって来たわけなのでございます」"}
+{"en": "There was a pause after the stock-broker's clerk had concluded his surprising experience.", "ja": "株式仲買店事務員は彼の不思議な経験を話し終ってから、ちょっとだまった。"}
+{"en": "Then Sherlock Holmes cocked his eye at me, leaning back on the cushions with a pleased and yet critical face, like a connoisseur who has just taken his first sip of a comet vintage.", "ja": "と、シャーロック・ホームズは、ちょうどお酒の鑑賞家が、素晴らしい葡萄酒の最初の一滴を一吸い吸い込んだ時のような、嬉しそうなそれでいて何かを批判しているような顔つきをして、クッションに背をもたせながら、私のほうへ斜に視線を投げかけた。"}
+{"en": "``Rather fine,", "ja": "「面白い問題じゃないか。"}
+{"en": "Watson, is it not?''", "ja": "ねえ、ワトソン」"}
+{"en": "said he.", "ja": "と、ホームズは云った。"}
+{"en": "``There are points in it", "ja": "「これには僕を喜ばせる点があるよ。"}
+{"en": "which please me.", "ja": "君も賛成するだろう。"}
+{"en": "I think that you will agree with me that an interview with Mr. Arthur Harry Pinner in the temporary offices of the Franco-Midland Hardware Company, Limited, would be a rather interesting experience for both of us.''", "ja": "二人でアーサー・ハリー・ピナー氏に、そのフランス中部鉄器株式会社の仮事務所で会見することは、むしろ我々に興味のある経験だと云うことに」"}
+{"en": "``But how can we do it?''", "ja": "「しかしどうしたら会えるだろう？」"}
+{"en": "I asked.", "ja": "私はきいた。"}
+{"en": "``Oh, easily enough,''", "ja": "「ああそりアごくやさしいことですよ」"}
+{"en": "said Hall Pycroft cheerily.", "ja": "と、ホール・ピイクロフトは快活に云った。"}
+{"en": "``You are two friends of mine who are in want of a billet, and what could be more natural than that I should bring you both round to the managing director?''", "ja": "「あなた二人は職をさがしている私の友達で、何かに使ってもらおうと思って専務取締役に引き合せるためにつれて来た、と云うこれより自然な方法はないでしょう？」"}
+{"en": "``Quite so, of course,''", "ja": "「もちろん、そうだ！」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "``I should like to have a look at the gentleman and see if I can make anything of his little game.", "ja": "「私はその男に会って、私が何かその男のやってる小さな計画（けいが）についてしてやることが出来るように見せかけなくちゃならないね。"}
+{"en": "What qualities have you, my friend, which would make your services so valuable?", "ja": "――ところで、君はどんなことをするかね、最も有効に働くには？"}
+{"en": "Or is it possible that -- ''", "ja": "それとも出来れば……」"}
+{"en": "He began biting his nails", "ja": "彼は爪をかみ初めた。"}
+{"en": "and staring blankly out of the window,", "ja": "そして窓から外を一心に眺め初めた。"}
+{"en": "and we hardly drew another word from him until we were in New Street.", "ja": "そうして私たちはそのまま、私たちが新開通りへつくまで一言も彼から言葉を引き出すことは出来なかった。"}
+{"en": "×　　　　×　　　　×　　　　×　　　　× At seven o'clock that evening we were walking, the three of us, down Corporation Street to the company's offices.", "ja": "その日の夕方七時、私たち三人は歩いて、コーポレーション通りを会社の事務所のあるほうへ下っていった。"}
+{"en": "``It is no use our being at all before our time,''", "ja": "「時間が来るまでは私たちは用なしのからだですよ」"}
+{"en": "said our client.", "ja": "と私たちの依頼人は云った。"}
+{"en": "``He only comes there to see me, apparently,", "ja": "「明（あきら）かに、彼は私に合うだけにあそこへ来るんです。"}
+{"en": "for the place is deserted up to the very hour he names.''", "ja": "なぜって、時間が来るまでは、事務所はガラ空きになってるって、彼が言明してますもの」"}
+{"en": "``That is suggestive,''", "ja": "「何か曰くがありそうだな」"}
+{"en": "remarked Holmes.", "ja": "ホームズは云った。"}
+{"en": "``By Jove, I told you so!''", "ja": "「確かにそうなんですよ。"}
+{"en": "cried the clerk.", "ja": "――ほら、あそこへやって来ました。」"}
+{"en": "``That's he walking ahead of us there.''", "ja": "と、その事務員は叫んだ。"}
+{"en": "He pointed to a smallish, dark, well-dressed man who was bustling along the other side of the road.", "ja": "彼は道路の反対側をいそぎ足で歩いている、小柄なブロンドのきちんとした服装をしている男を指さした。"}
+{"en": "As we watched him he looked across at a boy who was bawling out the latest edition of the evening paper, and, running over among the cabs and busses, he bought one from him.", "ja": "私たちが彼に注意している時、彼は馬車やバスの間から飛び出して来た。"}
+{"en": "Then, clutching it in his hand, he vanished through a doorway.", "ja": "そしてそれを手に掴（にぎ）りながら入口から中へ消えてしまった。"}
+{"en": "``There he goes!''", "ja": "「あそこへいった」"}
+{"en": "cried Hall Pycroft.", "ja": "ホール・ピイクロフトは叫んだ。"}
+{"en": "``These are the company's offices into which he has gone.", "ja": "「彼が這入ってった所に事務所があるんです。"}
+{"en": "Come with me,", "ja": "私と一しょにお出で下さい。"}
+{"en": "and I'll fix it up as easily as possible.''", "ja": "出来るだけ無雑作にやっちまいましょう」"}
+{"en": "Following his lead, we ascended five stories,", "ja": "私たちは彼について五階まで登った。"}
+{"en": "until we found ourselves outside a half-opened door,", "ja": "すると私たちは入口の戸が半分開きかかっている部屋の前に出た。"}
+{"en": "at which our client tapped.", "ja": "私たちの依頼人はそこでノックした。"}
+{"en": "A voice within bade us enter,", "ja": "「お這入り下さい」"}
+{"en": "and we entered a bare, unfurnished room such as Hall Pycroft had described.", "ja": "そこで私たちは、ホール・ピイクロフトが話した通りな、飾りつけのしてない丸裸の部屋の中に這入っていった。"}
+{"en": "At the single table sat the man whom we had seen in the street, with his evening paper spread out in front of him,", "ja": "たった一つしかない机の前に、私たちが通りで見た男が、自分の前に夕刊をひろげたまま坐っていた。"}
+{"en": "and as he looked up at us it seemed to me that I had never looked upon a face which bore such marks of grief, and of something beyond grief -- of a horror such as comes to few men in a lifetime.", "ja": "私は、その男が私たちのほうを振りむいた時、そんなに悲しみの跡のある、と云うより悲しみ以上の何ものかの跡、"}
+{"en": "His brow glistened with perspiration, his cheeks were of the dull, dead white of a fish's belly, and his eyes were wild and staring.", "ja": "彼の顔は汗で輝き、頬は魚の腹のようないやな白い色をし、そして彼の両眼は野獣的で人をジロジロ眺めていた。"}
+{"en": "He looked at his clerk as though he failed to recognize him,", "ja": "彼は彼の事務員を、誰だか分からないかのような顔をして見詰めた。"}
+{"en": "and I could see by the astonishment depicted upon our conductor's face that this was by no means the usual appearance of his employer.", "ja": "私は私たちの指揮者の顔に浮んだ驚きを見て、それは決してその男の平常の表情ではないことが分かった。"}
+{"en": "``You look ill, Mr. Pinner!''", "ja": "「どこかお悪そうですね、ピナーさん」"}
+{"en": "he exclaimed.", "ja": "と、私たちの事務員は叫んだ。"}
+{"en": "``Yes, I am not very well,''", "ja": "「ええ、あまりよくはありません」"}
+{"en": "answered the other, making obvious efforts to pull himself together and licking his dry lips before he spoke.", "ja": "と、その男は彼のからだを動かすのにいかにも大儀そうにしながら、何かものを云う前にはかわいた唇をなめずりながら、答えた。"}
+{"en": "``Who are these gentlemen whom you have brought with you?''", "ja": "「あなたが連れて来たその方たちはどなたですか？」"}
+{"en": "``One is Mr. Harris, of Bermondsey, and the other is Mr. Price, of this town,''", "ja": "「一人はハリス君と云ってバーモンドセイのもので、もう一人のほうはプライス君と云うこの町のものです」"}
+{"en": "said our clerk glibly.", "ja": "私たちの事務員はすらすらと答えた。"}
+{"en": "``They are friends of mine and gentlemen of experience, but they have been out of a place for some little time,", "ja": "「みんな私の友人で、経験もある者たちなんですが、しばらく失業してるんです。"}
+{"en": "and they hoped that perhaps you might find an opening for them in the company's employment.''", "ja": "そんなわけで、もしかしたらあなたに、会社の空席へ雇っていただけはしないだろうか、と二人は希望してるわけなんです」"}
+{"en": "``Very possibly! very possibly!''", "ja": "「幾らでも出来るとも！」"}
+{"en": "cried Mr. Pinner with a ghastly smile.", "ja": "と、ピナー氏は気味悪い笑いを浮べて叫んだ。"}
+{"en": "``Yes,", "ja": "「よござんす。"}
+{"en": "I have no doubt that we shall be able to do something for you.", "ja": "確かに、何かあなたがたのためにお計らい出来ると思います。"}
+{"en": "What is your particular line, Mr. Harris?''", "ja": "――ハリスさん、あなたの御専問はなんです？」"}
+{"en": "``I am an accountant,''", "ja": "「私は会計師でございます」"}
+{"en": "said Holmes.", "ja": "ホームズは云った。"}
+{"en": "``Ah, yes,", "ja": "「ああ、なるほど。"}
+{"en": "we shall want something of the sort.", "ja": "私たちはそんな方も何か入要でしょう。"}
+{"en": "And you.", "ja": "それからあなた。"}
+{"en": "Mr. Price?''", "ja": "プライスさんは？」"}
+{"en": "``A clerk,''", "ja": "「事務員です」"}
+{"en": "said I.", "ja": "私は答えた。"}
+{"en": "``I have every hope that the company may accommodate you.", "ja": "「私はやがて、会社があなたがたのお世話が出来るようになるだろうと思っております。"}
+{"en": "I will let you know about it as soon as we come to any conclusion.", "ja": "で、何か私たちが決定しましたらすぐ、あなたがたの所へお知らせ致しましょう。"}
+{"en": "And now I beg that you will go.", "ja": "ですから、ただいまの所はお引取り願いたいと思います。"}
+{"en": "For God's sake leave me to myself!''", "ja": "どうか、私を一人きりにさせて下さい」"}
+{"en": "These last words were shot out of him, as though the constraint which he was evidently setting upon himself had suddenly and utterly burst asunder.", "ja": "この最後の言葉は、まるで彼の上にのしかかっていた圧迫を、急に全くはねのけたかのように、激しい勢いで彼の口からとび出した。"}
+{"en": "Holmes and I glanced at each other,", "ja": "ホームズと私とはお互いに顔を見合った。"}
+{"en": "and Hall Pycroft took a step towards the table.", "ja": "と、ホール・ピイクロフトは一歩テエブルのほうへ近寄っていった。"}
+{"en": "``You forget, Mr. Pinner,", "ja": "「ピナーさん、あなた、お忘れになっては。"}
+{"en": "that I am here by appointment to receive some directions from you,''", "ja": "――御命令で、何か御指図をうけたまわりに参ったのですが」"}
+{"en": "said he.", "ja": "彼は云った。"}
+{"en": "``Certainly, Mr. Pycroft, certainly,''", "ja": "「大丈夫だよ、ピイクロフト君、大丈夫だよ」"}
+{"en": "the other resumed in a calmer tone.", "ja": "おだやかな口調で答えた。"}
+{"en": "``You may wait here a moment", "ja": "「ちょっとここで待ってくれたまえ。"}
+{"en": "and there is no reason why your friends should not wait with you.", "ja": "別になぜってことはないけれど、あなたのお友達があなたを待ってると云うわけにも行かないでしょうから。"}
+{"en": "I will be entirely at your service in three minutes,", "ja": "三分間であなたにお願いすることをまとめましょう。"}
+{"en": "if I might trespass upon your patience so far.''", "ja": "それだけの間、御迷惑でも御辛抱していて下されば……」"}
+{"en": "He rose with a very courteous air,", "ja": "彼は叮嚀な様子をして立ち上った。"}
+{"en": "and, bowing to us, he passed out through a door at the farther end of the room, which he closed behind him.", "ja": "そして私たちに挨拶しながら、部屋の向うの端にある出入口から出て、あとをしめていってしまった。"}
+{"en": "``What now?''", "ja": "「どうしたって云うんです？」"}
+{"en": "whispered Holmes.", "ja": "ホームズは小声で云った。"}
+{"en": "``Is he giving us the slip?''", "ja": "「気づかれて逃げられたかな？」"}
+{"en": "``Impossible,''", "ja": "「逃げられませんよ」"}
+{"en": "answered Pycroft.", "ja": "ピイクロフトは答えた。"}
+{"en": "``Why so?''", "ja": "「どうして？」"}
+{"en": "``That door leads into an inner room.''", "ja": "「あのドアは、中の部屋へ行く口なんです」"}
+{"en": "``There is no exit?''", "ja": "「そこに出口はないの？」"}
+{"en": "``None.''", "ja": "「ありません」"}
+{"en": "``Is it furnished?''", "ja": "「その部屋は飾つけがしてありますか？」"}
+{"en": "``It was empty yesterday.''", "ja": "「昨日はからっぽでした」"}
+{"en": "``Then what on earth can he be doing?", "ja": "「そうとすれば、一体、何をすることが出来るだろう？"}
+{"en": "There is something which I don't understand in this matter.", "ja": "どうも私に了解出来ない何ものかがある。"}
+{"en": "If ever a man was three parts mad with terror, that man's name is Pinner.", "ja": "――もし恐怖の余り気を変にしたものがあったとしたら、それはピナー自身だ。"}
+{"en": "What can have put the shivers on him?''", "ja": "何が彼奴（きゃつ）をこわがらせたんだろうね？」"}
+{"en": "``He suspects that we are detectives,''", "ja": "「僕たちが探偵だと云うことに感づいたんだよ」"}
+{"en": "I suggested.", "ja": "私は自分の不安を云ってみた。"}
+{"en": "``That's it,''", "ja": "「そうです」"}
+{"en": "cried Pycroft.", "ja": "ピイクロフトは云った。"}
+{"en": "Holmes shook his head.", "ja": "が、ホームズは首を横に振って"}
+{"en": "``He did not turn pale.", "ja": "「あいつは蒼くはなってなかったよ。"}
+{"en": "He was pale when we entered the room,''", "ja": "あいつは私たちが這入って来た時、既に蒼い顔をしてた。"}
+{"en": "``It is just possible that -- ''", "ja": "考えられることは――」"}
+{"en": "His words were interrupted by a sharp rat-tat from the direction of the inner door.", "ja": "ホームズの言葉は、中の部屋のほうから来る、鋭いコツコツと云う音でさまたげられた。"}
+{"en": "``What the deuce is he knocking at his own door for?''", "ja": "「何だってあいつは自分の部屋をノックするんだろう」"}
+{"en": "cried the clerk.", "ja": "事務員は云った。"}
+{"en": "Again and much louder came the rat-tat-tat.", "ja": "再び前よりは高いコツコツと云う小音が聞えて来た。"}
+{"en": "We all gazed expectantly at the closed door.", "ja": "私達はみんな、呼吸（いき）を殺ろして閉されてあるドアを見詰めた。"}
+{"en": "Glancing at Holmes, I saw his face turn rigid, and he leaned forward in intense excitement.", "ja": "ホームズを見ると、彼の顔は緊張して、激しい昂奮のため、からだを前こごみにしていた。"}
+{"en": "Then suddenly came a low guggling, gargling sound, and a brisk drumming upon woodwork.", "ja": "と、その時ふいに、低いゴロゴロゴロゴロと云う含嗽（うがい）するような音につづいて、木の上をはげしくたたく音が聞えて来た。"}
+{"en": "Holmes sprang frantically across the room and pushed at the door.", "ja": "ホームズは気違いのように部屋を走っていって、ドアを押した。"}
+{"en": "It was fastened on the inner side.", "ja": "それは内側から固く閉されていた。"}
+{"en": "Following his example, we threw ourselves upon it with all our weight.", "ja": "私たちはホームズに従って、私たちの全身の重みでドアにぶつかっていった。"}
+{"en": "One hinge snapped, then the other, and down came the door with a crash.", "ja": "一つの蝶番（ちょうつがい）がとれ、それからもう一つのがとれ、ドアはガタンと倒れた。"}
+{"en": "Rushing over it, we found ourselves in the inner room.", "ja": "私たちはそれを乗り越えて中の部屋に飛び込んだ。"}
+{"en": "It was empty.", "ja": "が、そこには誰もいなかった。"}
+{"en": "But it was only for a moment that we were at fault.", "ja": "しかし私たちが油断していたのはほんのわずかな時間に過ぎなかったのだ。"}
+{"en": "At one corner,", "ja": "と、片方の隅に、"}
+{"en": "the corner nearest the room which we had left, there was a second door.", "ja": "――私たちが出て来た部屋に近いほうの隅に、もう一つのドアがついていた。"}
+{"en": "Holmes sprang to it and pulled it open.", "ja": "ホームズはそこにとびついて引きあけた。"}
+{"en": "A coat and waistcoat were lying on the floor, and from a hook behind the door, with his own braces round his neck, was hanging the managing director of the Franco-Midland Hardware Company.", "ja": "するとそこの床の上には、上衣（うわぎ）やチョッキがぬぎすててあって、そしてドアの背後についている鉤金（かぎがね）に、フランス中部鉄器株式会社の専務取締役が、自分の首の廻りに自分のズボンツリをまきつけてブラさがっていた。"}
+{"en": "His knees were drawn up, his head hung at a dreadful angle to his body,", "ja": "彼は両足を揃えて、彼の首は前のほうへ無気味な恰好にダランとたれていた。"}
+{"en": "and the clatter of his heels against the door made the noise which had broken in upon our conversation.", "ja": "そして彼の踵は、私たちの話を邪魔した、あの音を立て得るくらいに床とすれすれになっていた。"}
+{"en": "In an instant I had caught him round the waist,", "ja": "私はすぐさま彼の胴に抱きついて彼のからだを持ち上げた。"}
+{"en": "and held him up while Holmes and Pycroft untied the elastic bands which had disappeared between the livid creases of skin.", "ja": "そしてホームズとピイクロフトとは、灰色になった皮の皺の間に食い込んでいる、ズボンツリをといた。"}
+{"en": "Then we carried him into the other room, where he lay with a clay-coloured face,", "ja": "それから私たちは彼をほかの部屋に運んで来て、そこへ寝かした。"}
+{"en": "puffing his purple lips in and out with every breath", "ja": "彼は石盤のような顔色になり、紫色になった唇は泡をブツブツやって、"}
+{"en": "-- a dreadful wreck of all that he had been but five minutes before.", "ja": "――たった五分前までは生きていた彼のからだは、恐ろしい骸（むくろ）になっていた。"}
+{"en": "``What do you think of him, Watson?''", "ja": "「ワトソン、君はどう思うね？」"}
+{"en": "asked Holmes.", "ja": "と、ホームズはきいた。"}
+{"en": "I stooped over him and examined him.", "ja": "私は彼の上にかがみこんで診察してみた。"}
+{"en": "His pulse was feeble and intermittent,", "ja": "彼の脈は弱く、絶えたりつづいたりしていた。"}
+{"en": "but his breathing grew longer,", "ja": "けれども呼吸はだんだん長くなって来た。"}
+{"en": "and there was a little shivering of his eyelids, which showed a thin white slit of ball beneath.", "ja": "そして目ぶたは軽くふるえて、下にある薄白い眼球をかすかに見せていた。"}
+{"en": "``It has been touch and go with him,''", "ja": "「やってみよう」"}
+{"en": "said I,", "ja": "私は云った。"}
+{"en": "``but he'll live now.", "ja": "「まだ生きてる。"}
+{"en": "Just open that window, and hand me the water carafe.''", "ja": "――窓を開いて、水を持って来てくれたまえ」"}
+{"en": "I undid his collar, poured the cold water over his face, and raised and sank his arms until he drew a long, natural breath.", "ja": "私は彼のカラーをはずして顔の上に冷（つめた）い水を注ぎかけ、そして長い自然な呼吸をするようになるまで、彼の腕を上下した。"}
+{"en": "``It's only a question of time now,''", "ja": "「こうなればもう時間の問題だ」"}
+{"en": "said I as I turned away from him.", "ja": "私は彼から離れてそう云った。"}
+{"en": "Holmes stood by the table, with his hands deep in his trousers' pockets and his chin upon his breast.", "ja": "ホームズは、彼の両手をズボンのポケットに深くつっこんで、顎を胸に埋（うず）めたまま、テエブルの側（そば）に立っていた。"}
+{"en": "``I suppose we ought to call the police in now,''", "ja": "「今のうちに巡査を呼びにいっといたほうがいいと僕は思うんだが」"}
+{"en": "said he.", "ja": "と、彼は云った。"}
+{"en": "``And yet I confess that I'd like to give them a complete case when they come.''", "ja": "「そして実は、巡査が来たら、終りになったこの事件をこのまま向うへ引渡してしまいたいと思ってるんだけれどね」"}
+{"en": "``It's a blessed mystery to me,''", "ja": "「私には忌わしい謎だ。"}
+{"en": "cried Pycroft, scratching his head.", "ja": "――何の目的で、あいつ等は私をわざわざここまで連れ出したんだろう。"}
+{"en": "``Whatever they wanted to bring me all the way up here for, and then -- ''", "ja": "そしてそれから――」"}
+{"en": "``Pooh!", "ja": "「馬鹿な！"}
+{"en": "All that is clear enough,''", "ja": "そりアもうすっかり分かりますよ」"}
+{"en": "said Holmes impatiently.", "ja": "と、ホームズはいらいらして云った。"}
+{"en": "``It is this last sudden move.''", "ja": "「分からないのは、この最後の急な自殺騒ぎです」"}
+{"en": "``You understand the rest, then?''", "ja": "「じゃ、他のことはみんなお分かりになってるんですね」"}
+{"en": "``I think that it is fairly obvious.", "ja": "「極めて明瞭に分ってるつもりです。"}
+{"en": "What do you say, Watson?''", "ja": "君の意見はどうかね、ワトソン？」"}
+{"en": "I shrugged my shoulders.", "ja": "私は肩をすくませた。"}
+{"en": "``I must confess that I am out of my depths,'' said I.", "ja": "「云いにくいけれど、僕には力に余るんだ」"}
+{"en": "said I.", "ja": "私は云った。"}
+{"en": "``Oh,", "ja": "「そうかね。"}
+{"en": "surely if you consider the events at first they can only point to one conclusion.''", "ja": "だが、最初に、事件をよく注意して見れば、解決はただ一点に帰着するだけだよ」"}
+{"en": "``What do you make of them?''", "ja": "「君はどんな風に解決したんだい？」"}
+{"en": "``Well, the whole thing hinges upon two points.", "ja": "「いいかね、この事件のすべては、二つの点が中心となっている。"}
+{"en": "The first is the making of Pycroft write a declaration by which he entered the service of this preposterous company.", "ja": "第一の点は、ピイクロフトがこの盛大なる結構な会社の職にありつく時、宣誓書を書かされたと云うことだ。"}
+{"en": "Do you not see how very suggestive that is?''", "ja": "――君は、そこが実に怪しいとは思わないかね」"}
+{"en": "``I am afraid I miss the point.''", "ja": "「どうもよく分からないね」"}
+{"en": "``Well, why did they want him to do it?", "ja": "「じゃ、なぜあいつ等は、ピイクロフトにそんなものを書かせたんだろう？"}
+{"en": "Not as a business matter,", "ja": "――それは事務的な目的ではない。"}
+{"en": "for these arrangements are usually verbal,", "ja": "なぜなら普通これらの約束は言葉だけでやってるんだから。"}
+{"en": "and there was no earthly business reason why this should be an exception.", "ja": "とすれば何か他に目的がない限り、事務の上ではそんなことをする理由は絶対にないんだ。"}
+{"en": "Don't you see, my young friend,", "ja": "――ね、ピイクロフト君、お分かりになりませんか？"}
+{"en": "that they were very anxious to obtain a specimen of your handwriting, and had no other way of doing it?''", "ja": "あいつ等はあなたの手跡の雛形をとりたいと苦心していたので、あの時、あなたにそうさせるより他に方法がなかったのだと云うことが、――」"}
+{"en": "``And why?''", "ja": "「だが、なぜそんなものがほしかったのでしょう？」"}
+{"en": "``Quite so.", "ja": "「そこです。"}
+{"en": "Why?", "ja": "なぜ？"}
+{"en": "When we answer that we have made some progress with our little problem.", "ja": "それにお答えすれば、この事件の解決も少し進むわけなのです。"}
+{"en": "Why?", "ja": "なぜそれがほしかったか？"}
+{"en": "There can be only one adequate reason.", "ja": "それにはうなずける理由はただ一つしかありません。"}
+{"en": "Someone wanted to learn to imitate your writing", "ja": "誰かがあなたの手跡の真似をするために習おうと思ったのです。"}
+{"en": "and had to procure a specimen of it first.", "ja": "そしてそのためには、まずその見本をせしめなければならなかったのです。"}
+{"en": "And now if we pass on to the second point we find that each throws light upon the other.", "ja": "そこで第二の点に行くわけですが、そうなればこの二つの点が、お互いに重大な関係を保ち合ってると云うことが分かるんです。"}
+{"en": "That point is the request made by Pinner that you should not resign your place, but should leave the manager of this important business in the full expectation", "ja": "――第二の点と云うのは、あなたに辞表を出させないで、しかも有望なこの堂々たる商売の支配人と云う地位をそのまま手もふれずに残させるようにした、ピナーの要求です。"}
+{"en": "that a Mr. Hall Pycroft, whom he had never seen, was about to enter the office upon the Monday morning.''", "ja": "ピナーから云えば、その支配人と云う地位は、彼が会ったこともない、ホール・ピイクロフトと云う人間が、月曜日の朝から来ることになっていたのです」"}
+{"en": "``My God!''", "ja": "「ああ神様よ」"}
+{"en": "cried our client,", "ja": "私たちの事務員は叫んだ。"}
+{"en": "``what a blind beetle I have been!''", "ja": "「私は何と云う盲目野郎だったんだろう！」"}
+{"en": "``Now you see the point about the handwriting.", "ja": "「これであなたは、その手跡のことを想像してごらんなさい。"}
+{"en": "Suppose that someone turned up in your place who wrote a completely different hand from that in which you had applied for the vacancy, of course the game would have been up.", "ja": "何者かがあなたの代りになって、あなたがとっておいた就職口に行くのです。"}
+{"en": "But in the interval the rogue had learned to imitate you,", "ja": "しかしその悪漢は、ひまひまにあなたの字の真似を習います。"}
+{"en": "and his position was therefore secure,", "ja": "そしてそのために彼の位置は安全になります。"}
+{"en": "as I presume that nobody in the office had ever set eyes upon you.", "ja": "少くもその事務所に誰一人、前にあなたを見たものがいないかぎりは」"}
+{"en": "``Not a soul,''", "ja": "「畜生め！」"}
+{"en": "groaned Hall Pycroft.", "ja": "ホール・ピイクロフトは呻（うめ）いた。"}
+{"en": "``Very good.", "ja": "「まったくですよ。"}
+{"en": "Of course it was of the utmost importance to prevent you from thinking better of it,", "ja": "――もちろん、あなたに、あなたが得た就職口をよく思わせないようにすることが、非常に大切なことだったんです。"}
+{"en": "and also to keep you from coming into contact with anyone who might tell you that your double was at work in Mawson's office.", "ja": "それからまた、あなたが誰か、モウソン事務所であなたの名をかたってる奴があなたの代りに働いていると云うことを、あなたに話すような男と寄りさわらないようにすることも。"}
+{"en": "Therefore they gave you a handsome advance on your salary, and ran you off to the Midlands,", "ja": "そこであいつ等は、あなたに給料の前払いをして、バーミングへ追っ払ったんです。"}
+{"en": "where they gave you enough work to do to prevent your going to London,", "ja": "そうしてあなたがロンドンへ行かないように、そこであなたに仕事をやらせたわけです。"}
+{"en": "where you might have burst their little game up.", "ja": "けれどあなたは彼等のたくらみを見破ることが出来たんです。"}
+{"en": "That is all plain enough.''", "ja": "――からくりの全部はこうなんですよ」"}
+{"en": "``But why should this man pretend to be his own brother?''", "ja": "「けれどなんだってこの男は、兄弟に化けたりなんかする必要があったんでしょう？」"}
+{"en": "``Well, that is pretty clear also.", "ja": "「なるほど、それは分かりきってますよ。"}
+{"en": "There are evidently only two of them in it.", "ja": "この事件には、判然と、人間は二人いるきりです。"}
+{"en": "The other is impersonating you at the office.", "ja": "一方では、モーソンの事務所で、あなたの代りになっています。"}
+{"en": "This one acted as your engager,", "ja": "それからこっちのほうでは、あなたの雇主として活躍したわけです。"}
+{"en": "and then found that he could not find you an employer without admitting a third person into his plot.", "ja": "ところが、あなたを雇うのに、誰か第三者を彼のこの計画の中に入れて、その人にあなたを推薦させないでは工合が悪るかったのです。"}
+{"en": "That he was most unwilling to do.", "ja": "けれど第三者を中に入れることは、いやだったんですよ。"}
+{"en": "He changed his appearance as far as he could, and trusted that the likeness, which you could not fail to observe, would be put down to a family resemblance.", "ja": "そこで彼は出来るだけ自分の容貌をかえたんですね、そしてそれでもまだ似ている所は、あなたも見破れなかったように、兄弟だから似ているのだと云うように思わせてしまったのです。"}
+{"en": "But for the happy chance of the gold stuffing, your suspicions would probably never have been aroused.''", "ja": "しかし不幸なことに、金の入れ歯で、あなたに疑いを起されたのです」"}
+{"en": "Hall Pycroft shook his clenched hands in the air.", "ja": "ホール・ピイクロフトは拳を空中に振り上げた。"}
+{"en": "``Good Lord!''", "ja": "「有難いぞ！」"}
+{"en": "he cried,", "ja": "彼は叫んだ。"}
+{"en": "``while I have been fooled in this way, what has this other Hall Pycroft been doing at Mawson's?", "ja": "「私がこんな馬鹿を見ている間に、もう一人のホール・ピイクロフトはモウソンの事務所で働いていたんだ！"}
+{"en": "What should we do, Mr. Holmes?", "ja": "ホームズさん、私たちはどうしましょう。"}
+{"en": "Tell me what to do.''", "ja": "どうか話して下さい」"}
+{"en": "``We must wire to Mawson's.''", "ja": "「モウソンの所へ手紙をやるのですね」"}
+{"en": "``They shut at twelve on Saturdays.''", "ja": "「土曜日は十二時に店をしめちまうんです」"}
+{"en": "``Never mind.", "ja": "「大丈夫です、"}
+{"en": "There may be some door-keeper or attendant -- ''", "ja": "誰か門番かでなければ留守番がいるでしょう――」"}
+{"en": "``Ah, yes,", "ja": "「ええいます。"}
+{"en": "they keep a permanent guard there on account of the value of the securities that they hold.", "ja": "――いろんな株券だとか保証金だとかがありますから、いつも番人がおいてあります。"}
+{"en": "I remember hearing it talked of in the City.''", "ja": "そんなことをちょっと耳にしてたように記憶してます」"}
+{"en": "``Very good,", "ja": "「好都合だ。"}
+{"en": "we shall wire to him and see if all is well,", "ja": "モウソンに手紙をやりましょう。"}
+{"en": "and if a clerk of your name is working there.", "ja": "そして変り事はないか、またあなたの名前を使ってる事務員がそこで働いているかどうかきき合せましょう。"}
+{"en": "That is clear enough,", "ja": "それでこの事はハッキリします。"}
+{"en": "but what is not so clear is why at sight of us one of the rogues should instantly walk out of the room and hang himself.''", "ja": "けれどハッキリしないのは、なぜこの悪漢が、私たちを見た瞬間部屋から逃げ出していって、首をくくったかと云うことです」"}
+{"en": "``The paper!''", "ja": "「新聞」"}
+{"en": "croaked a voice behind us.", "ja": "私たちの後ろで声がした。"}
+{"en": "The man was sitting up, blanched and ghastly,", "ja": "その男は真蒼な顔をして薄気味悪い顔をして起き上っていた。"}
+{"en": "with returning reason in his eyes, and hands which rubbed nervously at the broad red band which still encircled his throat.", "ja": "彼の目はたしかに生き返ったらしい光りを見せながら、まだ彼の喉にまいてある巾広の赤色のバンドを彼はいじくっていた。"}
+{"en": "``The paper!", "ja": "「新聞！"}
+{"en": "Of course!''", "ja": "そうだ！」"}
+{"en": "yelled Holmes in a paroxysm of excitement.", "ja": "ホームズはひどく昂奮して喚くように云った。"}
+{"en": "``Idiot that I was!", "ja": "「俺はなんて阿呆なんだ！"}
+{"en": "I thought so much of our visit that the paper never entered my head for an instant.", "ja": "ここの事件ばかりに気をとられていて、新聞のことはちっとも頭に這入って来なかった。"}
+{"en": "To be sure, the secret must lie there.''", "ja": "――たしかにそこに何か秘密があるに違いない」"}
+{"en": "He flattened it out upon the table,", "ja": "彼はテエブルの上に新聞をひろげた。"}
+{"en": "and a cry of triumph burst from his lips.", "ja": "と、彼の唇からは、勝誇ったような叫び声がとび出した。"}
+{"en": "``Look at this, Watson,''", "ja": "「これを見たまえ、ワトソン」"}
+{"en": "he cried.", "ja": "彼は叫んだ。"}
+{"en": "``It is a London paper,", "ja": "「ロンドンの新聞だ。"}
+{"en": "an early edition of the Evening Standard.", "ja": "イブニング・スタンダードの早出しだ。"}
+{"en": "Here is what we want.", "ja": "ここに僕たちの知りたいと思ってたことが出ている。"}
+{"en": "Look at the headlines:", "ja": "頭の仕事を見たまえ。"}
+{"en": "`Crime in the City.", "ja": "――『市中の犯罪、"}
+{"en": "Murder at Mawson & Williams's.", "ja": "モウソン・ウィリアム会社の殺人。"}
+{"en": "Gigantic Attempted Robbery.", "ja": "巨怪なる強盗の襲来。"}
+{"en": "Capture of the Criminal.'", "ja": "犯人の逮捕』"}
+{"en": "Here, Watson, we are all equally anxious to hear it,", "ja": "――ワトソン、みんなそれを知りたいんだ。"}
+{"en": "so kindly read it aloud to us.''", "ja": "すまないが声を立てて読んでくれたまえ」"}
+{"en": "It appeared from its position in the paper to have been the one event of importance in town,", "ja": "それは都会における重大事件の一つとして、新聞の報導記事に取扱ってあった。"}
+{"en": "and the account of it ran in this way:", "ja": "そしてその記事は次のように書かれていた。"}
+{"en": "``A desperate attempt at robbery, culminating in the death of one man and the capture of the criminal, occurred this afternoon in the City.", "ja": "――本日午後当市において、兇暴なる強盗現れ、人一人殺害したるも、犯人は捕縛せられたり。"}
+{"en": "For some time back Mawson & Williams, the famous financial house, have been the guardians of securities which amount in the aggregate to a sum of considerably over a million sterling.", "ja": "有名なる仲買店モウソン・ウィリアム会社には、常に百万磅（ポンド）以上に相当する株券、債券、あるいは保証金などのあるため、番人を常備しありたる上、"}
+{"en": "So conscious was the manager of the responsibility which devolved upon him in consequence of the great interests at stake that safes of the very latest construction have been employed, and an armed watchman has been left day and night in the building.", "ja": "支配人は用心深く、彼が負わされているそれらの重用物件のために、最新式の金庫を数個用意し、その上ビルディング内には、昼夜の別なく見張人を残しありたるなり。"}
+{"en": "It appears that last week a new clerk named Hall Pycroft was engaged by the firm.", "ja": "ちょうど先週より、事務所に雇われたるホール・ピイクロフトと云う、新しき書記現れたり。"}
+{"en": "This person appears to have been none other than Beddington, the famous forger and cracksman,", "ja": "この男こそ、かの有名なる偽造者にして強盗犯人たるベディッグトン以外の何者でもなかりしなり。"}
+{"en": "who, with his brother, has only recently emerged from a five years' spell of penal servitude.", "ja": "彼は彼の兄弟と共に、最近五年間の牢獄生活より出たるばかりの男。"}
+{"en": "By some means, which are not yet clear, he succeeded in winning, under a false name, this official position in the office,", "ja": "しかるにいかなる方法にてか、その方法は未だに不明なるも、偽名を用いてうまうまと事務所の事務員の位置をかち得たるなり。"}
+{"en": "which he utilized in order to obtain mouldings of various locks, and a thorough knowledge of the position of the strongroom and the safes.", "ja": "そは事務所内のあらゆる鍵の合鍵と、堅固なる部屋と金庫のある位置とに関しての知識を得んがために、利用したるなり。"}
+{"en": "'' It is customary at Mawson's for the clerks to leave at midday on Saturday.", "ja": "モウソンの事務所にては、土曜日は事務員たちは半日にて帰ることを習慣となせり。"}
+{"en": "Sergeant Tuson, of the City police, was somewhat surprised, therefore, to see a gentleman with a carpet-bag come down the steps at twenty minutes past one.", "ja": "しかるに一時二十分すぎに、一人の紳士、革の袋を持ちて事務所の階段を下り来たるを見て、市内の巡視のテュウソン巡査部長は少なからず不審に思い、疑いを起こしたり。"}
+{"en": "His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him.", "ja": "すなわち部長はその男を尾行し、巡査の応援を得て、兇猛なる格闘の後彼を捕縛することに成功せり。"}
+{"en": "It was at once clear that, a daring and gigantic robbery had been committed.", "ja": "大胆なる兇賊の犯罪を行いて来たりたることに間違いはなかりき。"}
+{"en": "Nearly a hundred thousand pounds' worth of American railway bonds, with a large amount of scrip in mines and other companies, was discovered in the bag.", "ja": "その袋の中よりは、十万磅（ポンド）に近き価格のあるアメリカの鉄道の社債やその他巨額の、炭鉱あるいは諸会社の株券などが発見せられたり。"}
+{"en": "On examining the premises the body of the unfortunate watchman was found doubled up and thrust into the largest of the safes,", "ja": "また事務所内を調べたる所、気の毒なる見張人の惨殺されたる死体が、最大の金庫内に投げ込まれありたるを発見せり。"}
+{"en": "where it would not have been discovered until Monday morning had it not been for the prompt action of Sergeant Tuson.", "ja": "もしテュウソン部長のこの勇敢なる行為なかりせば、その死体は月曜の朝まで発見さるることなかりしなり。"}
+{"en": "The man's-skull had been shattered by a blow from a poker delivered from behind.", "ja": "――見張人の頭骸骨は、背後より加えられし、火掻棒ようのものの一撃によってめちゃめちゃとなりおりたり。"}
+{"en": "There could be no doubt that Beddington had obtained entrance by pretending that he had left something behind him, and having murdered the watchman, rapidly rifled the large safe, and then made off with his booty.", "ja": "ベディックトン［＃「ベディックトン」は底本では「ベディックドン」］は入口を、何か忘れ物をしたと云う口実にて通りたるに相違なく、しかして見張人を殺害し、手早く最大の金庫を開らきて、中の目ぼしきものを持ち去りたるに相違なきなり。"}
+{"en": "His brother, who usually works with him, has not appeared in this job as far as can at present be ascertained, although the police are making energetic inquiries as to his whereabouts. ``", "ja": "常に彼と共に犯罪を行うを習慣としたる彼の兄弟は、この犯行には現れることなく、警察にて彼の行衛（ゆくえ）について極力捜査中なるも、現在未だに不明なり。――"}
+{"en": "``Well, we may save the police some little trouble in that direction,''", "ja": "「そうだ、僕たちはその行衛について、幾らでも警察を助けてやることが出来るのだ」"}
+{"en": "said Holmes, glancing at the haggard figure huddled up by the window.", "ja": "と、ホームズは、窓ぎわに目ばかり光らせているその男を見やりながら云った。"}
+{"en": "``Human nature is a strange mixture, Watson.", "ja": "「人間の性質と云うものは不思議に入り組んだものだ。"}
+{"en": "You see that even a villain and murderer can inspire such affection that his brother turns to suicide when he learns that his neck is forfeited.", "ja": "君は、強盗や人殺しでさえも、彼の兄弟の首に縄がかかったと云うことを知って、自殺する気になるほどな肉親の愛情を起こすものであることが、分かったろう。"}
+{"en": "However, we have no choice as to our action.", "ja": "しかしもう私たちは私たちの行動について躊躇しなくてもよい。"}
+{"en": "The doctor and I will remain on guard, Mr. Pycroft, if you will have the kindness to step out for the police.''", "ja": "私とワトソンとはこの男の番をしてますから、ピイクロフトさん、あなたはどうか警察へこのことを知らせにいって下さいませんか」"}
